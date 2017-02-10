@@ -4,16 +4,20 @@ import android.annotation.SuppressLint;
 import android.annotation.TargetApi;
 import android.app.ActionBar;
 import android.app.Activity;
+import android.content.Context;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.net.Uri;
 import android.os.Build;
 import android.os.Bundle;
 import android.os.Environment;
+import android.telephony.SmsManager;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.ImageButton;
 import android.widget.ImageView;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import java.io.File;
 import java.io.FileNotFoundException;
@@ -52,7 +56,7 @@ public class EWSTotalScoreActivity extends Activity{
 		// TODO Auto-generated method stub
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_ews_totalscore);	
-		tvDiagnostic = (TextView)findViewById(R.id.tv_diagnostic);
+		tvDiagnostic = (TextView)findViewById(R.id.tv_diagnostic);		
 		circlebar = (CircleProgressBar)findViewById(R.id.custom_progressBar);
 		
 		getActionBar().setDisplayOptions(ActionBar.DISPLAY_SHOW_CUSTOM);
@@ -88,8 +92,24 @@ public class EWSTotalScoreActivity extends Activity{
 		super.onResume();
 		getDataBundle();
 		diagnostic();
+		if(mtotalScore >= 5){
+			sendSmS();
+		}
 	}
 
+	@SuppressWarnings("deprecation")
+	private void sendSmS() {
+		// TODO Auto-generated method stub
+		SharedPreferences prefs = getSharedPreferences("listphone", Context.MODE_PRIVATE);
+		String number = prefs.getString("phonenumber", null);
+
+		String message = "Nhiptim:" + pulse + ". SpO2:" + oxygen + ". Nhietdo:"+ temperature + ". Tamthu:" + systolic 
+				+". Suc khoe co dau hieu bat thuong, can lien he bac si de kiem tra!";
+		SmsManager sms = SmsManager.getDefault();
+		sms.sendTextMessage(number, null, message, null, null);
+		Toast.makeText(getApplicationContext(), "Đã gửi tin nhắn!", Toast.LENGTH_SHORT).show();
+	}
+	
 	private void diagnostic() {
 		// TODO Auto-generated method stub
 		int response = triggerClinicalResponse(mtotalScore, 

@@ -18,8 +18,9 @@ import android.widget.Toast;
 public class Setting extends Activity {
 
 	ListView listSetting;
-	String[] title = new String[] { "Bluetooth", "Xóa dữ liệu","Khuyến nghị", "Liên hệ"};
-	int[] icon = {R.drawable.ic_bluetooth_setting,
+	String[] title = new String[] { "Sms", "Bluetooth", "Xóa dữ liệu","Khuyến nghị", "Liên hệ"};
+	int[] icon = {R.drawable.ic_smsplane,
+				  R.drawable.ic_bluetooth_setting,
 				  R.drawable.ic_clear_setting,
 				  R.drawable.ic_help_setting,
 				  R.drawable.ic_about_setting};
@@ -46,10 +47,14 @@ public class Setting extends Activity {
 				// TODO Auto-generated method stub
 				switch (position) {
 				case 0:
+					Intent isms = new Intent(getApplicationContext(), SmsSetting.class);
+					startActivity(isms);
+					break;
+				case 1:
 					Intent ibluetooth = new Intent(getApplicationContext(), BluetoothSetting.class);
 					startActivity(ibluetooth);
 					break;
-				case 1:						
+				case 2:						
 					new AlertDialog.Builder(getParent())
 						.setTitle("Delete Data")
 						.setMessage("Are you sure?")
@@ -72,11 +77,11 @@ public class Setting extends Activity {
 						}).show();
 					
 					break;
-				case 2:
+				case 3:
 					Intent irecomend = new Intent(getApplicationContext(), RecomendActivity.class);
 					startActivity(irecomend);
 					break;
-				case 3:
+				case 4:
 					Intent iabout = new Intent(getApplicationContext(), AboutActivity.class);
 					startActivity(iabout);
 					break;

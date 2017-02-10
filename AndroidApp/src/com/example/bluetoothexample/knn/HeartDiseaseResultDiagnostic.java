@@ -31,7 +31,7 @@ public class HeartDiseaseResultDiagnostic extends Activity{
 		getActionBar().setCustomView(R.layout.actionbar);
 		TextView title = (TextView) findViewById(
 				getResources().getIdentifier("action_bar_title", "id", getPackageName()));
-		title.setText("Kết quả chuẩn đoán");
+		title.setText("Kết quả chẩn đoán");
 		
 		ImageView bHome = (ImageView) findViewById(R.id.imHome);
 		bHome.setOnClickListener(new OnClickListener() {
@@ -47,9 +47,9 @@ public class HeartDiseaseResultDiagnostic extends Activity{
 		int resultCode = i.getExtras().getInt("resultcode");
 
 		if(resultCode == 0){
-			tvResult.setText("Sức khỏe của bạn bình thường!");
+			tvResult.setText("Tim mạch bình thường!");
 		}else{
-			tvResult.setText("Bạn có nguy cơ mắc bệnh tim mạch!");
+			tvResult.setText("Có nguy cơ mắc bệnh tim mạch!");
 		}
 	}
 

@@ -43,7 +43,7 @@ public class HeartDiseaseActivity extends Activity implements OnItemSelectedList
 	private Spinner schestpain;
 	private RadioButton rexangyes;
 	private RadioButton rexangno;
-	private RadioButton rsexmale;;
+	private RadioButton rsexmale;
 	private RadioButton rsexfemale;
 	private RadioButton rfbsYes;
 	private RadioButton rfbsNo;

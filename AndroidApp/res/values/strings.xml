@@ -15,7 +15,7 @@
     
      <string name = "lowScoreWithResponse0">
             \n
-        	Điểm của bạn thấp! Bạn cần được theo dõi trong ít nhất 12 giờ tới.\n     
+        	Điểm thấp! Bạn cần được theo dõi trong ít nhất 12 giờ tới.\n     
             \n
             Phản hồi lâm sàng:\n
         	Tiếp tục theo dõi như thường lệ.\n
@@ -30,7 +30,7 @@
     
     <string name = "lowScoreWithResponse1">
         	\n
-        	Điểm của bạn thấp! Bạn cần được theo dõi trong ít nhất từ 4 - 6 giờ.\n     
+        	Điểm thấp! Bạn cần được theo dõi trong ít nhất từ 4 - 6 giờ.\n     
             \n
             Phản hồi lâm sàng:\n
         	Thông báo cho y tá phụ trách. Y tá phụ trách quyết định có hay không việc tăng 
@@ -48,7 +48,7 @@
    
     <string name = "mediumScore">
         	\n
-        	Điểm của bạn bình thường! Tuy nhiên, bạn cần được theo dõi trong ít nhất 1 giờ.\n    
+        	Điểm bình thường! Tuy nhiên, bạn cần được theo dõi trong ít nhất 1 giờ.\n    
             \n
             Phản hồi lâm sàng:\n
         	Y tá phụ trách thông báo khẩn cấp tới đội ngũ chăm sóc y tế cho bệnh nhân. Bệnh nhân cần
@@ -67,7 +67,7 @@
     
     <string name = "highScore">
            \n
-           Điểm của bạn khá cao! Bạn cần được theo dõi liên tục.\n   
+           Điểm cao! Bạn cần được theo dõi liên tục.\n   
             \n     
            Phản hồi lâm sàng:\n
            Y tá phụ trách phải thông báo tới đội ngũ chăm sóc y tế cho bệnh nhân ngay lập tức. Bác sĩ ít nhất phải có 
