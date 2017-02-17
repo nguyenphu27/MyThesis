@@ -1,0 +1,739 @@
+/**
+  ******************************************************************************
+  * @file    cap1214.h
+  * @author  Dai Ve
+  * @version v1.00
+  * @date    04-Sep-2014
+  * @brief   Header file for cap1214.c module.
+  ******************************************************************************
+  * @attention
+  *
+  * THE PRESENT FIRMWARE WHICH IS FOR GUIDANCE ONLY AIMS AT PROVIDING CUSTOMERS
+  * WITH CODING INFORMATION REGARDING THEIR PRODUCTS IN ORDER FOR THEM TO SAVE
+  * TIME. AS A RESULT, STMICROELECTRONICS SHALL NOT BE HELD LIABLE FOR ANY
+  * DIRECT, INDIRECT OR CONSEQUENTIAL DAMAGES WITH RESPECT TO ANY CLAIMS ARISING
+  * FROM THE CONTENT OF SUCH FIRMWARE AND/OR THE USE MADE BY CUSTOMERS OF THE
+  * CODING INFORMATION CONTAINED HEREIN IN CONNECTION WITH THEIR PRODUCTS.
+  *
+  * <h2><center>&copy; COPYRIGHT 2011 STMicroelectronics</center></h2>
+  ******************************************************************************  
+  */ 
+  
+/* Define to prevent recursive inclusion -------------------------------------*/
+#ifndef __CAP1214_H
+#define __CAP1214_H
+
+#ifdef __cplusplus
+ extern "C" {
+#endif 
+
+/* Includes ------------------------------------------------------------------*/
+  #include "stm32f10x.h"
+  #include "common.h"
+  #include "touch.h"
+  #include "timeout.h"
+  #include "delay.h"    
+
+  /* ----------------------------------------------------------------------- */
+   /* Define for Cap1214 ext gpio:Enable and interrupt */  
+  #define CAP1214_EN_PIN                          GPIO_Pin_5
+  #define CAP1214_EN_GPIO_PORT                    GPIOB
+  #define CAP1214_EN_GPIO_CLK_ENABLE()            RCC_APB2PeriphClockCmd(RCC_APB2Periph_GPIOB, ENABLE) 
+  #define CAP1214_EN_GPIO_CLK_DISABLE()           RCC_APB2PeriphClockCmd(RCC_APB2Periph_GPIOB, DISABLE) 
+
+   
+  #define CAP1214_IRQHandler                      EXTI9_5_IRQHandler
+	#define CAP1214_INT_PIN 									      GPIO_Pin_8
+	#define CAP1214_INT_GPIO_PORT 									GPIOB
+	#define CAP1214_INT_GPIO_CLK_ENABLE() 				  RCC_APB2PeriphClockCmd(RCC_APB2Periph_GPIOB, ENABLE)
+   
+  #define CAP1214_EXTI_PIN												GPIO_PinSource8
+  #define CAP1214_EXTI_PORT											  GPIO_PortSourceGPIOB
+	#define CAP1214_EXTI_LINE											  EXTI_Line8
+	#define CAP1214_EXTI_IRQ												EXTI9_5_IRQn
+  
+  /* Define for Cap1214 I2C */   
+  #define CAP1214_I2C                             I2C1
+  #define CAP1214_I2C_SPEED												100000
+  
+  #define CAP1214_SCL_PIN                         GPIO_Pin_6
+  #define CAP1214_SCL_GPIO_PORT                   GPIOB
+  #define CAP1214_SCL_GPIO_CLK_ENABLE()           RCC_APB2PeriphClockCmd(RCC_APB2Periph_AFIO |RCC_APB2Periph_GPIOB, ENABLE)
+  #define CAP1214_SCL_GPIO_CLK_DISABLE()          RCC_APB2PeriphClockCmd(RCC_APB2Periph_AFIO |RCC_APB2Periph_GPIOB, DISABLE) 
+
+  #define CAP1214_SDA_PIN                         GPIO_Pin_7
+  #define CAP1214_SDA_GPIO_PORT                   GPIOB
+  #define CAP1214_SDA_GPIO_CLK_ENABLE()           RCC_APB2PeriphClockCmd(RCC_APB2Periph_AFIO |RCC_APB2Periph_GPIOB, ENABLE)
+  #define CAP1214_SDA_GPIO_CLK_DISABLE()          RCC_APB2PeriphClockCmd(RCC_APB2Periph_AFIO |RCC_APB2Periph_GPIOB, DISABLE)
+  
+  #define CAP1214_CLOCK_ENABLE()                  RCC_APB1PeriphClockCmd(RCC_APB1Periph_I2C1, ENABLE)
+  #define CAP1214_FORCE_RESET()                   __I2C1_FORCE_RESET()
+  #define CAP1214_RELEASE_RESET()                 __I2C1_RELEASE_RESET()
+
+  
+  #define MAX_I2C_TRIES                           10
+  #define I2C_TIMEOUT                             ((uint32_t)5000)
+  
+  /* Define Cap1214 address */
+  #define CAP1214_ADD															0x50
+  
+  /* Cap1214 marco */
+  #define CAP1214_RESET					                  GPIO_WriteBit(CAP1214_EN_GPIO_PORT,CAP1214_EN_PIN,Bit_SET );\
+                                                  HAL_Delay(20);\
+                                                  GPIO_WriteBit(CAP1214_EN_GPIO_PORT, CAP1214_EN_PIN, Bit_RESET);\
+                                                  HAL_Delay(50)
+  #define CAP1214_READ_INT()                      GPIO_ReadInputDataBit( CAP1214_INT_GPIO_PORT,CAP1214_INT_PIN)
+														  
+                                                  
+/**
+@code  
+ 
+@endcode
+*/
+
+/**
+  * @}
+  */
+  
+/** @defgroup Exported_Types
+  * @{
+  */
+#define CAP1214_MAX_BUFF      4
+typedef struct 
+{
+  volatile uint16_t   Spos;
+  volatile uint16_t   Rpos;
+  volatile uint16_t   Data[CAP1214_MAX_BUFF];
+} Cap1214_Buffer;
+
+
+
+/**
+  * @}
+  */ 
+  
+/** @defgroup Exported_Constants
+  * @{
+  */
+	 
+   // Define mode
+#define 	CAP1214_ACTIVE		        0x00
+#define 	CAP1214_SLEEP		          0x20
+#define 	CAP1214_DSLEEP		        0x10
+#define 	CAP1214_DEACTIVE	        0x40
+#define 	CAP1214_PWR_LED_ENABLE		0x02
+#define 	CAP1214_INT_ENABLE	      0x01
+#define 	CAP1214_CLEAR_INT	        0x00
+
+#define 	CAP1214_NORMAL		        0x00
+#define		CAP1214_PROXIMITY	        0x01
+#define 	CAP1214_TOUCHED		        1
+#define 	CAP1214_RELEASE		        0
+#define 	CAP1214_MANUAL		        1
+#define		CAP1214_AUTO		          0
+
+// Define BUTTON Value
+#define		CAP1214_NOPRESS	0x0000
+#define		CAP1214_CS1	    0x0001
+#define		CAP1214_CS2	    0x0002
+#define 	CAP1214_CS3	    0x0004
+#define 	CAP1214_CS4	    0x0008
+#define		CAP1214_CS5	    0x0010
+#define		CAP1214_CS6	    0x0020
+#define 	CAP1214_DOWN	  0x0040
+#define 	CAP1214_UP	    0x0080
+
+#define		CAP1214_CS7	    0x0100
+#define		CAP1214_CS8	    0x0200
+#define 	CAP1214_CS9	    0x0400
+#define 	CAP1214_CS10	  0x0800
+#define		CAP1214_CS11	  0x1000
+#define		CAP1214_CS12	  0x2000
+#define 	CAP1214_CS13	  0x4000
+#define 	CAP1214_CS14	  0x8000
+
+// Define DELTA_SENSE
+#define 	CAP1214_SENSE_1x	  0x70
+#define		CAP1214_SENSE_2x	  0x60
+#define 	CAP1214_SENSE_4x	  0x50
+#define 	CAP1214_SENSE_8x	  0x40
+#define 	CAP1214_SENSE_16x	  0x30
+#define 	CAP1214_SENSE_32x	  0x20
+#define 	CAP1214_SENSE_64x	  0x10
+#define 	CAP1214_SENSE_128x	0x00
+
+// Define BASE_SHIFT
+#define 	CAP1214_BASE_SHIFT_1x	0
+#define 	CAP1214_BASE_SHIFT_2x	1
+#define		CAP1214_BASE_SHIFT_4x	2
+#define 	CAP1214_BASE_SHIFT_8x	3
+#define		CAP1214_BASE_SHIFT_16x	4
+#define		CAP1214_BASE_SHIFT_32x	5
+#define 	CAP1214_BASE_SHIFT_64x	6
+#define 	CAP1214_BASE_SHIFT_28x	7
+#define		CAP1214_BASE_SHIFT_256x	8
+
+// Define Config Word 1 (20h)
+#define 	CAP1214_TIMEOUT_ENA			0x80
+#define 	CAP1214_POS_VOL				0x40
+#define		CAP1214_DIS_DIG_ENA			0x20
+#define 	CAP1214_DIS_ANA_ENA			0x10
+#define 	CAP1214_MAX_DUR_EN_B		0x08
+#define 	CAP1214_MAX_DUR_EN_G		0x02
+#define 	CAP1214_RPT_EN_B			0x04
+#define 	CAP1214_RPT_EN_G			0x01
+#define 	CAP1214_DEFAULT_CONFIG_1	0x29
+
+// Define Config Word 2 (40h)
+#define 	CAP1214_INV_LINK_TRAN		0x80
+#define		CAP1214_LED11_CFG			0x20
+#define		CAP1214_BLK_POL_MIR			0x10
+#define		CAP1214_SHOW_RF_NOISE		0x08
+#define 	CAP1214_DIS_RF_NOISE		0x04
+#define 	CAP1214_VOL_UP_DOWN			0x02
+#define		CAP1214_INT_REL_DIS			0x01
+
+// Define Proximitty Control Register
+#define 	CAP1214_CS1_PROX_EN			0x80
+#define		CAP1214_CS1_PROX_DIS		0x00
+#define 	CAP1214_PROX_SUM			  0x40
+#define		CAP1214_PROX_AVR_16			0x00
+#define		CAP1214_PROX_AVR_32			0x08
+#define		CAP1214_PROX_AVR_64			0x10
+#define		CAP1214_PROX_AVR_128		0x18
+#define		CAP1214_PROX_D_SENSE_1		0x07
+#define		CAP1214_PROX_D_SENSE_2		0x06
+#define		CAP1214_PROX_D_SENSE_4		0x05
+#define		CAP1214_PROX_D_SENSE_8		0x04
+#define		CAP1214_PROX_D_SENSE_16		0x03
+#define		CAP1214_PROX_D_SENSE_32		0x02
+#define		CAP1214_PROX_D_SENSE_64		0x01
+#define		CAP1214_PROX_D_SENSE_128	0x00
+
+#define   CAP1214_BASE_SHIFT_1X       0x00
+#define   CAP1214_BASE_SHIFT_2X       0x01
+#define   CAP1214_BASE_SHIFT_4X       0x02
+#define   CAP1214_BASE_SHIFT_8X       0x03
+#define   CAP1214_BASE_SHIFT_16X      0x04
+#define   CAP1214_BASE_SHIFT_32X      0x05
+#define   CAP1214_BASE_SHIFT_64X      0x06
+#define   CAP1214_BASE_SHIFT_128X     0x07
+#define   CAP1214_BASE_SHIFT_256X     0x08
+
+//define Sampling Register
+#define   CAP1214_OVERAMP_RATE_0_32MS 0x03
+#define   CAP1214_OVERAMP_RATE_0_64MS 0x02
+#define   CAP1214_OVERAMP_RATE_1_28MS 0x01
+#define   CAP1214_OVERAMP_RATE_2_50MS 0x00
+#define   CAP1214_OVERAMP_RATE_5MS    0x07
+#define   CAP1214_OVERAMP_RATE_10MS   0x06
+#define   CAP1214_OVERAMP_RATE_20MS   0x05
+#define   CAP1214_OVERAMP_RATE_40MS   0x04
+
+//define Queue Control Sampling
+#define   CAP1214_QUEUE_1             0x00
+#define   CAP1214_QUEUE_1S            0x01 
+#define   CAP1214_QUEUE_2             0x02
+#define   CAP1214_QUEUE_3             0x03
+#define   CAP1214_QUEUE_4             0x04
+#define   CAP1214_QUEUE_5             0x05
+#define   CAP1214_QUEUE_6             0x06
+
+//Define Sensor Enable Register (21h)
+#define 	CAP1214_GP_EN		0x80
+#define		CAP1214_S7_EN		0x40
+#define		CAP1214_S6_EN		0x20
+#define		CAP1214_S5_EN		0x10
+#define 	CAP1214_S4_EN		0x08
+#define 	CAP1214_S3_EN		0x04
+#define		CAP1214_S2_EN		0x02
+#define		CAP1214_S1_EN		0x01
+
+// Define Calibration Enable Register (25h)
+#define 	CAP1214_G_CEN		0x80
+#define		CAP1214_S7_CEN		0x40
+#define		CAP1214_S6_CEN		0x20
+#define		CAP1214_S5_CEN		0x10
+#define 	CAP1214_S4_CEN		0x08
+#define 	CAP1214_S3_CEN		0x04
+#define		CAP1214_S2_CEN		0x02
+#define		CAP1214_S1_CEN		0x01
+
+// Define Calibration Activate Registers (26h & 46h)
+#define 	CAP1214_G_CAL		0x0080
+#define		CAP1214_S1_CAL		0x0001
+#define		CAP1214_S2_CAL		0x0002
+#define		CAP1214_S3_CAL		0x0004
+#define		CAP1214_S4_CAL		0x0008
+#define		CAP1214_S5_CAL		0x0010
+#define		CAP1214_S6_CAL		0x0020
+#define		CAP1214_S7_CAL		0x0040
+#define		CAP1214_S8_CAL		0x0100
+#define		CAP1214_S9_CAL		0x0200
+#define		CAP1214_S10_CAL		0x0400
+#define		CAP1214_S11_CAL		0x0800
+#define		CAP1214_S12_CAL		0x1000
+#define		CAP1214_S13_CAL		0x2000
+#define		CAP1214_S14_CAL		0x4000
+
+// Define MUltiple Touch Configuration Register
+#define		CAP1214_MULT_BLK_EN	0x80
+#define 	CAP1214_B_MULT_T_1	0x00
+#define 	CAP1214_B_MULT_T_2	0x04
+#define 	CAP1214_B_MULT_T_3 	0x08
+#define 	CAP1214_B_MULT_T_4 	0x0C
+#define		CAP1214_G_MULT_T_1	0x03
+#define 	CAP1214_G_MULT_T_2	0x00
+#define		CAP1214_G_MULT_T_3	0x01
+#define		CAP1214_G_MULT_T_4	0x10
+
+// Define Lid Closure Configuration Register
+#define 	CAP1214_LID_CLOSE	0x80
+#define 	CAP1214_COMP_PTRN	0x02
+#define		CAP1214_LID_ALRT	0x01
+
+// Define LED Direction Register
+#define 	CAP1214_LED8	0x80
+#define		CAP1214_LED7	0x40
+#define		CAP1214_LED6	0x20
+#define		CAP1214_LED5	0x10
+#define		CAP1214_LED4	0x08
+#define		CAP1214_LED3	0x04
+#define		CAP1214_LED2	0x02
+#define		CAP1214_LED1	0x01
+
+// Define Linked LED Transition Control 1
+#define		CAP1214_LED7_LTRAN		0x40
+#define 	CAP1214_LED6_LTRAN		0x20
+#define		CAP1214_LED5_LTRAN		0x10
+#define		CAP1214_LED4_LTRAN		0x08
+#define		CAP1214_LED3_LTRAN		0x04
+#define 	CAP1214_LED2_LTRAN		0x02
+#define		CAP1214_LED1_LTRAN		0x01
+
+// Define Sensor LED Linking Register
+#define 	CAP1214_UP_DOWN_LINK	0x80
+#define		CAP1214_CS7_LED7		0x40
+#define		CAP1214_CS6_LED6		0x20
+#define		CAP1214_CS5_LED5		0x10
+#define		CAP1214_CS4_LED4		0x08
+#define		CAP1214_CS3_LED3		0x04
+#define		CAP1214_CS2_LED2		0x02
+#define		CAP1214_CS1_LED1		0x01
+#define 	CAP1214_NO_LINK 		0x00
+
+//Define LED Behavior Registers
+#define 	CAP1214_LED1_DIRECT		0x00
+#define 	CAP1214_LED1_PULSE1		0x01
+#define 	CAP1214_LED1_PULSE2		0x02
+#define 	CAP1214_LED1_BREATHE	0x03
+#define 	CAP1214_LED2_DIRECT		0x00
+#define 	CAP1214_LED2_PULSE1		0x04
+#define 	CAP1214_LED2_PULSE2		0x08
+#define 	CAP1214_LED2_BREATHE	0x0C
+#define 	CAP1214_LED3_DIRECT		0x00
+#define 	CAP1214_LED3_PULSE1		0x10
+#define 	CAP1214_LED3_PULSE2		0x20
+#define 	CAP1214_LED3_BREATHE	0x30
+#define 	CAP1214_LED4_DIRECT		0x00
+#define 	CAP1214_LED4_PULSE1		0x40
+#define 	CAP1214_LED4_PULSE2		0x80
+#define 	CAP1214_LED4_BREATHE	0xC0
+
+#define 	CAP1214_LED5_DIRECT		0x00
+#define 	CAP1214_LED5_PULSE1		0x01
+#define 	CAP1214_LED5_PULSE2		0x02
+#define 	CAP1214_LED5_BREATHE	0x03
+#define 	CAP1214_LED6_DIRECT		0x00
+#define 	CAP1214_LED6_PULSE1		0x04
+#define 	CAP1214_LED6_PULSE2		0x08
+#define 	CAP1214_LED6_BREATHE	0x0c
+#define 	CAP1214_LED7_DIRECT		0x00
+#define 	CAP1214_LED7_PULSE1		0x10
+#define 	CAP1214_LED7_PULSE2		0x20
+#define 	CAP1214_LED7_BREATHE	0x30
+#define 	CAP1214_LED8_DIRECT		0x00
+#define 	CAP1214_LED8_PULSE1		0x40
+#define 	CAP1214_LED8_PULSE2		0x80
+#define 	CAP1214_LED8_BREATHE	0xc0
+
+#define 	CAP1214_LED9_DIRECT		0x00
+#define 	CAP1214_LED9_PULSE1		0x01
+#define 	CAP1214_LED9_PULSE2		0x02
+#define 	CAP1214_LED9_BREATHE	0x03
+#define 	CAP1214_LED10_DIRECT	0x00
+#define 	CAP1214_LED10_PULSE1	0x04
+#define 	CAP1214_LED10_PULSE2	0x08
+#define 	CAP1214_LED10_BREATHE	0x0C
+#define 	CAP1214_LED11_DIRECT	0x00
+#define 	CAP1214_LED11_PULSE1	0x10
+#define 	CAP1214_LED11_PULSE2	0x20
+#define 	CAP1214_LED11_BREATHE	0x30
+
+// Define LED Pulse 1 & 2 Period Registers
+#define 	CAP1214_ST_TRIG_TOUCH	0x00
+#define		CAP1214_ST_TRIG_RELEASE	0x80
+
+// Define LED Configuration Register
+#define 	CAP1214_RAMP_ALERT		0x80
+#define 	CAP1214_PULSE2_CNT_8	0b00111000
+#define		CAP1214_PULSE2_CNT_7	0b00110000
+#define		CAP1214_PULSE2_CNT_6	0b00101000
+#define		CAP1214_PULSE2_CNT_5	0b00100000
+#define		CAP1214_PULSE2_CNT_4	0b00011000
+#define		CAP1214_PULSE2_CNT_3	0b00010000
+#define		CAP1214_PULSE2_CNT_2	0b00001000
+#define		CAP1214_PULSE2_CNT_1	0b00000000
+#define 	CAP1214_PULSE1_CNT_8	0b00000111
+#define 	CAP1214_PULSE1_CNT_7	0b00000110
+#define 	CAP1214_PULSE1_CNT_6	0b00000101
+#define 	CAP1214_PULSE1_CNT_5	0b00000100
+#define 	CAP1214_PULSE1_CNT_4	0b00000011
+#define 	CAP1214_PULSE1_CNT_3	0b00000010
+#define 	CAP1214_PULSE1_CNT_2	0b00000001
+#define 	CAP1214_PULSE1_CNT_1	0b00000000
+
+
+// 							LED Duty Cycle Decode
+//______________________________________________________________________
+//|		MAX/MIN Duty [3:0]		|	MAX DUTY CYCLE 	|	MIN DUTY CYCLE	|
+//|_____________________________|					|					|
+//|	3	|	2	|	1	|	0	|					|					|
+//|_____|_______|_______|_______|___________________|___________________|
+//|	0	|	0	|	0	|	0	|		7%			|		0%			|
+//|	0	|	0	|	0	|	1	|		9%			|		7%			|
+//|	0	|	0	|	1	|	0	|		11%			|		9%			|
+//|	0	|	0	|	1	|	1	|		14%			|		11%			|
+//|	0	|	1	|	0	|	0	|		17%			|		14%			|
+//|	0	|	1	|	0	|	1	|		20%			|		17%			|
+//|	0	|	1	|	1	|	0	|		23%			|		20%			|
+//|	0	|	1	|	1	|	1	|		26%			|		23%			|
+//|	1	|	0	|	0	|	0	|		30%			|		26%			|
+//|	1	|	0	|	0	|	1	|		35%			|		30%			|
+//|	1	|	0	|	1	|	0	|		40%			|		35%			|
+//|	1	|	0	|	1	|	1	|		46%			|		40%			|
+//|	1	|	1	|	0	|	0	|		53%			|		46%			|
+//|	1	|	1	|	0	|	1	|		63%			|		53%			|
+//|	1	|	1	|	1	|	0	|		77%			|		63%			|
+//|	1	|	1	|	1	|	1	|		100%		|		77%			|
+//|_____|_______|_______|_______|___________________|___________________|
+//
+
+
+// Define LED Direct Ramp Rates Register
+#define 	CAP1214_RISE_RATE_0			0b00000000
+#define		CAP1214_RISE_RATE_250		0b00001000
+#define		CAP1214_RISE_RATE_500		0b00010000
+#define		CAP1214_RISE_RATE_750		0b00011000
+#define 	CAP1214_RISE_RATE_1000		0b00100000
+#define		CAP1214_RISE_RATE_1250		0b00101000
+#define		CAP1214_RISE_RATE_1500		0b00110000
+#define		CAP1214_RISE_RATE_2000		0b00111000
+#define 	CAP1214_FALL_RATE_0			0b00000000
+#define		CAP1214_FALL_RATE_250		0b00000001
+#define		CAP1214_FALL_RATE_500		0b00000010
+#define		CAP1214_FALL_RATE_750		0b00000011
+#define 	CAP1214_FALL_RATE_1000		0b00000100
+#define		CAP1214_FALL_RATE_1250		0b00000101
+#define		CAP1214_FALL_RATE_1500		0b00000110
+#define		CAP1214_FALl_RATE_2000		0b00000111
+
+// Define LED Off Delay Register
+#define		CAP1214_BR_OFF_DLY_0			0x00
+#define		CAP1214_BR_OFF_DLY_250			0x10
+#define		CAP1214_BR_OFF_DLY_500			0x20
+#define		CAP1214_BR_OFF_DLY_750			0x30
+#define		CAP1214_BR_OFF_DLY_1000			0x40
+#define		CAP1214_BR_OFF_DLY_1250			0x50
+#define		CAP1214_BR_OFF_DLY_1500			0x60
+#define		CAP1214_BR_OFF_DLY_2000			0x70
+#define 	CAP1214_DIR_OFF_DLY_0			  0x01
+#define 	CAP1214_DIR_OFF_DLY_500			0x02
+#define 	CAP1214_DIR_OFF_DLY_1000		0x03
+#define 	CAP1214_DIR_OFF_DLY_1500		0x04
+#define 	CAP1214_DIR_OFF_DLY_2000		0x05
+#define 	CAP1214_DIR_OFF_DLY_3000		0x06
+#define 	CAP1214_DIR_OFF_DLY_4000		0x07
+#define 	CAP1214_DIR_OFF_DLY_5000		0x08
+
+// Define LED Output Control 1 Register
+#define 	CAP1214_LED1_ON			0x01
+#define 	CAP1214_LED1_OFF		0x00
+#define		CAP1214_LED2_ON			0x02
+#define		CAP1214_LED2_OFF		0x00
+#define		CAP1214_LED3_ON			0x04
+#define		CAP1214_LED3_OFF		0x00
+#define		CAP1214_LED4_ON			0x08
+#define		CAP1214_LED4_OFF		0x00
+#define		CAP1214_LED5_ON			0x10
+#define		CAP1214_LED5_OFF		0x00
+#define		CAP1214_LED6_ON			0x20
+#define		CAP1214_LED6_OFF		0x00
+#define		CAP1214_LED7_ON			0x40
+#define		CAP1214_LED7_OFF 		0x00
+#define		CAP1214_LED8_ON			0x80
+#define		CAP1214_LED8_OFF		0x00
+
+
+
+#define 	CAP1214_TRANSMIT_DONE	            1
+#define 	CAP1214_BUS_BUSY		              0
+
+
+
+// Config Registers
+#define		CAP1214_MAIN_STATUS_CONTROL		  0x00
+#define 	CAP1214_SLIDER_POS_n_VOL_DAT		0x06
+#define 	CAP1214_VOLUMETRIC_STEP			    0x09
+#define   CAP1214_NOISE_STATUS_1          0x0A
+#define   CAP1214_NOISE_STATUS_2          0x0B
+#define 	CAP1214_QUEUE_CONTROL			      0x1E
+#define 	CAP1214_DATA_SENSITIVITY		    0x1F
+#define 	CAP1214_CONFIGURATION			      0x20
+#define 	CAP1214_SENSOR_ENABLE			      0x21
+#define 	CAP1214_BUTTON_CONFIG			      0x22
+#define 	CAP1214_GROUP_CONFIG_1		    	0x23
+#define 	CAP1214_GROUP_CONFIG_2		    	0x24
+#define 	CAP1214_CALIB_ENABLE			      0x25
+#define 	CAP1214_CALIB_ACTIVATE		    	0x26
+#define 	CAP1214_INTERRUPT_ENABLE_1	    0x27
+#define 	CAP1214_INTERRUPT_ENABLE_2	  	0x28
+#define 	CAP1214_SLEEP_CHANNEL_CONTROL		0x29
+#define 	CAP1214_MULT_PRESS_CONFIG		    0x2A
+#define 	CAP1214_LID_CLOSURE_CONFIG	  	0x2B
+#define 	CAP1214_LID_CLOSURE_QUEUE_CONTROL	0x2C
+#define 	CAP1214_LID_CLOSURE_PATTERN1		0x2D
+#define 	CAP1214_LID_CLOSURE_PATTERN2		0x2E
+#define 	CAP1214_RECALIB_CONFIG			    0x2F
+#define 	CAP1214_SENSOR_1_THRESHOLD		0x30
+#define 	CAP1214_SENSOR_2_THRESHOLD		0x31
+#define 	CAP1214_SENSOR_3_THRESHOLD		0x32
+#define 	CAP1214_SENSOR_4_THRESHOLD		0x33
+#define 	CAP1214_SENSOR_5_THRESHOLD		0x34
+#define 	CAP1214_SENSOR_6_THRESHOLD		0x35
+#define 	CAP1214_SENSOR_7_THRESHOLD		0x36
+#define 	CAP1214_SENSOR_GROUP_THRESHOLD		0x37
+#define 	CAP1214_BUTTON_NOISE_1_THRESHOLD	0x38
+#define 	CAP1214_BUTTON_NOISE_2_THRESHOLD	0x39
+#define 	CAP1214_LID_CLOSURE_THRESHOLD_1		0x3A
+#define 	CAP1214_LID_CLOSURE_THRESHOLD_2		0x3B
+#define 	CAP1214_LID_CLOSURE_THRESHOLD_3		0x3C
+#define 	CAP1214_LID_CLOSURE_THRESHOLD_4		0x3D
+#define 	CAP1214_SLIDER_VELOCITY_CONFIG		0x3E
+#define 	CAP1214_DIGITAL_RECALIB			      0x3F
+#define 	CAP1214_CONFIGURATION_2		      	0x40
+#define 	CAP1214_GROUPED_CHANNEL_SENSOR_ENABLE	0x41
+#define 	CAP1214_PROXIMITY_CONTROL		          0x42
+#define 	CAP1214_GROUPED_SENSOR_CALIB_ACTIVATE	0x46
+#define 	CAP1214_SAMPLING_CHANNEL_SELECT		0x4E
+#define 	CAP1214_SAMPLING_CONFIG			0x4F
+#define 	CAP1214_FEEDBACK_CONFIG			0x62
+#define 	CAP1214_FEEDBAKC_CH_CONFIG_1		0x63
+#define 	CAP1214_FEEDBACK_CH_CONFIG_2		0x64
+#define 	CAP1214_FEEDBACK_ONE_SHOT		0x65
+#define 	CAP1214_LED_GPIO_DIR			0x70
+#define 	CAP1214_LED_GPIO_OUTPUT_TYPE		0x71
+#define 	CAP1214_LED_OUTPUT_CONTROL_1		0x73
+#define 	CAP1214_LED_OUTPUT_CONTROL_2		0x74
+#define 	CAP1214_LED_POLARITY_1			0x75
+#define 	CAP1214_LED_POLARITY_2			0x76
+#define 	CAP1214_LINKED_LED_TRANSITION_CONTROL_1	0x77
+#define 	CAP1214_LINKED_LED_TRANSITION_CONTROL_2	0x78
+#define 	CAP1214_LED_MIRROR_CONTROL_1		0x79
+#define 	CAP1214_LED_MIRROR_CONTROL_2		0x7A
+#define 	CAP1214_SENSOR_LED_LINKING		0x80
+#define 	CAP1214_LED_BEHAVIOR_1			0x81
+#define 	CAP1214_LED_BEHAVIOR_2			0x82
+#define 	CAP1214_LED_BEHAVIOR_3			0x83
+#define 	CAP1214_LED_PULSE_1_PERIOD		0x84
+#define 	CAP1214_LED_PULSE_2_PERIOD		0x85
+#define 	CAP1214_LED_BREATHE_PERIOD		0x86
+#define 	CAP1214_LED_CONFIG			0x88
+#define 	CAP1214_LED11_CONFIG			0x8A
+#define 	CAP1214_LED_PULSE_1_DUTY_CYCLE		0x90
+#define 	CAP1214_LED_PULSE_2_DUTY_CYCLE		0x91
+#define 	CAP1214_LED_BREATHE_DUTY_CYCLE		0x92
+#define 	CAP1214_LED_DIRECT_DUTY_CYCLE		0x93
+#define 	CAP1214_LED_DIRECT_RAMP_RATES		0x94
+#define 	CAP1214_LED_OFF_DELAY			0x95
+
+
+
+// Read Only registers
+#define 	CAP1214_BUTTON_STATUS_1			0x03
+#define 	CAP1214_BUTTON_STATUS_2			0x04
+#define 	CAP1214_BUILD_REVISION			0x05
+#define 	CAP1214_VENDOR_ID			0x08
+#define 	CAP1214_NOISE_STATUS_1			0x0A
+#define 	CAP1214_NOISE_STATUS_2			0x0B
+#define 	CAP1214_LID_CLOSURE_STATUS_1		0x0C
+#define 	CAP1214_LID_CLOSURE_STATUS_2		0x0D
+#define 	CAP1214_GPIO_STATUS			        0x0E
+#define 	CAP1214_GROUP_STATUS			      0x0F
+#define 	CAP1214_SENSOR1_DELTA_COUNT		0x10
+#define 	CAP1214_SENSOR2_DELTA_COUNT		0x11
+#define 	CAP1214_SENSOR3_DELTA_COUNT		0x12
+#define 	CAP1214_SENSOR4_DELTA_COUNT		0x13
+#define 	CAP1214_SENSOR5_DELTA_COUNT		0x14
+#define 	CAP1214_SENSOR6_DELTA_COUNT		0x15
+#define 	CAP1214_SENSOR7_DELTA_COUNT		0x16
+#define 	CAP1214_SENSOR8_DELTA_COUNT		0x17
+#define 	CAP1214_SENSOR9_DELTA_COUNT		0x18
+#define 	CAP1214_SENSOR10_DELTA_COUNT		0x19
+#define 	CAP1214_SENSOR11_DELTA_COUNT		0x1A
+#define 	CAP1214_SENSOR12_DELTA_COUNT		0x1B
+#define 	CAP1214_SENSOR13_DELTA_COUNT		0x1C
+#define 	CAP1214_SENSOR14_DELTA_COUNT		0x1D
+#define 	CAP1214_SENSOR_1_BASE_COUNT		0x50
+#define 	CAP1214_SENSOR_2_BASE_COUNT		0x51
+#define 	CAP1214_SENSOR_3_BASE_COUNT		0x52
+#define 	CAP1214_SENSOR_4_BASE_COUNT		0x53
+#define 	CAP1214_SENSOR_5_BASE_COUNT		0x54
+#define 	CAP1214_SENSOR_6_BASE_COUNT		0x55
+#define 	CAP1214_SENSOR_7_BASE_COUNT		0x56
+#define 	CAP1214_SENSOR_8_BASE_COUNT		0x57
+#define 	CAP1214_SENSOR_9_BASE_COUNT		0x58
+#define 	CAP1214_SENSOR_10_BASE_COUNT		0x59
+#define 	CAP1214_SENSOR_11_BASE_COUNT		0x5A
+#define 	CAP1214_SENSOR_12_BASE_COUNT		0x5B
+#define 	CAP1214_SENSOR_13_BASE_COUNT		0x5C
+#define 	CAP1214_SENSOR_14_BASE_COUNT		0x5D
+#define 	CAP1214_LED_STATUS_1			0x60
+#define 	CAP1214_LED_STATUS_2			0x61
+#define 	CAP1214_GPIO_INPUT			0x72
+#define 	CAP1214_SENSOR_1_CALIB			0xB1
+#define 	CAP1214_SENSOR_2_CALIB			0xB2
+#define 	CAP1214_SENSOR_3_CALIB			0xB3
+#define 	CAP1214_SENSOR_4_CALIB			0xB4
+#define 	CAP1214_SENSOR_5_CALIB			0xB5
+#define 	CAP1214_SENSOR_6_CALIB			0xB6
+#define 	CAP1214_SENSOR_7_CALIB			0xB7
+#define 	CAP1214_SENSOR_8_CALIB			0xB8
+#define 	CAP1214_SENSOR_9_CALIB			0xB9
+#define 	CAP1214_SENSOR_10_CALIB			0xBA
+#define 	CAP1214_SENSOR_11_CALIB			0xBB
+#define 	CAP1214_SENSOR_12_CALIB			0xBC
+#define 	CAP1214_SENSOR_13_CALIB			0xBD
+#define 	CAP1214_SENSOR_14_CALIB			0xBE
+#define 	CAP1214_PRODUCT_ID			    0xFD
+//#define 	MANUFACTURE_ID			0XFE
+#define 	CAP1214_REVISION			0xFF0
+/**
+  * @}
+  */ 
+
+/** @defgroup Exported_Macros
+  * @{
+  */ 
+/**
+  * @}
+  */ 
+
+/** @defgroup Exported_Functions
+  * @{
+  */
+		
+    /* Driver linker functions ######################################################*/
+    /* Interface */
+    void                  Cap1214_Init (void);
+    void                  Cap1214_DeInit(void);
+    uint8_t               Cap1214_ReadID(void);
+    void                  Cap1214_Reset(void);
+
+    void                  Cap1214_ISR(void);
+    
+    /* Driver linker functions ######################################################*/
+    
+    
+    /* LL function ##################################################################*/
+    uint8_t Cap1214_ReadRegister(uint8_t add);
+    uint8_t Cap1214_WriteRegister(uint8_t add,uint8_t data);
+    /* LL function ##################################################################*/
+    
+    
+    
+    /*High level function, app can call this function###############################*/
+    void Cap1214_SoftwareInit(void);
+    uint8_t Cap1214_SetMode(uint8_t mode);
+    uint8_t Cap1214_SetTouch(uint8_t btn);
+    void Cap1214_CalibEnable(uint8_t btn);
+    void Cap1214_SetSensitivity(uint8_t sens_n_base);
+    uint8_t Cap1214_Config1(uint8_t config_w);
+    uint8_t Cap1214_Config2(uint8_t config_w);
+    uint8_t Cap1214_ProximityControl(uint8_t cConfig);
+    void Cap1214_CalibActivate(uint16_t channel);
+    void Cap1214_InterruptEnable1(uint8_t channel);
+    void Cap1214_InterruptEnable2(uint8_t channel);
+     void Cap1214_SleepChannelControl(uint8_t channel);
+    void Cap1214_MultiTouchConfig(uint8_t cConfig);
+    void Cap1214_LidCloseConfig(uint8_t cConfig);
+    void Cap1214_DigitalReCalib_Control(uint8_t cConfig);
+    void Cap1214_SetLedOutput(uint16_t cConfig);
+    void Cap1214_LinkedLedTransition_Control(uint8_t cLed);
+    uint8_t Cap1214_SensorLEDLinking(uint8_t cLed);
+    void Cap1214_LEDOutputType(uint8_t cLed);
+    uint8_t Cap1214_LEDOutputControl(uint8_t cLed);
+    void Cap1214_LEDPolarity(uint8_t cLed);
+    void Cap1214_LEDMirrorEnable(uint8_t cLed);
+    void Cap1214_LEDBehaviorControl(uint8_t cLed1, uint8_t cLed2, uint8_t cLed3);
+    void Cap1214_LEDPulse1Period(uint8_t cConfig);
+    void Cap1214_LEDPulse2Period(uint8_t cPeriod);
+    void Cap1214_LEDBreathePeriod(uint8_t cPeriod);
+    void Cap1214_LEDConfig(uint8_t cConfig);
+    void Cap1214_LEDPulse1DutyCycle(uint8_t maxDuty, uint8_t minDuty);
+    void Cap1214_LEDPulse2DutyCycle(uint8_t maxDuty, uint8_t minDuty);
+    void Cap1214_LEDBreatheDutyCycle(uint8_t minDuty, uint8_t maxDuty);
+    void Cap1214_LEDDirectDutyCycle(uint8_t minDuty, uint8_t maxDuty);
+    void Cap1214_LEDOffDelay(uint8_t cConfig);
+    
+    uint8_t Cap1214_Product_ID(void);
+    uint8_t Cap1214_TouchRegister1(void);
+    uint8_t Cap1214_ReadRegister(uint8_t addr);
+    uint8_t Cap1214_LEDDirection(uint8_t cConfig);
+    uint8_t Cap1214_LEDControl(uint8_t cLed);
+    void Cap1214_ButtonConfig(uint8_t cfg);
+    void Cap1214_SensorEnable(uint8_t cfg);
+    void Cap1214_CalibreEnable(uint8_t cfg);
+    void Cap1214_CalibreActive(uint8_t cfg);
+    void Cap1214_ReCalibrationConfig(uint8_t cfg);
+    void Cap1214_SamplingConfig(uint8_t cfg);
+    void Cap1214_QueueControl(uint8_t cfg);
+    void Cap1214_Sensor1Threshold(uint8_t cfg);
+    void Cap1214_Sensor2Threshold(uint8_t cfg);
+    void Cap1214_Sensor3Threshold(uint8_t cfg);
+    void Cap1214_Sensor4Threshold(uint8_t cfg);
+    void Cap1214_Sensor5Threshold(uint8_t cfg);
+    void Cap1214_Sensor6Threshold(uint8_t cfg);
+    void Cap1214_Sensor7Threshold(uint8_t cfg);
+    void Cap1214_GroupThreshold(uint8_t cfg);
+    void Cap1214_ButtonNoiseThreshold1(uint8_t cfg);
+    void Cap1214_ButtonNoiseThreshold2(uint8_t cfg);
+    uint8_t Cap1214_NoiseStatus1(void);
+    uint8_t Cap1214_NoiseStatus2(void);
+    
+    void Cap1214_ReadDelta(uint8_t *Data);
+    /*High level function, app can call this function###############################*/
+/**
+  * @}
+  */ 
+
+#ifdef __cplusplus
+}
+#endif
+
+
+#endif /* __LED_H */
+
+/**
+  * @}
+  */ 
+
+/**
+  * @}
+  */ 
+
+/**
+  * @}
+  */   
+
+/******************* (C) COPYRIGHT 2011 STMicroelectronics *****END OF FILE****/

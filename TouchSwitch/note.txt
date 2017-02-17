@@ -1,0 +1,82 @@
+RE4 Conclusions
+I.MCU informations:
+  1.MCU type: STM32F103C8T6
+  2.Core speed: 72 MHz
+  3.System Tick 1ms.
+  
+II.Module using:
+  A.RF module
+    1.Module Type: RFM22B_S2
+    2.Spi Config:
+      .Spi Using: SPI1
+      .Speed:     SPI_BaudRatePrescaler_128 (~250Khz)
+    3.Modem Config
+      /*config module*/
+      /****************************************************
+      Select Module Type: GFSK
+      Select Enable/Disable Manchester Mode: ON
+      Select Creytal Tolerance[ppm] : TX side Crytal: 20
+                                      RX side Crytal: 20
+      RX/TX carrier Frequency(Mhz): 920Mhz
+      Rb[Kbps]:100
+      
+      GFSK/FSK Modem Setting:
+        AFC: Enable
+        Max.Rb Error : =< 1%
+        Frequency Deviation : 50 Khz
+      OOK RX Modem Setting:
+        OOK RX BW [Khz] : 200 Khz
+      XtalFreq[Khz]:30000
+    4.General Config:
+      /*General Configurations*/
+      /****************************************************
+      Select Turn ON Packet Handler       : ON
+      Select LSB/MSB First                : MSB
+      Enable CRC                          : YES
+      CRC Over Data Only                  : YES
+      Select CRC Type                     : CCIT
+      
+      Select Moduleation Type             : GFSK
+      Select DATA INVESION                : OFF
+      
+      Select Manchester Enable            : ON
+      Select Manchester Data Inversion    : Invert  "1->0" = "1"
+      Select Manchester Preamaple Polarity: 1010...
+      Select Data Whitening               : ON
+      
+      Select Headers In Packet            : Header 3&2&1&0
+      Select Variable Packet Length       : NO
+      Select Sync Word Lenght             : Sync Word 3&2&1&0
+      
+      Select Preamble Length              : 8
+      
+      Configure Sync Word 3 Value         : 0x2D
+      Configure Sync Word 2 Value         : 0xD4
+      Configure Sync Word 1 Value         : 0x43
+      Configure Sync Word 0 Value         : 0x75
+      
+      Select Data Length in Packet Structure: 24
+      
+      Configure TX Header 3 Value         : 0x05
+      Configure TX Header 2 Value         : 0xC6
+      Configure TX Header 1 Value         : 0xA9
+      Configure TX Header 0 Value         : 0x9D
+      
+      TX Clock Configuration              : 0x00 No TX data CLK is available outside the chip
+      
+      RX Header 3 individual bit check Mask Value : 0xFF
+      RX Header 2 individual bit check Mask Value : 0xFF
+      RX Header 1 individual bit check Mask Value : 0xFF
+      RX Header 0 individual bit check Mask Value : 0xFF
+      
+      RX Expect Broadcast at Header 3     : YES
+      RX Expect Broadcast at Header 2     : YES
+      RX Expect Broadcast at Header 1     : YES
+      RX Expect Broadcast at Header 0     : YES
+      
+      Perform Header 3 Value Comparison   : YES
+      Perform Header 2 Value Comparison   : YES
+      Perform Header 1 Value Comparison   : YES
+      Perform Header 0 Value Comparison   : YES
+      
+      Select Preamble Detect Threshold (in Nible resolution)  : 4  16bits
