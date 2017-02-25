@@ -1,0 +1,227 @@
+
+
+
+
+    Cadence Design Systems, Inc.
+    Packager-XL 16.6-S064 (v16-6-112FL) WIN32 1/18/2016 12:00:00 IST
+    (C) Copyright 1994, Cadence Design Systems, Inc.
+
+    Run on Thu Apr 14 16:12:39 2016
+
+
+ **********************************************
+ *  Processing project file and command line  *
+ **********************************************
+
+
+
+    ANNOTATE  'ON'
+    COMP_DEF_PROP  'ALT_SYMBOLS' 'JEDEC_TYPE' 'NC_PINS' 'MERGE_NC_PINS'
+                   'POWER_GROUP' 'POWER_PINS' 'MERGE_POWER_PINS' 'PINCOUNT'
+                   'VALUE'
+    COMP_INST_PROP  'GROUP' 'ROOM' 'REUSE_INSTANCE' 'REUSE_ID' 'REUSE_NAME'
+                    'SIGNAL_MODEL' 'DEFAULT_SIGNAL_MODEL'
+                    'VOLT_TEMP_SIGNAL_MODEL' 'SYMBOL_EDITED'
+                    'INCLUDE_IN_RF_TOPOLOGY' 'CDS_FSP_LIB_PART_MODEL'
+                    'CDS_FSP_IS_FPGA' 'CDS_FSP_INSTANCE_NAME'
+                    'CDS_FSP_INSTANCE_ID' 'NO_XNET_CONNECTION'
+                    'EMBEDDED_PLACEMENT' 'CAP' 'RES' 'VLOG_PARAM01' 'JUMPER_SET'
+                    'SPLIT_INST' 'VERILOG_MODEL' 'VLOG_PARAM02' 'RES1' 'RES2'
+                    'POWER_RATING' 'VOLTAGE_RATING' 'LABEL_SILK' 'ISRFELEMENT'
+                    'RFELEMENTTYPE' 'RFLAYER' 'RFLAYER1' 'RFLAYER2' 'RFLAYER3'
+                    'RFLAYER4' 'RFLAYER5' 'RFLAYER6' 'RFLAYER7' 'RFLAYER8'
+                    'RFLAYER9' 'RFLAYER10' 'RFLAYER11' 'RFLAYER12' 'RFLAYER13'
+                    'RFLAYER14' 'RFLAYER15' 'RFLAYER16' 'RFCOUPLINGMODE'
+                    'RFFLIPMODE' 'RFANGLE' 'RFANGLE1' 'RFWIDTH' 'RFWIDTH1'
+                    'RFWIDTH2' 'RFWIDTH3' 'RFWIDTH4' 'RFWIDTH5' 'RFWIDTH6'
+                    'RFWIDTH7' 'RFWIDTH8' 'RFWIDTH9' 'RFWIDTH10' 'RFWIDTH11'
+                    'RFWIDTH12' 'RFWIDTH13' 'RFWIDTH14' 'RFWIDTH15' 'RFWIDTH16'
+                    'RFLENGTH' 'RFLENGTH1' 'RFLENGTH2' 'RFLENGTH3' 'RFLENGTH4'
+                    'RFLENGTH5' 'RFLENGTH6' 'RFLENGTH7' 'RFLENGTH8' 'RFSPACING'
+                    'RFSPACING1' 'RFSPACING2' 'RFSPACING3' 'RFSPACING4'
+                    'RFSPACING5' 'RFSPACING6' 'RFSPACING7' 'RFSPACING8'
+                    'RFSPACING9' 'RFSPACING10' 'RFSPACING11' 'RFSPACING12'
+                    'RFSPACING13' 'RFSPACING14' 'RFSPACING15' 'RFOFFSETX'
+                    'RFOFFSETY' 'RFRADIUS' 'RFDEPTH' 'RFFREQUENCY'
+                    'RFMITERFRACTION' 'RFBENDMODE' 'RFNUMBERLEGS'
+                    'RFNUMBERPAIRS' 'RFNUMBERTURNS' 'RFCAPACITANCE'
+                    'RFRESISTANCE' 'RFINDUCTANCE' 'RFPADSTACKNAME'
+                    'RFPADSSMNAME1' 'RFPADSSMNAME2' 'RFPADBEGINLAYER'
+                    'RFPADENDLAYER' 'RFPADLINEWIDTH1' 'RFPADLINEWIDTH2'
+                    'RFPADDIAMETER1' 'RFPADDIAMETER2' 'RFPADLENGTH1'
+                    'RFPADLENGTH2' 'RFHOLEDIAMETER' 'RFPADANGLE' 'RFDRANAME'
+                    'RFPADTYPE' 'RFUID' 'RFBLOCK' 'RFDCNET' 'RFGROUP' 'MWO_NAME'
+    SUPPRESS_GLOBAL_SHORT_CHECK OFF
+    DEBUG    0
+    DEFAULT_PHYS_DES_PREFIX U
+    FEEDBACK  'OFF'
+    MAX_ERRORS 999
+    NET_NAME_CHARS   @  -  !  #  %  &  (  )  *  .  /  :  ?  [  ]  ^  _  `  +
+                     =  >  0  1  2  3  4  5  6  7  8  9
+    NET_NAME_LENGTH 1024
+    NUM_OLD_VERSIONS 3
+    OPTIMIZE OFF
+    REUSE_REFDES ON
+    OPF_OPTIMIZATION OFF
+    HARD_LOC_SEC ON
+    FORCE_PTF_ENTRY OFF
+    REGENERATE_PHYSICAL_NET_NAME OFF
+    SCH_POWER_GROUP_WINS_OVER_PPT OFF
+    NULL_OPT_VALID OFF
+    USE_VECTOR_NOTATION ON
+    FILTER_ECS_FROM_XNET ON
+    OUTPUT  'ON'
+    PACKAGE_PROP  'GROUP' 'ROOM'
+    PART_TYPE_LENGTH 1024
+    PPT 
+         \\sjcndsa01a.maxim-ic.com\tp_loc\hw_cardcat\allegrolib\site\..\mml_worklib\me~
+chanical 
+    REF_DES_LENGTH 50
+    REPACKAGE OFF
+    ELECTRICAL_CONSTRAINTS ON
+    OVERWRITE_CONSTRAINTS OFF
+    RUN_DIR ./worklib/maxrefdes117_apps_a/packaged/
+    STRICT_PACKAGE_PROP  'REUSE_INSTANCE'
+    USE_LIBRARY_PPT ON
+    USE_STATE ON
+    WARNINGS ON
+    LIBRARY  'maxrefdes117_apps_a' 'standard' 'mml' 'evkit_noncompliant'
+             'rf_comp_lib'
+    CDSPROP_FILE 
+    VIEW_PTF part_table
+    VIEW_PACKAGER packaged
+    VIEW_CONSTRAINTS sch_1
+    DESIGN_LIBRARY maxrefdes117_apps_a
+    DESIGN_NAME maxrefdes117_apps_a
+    VIEW_CONFIG_PHYSICAL cfg_package
+    SD_SUFFIX_SEPARATOR _
+    STOP_PST_GEN_ON_PTF_MISMATCH ON
+    IGNORE_PRIM_BINDING OFF
+    LOG_INST_PHYS_PATH ON
+    ANNOTATE_VISIBLE_SEC OFF
+    PTF_MISMATCH_EXCLUDE_INJ_PROP  'ALL'
+    IMPORT_HFS_HARDSEC_ON_SWAP_PINS OFF
+    ALLOW_PTFVALUE_INITIAL_BLANKS ON
+    PRESERVE_UNSUBSTITUTED_MACROS OFF
+    DETECT_SYS_NETSHORTS_PKG ON
+    PROCESS_PIN_SHORT_PROP ON
+    STOP_PACKAGE_ON_SCHEMATIC_ERROR OFF
+    LOCK_FILE_PERM 444
+    LOCK_FOR_SAME_USER OFF
+    ERROR_ON_MISMATCHED_INTERFACE ON
+    RETAIN_ZERO_NODE_NETS OFF
+    IGNORE_ERR_EMPTY_LONGPARTNAME OFF
+    ERROR_ILLEGAL_QUOTE_PPT OFF
+    B2F_OVERWRITE_CONSTRAINTS OFF
+    ERROR_ON_PARTIAL_INSTANTIATION_OF_HSS OFF
+    RUN_HIERWR_BEFORE_PXL OFF
+    IMPORT_CONSTRAINTS_ONLY_FEEDBACK OFF
+    REPORT_NET_PROP_CONFLICT_AS_ERROR OFF
+
+ **************************************************************
+ *  End processing project file and command line  (00:00:00)  *
+ **************************************************************
+
+
+Creating Configuration "cfg_package" for Design "maxrefdes117_apps_a"
+
+INFO(SPCODD-181): Loading C:\Cadence\SPB_16.6\share\cdssetup\cdsprop.tmf.
+INFO(SPCODD-181): Loading \\sjcndsa01a.maxim-ic.com\tp_loc\hw_cardcat\allegrol~
+ib\site\cdssetup\cdsprop.paf.
+INFO(SPCODD-181): Loading //sjcndsa01a.maxim-ic.com/tp_loc/hw_cardcat/allegrol~
+ib/site/../mml_worklib/mechanical/mech.ptf.
+
+ *********************************
+ *  Loading the design database  *
+ *********************************
+
+INFO(SPCODD-181): Loading //sjcndsa01a.maxim-ic.com/tp_loc/hw_cardcat/allegrol~
+ib/evk_worklib/ev_kit_box/part_table/part.ptf.
+INFO(SPCODD-181): Loading //sjcndsa01a.maxim-ic.com/tp_loc/hw_cardcat/allegrol~
+ib/mml_worklib/max14595/part_table/part.ptf.
+INFO(SPCODD-181): Loading //sjcndsa01a.maxim-ic.com/tp_loc/hw_cardcat/allegrol~
+ib/mml_worklib/max30102/part_table/part.ptf.
+INFO(SPCODD-181): Loading //sjcndsa01a.maxim-ic.com/tp_loc/hw_cardcat/allegrol~
+ib/mml_worklib/max1921/part_table/part.ptf.
+INFO(SPCODD-181): Loading //sjcndsa01a.maxim-ic.com/tp_loc/hw_cardcat/allegrol~
+ib/mml_worklib/induct/part_table/INDUCT.ptf.
+INFO(SPCODD-181): Loading //sjcndsa01a.maxim-ic.com/tp_loc/hw_cardcat/allegrol~
+ib/mml_worklib/induct/part_table/part.ptf.
+INFO(SPCODD-181): Loading //sjcndsa01a.maxim-ic.com/tp_loc/hw_cardcat/allegrol~
+ib/mml_worklib/cap_np/part_table/part.ptf.
+INFO(SPCODD-181): Loading //sjcndsa01a.maxim-ic.com/tp_loc/hw_cardcat/allegrol~
+ib/mml_worklib/cap_np/part_table/0201_SMD_CAP.ptf.
+INFO(SPCODD-181): Loading //sjcndsa01a.maxim-ic.com/tp_loc/hw_cardcat/allegrol~
+ib/mml_worklib/cap_np/part_table/1210_SMD_CAP.ptf.
+INFO(SPCODD-181): Loading //sjcndsa01a.maxim-ic.com/tp_loc/hw_cardcat/allegrol~
+ib/mml_worklib/cap_np/part_table/0402_SMD_CAP.ptf.
+INFO(SPCODD-181): Loading //sjcndsa01a.maxim-ic.com/tp_loc/hw_cardcat/allegrol~
+ib/mml_worklib/cap_np/part_table/0603_SMD_CAP.ptf.
+INFO(SPCODD-181): Loading //sjcndsa01a.maxim-ic.com/tp_loc/hw_cardcat/allegrol~
+ib/mml_worklib/cap_np/part_table/1206_SMD_CAP.ptf.
+INFO(SPCODD-181): Loading //sjcndsa01a.maxim-ic.com/tp_loc/hw_cardcat/allegrol~
+ib/mml_worklib/cap_np/part_table/TH_CAPS.ptf.
+INFO(SPCODD-181): Loading //sjcndsa01a.maxim-ic.com/tp_loc/hw_cardcat/allegrol~
+ib/mml_worklib/cap_np/part_table/0805_SMD_CAP.ptf.
+INFO(SPCODD-181): Loading //sjcndsa01a.maxim-ic.com/tp_loc/hw_cardcat/allegrol~
+ib/mml_worklib/cap_np/part_table/0508_SMD_CAP.ptf.
+INFO(SPCODD-181): Loading //sjcndsa01a.maxim-ic.com/tp_loc/hw_cardcat/allegrol~
+ib/mml_worklib/res_smd/part_table/SMD_RES_0201.ptf.
+INFO(SPCODD-181): Loading //sjcndsa01a.maxim-ic.com/tp_loc/hw_cardcat/allegrol~
+ib/mml_worklib/res_smd/part_table/SMD_RES_1210.ptf.
+INFO(SPCODD-181): Loading //sjcndsa01a.maxim-ic.com/tp_loc/hw_cardcat/allegrol~
+ib/mml_worklib/res_smd/part_table/SMD_RES_0402.ptf.
+INFO(SPCODD-181): Loading //sjcndsa01a.maxim-ic.com/tp_loc/hw_cardcat/allegrol~
+ib/mml_worklib/res_smd/part_table/SMD_RES_0603.ptf.
+INFO(SPCODD-181): Loading //sjcndsa01a.maxim-ic.com/tp_loc/hw_cardcat/allegrol~
+ib/mml_worklib/res_smd/part_table/SMD_RES_1206.ptf.
+INFO(SPCODD-181): Loading //sjcndsa01a.maxim-ic.com/tp_loc/hw_cardcat/allegrol~
+ib/mml_worklib/res_smd/part_table/SMD_RES_2512.ptf.
+INFO(SPCODD-181): Loading //sjcndsa01a.maxim-ic.com/tp_loc/hw_cardcat/allegrol~
+ib/mml_worklib/res_smd/part_table/part.ptf.
+INFO(SPCODD-181): Loading //sjcndsa01a.maxim-ic.com/tp_loc/hw_cardcat/allegrol~
+ib/mml_worklib/res_smd/part_table/SMD_RES_0805.ptf.
+INFO(SPCODD-181): Loading //sjcndsa01a.maxim-ic.com/tp_loc/hw_cardcat/allegrol~
+ib/evk_worklib/evkit_tp/part_table/part.ptf.
+
+ *************************
+ *  Loading State Files  *
+ *************************
+
+Loading ./worklib/maxrefdes117_apps_a/packaged/pxl.state. 
+
+ *****************************************
+ *  End loading State Files  (00:00:00)  *
+ *****************************************
+
+
+ ****************************************
+ *  Starting to assign physical parts.  *
+ ****************************************
+
+
+ ***********************************************
+ *  End assigning physical parts.  (00:00:00)  *
+ ***********************************************
+
+
+ ***************
+ *  Packaging  *
+ ***************
+
+
+ *******************************
+ *  End packaging  (00:00:00)  *
+ *******************************
+
+INFO(SPCOPK-1442): No errors detected
+INFO(SPCOPK-1444): No warnings detected
+    Start time   16:12:39
+    End time     16:12:43
+    Elapsed time  0:00:04
+
+ ***************************************************************************
+ *  Packager-XL execution done.
+ ***************************************************************************
+Starting to audit ECsets in the design...
+Audit completed successfully.

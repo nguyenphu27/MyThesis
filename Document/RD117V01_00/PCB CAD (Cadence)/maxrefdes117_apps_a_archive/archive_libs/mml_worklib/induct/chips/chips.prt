@@ -1,0 +1,5765 @@
+FILE_TYPE=LIBRARY_PARTS;
+primitive 'INDUCT_0402';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+  end_pin;
+  body
+    PART_NAME='INDUCT';
+    ALT_SYMBOLS='(0402_nosilk)';
+    BODY_NAME='INDUCT';
+    JEDEC_TYPE='0402';
+    PHYS_DES_PREFIX='L';
+    CLASS='DISCRETE';
+  end_body;
+end_primitive;
+
+primitive 'INDUCT_0603';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+  end_pin;
+  body
+    PART_NAME='INDUCT';
+    ALT_SYMBOLS='(0603_nosilk)';
+    BODY_NAME='INDUCT';
+    JEDEC_TYPE='0603';
+    PHYS_DES_PREFIX='L';
+    CLASS='DISCRETE';
+  end_body;
+end_primitive;
+
+primitive 'INDUCT_0805';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+  end_pin;
+  body
+    PART_NAME='INDUCT';
+    BODY_NAME='INDUCT';
+    JEDEC_TYPE='0805';
+    PHYS_DES_PREFIX='L';
+    CLASS='DISCRETE';
+  end_body;
+end_primitive;
+
+primitive 'INDUCT_IND_CDR7';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+  end_pin;
+  body
+    PART_NAME='INDUCT';
+    BODY_NAME='INDUCT';
+    JEDEC_TYPE='IND_CDR7';
+    PHYS_DES_PREFIX='L';
+    CLASS='DISCRETE';
+  end_body;
+end_primitive;
+
+primitive 'INDUCT_1210';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+  end_pin;
+  body
+    PART_NAME='INDUCT';
+    BODY_NAME='INDUCT';
+    JEDEC_TYPE='1210';
+    PHYS_DES_PREFIX='L';
+    CLASS='DISCRETE';
+  end_body;
+end_primitive;
+
+primitive 'INDUCT_IND_5900';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+  end_pin;
+  body
+    PART_NAME='INDUCT';
+    BODY_NAME='INDUCT';
+    JEDEC_TYPE='IND_5900';
+    PHYS_DES_PREFIX='L';
+    CLASS='DISCRETE';
+  end_body;
+end_primitive;
+
+primitive 'INDUCT_IND_4590';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+  end_pin;
+  body
+    PART_NAME='INDUCT';
+    BODY_NAME='INDUCT';
+    JEDEC_TYPE='IND_4590';
+    PHYS_DES_PREFIX='L';
+    CLASS='DISCRETE';
+  end_body;
+end_primitive;
+
+primitive 'INDUCT_IND_MSS1260','INDUCT_IND_MSS7341';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+  end_pin;
+  body
+    PART_NAME='INDUCT';
+    BODY_NAME='INDUCT';
+    JEDEC_TYPE='IND_MSS1260';
+    PHYS_DES_PREFIX='L';
+    CLASS='DISCRETE';
+  end_body;
+end_primitive;
+
+primitive 'INDUCT_IND_D05010H';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+  end_pin;
+  body
+    PART_NAME='INDUCT';
+    BODY_NAME='INDUCT';
+    JEDEC_TYPE='IND_D05010H';
+    PHYS_DES_PREFIX='L';
+    CLASS='DISCRETE';
+  end_body;
+end_primitive;
+
+primitive 'INDUCT_IND_EPL2010';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+  end_pin;
+  body
+    PART_NAME='INDUCT';
+    BODY_NAME='INDUCT';
+    JEDEC_TYPE='IND_EPL2010';
+    PHYS_DES_PREFIX='L';
+    CLASS='DISCRETE';
+  end_body;
+end_primitive;
+
+primitive 'INDUCT_IND_RCH654';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+  end_pin;
+  body
+    PART_NAME='INDUCT';
+    BODY_NAME='INDUCT';
+    JEDEC_TYPE='IND_RCH654';
+    PHYS_DES_PREFIX='L';
+    CLASS='DISCRETE';
+  end_body;
+end_primitive;
+
+primitive 'INDUCT_IND_RCR108D';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+  end_pin;
+  body
+    PART_NAME='INDUCT';
+    BODY_NAME='INDUCT';
+    JEDEC_TYPE='IND_RCR108D';
+    PHYS_DES_PREFIX='L';
+    CLASS='DISCRETE';
+    CDS_LMAN_UNMAPPED_PHYS_PIN='(3,4)';
+  end_body;
+end_primitive;
+
+primitive 'INDUCT_INDAD770-420X200';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+  end_pin;
+  body
+    PART_NAME='INDUCT';
+    BODY_NAME='INDUCT';
+    JEDEC_TYPE='INDAD770-420X200';
+    PHYS_DES_PREFIX='L';
+    CLASS='DISCRETE';
+  end_body;
+end_primitive;
+
+primitive 'INDUCT_IND_RCR110D';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+  end_pin;
+  body
+    PART_NAME='INDUCT';
+    BODY_NAME='INDUCT';
+    JEDEC_TYPE='IND_RCR110D';
+    PHYS_DES_PREFIX='L';
+    CLASS='DISCRETE';
+    CDS_LMAN_UNMAPPED_PHYS_PIN='(3,4)';
+  end_body;
+end_primitive;
+
+primitive 'INDUCT_2520';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+  end_pin;
+  body
+    PART_NAME='INDUCT';
+    BODY_NAME='INDUCT';
+    JEDEC_TYPE='IND_2520';
+    PHYS_DES_PREFIX='L';
+    CLASS='DISCRETE';
+  end_body;
+end_primitive;
+
+primitive 'INDUCT_IND_DB30XX';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+  end_pin;
+  body
+    PART_NAME='INDUCT';
+    BODY_NAME='INDUCT';
+    JEDEC_TYPE='IND_DB30XX';
+    PHYS_DES_PREFIX='L';
+    CLASS='DISCRETE';
+  end_body;
+end_primitive;
+
+primitive 'INDUCT_IND_D6XXCB';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+  end_pin;
+  body
+    PART_NAME='INDUCT';
+    BODY_NAME='INDUCT';
+    JEDEC_TYPE='ind_d6xxcb';
+    PHYS_DES_PREFIX='L';
+    CLASS='DISCRETE';
+  end_body;
+end_primitive;
+
+primitive 'INDUCT_INDC5750X180M';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+  end_pin;
+  body
+    PART_NAME='INDUCT';
+    BODY_NAME='INDUCT';
+    JEDEC_TYPE='INDC5750X180M';
+    PHYS_DES_PREFIX='L';
+    CLASS='DISCRETE';
+  end_body;
+end_primitive;
+
+primitive 'INDUCT_IND_DO1606T';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+  end_pin;
+  body
+    PART_NAME='INDUCT';
+    BODY_NAME='INDUCT';
+    JEDEC_TYPE='IND_DO1606T';
+    PHYS_DES_PREFIX='L';
+    CLASS='DISCRETE';
+  end_body;
+end_primitive;
+
+primitive 'INDUCT_IND_CDEP';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+  end_pin;
+  body
+    PART_NAME='INDUCT';
+    BODY_NAME='INDUCT';
+    JEDEC_TYPE='IND_CDEP';
+    PHYS_DES_PREFIX='L';
+    CLASS='DISCRETE';
+  end_body;
+end_primitive;
+
+primitive 'INDUCT_IND_CCT21T';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+  end_pin;
+  body
+    PART_NAME='INDUCT';
+    BODY_NAME='INDUCT';
+    JEDEC_TYPE='IND_CCT21T';
+    PHYS_DES_PREFIX='L';
+    CLASS='DISCRETE';
+  end_body;
+end_primitive;
+
+primitive 'INDUCT_IND_VLF5010S';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+  end_pin;
+  body
+    PART_NAME='INDUCT';
+    BODY_NAME='INDUCT';
+    JEDEC_TYPE='IND_VLF5010S';
+    PHYS_DES_PREFIX='L';
+    CLASS='DISCRETE';
+  end_body;
+end_primitive;
+
+primitive 'INDUCT_IND_DE3518C';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+  end_pin;
+  body
+    PART_NAME='INDUCT';
+    BODY_NAME='INDUCT';
+    JEDEC_TYPE='IND_DE3518C';
+    PHYS_DES_PREFIX='L';
+    CLASS='DISCRETE';
+  end_body;
+end_primitive;
+
+primitive 'INDUCT_IND_PCMC133';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+  end_pin;
+  body
+    PART_NAME='INDUCT';
+    BODY_NAME='INDUCT';
+    JEDEC_TYPE='IND_PCMC133';
+    PHYS_DES_PREFIX='L';
+    CLASS='DISCRETE';
+  end_body;
+end_primitive;
+
+primitive 'INDUCT_IND_FDA1254-1R';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+  end_pin;
+  body
+    PART_NAME='INDUCT';
+    BODY_NAME='INDUCT';
+    JEDEC_TYPE='IND_FDA1254-1R';
+    PHYS_DES_PREFIX='L';
+    CLASS='DISCRETE';
+  end_body;
+end_primitive;
+
+primitive 'INDUCT_IND_PCMC104T';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+  end_pin;
+  body
+    PART_NAME='INDUCT';
+    BODY_NAME='INDUCT';
+    JEDEC_TYPE='IND_PCMC104T';
+    PHYS_DES_PREFIX='L';
+    CLASS='DISCRETE';
+  end_body;
+end_primitive;
+
+primitive 'INDUCT_IND_744325';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+  end_pin;
+  body
+    PART_NAME='INDUCT';
+    BODY_NAME='INDUCT';
+    JEDEC_TYPE='IND_744325';
+    PHYS_DES_PREFIX='L';
+    CLASS='DISCRETE';
+  end_body;
+end_primitive;
+
+primitive 'INDUCT_IND_7443550';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+  end_pin;
+  body
+    PART_NAME='INDUCT';
+    BODY_NAME='INDUCT';
+    JEDEC_TYPE='IND_7443550';
+    PHYS_DES_PREFIX='L';
+    CLASS='DISCRETE';
+  end_body;
+end_primitive;
+
+primitive 'INDUCT_IND_D2812C';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+  end_pin;
+  body
+    PART_NAME='INDUCT';
+    BODY_NAME='INDUCT';
+    JEDEC_TYPE='IND_D2812C';
+    PHYS_DES_PREFIX='L';
+    CLASS='DISCRETE';
+  end_body;
+end_primitive;
+
+primitive 'INDUCT_IND_CDRH8D43';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+  end_pin;
+  body
+    PART_NAME='INDUCT';
+    BODY_NAME='INDUCT';
+    JEDEC_TYPE='IND_CDRH8D43';
+    PHYS_DES_PREFIX='L';
+    CLASS='DISCRETE';
+  end_body;
+end_primitive;
+
+primitive 'INDUCT_IND_CDRH8D43HP';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+  end_pin;
+  body
+    PART_NAME='INDUCT';
+    BODY_NAME='INDUCT';
+    JEDEC_TYPE='IND_CDRH8D43HP';
+    PHYS_DES_PREFIX='L';
+    CLASS='DISCRETE';
+  end_body;
+end_primitive;
+
+primitive 'INDUCT_0806';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+  end_pin;
+  body
+    PART_NAME='INDUCT';
+    BODY_NAME='INDUCT';
+    JEDEC_TYPE='0806';
+    PHYS_DES_PREFIX='L';
+    CLASS='DISCRETE';
+  end_body;
+end_primitive;
+
+primitive 'INDUCT_IND_TCCH80';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+    '3':
+      PIN_NUMBER='(3)';
+      PINUSE='UNSPEC';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+    '4':
+      PIN_NUMBER='(4)';
+      PINUSE='UNSPEC';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+  end_pin;
+  body
+    PART_NAME='INDUCT';
+    BODY_NAME='INDUCT';
+    JEDEC_TYPE='IND_TCCH80';
+    PHYS_DES_PREFIX='L';
+    CLASS='DISCRETE';
+  end_body;
+end_primitive;
+
+primitive 'INDUCT_IND_WE-HCI';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+  end_pin;
+  body
+    PART_NAME='INDUCT';
+    BODY_NAME='INDUCT';
+    JEDEC_TYPE='IND_744314';
+    PHYS_DES_PREFIX='L';
+    CLASS='DISCRETE';
+  end_body;
+end_primitive;
+
+primitive 'INDUCT_IND_VLS2016';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+  end_pin;
+  body
+    PART_NAME='INDUCT';
+    BODY_NAME='INDUCT';
+    JEDEC_TYPE='IND_VLS2016';
+    PHYS_DES_PREFIX='L';
+    CLASS='DISCRETE';
+  end_body;
+end_primitive;
+
+primitive 'INDUCT_IND_MSS1038';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+  end_pin;
+  body
+    PART_NAME='INDUCT';
+    BODY_NAME='INDUCT';
+    JEDEC_TYPE='IND_MSS1038';
+    PHYS_DES_PREFIX='L';
+    CLASS='DISCRETE';
+  end_body;
+end_primitive;
+
+primitive 'INDUCT_IND_MSS1246';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+  end_pin;
+  body
+    PART_NAME='INDUCT';
+    BODY_NAME='INDUCT';
+    JEDEC_TYPE='IND_MSS1246';
+    PHYS_DES_PREFIX='L';
+    CLASS='DISCRETE';
+  end_body;
+end_primitive;
+
+primitive 'INDUCT_IND_PCMC053T';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+  end_pin;
+  body
+    PART_NAME='INDUCT';
+    BODY_NAME='INDUCT';
+    JEDEC_TYPE='IND_PCMC053T';
+    PHYS_DES_PREFIX='L';
+    CLASS='DISCRETE';
+  end_body;
+end_primitive;
+
+primitive 'INDUCT_IND_CC19T';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+  end_pin;
+  body
+    PART_NAME='INDUCT';
+    BODY_NAME='INDUCT';
+    JEDEC_TYPE='IND_CC19T';
+    PHYS_DES_PREFIX='L';
+    CLASS='DISCRETE';
+  end_body;
+end_primitive;
+
+primitive 'INDUCT_IND_1812SMS';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+  end_pin;
+  body
+    PART_NAME='INDUCT';
+    BODY_NAME='INDUCT';
+    JEDEC_TYPE='IND_1812SMS';
+    PHYS_DES_PREFIX='L';
+    CLASS='DISCRETE';
+  end_body;
+end_primitive;
+
+primitive 'INDUCT_0504';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+  end_pin;
+  body
+    PART_NAME='INDUCT';
+    ALT_SYMBOLS='(INDC1310X100_ALT)';
+    BODY_NAME='INDUCT';
+    JEDEC_TYPE='INDC1310X100';
+    PHYS_DES_PREFIX='L';
+    CLASS='DISCRETE';
+  end_body;
+end_primitive;
+
+primitive 'INDUCT_HCI-44','INDUCT_LCI-30';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+  end_pin;
+  body
+    PART_NAME='INDUCT';
+    BODY_NAME='INDUCT';
+    JEDEC_TYPE='IND_HCI-44';
+    PHYS_DES_PREFIX='L';
+    CLASS='DISCRETE';
+  end_body;
+end_primitive;
+
+primitive 'INDUCT_0201';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+  end_pin;
+  body
+    PART_NAME='INDUCT';
+    BODY_NAME='INDUCT';
+    JEDEC_TYPE='0201';
+    PHYS_DES_PREFIX='L';
+    CLASS='DISCRETE';
+  end_body;
+end_primitive;
+
+primitive 'INDUCT_0302';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+  end_pin;
+  body
+    PART_NAME='INDUCT';
+    BODY_NAME='INDUCT';
+    JEDEC_TYPE='IND_0302';
+    PHYS_DES_PREFIX='L';
+    CLASS='DISCRETE';
+  end_body;
+end_primitive;
+
+primitive 'INDUCT_IND_CDRH3D16';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+  end_pin;
+  body
+    PART_NAME='INDUCT';
+    BODY_NAME='INDUCT';
+    JEDEC_TYPE='IND_CDRH3D16';
+    PHYS_DES_PREFIX='L';
+    CLASS='DISCRETE';
+  end_body;
+end_primitive;
+
+primitive 'INDUCT_IND_WE-PD';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+  end_pin;
+  body
+    PART_NAME='INDUCT';
+    BODY_NAME='INDUCT';
+    JEDEC_TYPE='IND_74477';
+    PHYS_DES_PREFIX='L';
+    CLASS='DISCRETE';
+  end_body;
+end_primitive;
+
+primitive 'INDUCT_IND_VLF4012A';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+  end_pin;
+  body
+    PART_NAME='INDUCT';
+    BODY_NAME='INDUCT';
+    JEDEC_TYPE='IND_VLF4012A';
+    PHYS_DES_PREFIX='L';
+    CLASS='DISCRETE';
+  end_body;
+end_primitive;
+
+primitive 'INDUCT_IND_IHLP-5050FD-01';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+  end_pin;
+  body
+    PART_NAME='INDUCT';
+    BODY_NAME='INDUCT';
+    JEDEC_TYPE='IND_IHLP-5050FD-01';
+    PHYS_DES_PREFIX='L';
+    CLASS='DISCRETE';
+  end_body;
+end_primitive;
+
+primitive 'INDUCT_IND_LPS5030';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+  end_pin;
+  body
+    PART_NAME='INDUCT';
+    BODY_NAME='INDUCT';
+    JEDEC_TYPE='IND_LPS5030';
+    PHYS_DES_PREFIX='L';
+    CLASS='DISCRETE';
+  end_body;
+end_primitive;
+
+primitive 'INDUCT_IND_LPS6225';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+  end_pin;
+  body
+    PART_NAME='INDUCT';
+    BODY_NAME='INDUCT';
+    JEDEC_TYPE='IND_LPS6225';
+    PHYS_DES_PREFIX='L';
+    CLASS='DISCRETE';
+  end_body;
+end_primitive;
+
+primitive 'INDUCT_IND_LPS6235';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+  end_pin;
+  body
+    PART_NAME='INDUCT';
+    BODY_NAME='INDUCT';
+    JEDEC_TYPE='IND_LPS6235';
+    PHYS_DES_PREFIX='L';
+    CLASS='DISCRETE';
+  end_body;
+end_primitive;
+
+primitive 'INDUCT_IND_SD53';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+  end_pin;
+  body
+    PART_NAME='INDUCT';
+    BODY_NAME='INDUCT';
+    JEDEC_TYPE='IND_SD53';
+    PHYS_DES_PREFIX='L';
+    CLASS='DISCRETE';
+  end_body;
+end_primitive;
+
+primitive 'INDUCT_IND_XAL4020';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+  end_pin;
+  body
+    PART_NAME='INDUCT';
+    BODY_NAME='INDUCT';
+    JEDEC_TYPE='IND_XAL4020';
+    PHYS_DES_PREFIX='L';
+    CLASS='DISCRETE';
+  end_body;
+end_primitive;
+
+primitive 'INDUCT_IND_PIMB062D';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+  end_pin;
+  body
+    PART_NAME='INDUCT';
+    BODY_NAME='INDUCT';
+    JEDEC_TYPE='IND_PIMB062D';
+    PHYS_DES_PREFIX='L';
+    CLASS='DISCRETE';
+  end_body;
+end_primitive;
+
+primitive 'INDUCT_IND_B82462G4';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+  end_pin;
+  body
+    PART_NAME='INDUCT';
+    BODY_NAME='INDUCT';
+    JEDEC_TYPE='IND_B82462G4';
+    PHYS_DES_PREFIX='L';
+    CLASS='DISCRETE';
+  end_body;
+end_primitive;
+
+primitive 'INDUCT_IND_ELLATV';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+  end_pin;
+  body
+    PART_NAME='INDUCT';
+    BODY_NAME='INDUCT';
+    JEDEC_TYPE='IND_ELLATV';
+    PHYS_DES_PREFIX='L';
+    CLASS='DISCRETE';
+  end_body;
+end_primitive;
+
+primitive 'INDUCT_IND_PA2607NL';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+  end_pin;
+  body
+    PART_NAME='INDUCT';
+    BODY_NAME='INDUCT';
+    JEDEC_TYPE='IND_PA2607NL';
+    PHYS_DES_PREFIX='L';
+    CLASS='DISCRETE';
+  end_body;
+end_primitive;
+
+primitive 'INDUCT_IND_SBP-0603';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+  end_pin;
+  body
+    PART_NAME='INDUCT';
+    BODY_NAME='INDUCT';
+    JEDEC_TYPE='IND_SBP-0603';
+    PHYS_DES_PREFIX='L';
+    CLASS='DISCRETE';
+  end_body;
+end_primitive;
+
+primitive 'INDUCT_IND_ELL6SH';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+  end_pin;
+  body
+    PART_NAME='INDUCT';
+    BODY_NAME='INDUCT';
+    JEDEC_TYPE='IND_ELL6SH';
+    PHYS_DES_PREFIX='L';
+    CLASS='DISCRETE';
+  end_body;
+end_primitive;
+
+primitive 'INDUCT_IND_D53LC';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+  end_pin;
+  body
+    PART_NAME='INDUCT';
+    BODY_NAME='INDUCT';
+    JEDEC_TYPE='IND_D53LC';
+    PHYS_DES_PREFIX='U';
+    CLASS='IC';
+  end_body;
+end_primitive;
+
+primitive 'INDUCT_IND_DO5022P';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+  end_pin;
+  body
+    PART_NAME='INDUCT';
+    BODY_NAME='INDUCT';
+    JEDEC_TYPE='IND_DO5022P';
+    PHYS_DES_PREFIX='L';
+    CLASS='DISCRETE';
+  end_body;
+end_primitive;
+
+primitive 'INDUCT_IND_MSS1048';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+  end_pin;
+  body
+    PART_NAME='INDUCT';
+    BODY_NAME='INDUCT';
+    JEDEC_TYPE='IND_MSS1048';
+    PHYS_DES_PREFIX='L';
+    CLASS='DISCRETE';
+  end_body;
+end_primitive;
+
+primitive 'INDUCT_IND_UP4B';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+  end_pin;
+  body
+    PART_NAME='INDUCT';
+    BODY_NAME='INDUCT';
+    JEDEC_TYPE='IND_UP4B';
+    PHYS_DES_PREFIX='L';
+    CLASS='DISCRETE';
+  end_body;
+end_primitive;
+
+primitive 'INDUCT_IND_CR54';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+  end_pin;
+  body
+    PART_NAME='INDUCT';
+    BODY_NAME='INDUCT';
+    JEDEC_TYPE='IND_CR54';
+    PHYS_DES_PREFIX='L';
+    CLASS='DISCRETE';
+  end_body;
+end_primitive;
+
+primitive 'INDUCT_INDAD1500W60L1100D450';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+  end_pin;
+  body
+    PART_NAME='INDUCT';
+    BODY_NAME='INDUCT';
+    JEDEC_TYPE='INDAD1500W60L1100D450';
+    PHYS_DES_PREFIX='L';
+    CLASS='DISCRETE';
+  end_body;
+end_primitive;
+
+primitive 'INDUCT_IND_IHLP-2525AH-ER';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+  end_pin;
+  body
+    PART_NAME='INDUCT';
+    BODY_NAME='INDUCT';
+    JEDEC_TYPE='IND_IHLP-2525AH-ER';
+    PHYS_DES_PREFIX='L';
+    CLASS='DISCRETE';
+  end_body;
+end_primitive;
+
+primitive 'INDUCT_IND_PG0426NL';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+  end_pin;
+  body
+    PART_NAME='INDUCT';
+    BODY_NAME='INDUCT';
+    JEDEC_TYPE='IND_PG0426NL';
+    PHYS_DES_PREFIX='L';
+    CLASS='DISCRETE';
+  end_body;
+end_primitive;
+
+primitive 'INDUCT_IND_PA0512';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+  end_pin;
+  body
+    PART_NAME='INDUCT';
+    BODY_NAME='INDUCT';
+    JEDEC_TYPE='IND_PA0152';
+    PHYS_DES_PREFIX='L';
+    CLASS='DISCRETE';
+  end_body;
+end_primitive;
+
+primitive 'INDUCT_IND_PIMB';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+  end_pin;
+  body
+    PART_NAME='INDUCT';
+    BODY_NAME='INDUCT';
+    JEDEC_TYPE='IND_PIMB';
+    PHYS_DES_PREFIX='L';
+    CLASS='DISCRETE';
+  end_body;
+end_primitive;
+
+primitive 'INDUCT_IND_PIME';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+  end_pin;
+  body
+    PART_NAME='INDUCT';
+    BODY_NAME='INDUCT';
+    JEDEC_TYPE='IND_PIME';
+    PHYS_DES_PREFIX='L';
+    CLASS='DISCRETE';
+  end_body;
+end_primitive;
+
+primitive 'INDUCT_IND_LPS4018';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+  end_pin;
+  body
+    PART_NAME='INDUCT';
+    BODY_NAME='INDUCT';
+    JEDEC_TYPE='IND_LPS4018';
+    PHYS_DES_PREFIX='L';
+    CLASS='DISCRETE';
+  end_body;
+end_primitive;
+
+primitive 'INDUCT_IND_FDUE0650';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+  end_pin;
+  body
+    PART_NAME='INDUCT';
+    BODY_NAME='INDUCT';
+    JEDEC_TYPE='INDM7667X500M';
+    PHYS_DES_PREFIX='L';
+    CLASS='DISCRETE';
+  end_body;
+end_primitive;
+
+primitive 'INDUCT_IND_MSS1278T';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+  end_pin;
+  body
+    PART_NAME='INDUCT';
+    BODY_NAME='INDUCT';
+    JEDEC_TYPE='IND_MSS1278T';
+    PHYS_DES_PREFIX='L';
+    CLASS='DISCRETE';
+  end_body;
+end_primitive;
+
+primitive 'INDUCT_WE-SPC_4838';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+  end_pin;
+  body
+    PART_NAME='INDUCT';
+    BODY_NAME='INDUCT';
+    JEDEC_TYPE='IND_WE-SPC_4838';
+    PHYS_DES_PREFIX='L';
+    CLASS='DISCRETE';
+  end_body;
+end_primitive;
+
+primitive 'INDUCT_IND_IHLP-2020BZ-11';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+  end_pin;
+  body
+    PART_NAME='INDUCT';
+    BODY_NAME='INDUCT';
+    JEDEC_TYPE='IND_IHLP-2020BZ-11';
+    PHYS_DES_PREFIX='L';
+    CLASS='DISCRETE';
+  end_body;
+end_primitive;
+
+primitive 'INDUCT_IND_FP0906R1';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+  end_pin;
+  body
+    PART_NAME='INDUCT';
+    BODY_NAME='INDUCT';
+    JEDEC_TYPE='IND_FP0906R1';
+    PHYS_DES_PREFIX='L';
+    CLASS='DISCRETE';
+  end_body;
+end_primitive;
+
+primitive 'INDUCT_IND_PCC-M074L';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+  end_pin;
+  body
+    PART_NAME='INDUCT';
+    BODY_NAME='INDUCT';
+    JEDEC_TYPE='IND_PCC-M074L';
+    PHYS_DES_PREFIX='L';
+    CLASS='DISCRETE';
+  end_body;
+end_primitive;
+
+primitive 'INDUCT_IND_PIMB053T';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+  end_pin;
+  body
+    PART_NAME='INDUCT';
+    BODY_NAME='INDUCT';
+    JEDEC_TYPE='IND_PIMB053T';
+    PHYS_DES_PREFIX='L';
+    CLASS='DISCRETE';
+  end_body;
+end_primitive;
+
+primitive 'INDUCT_IND_XFL4020';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+  end_pin;
+  body
+    PART_NAME='INDUCT';
+    ALT_SYMBOLS='(IND_XFL4020_ALT)';
+    BODY_NAME='INDUCT';
+    JEDEC_TYPE='IND_XFL4020';
+    PHYS_DES_PREFIX='L';
+    CLASS='DISCRETE';
+  end_body;
+end_primitive;
+
+primitive 'INDUCT_IND_PCC-M0630W';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+  end_pin;
+  body
+    PART_NAME='INDUCT';
+    BODY_NAME='INDUCT';
+    JEDEC_TYPE='IND_PCC-M0630W';
+    PHYS_DES_PREFIX='L';
+    CLASS='DISCRETE';
+  end_body;
+end_primitive;
+
+primitive 'INDUCT_IND_IHLP-2020CZ-11';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+  end_pin;
+  body
+    PART_NAME='INDUCT';
+    BODY_NAME='INDUCT';
+    JEDEC_TYPE='IND_IHLP-2020CZ-11';
+    PHYS_DES_PREFIX='L';
+    CLASS='DISCRETE';
+  end_body;
+end_primitive;
+
+primitive 'INDUCT_IND_CDRH5D16';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+  end_pin;
+  body
+    PART_NAME='INDUCT';
+    BODY_NAME='INDUCT';
+    JEDEC_TYPE='IND_CDRH5D16';
+    PHYS_DES_PREFIX='L';
+    CLASS='DISCRETE';
+  end_body;
+end_primitive;
+
+primitive 'INDUCT_IND_CDRH4D18';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+  end_pin;
+  body
+    PART_NAME='INDUCT';
+    BODY_NAME='INDUCT';
+    JEDEC_TYPE='IND_CDRH4D18';
+    PHYS_DES_PREFIX='L';
+    CLASS='DISCRETE';
+  end_body;
+end_primitive;
+
+primitive 'INDUCT_IND_VLC5045';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+  end_pin;
+  body
+    PART_NAME='INDUCT';
+    BODY_NAME='INDUCT';
+    JEDEC_TYPE='IND_VLC5045';
+    PHYS_DES_PREFIX='L';
+    CLASS='DISCRETE';
+  end_body;
+end_primitive;
+
+primitive 'INDUCT_IND_SER8052';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+  end_pin;
+  body
+    PART_NAME='INDUCT';
+    BODY_NAME='INDUCT';
+    JEDEC_TYPE='IND_SER8052';
+    PHYS_DES_PREFIX='L';
+    CLASS='DISCRETE';
+  end_body;
+end_primitive;
+
+primitive 'INDUCT_IND_1812';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+  end_pin;
+  body
+    PART_NAME='INDUCT';
+    BODY_NAME='INDUCT';
+    JEDEC_TYPE='INDM4532X280';
+    PHYS_DES_PREFIX='L';
+    CLASS='DISCRETE';
+  end_body;
+end_primitive;
+
+primitive 'INDUCT_IND_VLC6045';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+  end_pin;
+  body
+    PART_NAME='INDUCT';
+    BODY_NAME='INDUCT';
+    JEDEC_TYPE='IND_VLC6045';
+    PHYS_DES_PREFIX='L';
+    CLASS='DISCRETE';
+  end_body;
+end_primitive;
+
+primitive 'INDUCT_1212';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+  end_pin;
+  body
+    PART_NAME='INDUCT';
+    BODY_NAME='INDUCT';
+    JEDEC_TYPE='INDC3030X100';
+    PHYS_DES_PREFIX='L';
+    CLASS='DISCRETE';
+  end_body;
+end_primitive;
+
+primitive 'INDUCT_IND_MOS6020';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+  end_pin;
+  body
+    PART_NAME='INDUCT';
+    BODY_NAME='INDUCT';
+    JEDEC_TYPE='IND_MOS6020';
+    PHYS_DES_PREFIX='L';
+    CLASS='DISCRETE';
+  end_body;
+end_primitive;
+
+primitive 'INDUCT_IND_FDUE0630';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+  end_pin;
+  body
+    PART_NAME='INDUCT';
+    BODY_NAME='INDUCT';
+    JEDEC_TYPE='INDM7667X300M';
+    PHYS_DES_PREFIX='L';
+    CLASS='DISCRETE';
+  end_body;
+end_primitive;
+
+primitive 'INDUCT_2424';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+  end_pin;
+  body
+    PART_NAME='INDUCT';
+    BODY_NAME='INDUCT';
+    JEDEC_TYPE='INDC6060X450M';
+    PHYS_DES_PREFIX='L';
+    CLASS='DISCRETE';
+  end_body;
+end_primitive;
+
+primitive 'INDUCT_IND_FP0705';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+  end_pin;
+  body
+    PART_NAME='INDUCT';
+    BODY_NAME='INDUCT';
+    JEDEC_TYPE='INDM7070X495M';
+    PHYS_DES_PREFIX='L';
+    CLASS='DISCRETE';
+  end_body;
+end_primitive;
+
+primitive 'INDUCT_IND_EPL2014';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+  end_pin;
+  body
+    PART_NAME='INDUCT';
+    BODY_NAME='INDUCT';
+    JEDEC_TYPE='IND_EPL2014';
+    PHYS_DES_PREFIX='L';
+    CLASS='DISCRETE';
+  end_body;
+end_primitive;
+
+primitive 'INDUCT_IND_IHLP-4040DZ-11';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+  end_pin;
+  body
+    PART_NAME='INDUCT';
+    BODY_NAME='INDUCT';
+    JEDEC_TYPE='IND_IHLP-4040DZ-11';
+    PHYS_DES_PREFIX='L';
+    CLASS='DISCRETE';
+  end_body;
+end_primitive;
+
+primitive 'INDUCT_IND_IHLP-4040DZ-5A';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+  end_pin;
+  body
+    PART_NAME='INDUCT';
+    BODY_NAME='INDUCT';
+    JEDEC_TYPE='IND_IHLP-4040DZ-5A';
+    PHYS_DES_PREFIX='L';
+    CLASS='DISCRETE';
+  end_body;
+end_primitive;
+
+primitive 'INDUCT_IND_PCC-M104L';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+  end_pin;
+  body
+    PART_NAME='INDUCT';
+    BODY_NAME='INDUCT';
+    JEDEC_TYPE='IND_PCC-M104L';
+    PHYS_DES_PREFIX='L';
+    CLASS='DISCRETE';
+  end_body;
+end_primitive;
+
+primitive 'INDUCT_IND_CDMC104';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+  end_pin;
+  body
+    PART_NAME='INDUCT';
+    BODY_NAME='INDUCT';
+    JEDEC_TYPE='IND_CDMC104';
+    PHYS_DES_PREFIX='L';
+    CLASS='DISCRETE';
+  end_body;
+end_primitive;
+
+primitive 'INDUCT_IND_NS10165';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+  end_pin;
+  body
+    PART_NAME='INDUCT';
+    BODY_NAME='INDUCT';
+    JEDEC_TYPE='IND_NS10165';
+    PHYS_DES_PREFIX='L';
+    CLASS='DISCRETE';
+  end_body;
+end_primitive;
+
+primitive 'INDUCT_IND_MSI-111109';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+  end_pin;
+  body
+    PART_NAME='INDUCT';
+    BODY_NAME='INDUCT';
+    JEDEC_TYPE='IND_MSI-111109';
+    PHYS_DES_PREFIX='L';
+    CLASS='DISCRETE';
+  end_body;
+end_primitive;
+
+primitive 'INDUCT_IND_WE-PD2';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+  end_pin;
+  body
+    PART_NAME='INDUCT';
+    BODY_NAME='INDUCT';
+    JEDEC_TYPE='IND_WE-PD2_5848';
+    PHYS_DES_PREFIX='L';
+    CLASS='DISCRETE';
+  end_body;
+end_primitive;
+
+primitive 'INDUCT_IND_DR74';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+  end_pin;
+  body
+    PART_NAME='INDUCT';
+    BODY_NAME='INDUCT';
+    JEDEC_TYPE='IND_DR74';
+    PHYS_DES_PREFIX='L';
+    CLASS='DISCRETE';
+  end_body;
+end_primitive;
+
+primitive 'INDUCT_IND_PA1494';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+    '2':
+      PIN_NUMBER='(5)';
+      PINUSE='UNSPEC';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+  end_pin;
+  body
+    PART_NAME='INDUCT';
+    BODY_NAME='INDUCT';
+    JEDEC_TYPE='IND_PA1494';
+    PHYS_DES_PREFIX='L';
+    CLASS='DISCRETE';
+  end_body;
+end_primitive;
+
+primitive 'INDUCT_IND_B2559A';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+  end_pin;
+  body
+    PART_NAME='INDUCT';
+    BODY_NAME='INDUCT';
+    JEDEC_TYPE='IND_B2559A';
+    PHYS_DES_PREFIX='L';
+    CLASS='DISCRETE';
+  end_body;
+end_primitive;
+
+primitive 'INDUCT_IND_PA0511';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+  end_pin;
+  body
+    PART_NAME='INDUCT';
+    BODY_NAME='INDUCT';
+    JEDEC_TYPE='IND_PA0511';
+    PHYS_DES_PREFIX='L';
+    CLASS='DISCRETE';
+  end_body;
+end_primitive;
+
+primitive 'INDUCT_IND_XAL6060';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+  end_pin;
+  body
+    PART_NAME='INDUCT';
+    BODY_NAME='INDUCT';
+    JEDEC_TYPE='IND_XAL6060';
+    PHYS_DES_PREFIX='L';
+    CLASS='DISCRETE';
+  end_body;
+end_primitive;
+
+primitive 'INDUCT_IND_PA2983';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+  end_pin;
+  body
+    PART_NAME='INDUCT';
+    BODY_NAME='INDUCT';
+    JEDEC_TYPE='IND_PA2983';
+    PHYS_DES_PREFIX='L';
+    CLASS='DISCRETE';
+  end_body;
+end_primitive;
+
+primitive 'INDUCT_IND_FP1107';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+  end_pin;
+  body
+    PART_NAME='INDUCT';
+    BODY_NAME='INDUCT';
+    JEDEC_TYPE='IND_FP1107';
+    PHYS_DES_PREFIX='L';
+    CLASS='DISCRETE';
+  end_body;
+end_primitive;
+
+primitive 'INDUCT_IND_SLF12575';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+  end_pin;
+  body
+    PART_NAME='INDUCT';
+    BODY_NAME='INDUCT';
+    JEDEC_TYPE='IND_SLF12575';
+    PHYS_DES_PREFIX='L';
+    CLASS='DISCRETE';
+  end_body;
+end_primitive;
+
+primitive 'INDUCT_IND_SPD12X';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+  end_pin;
+  body
+    PART_NAME='INDUCT';
+    BODY_NAME='INDUCT';
+    JEDEC_TYPE='IND_SPD12X';
+    PHYS_DES_PREFIX='L';
+    CLASS='IC';
+  end_body;
+end_primitive;
+
+primitive 'INDUCT_IND_MSS1210';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+  end_pin;
+  body
+    PART_NAME='INDUCT';
+    BODY_NAME='INDUCT';
+    JEDEC_TYPE='IND_MSS1210';
+    PHYS_DES_PREFIX='L';
+    CLASS='DISCRETE';
+  end_body;
+end_primitive;
+
+primitive 'INDUCT_IND_59P9051';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+  end_pin;
+  body
+    PART_NAME='INDUCT';
+    BODY_NAME='INDUCT';
+    JEDEC_TYPE='IND_59P9051';
+    PHYS_DES_PREFIX='L';
+    CLASS='DISCRETE';
+  end_body;
+end_primitive;
+
+primitive 'INDUCT_IND_FP1206';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+  end_pin;
+  body
+    PART_NAME='INDUCT';
+    BODY_NAME='INDUCT';
+    JEDEC_TYPE='IND_FP1206';
+    PHYS_DES_PREFIX='L';
+    CLASS='DISCRETE';
+  end_body;
+end_primitive;
+
+primitive 'INDUCT_IND_PA1320';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+  end_pin;
+  body
+    PART_NAME='INDUCT';
+    BODY_NAME='INDUCT';
+    JEDEC_TYPE='IND_PA1320';
+    PHYS_DES_PREFIX='L';
+    CLASS='DISCRETE';
+  end_body;
+end_primitive;
+
+primitive 'INDUCT_IND_XAL5050';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+  end_pin;
+  body
+    PART_NAME='INDUCT';
+    BODY_NAME='INDUCT';
+    JEDEC_TYPE='IND_XAL5050';
+    PHYS_DES_PREFIX='L';
+    CLASS='DISCRETE';
+  end_body;
+end_primitive;
+
+primitive 'INDUCT_IND_XAL4040';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+  end_pin;
+  body
+    PART_NAME='INDUCT';
+    BODY_NAME='INDUCT';
+    JEDEC_TYPE='IND_XAL4040';
+    PHYS_DES_PREFIX='L';
+    CLASS='DISCRETE';
+  end_body;
+end_primitive;
+
+primitive 'INDUCT_IND_PA2202';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+  end_pin;
+  body
+    PART_NAME='INDUCT';
+    BODY_NAME='INDUCT';
+    JEDEC_TYPE='IND_PA2202';
+    PHYS_DES_PREFIX='L';
+    CLASS='DISCRETE';
+  end_body;
+end_primitive;
+
+primitive 'INDUCT_IND_PIME031B';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+  end_pin;
+  body
+    PART_NAME='INDUCT';
+    BODY_NAME='INDUCT';
+    PHYS_DES_PREFIX='L';
+    CLASS='DISCRETE';
+  end_body;
+end_primitive;
+
+primitive 'INDUCT_IND_FP1208';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+  end_pin;
+  body
+    PART_NAME='INDUCT';
+    BODY_NAME='INDUCT';
+    JEDEC_TYPE='IND_FP1208';
+    PHYS_DES_PREFIX='L';
+    CLASS='DISCRETE';
+  end_body;
+end_primitive;
+
+primitive 'INDUCT_IND_IHSM5832';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+  end_pin;
+  body
+    PART_NAME='INDUCT';
+    BODY_NAME='INDUCT';
+    JEDEC_TYPE='IND_IHSM5832';
+    PHYS_DES_PREFIX='L';
+    CLASS='DISCRETE';
+  end_body;
+end_primitive;
+
+primitive 'INDUCT_IND_506WLSM';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+  end_pin;
+  body
+    PART_NAME='INDUCT';
+    BODY_NAME='INDUCT';
+    JEDEC_TYPE='IND_506WLSM';
+    PHYS_DES_PREFIX='L';
+    CLASS='DISCRETE';
+  end_body;
+end_primitive;
+
+primitive 'INDUCT_IND_IHLP-1212AB';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+  end_pin;
+  body
+    PART_NAME='INDUCT';
+    BODY_NAME='INDUCT';
+    JEDEC_TYPE='IND_IHLP-1212AB';
+    PHYS_DES_PREFIX='L';
+    CLASS='DISCRETE';
+  end_body;
+end_primitive;
+
+primitive 'INDUCT_IND_IFSC-1008AB';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+  end_pin;
+  body
+    PART_NAME='INDUCT';
+    BODY_NAME='INDUCT';
+    JEDEC_TYPE='IND_IFSC-1008AB';
+    PHYS_DES_PREFIX='L';
+    CLASS='DISCRETE';
+  end_body;
+end_primitive;
+
+primitive 'INDUCT_IND_SRU8028';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+  end_pin;
+  body
+    PART_NAME='INDUCT';
+    BODY_NAME='INDUCT';
+    JEDEC_TYPE='IND_SRU8028';
+    PHYS_DES_PREFIX='L';
+    CLASS='DISCRETE';
+  end_body;
+end_primitive;
+
+primitive 'INDUCT_IND_7443556';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+  end_pin;
+  body
+    PART_NAME='INDUCT';
+    BODY_NAME='INDUCT';
+    JEDEC_TYPE='IND_7443556';
+    PHYS_DES_PREFIX='L';
+    CLASS='DISCRETE';
+  end_body;
+end_primitive;
+
+primitive 'INDUCT_IND_7443330';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+  end_pin;
+  body
+    PART_NAME='INDUCT';
+    BODY_NAME='INDUCT';
+    JEDEC_TYPE='IND_7443330220';
+    PHYS_DES_PREFIX='L';
+    CLASS='DISCRETE';
+  end_body;
+end_primitive;
+
+primitive 'INDUCT_IND_CR43';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+  end_pin;
+  body
+    PART_NAME='INDUCT';
+    BODY_NAME='INDUCT';
+    JEDEC_TYPE='IND_CR43';
+    PHYS_DES_PREFIX='L';
+    CLASS='DISCRETE';
+  end_body;
+end_primitive;
+
+primitive 'INDUCT_IND_B82462A4';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+  end_pin;
+  body
+    PART_NAME='INDUCT';
+    BODY_NAME='INDUCT';
+    JEDEC_TYPE='IND_B82462A4';
+    PHYS_DES_PREFIX='L';
+    CLASS='DISCRETE';
+  end_body;
+end_primitive;
+
+primitive 'INDUCT_IND_XAL1060-332';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+  end_pin;
+  body
+    PART_NAME='INDUCT';
+    BODY_NAME='INDUCT';
+    JEDEC_TYPE='IND_XAL1060-332';
+    PHYS_DES_PREFIX='L';
+    CLASS='DISCRETE';
+  end_body;
+end_primitive;
+
+primitive 'INDUCT_IND_SRR1210';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+  end_pin;
+  body
+    PART_NAME='INDUCT';
+    BODY_NAME='INDUCT';
+    JEDEC_TYPE='IND_SRR1210';
+    PHYS_DES_PREFIX='L';
+    CLASS='DISCRETE';
+  end_body;
+end_primitive;
+
+primitive 'INDUCT_IND_GLMH';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+  end_pin;
+  body
+    PART_NAME='INDUCT';
+    BODY_NAME='INDUCT';
+    JEDEC_TYPE='INDM7565X300M';
+    PHYS_DES_PREFIX='L';
+    CLASS='DISCRETE';
+  end_body;
+end_primitive;
+
+primitive 'INDUCT_IND_8200';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+  end_pin;
+  body
+    PART_NAME='INDUCT';
+    BODY_NAME='INDUCT';
+    JEDEC_TYPE='IND_8200';
+    PHYS_DES_PREFIX='L';
+    CLASS='DISCRETE';
+  end_body;
+end_primitive;
+
+primitive 'INDUCT_IND_SRN4018';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+  end_pin;
+  body
+    PART_NAME='INDUCT';
+    BODY_NAME='INDUCT';
+    JEDEC_TYPE='IND_SRN4018';
+    PHYS_DES_PREFIX='L';
+    CLASS='DISCRETE';
+  end_body;
+end_primitive;
+
+primitive 'INDUCT_IND_SRP1040';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+  end_pin;
+  body
+    PART_NAME='INDUCT';
+    BODY_NAME='INDUCT';
+    JEDEC_TYPE='IND_SRP1040';
+    PHYS_DES_PREFIX='L';
+    CLASS='DISCRETE';
+  end_body;
+end_primitive;
+
+primitive 'INDUCT_IND_PA0515';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+  end_pin;
+  body
+    PART_NAME='INDUCT';
+    BODY_NAME='INDUCT';
+    JEDEC_TYPE='IND_PA0515';
+    PHYS_DES_PREFIX='L';
+    CLASS='DISCRETE';
+  end_body;
+end_primitive;
+
+primitive 'INDUCT_IND_GLMC';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+  end_pin;
+  body
+    PART_NAME='INDUCT';
+    BODY_NAME='INDUCT';
+    JEDEC_TYPE='INDM7265X310M';
+    PHYS_DES_PREFIX='L';
+    CLASS='DISCRETE';
+  end_body;
+end_primitive;
+
+primitive 'INDUCT_IND_SRR1280';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+  end_pin;
+  body
+    PART_NAME='INDUCT';
+    BODY_NAME='INDUCT';
+    JEDEC_TYPE='IND_SRR1280';
+    PHYS_DES_PREFIX='L';
+    CLASS='DISCRETE';
+  end_body;
+end_primitive;
+
+primitive 'INDUCT_IND_CDR125';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+  end_pin;
+  body
+    PART_NAME='INDUCT';
+    BODY_NAME='INDUCT';
+    JEDEC_TYPE='IND_CDR125';
+    PHYS_DES_PREFIX='L';
+    CLASS='DISCRETE';
+  end_body;
+end_primitive;
+
+primitive 'INDUCT_IND_VLS3012';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+  end_pin;
+  body
+    PART_NAME='INDUCT';
+    BODY_NAME='INDUCT';
+    JEDEC_TYPE='IND_VLS3012';
+    PHYS_DES_PREFIX='L';
+    CLASS='DISCRETE';
+  end_body;
+end_primitive;
+
+primitive 'INDUCT_IND_4379';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+  end_pin;
+  body
+    PART_NAME='INDUCT';
+    BODY_NAME='INDUCT';
+    JEDEC_TYPE='IND_4379';
+    PHYS_DES_PREFIX='L';
+    CLASS='DISCRETE';
+  end_body;
+end_primitive;
+
+primitive 'INDUCT_IND_SRP1270';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+  end_pin;
+  body
+    PART_NAME='INDUCT';
+    BODY_NAME='INDUCT';
+    JEDEC_TYPE='IND_SRP1270';
+    PHYS_DES_PREFIX='L';
+    CLASS='DISCRETE';
+  end_body;
+end_primitive;
+
+primitive 'INDUCT_IND_SRU5028';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+  end_pin;
+  body
+    PART_NAME='INDUCT';
+    BODY_NAME='INDUCT';
+    JEDEC_TYPE='IND_SRU5028';
+    PHYS_DES_PREFIX='L';
+    CLASS='DISCRETE';
+  end_body;
+end_primitive;
+
+primitive 'INDUCT_IND_SRU6013';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+  end_pin;
+  body
+    PART_NAME='INDUCT';
+    BODY_NAME='INDUCT';
+    JEDEC_TYPE='IND_SRU6013';
+    PHYS_DES_PREFIX='L';
+    CLASS='DISCRETE';
+  end_body;
+end_primitive;
+
+primitive 'INDUCT_IND_LPS3015';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+  end_pin;
+  body
+    PART_NAME='INDUCT';
+    BODY_NAME='INDUCT';
+    JEDEC_TYPE='IND_LPS3015';
+    PHYS_DES_PREFIX='L';
+    CLASS='DISCRETE';
+  end_body;
+end_primitive;
+
+primitive 'INDUCT_IND_VLP6045L';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+  end_pin;
+  body
+    PART_NAME='INDUCT';
+    BODY_NAME='INDUCT';
+    JEDEC_TYPE='IND_VLP6045L';
+    PHYS_DES_PREFIX='L';
+    CLASS='DISCRETE';
+  end_body;
+end_primitive;
+
+primitive 'INDUCT_1207';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+  end_pin;
+  body
+    PART_NAME='INDUCT';
+    BODY_NAME='INDUCT';
+    JEDEC_TYPE='INDC3218X200M';
+    PHYS_DES_PREFIX='L';
+    CLASS='DISCRETE';
+  end_body;
+end_primitive;
+
+primitive 'INDUCT_IND_WE-ASI_TYPE-L';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+  end_pin;
+  body
+    PART_NAME='INDUCT';
+    BODY_NAME='INDUCT';
+    JEDEC_TYPE='IND_WE-ASI_TYPE-L';
+    PHYS_DES_PREFIX='L';
+    CLASS='DISCRETE';
+  end_body;
+end_primitive;
+
+primitive 'INDUCT_IND_XAL5030';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+  end_pin;
+  body
+    PART_NAME='INDUCT';
+    BODY_NAME='INDUCT';
+    JEDEC_TYPE='IND_XAL5030';
+    PHYS_DES_PREFIX='L';
+    CLASS='DISCRETE';
+  end_body;
+end_primitive;
+
+primitive 'INDUCT_IND_FP1007';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+  end_pin;
+  body
+    PART_NAME='INDUCT';
+    BODY_NAME='INDUCT';
+    JEDEC_TYPE='INDM10277X750M';
+    PHYS_DES_PREFIX='L';
+    CLASS='DISCRETE';
+  end_body;
+end_primitive;
+
+primitive 'INDUCT_IND_WE-LQS';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+  end_pin;
+  body
+    PART_NAME='INDUCT';
+    BODY_NAME='INDUCT';
+    JEDEC_TYPE='IND_74404064330';
+    PHYS_DES_PREFIX='L';
+    CLASS='DISCRETE';
+  end_body;
+end_primitive;
+
+primitive 'INDUCT_IND_XAL7070';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+  end_pin;
+  body
+    PART_NAME='INDUCT';
+    BODY_NAME='INDUCT';
+    JEDEC_TYPE='IND_XAL7070';
+    PHYS_DES_PREFIX='L';
+    CLASS='DISCRETE';
+  end_body;
+end_primitive;
+
+primitive 'INDUCT_IND_XAL8080';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+  end_pin;
+  body
+    PART_NAME='INDUCT';
+    BODY_NAME='INDUCT';
+    JEDEC_TYPE='IND_XAL8080';
+    PHYS_DES_PREFIX='L';
+    CLASS='DISCRETE';
+  end_body;
+end_primitive;
+
+primitive 'INDUCT_IND_RL875S';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+  end_pin;
+  body
+    PART_NAME='INDUCT';
+    BODY_NAME='INDUCT';
+    JEDEC_TYPE='IND_RL875S';
+    PHYS_DES_PREFIX='L';
+    CLASS='DISCRETE';
+  end_body;
+end_primitive;
+
+primitive 'INDUCT_IND_RL622';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+  end_pin;
+  body
+    PART_NAME='INDUCT';
+    BODY_NAME='INDUCT';
+    JEDEC_TYPE='IND_RL622';
+    PHYS_DES_PREFIX='L';
+    CLASS='DISCRETE';
+  end_body;
+end_primitive;
+
+primitive 'INDUCT_IND_CDRH2D18LD';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+  end_pin;
+  body
+    PART_NAME='INDUCT';
+    BODY_NAME='INDUCT';
+    JEDEC_TYPE='IND_CDRH2D18LD';
+    PHYS_DES_PREFIX='L';
+    CLASS='DISCRETE';
+  end_body;
+end_primitive;
+
+primitive 'INDUCT_2016';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+  end_pin;
+  body
+    PART_NAME='INDUCT';
+    BODY_NAME='INDUCT';
+    JEDEC_TYPE='INDC2016X120M';
+    PHYS_DES_PREFIX='L';
+    CLASS='DISCRETE';
+  end_body;
+end_primitive;
+
+primitive 'INDUCT_IND_XAL1010';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+  end_pin;
+  body
+    PART_NAME='INDUCT';
+    BODY_NAME='INDUCT';
+    JEDEC_TYPE='IND_XAL1010-332';
+    PHYS_DES_PREFIX='L';
+    CLASS='DISCRETE';
+  end_body;
+end_primitive;
+
+primitive 'INDUCT_IND_NR5040';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+  end_pin;
+  body
+    PART_NAME='INDUCT';
+    BODY_NAME='INDUCT';
+    JEDEC_TYPE='IND_NR5040';
+    PHYS_DES_PREFIX='L';
+    CLASS='DISCRETE';
+  end_body;
+end_primitive;
+
+primitive 'INDUCT_IND_RFB0807';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+  end_pin;
+  body
+    PART_NAME='INDUCT';
+    BODY_NAME='INDUCT';
+    JEDEC_TYPE='IND_RFB0807';
+    PHYS_DES_PREFIX='L';
+    CLASS='DISCRETE';
+  end_body;
+end_primitive;
+
+primitive 'INDUCT_IND_RFB0810';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+  end_pin;
+  body
+    PART_NAME='INDUCT';
+    BODY_NAME='INDUCT';
+    JEDEC_TYPE='IND_RFB0810';
+    PHYS_DES_PREFIX='L';
+    CLASS='DISCRETE';
+  end_body;
+end_primitive;
+
+primitive 'INDUCT_IND_ME3220';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+  end_pin;
+  body
+    PART_NAME='INDUCT';
+    BODY_NAME='INDUCT';
+    JEDEC_TYPE='IND_ME3220';
+    PHYS_DES_PREFIX='L';
+    CLASS='DISCRETE';
+  end_body;
+end_primitive;
+
+primitive 'INDUCT_IND_VLS4012';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+  end_pin;
+  body
+    PART_NAME='INDUCT';
+    BODY_NAME='INDUCT';
+    JEDEC_TYPE='IND_VLS4012';
+    PHYS_DES_PREFIX='L';
+    CLASS='DISCRETE';
+  end_body;
+end_primitive;
+
+primitive 'INDUCT_IND_NR5030';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+  end_pin;
+  body
+    PART_NAME='INDUCT';
+    BODY_NAME='INDUCT';
+    JEDEC_TYPE='IND_NR5030';
+    PHYS_DES_PREFIX='L';
+    CLASS='DISCRETE';
+  end_body;
+end_primitive;
+
+primitive 'INDUCT_IND_ASPI-1040HI';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+  end_pin;
+  body
+    PART_NAME='INDUCT';
+    BODY_NAME='INDUCT';
+    JEDEC_TYPE='INDM111100X425M';
+    PHYS_DES_PREFIX='L';
+    CLASS='DISCRETE';
+  end_body;
+end_primitive;
+
+primitive 'INDUCT_IND_IHLP-2525CZ-ER';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+  end_pin;
+  body
+    PART_NAME='INDUCT';
+    BODY_NAME='INDUCT';
+    JEDEC_TYPE='IND_IHLP-2525CZ-ER';
+    PHYS_DES_PREFIX='L';
+    CLASS='DISCRETE';
+  end_body;
+end_primitive;
+
+primitive 'INDUCT_IND_IHLP-2020BZ-01';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+  end_pin;
+  body
+    PART_NAME='INDUCT';
+    BODY_NAME='INDUCT';
+    JEDEC_TYPE='IND_IHLP-2020BZ-01';
+    PHYS_DES_PREFIX='L';
+    CLASS='DISCRETE';
+  end_body;
+end_primitive;
+
+primitive 'INDUCT_IND_IHLP-2525BD-ER';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+  end_pin;
+  body
+    PART_NAME='INDUCT';
+    BODY_NAME='INDUCT';
+    JEDEC_TYPE='IND_IHLP-2525BD-ER';
+    PHYS_DES_PREFIX='L';
+    CLASS='DISCRETE';
+  end_body;
+end_primitive;
+
+primitive 'INDUCT_IND_PCMB177T';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+  end_pin;
+  body
+    PART_NAME='INDUCT';
+    BODY_NAME='INDUCT';
+    JEDEC_TYPE='IND_PCMB177T';
+    PHYS_DES_PREFIX='L';
+    CLASS='DISCRETE';
+  end_body;
+end_primitive;
+
+primitive 'INDUCT_WE_2512';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+  end_pin;
+  body
+    PART_NAME='INDUCT';
+    BODY_NAME='INDUCT';
+    JEDEC_TYPE='WE_2512';
+    PHYS_DES_PREFIX='L';
+    CLASS='DISCRETE';
+  end_body;
+end_primitive;
+
+primitive 'INDUCT_IND_74438313015';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+  end_pin;
+  body
+    PART_NAME='INDUCT';
+    BODY_NAME='INDUCT';
+    JEDEC_TYPE='IND_74438313015';
+    PHYS_DES_PREFIX='L';
+    CLASS='DISCRETE';
+  end_body;
+end_primitive;
+
+primitive 'INDUCT_IND_WE-PDF_1064';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+  end_pin;
+  body
+    PART_NAME='INDUCT';
+    BODY_NAME='INDUCT';
+    JEDEC_TYPE='IND_WE-PDF_1064';
+    PHYS_DES_PREFIX='L';
+    CLASS='DISCRETE';
+  end_body;
+end_primitive;
+
+primitive 'INDUCT_IND_1008AF';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+  end_pin;
+  body
+    PART_NAME='INDUCT';
+    BODY_NAME='INDUCT';
+    JEDEC_TYPE='IND_1008AF';
+    PHYS_DES_PREFIX='L';
+    CLASS='DISCRETE';
+  end_body;
+end_primitive;
+
+primitive 'INDUCT_IND_FP0404';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+  end_pin;
+  body
+    PART_NAME='INDUCT';
+    BODY_NAME='INDUCT';
+    JEDEC_TYPE='IND_FP0404';
+    PHYS_DES_PREFIX='L';
+    CLASS='DISCRETE';
+  end_body;
+end_primitive;
+
+primitive 'INDUCT_IND_FP0805';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+  end_pin;
+  body
+    PART_NAME='INDUCT';
+    BODY_NAME='INDUCT';
+    JEDEC_TYPE='IND_FP0805';
+    PHYS_DES_PREFIX='L';
+    CLASS='DISCRETE';
+  end_body;
+end_primitive;
+
+primitive 'INDUCT_IND_GLFR';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+  end_pin;
+  body
+    PART_NAME='INDUCT';
+    BODY_NAME='INDUCT';
+    JEDEC_TYPE='IND_GLFR';
+    PHYS_DES_PREFIX='L';
+    CLASS='DISCRETE';
+  end_body;
+end_primitive;
+
+primitive 'INDUCT_IND_MAKK2016H';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+  end_pin;
+  body
+    PART_NAME='INDUCT';
+    BODY_NAME='INDUCT';
+    JEDEC_TYPE='IND_MAKK2016H';
+    PHYS_DES_PREFIX='L';
+    CLASS='DISCRETE';
+  end_body;
+end_primitive;
+
+primitive 'INDUCT_IND_DRA12X';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+  end_pin;
+  body
+    PART_NAME='INDUCT';
+    BODY_NAME='INDUCT';
+    JEDEC_TYPE='IND_DRA12X';
+    PHYS_DES_PREFIX='L';
+    CLASS='DISCRETE';
+  end_body;
+end_primitive;
+
+primitive 'INDUCT_IND_LTF5022';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+  end_pin;
+  body
+    PART_NAME='INDUCT';
+    BODY_NAME='INDUCT';
+    JEDEC_TYPE='IND_LTF5022';
+    PHYS_DES_PREFIX='L';
+    CLASS='DISCRETE';
+  end_body;
+end_primitive;
+
+primitive 'INDUCT_IND_CLF6045NI-D';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+  end_pin;
+  body
+    PART_NAME='INDUCT';
+    BODY_NAME='INDUCT';
+    JEDEC_TYPE='IND_CLF6045NI-D';
+    PHYS_DES_PREFIX='L';
+    CLASS='DISCRETE';
+  end_body;
+end_primitive;
+
+primitive 'INDUCT_IND_MPC0750';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+  end_pin;
+  body
+    PART_NAME='INDUCT';
+    BODY_NAME='INDUCT';
+    JEDEC_TYPE='IND_MPC0750';
+    PHYS_DES_PREFIX='L';
+    CLASS='DISCRETE';
+  end_body;
+end_primitive;
+
+primitive 'INDUCT_IND_744311068';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+  end_pin;
+  body
+    PART_NAME='INDUCT';
+    BODY_NAME='INDUCT';
+    JEDEC_TYPE='IND_744311068';
+    PHYS_DES_PREFIX='L';
+    CLASS='DISCRETE';
+  end_body;
+end_primitive;
+
+primitive 'INDUCT_IND_744316068';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+  end_pin;
+  body
+    PART_NAME='INDUCT';
+    BODY_NAME='INDUCT';
+    JEDEC_TYPE='IND_744316068';
+    PHYS_DES_PREFIX='L';
+    CLASS='DISCRETE';
+  end_body;
+end_primitive;
+
+primitive 'INDUCT_IND_MDWK4040';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+  end_pin;
+  body
+    PART_NAME='INDUCT';
+    BODY_NAME='INDUCT';
+    JEDEC_TYPE='IND_MDWK4040';
+    PHYS_DES_PREFIX='L';
+    CLASS='DISCRETE';
+  end_body;
+end_primitive;
+
+primitive 'INDUCT_IND_HC8';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+  end_pin;
+  body
+    PART_NAME='INDUCT';
+    BODY_NAME='INDUCT';
+    JEDEC_TYPE='IND_HC8';
+    PHYS_DES_PREFIX='L';
+    CLASS='DISCRETE';
+  end_body;
+end_primitive;
+
+primitive 'INDUCT_IND_7443340100';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+  end_pin;
+  body
+    PART_NAME='INDUCT';
+    BODY_NAME='INDUCT';
+    JEDEC_TYPE='IND_7443340100';
+    PHYS_DES_PREFIX='L';
+    CLASS='DISCRETE';
+  end_body;
+end_primitive;
+
+primitive 'INDUCT_IND_CDRH6D38NP';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+  end_pin;
+  body
+    PART_NAME='INDUCT';
+    BODY_NAME='INDUCT';
+    JEDEC_TYPE='IND_CDRH6D38NP';
+    PHYS_DES_PREFIX='L';
+    CLASS='DISCRETE';
+  end_body;
+end_primitive;
+
+primitive 'INDUCT_IND_SPM4012';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+  end_pin;
+  body
+    PART_NAME='INDUCT';
+    BODY_NAME='INDUCT';
+    JEDEC_TYPE='IND_SPM4012';
+    PHYS_DES_PREFIX='L';
+    CLASS='DISCRETE';
+  end_body;
+end_primitive;
+
+primitive 'INDUCT_IND_TFM252012';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+  end_pin;
+  body
+    PART_NAME='INDUCT';
+    BODY_NAME='INDUCT';
+    JEDEC_TYPE='IND_TFM252012';
+    PHYS_DES_PREFIX='L';
+    CLASS='DISCRETE';
+  end_body;
+end_primitive;
+
+primitive 'INDUCT_IND_SPM5012';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+  end_pin;
+  body
+    PART_NAME='INDUCT';
+    BODY_NAME='INDUCT';
+    JEDEC_TYPE='IND_SPM5012';
+    PHYS_DES_PREFIX='L';
+    CLASS='DISCRETE';
+  end_body;
+end_primitive;
+
+primitive 'INDUCT_IND_XFL4012';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+  end_pin;
+  body
+    PART_NAME='INDUCT';
+    BODY_NAME='INDUCT';
+    JEDEC_TYPE='IND_XFL4012';
+    PHYS_DES_PREFIX='L';
+    CLASS='DISCRETE';
+  end_body;
+end_primitive;
+
+primitive 'INDUCT_IND_ADL3225V';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+  end_pin;
+  body
+    PART_NAME='INDUCT';
+    BODY_NAME='INDUCT';
+    JEDEC_TYPE='IND_ADL3225V';
+    PHYS_DES_PREFIX='L';
+    CLASS='DISCRETE';
+  end_body;
+end_primitive;
+
+primitive 'INDUCT_IND_SD25';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+  end_pin;
+  body
+    PART_NAME='INDUCT';
+    BODY_NAME='INDUCT';
+    JEDEC_TYPE='IND_SD25';
+    PHYS_DES_PREFIX='L';
+    CLASS='DISCRETE';
+  end_body;
+end_primitive;
+
+primitive 'INDUCT_IND_744316100';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+  end_pin;
+  body
+    PART_NAME='INDUCT';
+    BODY_NAME='INDUCT';
+    JEDEC_TYPE='IND_744316100';
+    PHYS_DES_PREFIX='L';
+    CLASS='DISCRETE';
+  end_body;
+end_primitive;
+
+primitive 'INDUCT_IND_74404054330';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+  end_pin;
+  body
+    PART_NAME='INDUCT';
+    BODY_NAME='INDUCT';
+    JEDEC_TYPE='IND_74404054330';
+    PHYS_DES_PREFIX='L';
+    CLASS='DISCRETE';
+  end_body;
+end_primitive;
+
+END.

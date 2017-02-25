@@ -1,0 +1,540 @@
+; Packager-XL run on 14-Apr-2016 AT 16:12:39 CONSTRAINTS_VIEW_GENERATED
+( ConstraintFile "maxrefdes117_apps_a"
+	( constraintHeader
+		( objectKey
+			( physical )
+		)
+		( version
+			( 16.6 )
+		)
+		( revisionNumber
+			( logicalViewRevNum 62 )
+			( physicalViewRevNum 0 )
+			( otherViewRevNum 0 )
+		)
+		( contents
+			( dictionaryExtensions )
+			( worksheetCustomizations )
+			( electricalConstraints )
+			( netClasses )
+			( properties )
+		)
+		( precision
+			( units mil )
+			( numberOfDecimalPlaces 2 )
+		)
+	)
+	( DictionaryExtensions
+		( Attribute
+			( Name "CDS_LMAN_SYM_OUTLINE" )
+			( Description " " )
+			( Value
+				( DataType ( dString ) )
+				( Status  sProperty  sPackage )
+			)
+			( Objects
+				( ValidObjects  oGate  oGateDefn  oBlock  oPart  oDesign  oSystem  oPartDefn )
+				( NoInherit
+					( oGate oPin )
+				)
+			)
+			( Analysis
+			)
+		)
+		( Attribute
+			( Name "MAXINV" )
+			( Description " " )
+			( Value
+				( DataType ( dString ) )
+				( Status  sProperty  sPackage )
+			)
+			( Objects
+				( ValidObjects  oGate  oGateDefn  oBlock  oPart  oDesign  oSystem  oPartDefn )
+				( NoInherit
+					( oGate oPin )
+				)
+			)
+			( Analysis
+			)
+		)
+		( Attribute
+			( Name "CLOCK" )
+			( Description " " )
+			( Value
+				( DataType ( dString ) )
+				( Status  sProperty  sPackage )
+			)
+			( Objects
+				( ValidObjects  oPin  oPinDefn )
+				( NoInherit
+					( oGate oPin )
+				)
+			)
+			( Analysis
+			)
+		)
+		( Attribute
+			( Name "FLOAT" )
+			( Description " " )
+			( Value
+				( DataType ( dString ) )
+				( Status  sProperty  sPackage )
+			)
+			( Objects
+				( ValidObjects  oPin  oPinDefn )
+				( NoInherit
+					( oGate oPin )
+				)
+			)
+			( Analysis
+			)
+		)
+		( Attribute
+			( Name "$location" )
+			( Description "" )
+			( Value
+				( DataType ( dString ) )
+				( Status  sProperty )
+			)
+			( Objects
+				( ValidObjects  oAll )
+			)
+			( Analysis
+			)
+		)
+		( Attribute
+			( Name "TOLERANCE" )
+			( Description " " )
+			( Value
+				( DataType ( dString ) )
+				( Status  sProperty  sPackage )
+			)
+			( Objects
+				( ValidObjects  oGate  oGateDefn  oBlock  oPart  oDesign  oSystem  oPartDefn )
+				( NoInherit
+					( oGate oPin )
+				)
+			)
+			( Analysis
+			)
+		)
+		( Attribute
+			( Name "VOLTAGE_RATING" )
+			( Description " " )
+			( Value
+				( DataType ( dString ) )
+				( Status  sProperty  sPackage )
+			)
+			( Objects
+				( ValidObjects  oGate  oGateDefn  oBlock  oPart  oDesign  oSystem  oPartDefn )
+				( NoInherit
+					( oGate oPin )
+				)
+			)
+			( Analysis
+			)
+		)
+		( Attribute
+			( Name "CAP" )
+			( Description " " )
+			( Value
+				( DataType ( dString ) )
+				( Status  sProperty  sPackage )
+			)
+			( Objects
+				( ValidObjects  oGate  oGateDefn  oBlock  oPart  oDesign  oSystem  oPartDefn )
+				( NoInherit
+					( oGate oPin )
+				)
+			)
+			( Analysis
+			)
+		)
+		( Attribute
+			( Name "POWER_RATING" )
+			( Description " " )
+			( Value
+				( DataType ( dString ) )
+				( Status  sProperty  sPackage )
+			)
+			( Objects
+				( ValidObjects  oGate  oGateDefn  oBlock  oPart  oDesign  oSystem  oPartDefn )
+				( NoInherit
+					( oGate oPin )
+				)
+			)
+			( Analysis
+			)
+		)
+		( Attribute
+			( Name "RES" )
+			( Description " " )
+			( Value
+				( DataType ( dString ) )
+				( Status  sProperty  sPackage )
+			)
+			( Objects
+				( ValidObjects  oGate  oGateDefn  oBlock  oPart  oDesign  oSystem  oPartDefn )
+				( NoInherit
+					( oGate oPin )
+				)
+			)
+			( Analysis
+			)
+		)
+		( Attribute
+			( Name "SEC_TYPE" )
+			( Description " " )
+			( Value
+				( DataType ( dString ) )
+				( Status  sProperty  sPackage )
+			)
+			( Objects
+				( ValidObjects  oGate  oGateDefn  oBlock  oPart  oDesign  oSystem  oPartDefn )
+				( NoInherit
+					( oGate oPin )
+				)
+			)
+			( Analysis
+			)
+		)
+		( Attribute
+			( Name "$sec" )
+			( Description "" )
+			( Value
+				( DataType ( dString ) )
+				( Status  sProperty )
+			)
+			( Objects
+				( ValidObjects  oAll )
+			)
+			( Analysis
+			)
+		)
+		( Attribute
+			( Name "COMMENTS" )
+			( Description " " )
+			( Value
+				( DataType ( dString ) )
+				( Status  sProperty  sPackage )
+			)
+			( Objects
+				( ValidObjects  oGate  oGateDefn  oBlock  oPart  oDesign  oSystem  oPartDefn )
+				( NoInherit
+					( oGate oPin )
+				)
+			)
+			( Analysis
+			)
+		)
+	)
+	( designConstraints
+		( ruleChanges
+			( allRules )
+			( design "maxrefdes117_apps_a"
+				( objectFlag fObjectReadOnly )
+				( objectStatus "maxrefdes117_apps_a" )
+			)
+			( signal "1.8V"
+				( objectStatus "@maxrefdes117_apps_a.maxrefdes117_apps_a(sch_1):\1.8v\" )
+			)
+			( signal "GND_SIGNAL"
+				( objectStatus "@maxrefdes117_apps_a.maxrefdes117_apps_a(sch_1):gnd_signal" )
+			)
+			( signal "VIN"
+				( objectStatus "@maxrefdes117_apps_a.maxrefdes117_apps_a(sch_1):vin" )
+			)
+			( signal "SCL"
+				( objectStatus "@maxrefdes117_apps_a.maxrefdes117_apps_a(sch_1):scl" )
+			)
+			( signal "SDA"
+				( objectStatus "@maxrefdes117_apps_a.maxrefdes117_apps_a(sch_1):sda" )
+			)
+			( signal "UNNAMED_4_CAPNP_I9_1"
+				( objectStatus "@maxrefdes117_apps_a.maxrefdes117_apps_a(sch_1):unnamed_4_capnp_i9_1" )
+			)
+			( signal "UNNAMED_4_EVKITTP_I49_TP1"
+				( objectStatus "@maxrefdes117_apps_a.maxrefdes117_apps_a(sch_1):unnamed_4_evkittp_i49_tp1" )
+			)
+			( signal "UNNAMED_4_INDUCT_I4_1"
+				( objectStatus "@maxrefdes117_apps_a.maxrefdes117_apps_a(sch_1):unnamed_4_induct_i4_1" )
+			)
+			( signal "UNNAMED_4_MAX14595_I1_IOVL1"
+				( objectStatus "@maxrefdes117_apps_a.maxrefdes117_apps_a(sch_1):unnamed_4_max14595_i1_iovl1" )
+			)
+			( signal "UNNAMED_4_MAX14595_I1_IOVL2"
+				( objectStatus "@maxrefdes117_apps_a.maxrefdes117_apps_a(sch_1):unnamed_4_max14595_i1_iovl2" )
+			)
+			( gate "EV_KIT_BOX1"
+				( objectStatus "@maxrefdes117_apps_a.maxrefdes117_apps_a(sch_1):page3_i1" )
+			)
+			( gate "U2"
+				( objectStatus "@maxrefdes117_apps_a.maxrefdes117_apps_a(sch_1):page4_i1" )
+				( pin "U2.4"
+					( objectStatus "\/ts\" )
+				)
+				( pin "U2.5"
+					( objectStatus "gnd" )
+				)
+				( pin "U2.6"
+					( objectStatus "iovcc1" )
+				)
+				( pin "U2.7"
+					( objectStatus "iovcc2" )
+				)
+				( pin "U2.3"
+					( objectStatus "iovl1" )
+				)
+				( pin "U2.2"
+					( objectStatus "iovl2" )
+				)
+				( pin "U2.8"
+					( objectStatus "vcc" )
+				)
+				( pin "U2.1"
+					( objectStatus "vl" )
+				)
+			)
+			( gate "U1"
+				( objectStatus "@maxrefdes117_apps_a.maxrefdes117_apps_a(sch_1):page4_i2" )
+				( pin "U1.13"
+					( objectStatus "\/int\" )
+				)
+				( pin "U1.12"
+					( objectStatus "gnd" )
+				)
+				( pin "U1.6"
+					( objectStatus "ir_drv" )
+				)
+				( pin "U1.1"
+					( objectStatus "nc_1" )
+				)
+				( pin "U1.7"
+					( objectStatus "nc_2" )
+				)
+				( pin "U1.8"
+					( objectStatus "nc_3" )
+				)
+				( pin "U1.14"
+					( objectStatus "nc_4" )
+				)
+				( pin "U1.4"
+					( objectStatus "pgnd" )
+				)
+				( pin "U1.5"
+					( objectStatus "r_drv" )
+				)
+				( pin "U1.2"
+					( objectStatus "scl" )
+				)
+				( pin "U1.3"
+					( objectStatus "sda" )
+				)
+				( pin "U1.11"
+					( objectStatus "vdd" )
+				)
+				( pin "U1.9"
+					( objectStatus "\vled+_1\" )
+				)
+				( pin "U1.10"
+					( objectStatus "\vled+_2\" )
+				)
+			)
+			( gate "U3"
+				( objectStatus "@maxrefdes117_apps_a.maxrefdes117_apps_a(sch_1):page4_i3" )
+				( pin "U3.3"
+					( objectStatus "\/shdn\" )
+				)
+				( pin "U3.2"
+					( objectStatus "agnd" )
+				)
+				( pin "U3.1"
+					( objectStatus "\in\" )
+				)
+				( pin "U3.6"
+					( objectStatus "lx" )
+				)
+				( pin "U3.4"
+					( objectStatus "\out\" )
+				)
+				( pin "U3.5"
+					( objectStatus "pgnd" )
+				)
+			)
+			( gate "L1"
+				( objectStatus "@maxrefdes117_apps_a.maxrefdes117_apps_a(sch_1):page4_i4" )
+				( pin "L1.1"
+					( objectStatus "\1\" )
+				)
+				( pin "L1.2"
+					( objectStatus "\2\" )
+				)
+			)
+			( gate "C1"
+				( objectStatus "@maxrefdes117_apps_a.maxrefdes117_apps_a(sch_1):page4_i5" )
+				( pin "C1.1"
+					( objectStatus "\1\" )
+				)
+				( pin "C1.2"
+					( objectStatus "\2\" )
+				)
+			)
+			( gate "C2"
+				( objectStatus "@maxrefdes117_apps_a.maxrefdes117_apps_a(sch_1):page4_i6" )
+				( pin "C2.1"
+					( objectStatus "\1\" )
+				)
+				( pin "C2.2"
+					( objectStatus "\2\" )
+				)
+			)
+			( gate "C3"
+				( objectStatus "@maxrefdes117_apps_a.maxrefdes117_apps_a(sch_1):page4_i7" )
+				( pin "C3.1"
+					( objectStatus "\1\" )
+				)
+				( pin "C3.2"
+					( objectStatus "\2\" )
+				)
+			)
+			( gate "C4"
+				( objectStatus "@maxrefdes117_apps_a.maxrefdes117_apps_a(sch_1):page4_i8" )
+				( pin "C4.1"
+					( objectStatus "\1\" )
+				)
+				( pin "C4.2"
+					( objectStatus "\2\" )
+				)
+			)
+			( gate "C5"
+				( objectStatus "@maxrefdes117_apps_a.maxrefdes117_apps_a(sch_1):page4_i9" )
+				( pin "C5.1"
+					( objectStatus "\1\" )
+				)
+				( pin "C5.2"
+					( objectStatus "\2\" )
+				)
+			)
+			( gate "R6"
+				( objectStatus "@maxrefdes117_apps_a.maxrefdes117_apps_a(sch_1):page4_i10" )
+				( pin "R6.1"
+					( objectStatus "\1\" )
+				)
+				( pin "R6.2"
+					( objectStatus "\2\" )
+				)
+			)
+			( gate "C6"
+				( objectStatus "@maxrefdes117_apps_a.maxrefdes117_apps_a(sch_1):page4_i18" )
+				( pin "C6.1"
+					( objectStatus "\1\" )
+				)
+				( pin "C6.2"
+					( objectStatus "\2\" )
+				)
+			)
+			( gate "C7"
+				( objectStatus "@maxrefdes117_apps_a.maxrefdes117_apps_a(sch_1):page4_i19" )
+				( pin "C7.1"
+					( objectStatus "\1\" )
+				)
+				( pin "C7.2"
+					( objectStatus "\2\" )
+				)
+			)
+			( gate "R4"
+				( objectStatus "@maxrefdes117_apps_a.maxrefdes117_apps_a(sch_1):page4_i24" )
+				( pin "R4.1"
+					( objectStatus "\1\" )
+				)
+				( pin "R4.2"
+					( objectStatus "\2\" )
+				)
+			)
+			( gate "R5"
+				( objectStatus "@maxrefdes117_apps_a.maxrefdes117_apps_a(sch_1):page4_i25" )
+				( pin "R5.1"
+					( objectStatus "\1\" )
+				)
+				( pin "R5.2"
+					( objectStatus "\2\" )
+				)
+			)
+			( gate "R1"
+				( objectStatus "@maxrefdes117_apps_a.maxrefdes117_apps_a(sch_1):page4_i30" )
+				( pin "R1.1"
+					( objectStatus "\1\" )
+				)
+				( pin "R1.2"
+					( objectStatus "\2\" )
+				)
+			)
+			( gate "R2"
+				( objectStatus "@maxrefdes117_apps_a.maxrefdes117_apps_a(sch_1):page4_i32" )
+				( pin "R2.1"
+					( objectStatus "\1\" )
+				)
+				( pin "R2.2"
+					( objectStatus "\2\" )
+				)
+			)
+			( gate "R3"
+				( objectStatus "@maxrefdes117_apps_a.maxrefdes117_apps_a(sch_1):page4_i34" )
+				( pin "R3.1"
+					( objectStatus "\1\" )
+				)
+				( pin "R3.2"
+					( objectStatus "\2\" )
+				)
+			)
+			( gate "SDA"
+				( objectStatus "@maxrefdes117_apps_a.maxrefdes117_apps_a(sch_1):page4_i42" )
+				( pin "SDA.1"
+					( objectStatus "tp1" )
+				)
+			)
+			( gate "SCL"
+				( objectStatus "@maxrefdes117_apps_a.maxrefdes117_apps_a(sch_1):page4_i43" )
+				( pin "SCL.1"
+					( objectStatus "tp1" )
+				)
+			)
+			( gate "X1"
+				( objectStatus "@maxrefdes117_apps_a.maxrefdes117_apps_a(sch_1):page4_i44" )
+				( pin "X1.1"
+					( objectStatus "tp1" )
+				)
+			)
+			( gate "X2"
+				( objectStatus "@maxrefdes117_apps_a.maxrefdes117_apps_a(sch_1):page4_i45" )
+				( pin "X2.1"
+					( objectStatus "tp1" )
+				)
+			)
+			( gate "VIN"
+				( objectStatus "@maxrefdes117_apps_a.maxrefdes117_apps_a(sch_1):page4_i46" )
+				( pin "VIN.1"
+					( objectStatus "tp1" )
+				)
+			)
+			( gate "GND"
+				( objectStatus "@maxrefdes117_apps_a.maxrefdes117_apps_a(sch_1):page4_i47" )
+				( pin "GND.1"
+					( objectStatus "tp1" )
+				)
+			)
+			( gate "INT"
+				( objectStatus "@maxrefdes117_apps_a.maxrefdes117_apps_a(sch_1):page4_i49" )
+				( pin "INT.1"
+					( objectStatus "tp1" )
+				)
+			)
+			( gate "X3"
+				( objectStatus "@maxrefdes117_apps_a.maxrefdes117_apps_a(sch_1):page4_i50" )
+				( pin "X3.1"
+					( objectStatus "tp1" )
+				)
+			)
+		)
+	)
+)

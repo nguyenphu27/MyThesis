@@ -1,0 +1,44 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    Dangling Line, Via and Antenna Report                            )
+(                                                                     )
+(    Drawing          : maxrefdes117_apps_a.brd                       )
+(    Software Version : 16.6-2015S066                                 )
+(    Date/Time        : Thu Apr 14 16:27:57 2016                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+Report methodology:
+  - Dangling lines have at least one end not connected.
+  - Dangling vias have one or no connection
+      - Plus are not a test, thieving or netshort property via.
+  - Antenna vias do not have connections on their start and end layers.
+      - Plus they are not a thieving vias.
+      - Optionally, VOLTAGE nets, testvias and through vias can be suppressed with
+        the environment variable report_antennavia.
+      - Section may be suppressed by variable report_noantennavia.
+  - Not part of the current partition.
+  - To suppress items in dangle report add the OK_DANGLE property to the via
+    or connect line.
+
+
+
+<< Antenna Vias >>
+  Net                  Padstack               Location            Layers
+  ---------------------------------------------------------------------------
+  VIN                  V12H6                (321.00 -223.00) TOP/BOTTOM 
+  VIN                  V12H6                (345.00 -266.00) TOP/BOTTOM 
+  VIN                  V12H6                (281.00 -381.00) TOP/BOTTOM 
+  VIN                  V12H6                (406.00 -297.00) TOP/BOTTOM 
+  VIN                  V12H6                (348.00 -119.00) TOP/BOTTOM 
+  VIN                  V12H6                (306.00 -105.13) TOP/BOTTOM 
+  1.8V                 V12H6                (322.00 -244.00) TOP/BOTTOM 
+  1.8V                 V12H6                (58.00 -325.00)  TOP/BOTTOM 
+  1.8V                 V12H6                (78.00 -340.00)  TOP/BOTTOM 
+  1.8V                 V12H6                (149.00 -225.00) TOP/BOTTOM 
+
+<< Summary >>
+  Total dangling lines:       0
+  Total dangling vias:        0
+  Total antenna vias:        10

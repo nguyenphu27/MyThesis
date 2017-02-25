@@ -1,0 +1,115 @@
+{ Packager-XL run on 14-Apr-2016 AT 16:12:39 }
+FILE_TYPE = BACK_ANNOTATION;
+DRAWING = "@maxrefdes117_apps_a.maxrefdes117_apps_a(sch_1):page4";
+BODY = "MAX14595","I1": #LOCATION = "U2" !CDS_LOCATION = "U2" #SEC = "1" !CDS_SEC = "1";
+"/TS":   PN = "4"  !CDS_PN = "4";
+"GND":   PN = "5"  !CDS_PN = "5";
+"IOVCC1":   PN = "6"  !CDS_PN = "6";
+"IOVCC2":   PN = "7"  !CDS_PN = "7";
+"IOVL1":   PN = "3"  !CDS_PN = "3";
+"IOVL2":   PN = "2"  !CDS_PN = "2";
+"VCC":   PN = "8"  !CDS_PN = "8";
+"VL":   PN = "1"  !CDS_PN = "1";
+BODY = "MAX30102","I2": #LOCATION = "U1" !CDS_LOCATION = "U1" #SEC = "1" !CDS_SEC = "1";
+"/INT":   PN = "13"  !CDS_PN = "13";
+"GND":   PN = "12"  !CDS_PN = "12";
+"IR_DRV":   PN = "6"  !CDS_PN = "6";
+"NC_1":   PN = "1"  !CDS_PN = "1";
+"NC_2":   PN = "7"  !CDS_PN = "7";
+"NC_3":   PN = "8"  !CDS_PN = "8";
+"NC_4":   PN = "14"  !CDS_PN = "14";
+"PGND":   PN = "4"  !CDS_PN = "4";
+"R_DRV":   PN = "5"  !CDS_PN = "5";
+"SCL":   PN = "2"  !CDS_PN = "2";
+"SDA":   PN = "3"  !CDS_PN = "3";
+"VDD":   PN = "11"  !CDS_PN = "11";
+"VLED+_1":   PN = "9"  !CDS_PN = "9";
+"VLED+_2":   PN = "10"  !CDS_PN = "10";
+BODY = "MAX1921","I3": LOCATION = "U3" #&CDS_LOCATION = "U3" &SEC = "1" #&CDS_SEC = "1";
+"/SHDN":   PN = "3"  !CDS_PN = "3";
+"AGND":   PN = "2"  !CDS_PN = "2";
+"IN":   PN = "1"  !CDS_PN = "1";
+"LX":   PN = "6"  !CDS_PN = "6";
+"OUT":   PN = "4"  !CDS_PN = "4";
+"PGND":   PN = "5"  !CDS_PN = "5";
+BODY = "INDUCT","I4": #LOCATION = "L1" !CDS_LOCATION = "L1" &SEC = "1" #&CDS_SEC = "1";
+"1":   PN = "1"  !CDS_PN = "1";
+"2":   PN = "2"  !CDS_PN = "2";
+BODY = "CAP_NP","I5": #LOCATION = "C1" !CDS_LOCATION = "C1" &SEC = "1" #&CDS_SEC = "1";
+"1":   PN = "1"  !CDS_PN = "1";
+"2":   PN = "2"  !CDS_PN = "2";
+BODY = "CAP_NP","I6": #LOCATION = "C2" !CDS_LOCATION = "C2" &SEC = "1" #&CDS_SEC = "1";
+"1":   PN = "1"  !CDS_PN = "1";
+"2":   PN = "2"  !CDS_PN = "2";
+BODY = "CAP_NP","I7": #LOCATION = "C3" !CDS_LOCATION = "C3" &SEC = "1" #&CDS_SEC = "1";
+"1":   PN = "1"  !CDS_PN = "1";
+"2":   PN = "2"  !CDS_PN = "2";
+BODY = "CAP_NP","I8": #LOCATION = "C4" !CDS_LOCATION = "C4" &SEC = "1" #&CDS_SEC = "1";
+"1":   PN = "1"  !CDS_PN = "1";
+"2":   PN = "2"  !CDS_PN = "2";
+BODY = "CAP_NP","I9": #LOCATION = "C5" !CDS_LOCATION = "C5" &SEC = "1" #&CDS_SEC = "1";
+"1":   PN = "1"  !CDS_PN = "1";
+"2":   PN = "2"  !CDS_PN = "2";
+BODY = "RES_SMD","I10": #LOCATION = "R6" !CDS_LOCATION = "R6" &SEC = "1" #&CDS_SEC = "1";
+"1":   PN = "1"  !CDS_PN = "1";
+"2":   PN = "2"  !CDS_PN = "2";
+BODY = "CAP_NP","I18": #LOCATION = "C6" !CDS_LOCATION = "C6" &SEC = "1" #&CDS_SEC = "1";
+"1":   PN = "1"  !CDS_PN = "1";
+"2":   PN = "2"  !CDS_PN = "2";
+BODY = "CAP_NP","I19": #LOCATION = "C7" !CDS_LOCATION = "C7" &SEC = "1" #&CDS_SEC = "1";
+"1":   PN = "1"  !CDS_PN = "1";
+"2":   PN = "2"  !CDS_PN = "2";
+BODY = "RES_SMD","I24": #LOCATION = "R4" !CDS_LOCATION = "R4" &SEC = "1" #&CDS_SEC = "1";
+"1":   PN = "1"  !CDS_PN = "1";
+"2":   PN = "2"  !CDS_PN = "2";
+BODY = "RES_SMD","I25": #LOCATION = "R5" !CDS_LOCATION = "R5" &SEC = "1" #&CDS_SEC = "1";
+"1":   PN = "1"  !CDS_PN = "1";
+"2":   PN = "2"  !CDS_PN = "2";
+BODY = "RES_SMD","I30": #LOCATION = "R1" !CDS_LOCATION = "R1" &SEC = "1" #&CDS_SEC = "1";
+"1":   PN = "1"  !CDS_PN = "1";
+"2":   PN = "2"  !CDS_PN = "2";
+BODY = "RES_SMD","I32": #LOCATION = "R2" !CDS_LOCATION = "R2" &SEC = "1" #&CDS_SEC = "1";
+"1":   PN = "1"  !CDS_PN = "1";
+"2":   PN = "2"  !CDS_PN = "2";
+BODY = "RES_SMD","I34": #LOCATION = "R3" !CDS_LOCATION = "R3" &SEC = "1" #&CDS_SEC = "1";
+"1":   PN = "1"  !CDS_PN = "1";
+"2":   PN = "2"  !CDS_PN = "2";
+BODY = "EVKIT_TP","I42": #LOCATION = "SDA" !CDS_LOCATION = "SDA" &SEC = "1" #&CDS_SEC = "1";
+"TP1":   PN = "1"  !CDS_PN = "1";
+BODY = "EVKIT_TP","I43": #LOCATION = "SCL" !CDS_LOCATION = "SCL" &SEC = "1" #&CDS_SEC = "1";
+"TP1":   PN = "1"  !CDS_PN = "1";
+BODY = "EVKIT_TP","I44": #LOCATION = "X1" !CDS_LOCATION = "X1" &SEC = "1" #&CDS_SEC = "1";
+"TP1":   PN = "1"  !CDS_PN = "1";
+BODY = "EVKIT_TP","I45": #LOCATION = "X2" !CDS_LOCATION = "X2" &SEC = "1" #&CDS_SEC = "1";
+"TP1":   PN = "1"  !CDS_PN = "1";
+BODY = "EVKIT_TP","I46": #LOCATION = "VIN" !CDS_LOCATION = "VIN" &SEC = "1" #&CDS_SEC = "1";
+"TP1":   PN = "1"  !CDS_PN = "1";
+BODY = "EVKIT_TP","I47": #LOCATION = "GND" !CDS_LOCATION = "GND" &SEC = "1" #&CDS_SEC = "1";
+"TP1":   PN = "1"  !CDS_PN = "1";
+BODY = "EVKIT_TP","I49": #LOCATION = "INT" !CDS_LOCATION = "INT" &SEC = "1" #&CDS_SEC = "1";
+"TP1":   PN = "1"  !CDS_PN = "1";
+BODY = "EVKIT_TP","I50": #LOCATION = "X3" !CDS_LOCATION = "X3" &SEC = "1" #&CDS_SEC = "1";
+"TP1":   PN = "1"  !CDS_PN = "1";
+NET = "SDA":
+ !PNN = "";
+NET = "SCL":
+ !PNN = "";
+NET = "VIN":
+ !PNN = "";
+NET = "GND_SIGNAL":
+ !PNN = "";
+NET = "1.8V":
+ !PNN = "";
+NET = "UNNAMED_4_MAX14595_I1_IOVL2":
+ !PNN = "";
+NET = "UNNAMED_4_MAX14595_I1_IOVL1":
+ !PNN = "";
+NET = "UNNAMED_4_INDUCT_I4_1":
+ !PNN = "";
+NET = "UNNAMED_4_EVKITTP_I49_TP1":
+ !PNN = "";
+NET = "UNNAMED_4_CAPNP_I9_1":
+ !PNN = "";
+DRAWING = "@maxrefdes117_apps_a.maxrefdes117_apps_a(sch_1):page3";
+BODY = "EV_KIT_BOX","I1": LOCATION = "EV_KIT_BOX1" #&CDS_LOCATION = "EV_KIT_BOX1";
+END.

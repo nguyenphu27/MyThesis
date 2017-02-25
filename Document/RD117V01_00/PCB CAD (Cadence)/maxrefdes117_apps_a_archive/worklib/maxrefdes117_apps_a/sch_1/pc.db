@@ -1,0 +1,157 @@
+-- pcdb file, Rev:1.0 written by Allegro Design Entry HDL 16.6-S066 (v16-6-112FT) 2/15/2016 on Thu Apr 14 15:19:36 2016
+#ISCELL
+  mml maxim#20b#20size#20page *
+  *
+#CELL
+  evkit_noncompliant ev_kit_box *
+  page3_i1
+#ISCELL
+  mml maxim#20b#20size#20page#202 *
+  *
+#CELL
+  mml max14595 *
+  page4_i1
+#CELL
+  mml res_smd *
+  page4_i10
+#ISCELL
+  mml mml_vcc_arrow *
+  page4_i12
+#ISCELL
+  standard gnd_signal *
+  page4_i13
+#ISCELL
+  standard gnd_signal *
+  page4_i14
+#ISCELL
+  standard gnd_signal *
+  page4_i15
+#ISCELL
+  mml mml_vcc_arrow *
+  page4_i16
+#ISCELL
+  standard gnd_signal *
+  page4_i17
+#CELL
+  mml cap_np *
+  page4_i18
+#CELL
+  mml cap_np *
+  page4_i19
+#CELL
+  mml max30102 *
+  page4_i2
+#ISCELL
+  mml mml_vcc_arrow *
+  page4_i20
+#ISCELL
+  mml mml_vcc_arrow *
+  page4_i21
+#ISCELL
+  standard gnd_signal *
+  page4_i22
+#ISCELL
+  standard gnd_signal *
+  page4_i23
+#CELL
+  mml res_smd *
+  page4_i24
+#CELL
+  mml res_smd *
+  page4_i25
+#ISCELL
+  mml mml_vcc_arrow *
+  page4_i26
+#ISCELL
+  mml mml_vcc_arrow *
+  page4_i27
+#ISCELL
+  standard gnd_signal *
+  page4_i28
+#ISCELL
+  mml mml_vcc_arrow *
+  page4_i29
+#CELL
+  mml max1921 *
+  page4_i3
+#CELL
+  mml res_smd *
+  page4_i30
+#ISCELL
+  mml mml_vcc_arrow *
+  page4_i31
+#CELL
+  mml res_smd *
+  page4_i32
+#ISCELL
+  mml mml_vcc_arrow *
+  page4_i33
+#CELL
+  mml res_smd *
+  page4_i34
+#ISCELL
+  mml mml_vcc_arrow *
+  page4_i35
+#ISCELL
+  standard gnd_signal *
+  page4_i36
+#ISCELL
+  standard gnd_signal *
+  page4_i37
+#ISCELL
+  standard gnd_signal *
+  page4_i38
+#ISCELL
+  standard gnd_signal *
+  page4_i39
+#CELL
+  mml induct *
+  page4_i4
+#ISCELL
+  mml mml_vcc_arrow *
+  page4_i40
+#ISCELL
+  mml mml_vcc_arrow *
+  page4_i41
+#CELL
+  evkit_noncompliant evkit_tp *
+  page4_i42
+#CELL
+  evkit_noncompliant evkit_tp *
+  page4_i43
+#CELL
+  evkit_noncompliant evkit_tp *
+  page4_i44
+#CELL
+  evkit_noncompliant evkit_tp *
+  page4_i45
+#CELL
+  evkit_noncompliant evkit_tp *
+  page4_i46
+#CELL
+  evkit_noncompliant evkit_tp *
+  page4_i47
+#ISCELL
+  standard gnd_signal *
+  page4_i48
+#CELL
+  evkit_noncompliant evkit_tp *
+  page4_i49
+#CELL
+  mml cap_np *
+  page4_i5
+#CELL
+  evkit_noncompliant evkit_tp *
+  page4_i50
+#CELL
+  mml cap_np *
+  page4_i6
+#CELL
+  mml cap_np *
+  page4_i7
+#CELL
+  mml cap_np *
+  page4_i8
+#CELL
+  mml cap_np *
+  page4_i9

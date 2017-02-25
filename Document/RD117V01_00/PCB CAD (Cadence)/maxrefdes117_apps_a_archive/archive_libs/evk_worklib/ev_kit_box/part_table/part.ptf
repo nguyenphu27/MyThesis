@@ -1,0 +1,17 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'EV_KIT_BOX'
+
+{========================================================================================}
+:PACK_TYPE   | MAXINV | VALUE        | JEDEC_TYPE        = MFG_PART_NUMBER | MANUFACTURER | TOLERANCE | DESCRIPTION                           | VOLTAGE_RATING | TEMP_RANGE | BOM | LEAD_LENGTH | STATUS            | DATASHEET_URL | EST_STOCK_STATUS          | MECH_PART1               | MECH_PART2                  | MECH_PART3                     | MECH_PART4                       | MECH_PART5                 ;
+{========================================================================================}
+ 'ACCESSORY' | 'N/A'  | 'SMALL BOX'  | 'EVKIT_PACKAGING'(!) = 'SMALL BOX'     | 'MAXIM'      | 'N/A'     | 'EV KIT PACKAGING SET FOR SMALL BOX, SMALL BROWN 9 3/16 inch X 7 inch X 7/8 inch'  | 'N/A'          | 'N/A'      | 'Y' | 'N/A'       | 'EVKIT-CUSTOM' | 'N/A'         | 'HQ(00):HBO(00):MPOC(00):DL(00)' | 'EVK-BOX:88-00711-SML:1' | 'EVK-ESDBAG:87-02162-00:1' | 'EVK-PINKFOAM:85-MAXKIT-PNK:1' | 'EVK-WEBINSTRACTION:EVINSERT:1' | 'EVK-LABEL:85-84003-006:1'
+ 'ACCESSORY' | 'N/A'  | 'MEDIUM BOX' | 'EVKIT_PACKAGING'(!) = 'MEDIUM BOX'    | 'MAXIM'      | 'N/A'     | 'EV KIT PACKAGING SET FOR MEDIUM BOX, MEDIUM BROWN 9 3/8 inch X 7 1/4 inch X 2 1/2 inch' | 'N/A'          | 'N/A'      | 'Y' | 'N/A'       | 'EVKIT-CUSTOM' | 'N/A'         | 'HQ(00):HBO(00):MPOC(00):DL(00)' | 'EVK-BOX:88-00712-MDM:1' | 'EVK-ESDBAG:87-02159-000:1' | 'EVK-PINKFOAM:85-MAXKIT-PNK:1' | 'EVK-WEBINSTRACTION:EVINSERT:1' | 'EVK-LABEL:85-84003-006:1'
+ 'ACCESSORY' | 'N/A'  | 'LARGE BOX'  | 'EVKIT_PACKAGING'(!) = 'LARGE BOX'     | 'MAXIM'      | 'N/A'     | 'EV KIT PACKAGING SET FOR LARGE BOX, LARGE BROWN 15 1/8 inch X 8 3/4 inch X 3 inch'  | 'N/A'          | 'N/A'      | 'Y' | 'N/A'       | 'EVKIT-CUSTOM' | 'N/A'         | 'HQ(00):HBO(00):MPOC(00):DL(00)' | 'EVK-BOX:88-00713-LRG:1' | 'EVK-ESDBAG:87-02163-000:1'  | 'EVK-PINKFOAM:85-MAXKIT-PNK:1' | 'EVK-WEBINSTRACTION:EVINSERT:1' | 'EVK-LABEL:85-84003-006:1'
+
+END_PART
+
+END.
+
+
+

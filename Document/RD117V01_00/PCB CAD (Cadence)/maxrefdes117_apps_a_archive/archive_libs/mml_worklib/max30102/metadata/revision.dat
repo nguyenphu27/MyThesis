@@ -1,0 +1,284 @@
+(Cell	max30102
+
+	(RevisionInfoBlock	
+
+		(Baselined	0)
+
+		(Revision	0.0.5)
+
+		(ModificationStatus	NULL)
+
+		(Status	Created)
+
+		(ErrorStatus	0)
+
+		(CreateInfo	
+
+			(Time	05/18/15,14:33:58)
+
+			(User	Jayson.Navarro)
+
+			(Path	jaysonlib_lib.max30102)
+
+		)
+
+		(LastModifyInfo	
+
+			(Time	12/15/15,12:45:34)
+
+			(User	Joseph.Duran)
+
+			(Path	jos_mml_project_lib.max30102)
+
+		)
+
+	)
+
+	(Views	
+
+		(View	Symbol
+
+			(RevisionInfoBlock	
+
+				(Baselined	0)
+
+				(Revision	0.0.5)
+
+				(ModificationStatus	NULL)
+
+				(Status	Created)
+
+				(ErrorStatus	0)
+
+				(CreateInfo	
+
+					(Time	05/18/15,14:33:58)
+
+					(User	Jayson.Navarro)
+
+					(Path	jaysonlib_lib.max30102)
+
+				)
+
+			)
+
+			(Symbols	3
+
+				(Symbol	sym_2
+
+					(Symbol_Type	Normal)
+
+					(Max_Size	0)
+
+					(Checksum	0000000068497773)
+
+					(RevisionInfoBlock	
+
+						(Baselined	0)
+
+						(Revision	0.0.1)
+
+						(ModificationStatus	NULL)
+
+						(Status	Created)
+
+						(ErrorStatus	0)
+
+						(CreateInfo	
+
+							(Time	05/18/15,14:33:58)
+
+							(User	Jayson.Navarro)
+
+							(Path	jaysonlib_lib.max30102)
+
+						)
+
+					)
+
+				)
+
+				(Symbol	sym_1
+
+					(Symbol_Type	Normal)
+
+					(Max_Size	0)
+
+					(Checksum	00000000c7ef7f09)
+
+					(RevisionInfoBlock	
+
+						(Baselined	0)
+
+						(Revision	0.0.2)
+
+						(ModificationStatus	NULL)
+
+						(Status	Created)
+
+						(ErrorStatus	0)
+
+						(CreateInfo	
+
+							(Time	05/18/15,14:33:58)
+
+							(User	Jayson.Navarro)
+
+							(Path	jaysonlib_lib.max30102)
+
+						)
+
+					)
+
+				)
+
+				(Symbol	sym_3
+
+					(Symbol_Type	Normal)
+
+					(Max_Size	0)
+
+					(Checksum	0000000024577c77)
+
+					(RevisionInfoBlock	
+
+						(Baselined	0)
+
+						(Revision	0.0.3)
+
+						(ModificationStatus	NULL)
+
+						(Status	Created)
+
+						(ErrorStatus	0)
+
+						(CreateInfo	
+
+							(Time	12/15/15,12:27:01)
+
+							(User	Joseph.Duran)
+
+							(Path	jos_mml_project_lib.max30102)
+
+						)
+
+					)
+
+				)
+
+			)
+
+			(Checksum	000000001aa40356)
+
+		)
+
+		(View	Chips
+
+			(Checksum	00000000a6ef70d8)
+
+			(Primitives	1
+
+				(Primitive	MAX30102_OLGA14
+
+					(RevisionInfoBlock	
+
+						(Baselined	0)
+
+						(Revision	0.0.1)
+
+						(ModificationStatus	NULL)
+
+						(Status	Created)
+
+						(ErrorStatus	0)
+
+						(CreateInfo	
+
+							(Time	05/18/15,14:33:58)
+
+							(User	Jayson.Navarro)
+
+							(Path	jaysonlib_lib.max30102)
+
+						)
+
+					)
+
+					(LogicalPhysicalPartRelation	
+
+						(LogicalPart	MAX30102
+
+							(PackType	MAX30102_OLGA14)
+
+						)
+
+					)
+
+					(Packages	1
+
+						(FunctionGroups	1
+
+							(FunctionGroup	1[1]
+
+								(Linkages	
+
+									(Linkage	Symbol
+
+										(Name	sym_2)
+
+									)
+
+									(Linkage	Symbol
+
+										(Name	sym_1)
+
+									)
+
+									(Linkage	Symbol
+
+										(Name	sym_3)
+
+									)
+
+								)
+
+							)
+
+						)
+
+						(Linkages	
+
+							(DefaultFootPrint	
+
+								(Name	PSON80P560X330X165-14M)
+
+							)
+
+						)
+
+					)
+
+				)
+
+			)
+
+		)
+
+		(Checksum	000000001bd50383)
+
+	)
+
+	(VersionInfoBlock	
+
+		(ToolName	PDV)
+
+		(Version	16.6-S051 (v16-6-112ED))
+
+		(License	PCB_librarian_expert)
+
+	)
+
+	(Checksum	000000001c63037b)
+
+)
+

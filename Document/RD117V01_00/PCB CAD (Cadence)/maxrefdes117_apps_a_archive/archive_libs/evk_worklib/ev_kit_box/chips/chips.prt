@@ -1,0 +1,13 @@
+FILE_TYPE=LIBRARY_PARTS;
+primitive 'EV_KIT_BOX_ACCESSORY';
+  pin
+  end_pin;
+  body
+    PART_NAME='EV_KIT_BOX';
+    BODY_NAME='EV_KIT_BOX';
+    PHYS_DES_PREFIX='EV_KIT_BOX';
+    CLASS='MECHANICAL';
+  end_body;
+end_primitive;
+
+END.

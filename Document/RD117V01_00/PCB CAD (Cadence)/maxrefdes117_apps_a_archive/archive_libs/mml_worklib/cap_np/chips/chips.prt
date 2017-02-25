@@ -1,0 +1,2317 @@
+FILE_TYPE=LIBRARY_PARTS;
+primitive 'CAP_NP_0201CAP';
+  pin
+    '2':
+      PIN_NUMBER='(2)';
+      PIN_TYPE='ANALOG';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      ALLOW_CONNECT='TRUE';
+    '1':
+      PIN_NUMBER='(1)';
+      PIN_TYPE='ANALOG';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      ALLOW_CONNECT='TRUE';
+  end_pin;
+  body
+    PART_NAME='CAP_NP';
+    ALT_SYMBOLS='(0201_nosilk,0201_A,0201_nosilk_A)';
+    NO_DIR_CHECK='TRUE';
+    BODY_NAME='CAP_NP';
+    JEDEC_TYPE='0201';
+    PHYS_DES_PREFIX='C';
+    CLASS='DISCRETE';
+  end_body;
+end_primitive;
+
+primitive 'CAP_NP_0402CAP';
+  pin
+    '2':
+      PIN_NUMBER='(2)';
+      PIN_TYPE='ANALOG';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      ALLOW_CONNECT='TRUE';
+    '1':
+      PIN_NUMBER='(1)';
+      PIN_TYPE='ANALOG';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      ALLOW_CONNECT='TRUE';
+  end_pin;
+  body
+    PART_NAME='CAP_NP';
+    ALT_SYMBOLS='(0402_nosilk)';
+    NO_DIR_CHECK='TRUE';
+    BODY_NAME='CAP_NP';
+    JEDEC_TYPE='0402';
+    PHYS_DES_PREFIX='C';
+    CLASS='DISCRETE';
+  end_body;
+end_primitive;
+
+primitive 'CAP_NP_0603CAP';
+  pin
+    '2':
+      PIN_NUMBER='(2)';
+      PIN_TYPE='ANALOG';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      ALLOW_CONNECT='TRUE';
+    '1':
+      PIN_NUMBER='(1)';
+      PIN_TYPE='ANALOG';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      ALLOW_CONNECT='TRUE';
+  end_pin;
+  body
+    PART_NAME='CAP_NP';
+    ALT_SYMBOLS='(0603_nosilk)';
+    NO_DIR_CHECK='TRUE';
+    BODY_NAME='CAP_NP';
+    JEDEC_TYPE='0603';
+    PHYS_DES_PREFIX='C';
+    CLASS='DISCRETE';
+  end_body;
+end_primitive;
+
+primitive 'CAP_NP_1206CAP';
+  pin
+    '2':
+      PIN_NUMBER='(2)';
+      PIN_TYPE='ANALOG';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      ALLOW_CONNECT='TRUE';
+    '1':
+      PIN_NUMBER='(1)';
+      PIN_TYPE='ANALOG';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      ALLOW_CONNECT='TRUE';
+  end_pin;
+  body
+    PART_NAME='CAP_NP';
+    NO_DIR_CHECK='TRUE';
+    BODY_NAME='CAP_NP';
+    JEDEC_TYPE='1206';
+    PHYS_DES_PREFIX='C';
+    CLASS='DISCRETE';
+  end_body;
+end_primitive;
+
+primitive 'CAP_NP_0805CAP';
+  pin
+    '2':
+      PIN_NUMBER='(2)';
+      PIN_TYPE='ANALOG';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+    '1':
+      PIN_NUMBER='(1)';
+      PIN_TYPE='ANALOG';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+  end_pin;
+  body
+    PART_NAME='CAP_NP';
+    BODY_NAME='CAP_NP';
+    JEDEC_TYPE='CAPC2012X140M';
+    PHYS_DES_PREFIX='C';
+    CLASS='DISCRETE';
+  end_body;
+end_primitive;
+
+primitive 'CAP_NP_CAPR1000-500X1300X900','CAP_NP_CAPR1000-1150X1800X1750';
+  pin
+    '2':
+      PIN_NUMBER='(2)';
+      PIN_TYPE='ANALOG';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+    '1':
+      PIN_NUMBER='(1)';
+      PIN_TYPE='ANALOG';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+  end_pin;
+  body
+    PART_NAME='CAP_NP';
+    BODY_NAME='CAP_NP';
+    JEDEC_TYPE='CAPR1000-500X1300X900';
+    PHYS_DES_PREFIX='C';
+    CLASS='DISCRETE';
+  end_body;
+end_primitive;
+
+primitive 'CAP_NP_CAPA2286-1510X750';
+  pin
+    '2':
+      PIN_NUMBER='(2)';
+      PIN_TYPE='ANALOG';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+    '1':
+      PIN_NUMBER='(1)';
+      PIN_TYPE='ANALOG';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+  end_pin;
+  body
+    PART_NAME='CAP_NP';
+    BODY_NAME='CAP_NP';
+    JEDEC_TYPE='CAPA2286-1510X750';
+    PHYS_DES_PREFIX='C';
+    CLASS='DISCRETE';
+  end_body;
+end_primitive;
+
+primitive 'CAP_NP_CAPA2286-1670X910';
+  pin
+    '2':
+      PIN_NUMBER='(2)';
+      PIN_TYPE='ANALOG';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+    '1':
+      PIN_NUMBER='(1)';
+      PIN_TYPE='ANALOG';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+  end_pin;
+  body
+    PART_NAME='CAP_NP';
+    BODY_NAME='CAP_NP';
+    JEDEC_TYPE='CAPA2286-1670X910';
+    PHYS_DES_PREFIX='C';
+    CLASS='DISCRETE';
+  end_body;
+end_primitive;
+
+primitive 'CAP_NP_CAPA2794-1990X1150';
+  pin
+    '2':
+      PIN_NUMBER='(2)';
+      PIN_TYPE='ANALOG';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+    '1':
+      PIN_NUMBER='(1)';
+      PIN_TYPE='ANALOG';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+  end_pin;
+  body
+    PART_NAME='CAP_NP';
+    BODY_NAME='CAP_NP';
+    JEDEC_TYPE='CAPA2794-1990X1150';
+    PHYS_DES_PREFIX='C';
+    CLASS='DISCRETE';
+  end_body;
+end_primitive;
+
+primitive 'CAP_NP_CAPR2000-750X2600X1500';
+  pin
+    '2':
+      PIN_NUMBER='(2)';
+      PIN_TYPE='ANALOG';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+    '1':
+      PIN_NUMBER='(1)';
+      PIN_TYPE='ANALOG';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+  end_pin;
+  body
+    PART_NAME='CAP_NP';
+    BODY_NAME='CAP_NP';
+    JEDEC_TYPE='CAPR2000-750X2600X1500';
+    PHYS_DES_PREFIX='C';
+    CLASS='DISCRETE';
+  end_body;
+end_primitive;
+
+primitive 'CAP_NP_CAPA2794-1990X910';
+  pin
+    '2':
+      PIN_NUMBER='(2)';
+      PIN_TYPE='ANALOG';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+    '1':
+      PIN_NUMBER='(1)';
+      PIN_TYPE='ANALOG';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+  end_pin;
+  body
+    PART_NAME='CAP_NP';
+    BODY_NAME='CAP_NP';
+    JEDEC_TYPE='CAPA2794-1990X910';
+    PHYS_DES_PREFIX='C';
+    CLASS='DISCRETE';
+  end_body;
+end_primitive;
+
+primitive 'CAP_NP_CAPA2794-1990X1030';
+  pin
+    '2':
+      PIN_NUMBER='(2)';
+      PIN_TYPE='ANALOG';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+    '1':
+      PIN_NUMBER='(1)';
+      PIN_TYPE='ANALOG';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+  end_pin;
+  body
+    PART_NAME='CAP_NP';
+    BODY_NAME='CAP_NP';
+    JEDEC_TYPE='CAPA2794-1990X1030';
+    PHYS_DES_PREFIX='C';
+    CLASS='DISCRETE';
+  end_body;
+end_primitive;
+
+primitive 'CAP_NP_CAPR870-560X1650X1320';
+  pin
+    '2':
+      PIN_NUMBER='(2)';
+      PIN_TYPE='ANALOG';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+    '1':
+      PIN_NUMBER='(1)';
+      PIN_TYPE='ANALOG';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+  end_pin;
+  body
+    PART_NAME='CAP_NP';
+    BODY_NAME='CAP_NP';
+    JEDEC_TYPE='CAPR870-560X1650X1320';
+    PHYS_DES_PREFIX='C';
+    CLASS='DISCRETE';
+  end_body;
+end_primitive;
+
+primitive 'CAP_NP_CAPR200-600X1200';
+  pin
+    '2':
+      PIN_NUMBER='(2)';
+      PIN_TYPE='ANALOG';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+    '1':
+      PIN_NUMBER='(1)';
+      PIN_TYPE='ANALOG';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+  end_pin;
+  body
+    PART_NAME='CAP_NP';
+    BODY_NAME='CAP_NP';
+    JEDEC_TYPE='CAPR200-600X1200';
+    PHYS_DES_PREFIX='C';
+    CLASS='DISCRETE';
+  end_body;
+end_primitive;
+
+primitive 'CAP_NP_CAPR590-460X1170X910';
+  pin
+    '2':
+      PIN_NUMBER='(2)';
+      PIN_TYPE='ANALOG';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+    '1':
+      PIN_NUMBER='(1)';
+      PIN_TYPE='ANALOG';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+  end_pin;
+  body
+    PART_NAME='CAP_NP';
+    BODY_NAME='CAP_NP';
+    JEDEC_TYPE='CAPR590-460X1170X910';
+    PHYS_DES_PREFIX='C';
+    CLASS='DISCRETE';
+  end_body;
+end_primitive;
+
+primitive 'CAP_NP_CAPR590-430X1140X910';
+  pin
+    '2':
+      PIN_NUMBER='(2)';
+      PIN_TYPE='ANALOG';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+    '1':
+      PIN_NUMBER='(1)';
+      PIN_TYPE='ANALOG';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+  end_pin;
+  body
+    PART_NAME='CAP_NP';
+    BODY_NAME='CAP_NP';
+    JEDEC_TYPE='CAPR590-430X1140X910';
+    PHYS_DES_PREFIX='C';
+    CLASS='DISCRETE';
+  end_body;
+end_primitive;
+
+primitive 'CAP_NP_CAPR590-480X1170X940';
+  pin
+    '2':
+      PIN_NUMBER='(2)';
+      PIN_TYPE='ANALOG';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+    '1':
+      PIN_NUMBER='(1)';
+      PIN_TYPE='ANALOG';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+  end_pin;
+  body
+    PART_NAME='CAP_NP';
+    BODY_NAME='CAP_NP';
+    JEDEC_TYPE='CAPR590-480X1170X940';
+    PHYS_DES_PREFIX='C';
+    CLASS='DISCRETE';
+  end_body;
+end_primitive;
+
+primitive 'CAP_NP_CAPA3048-2300X1270';
+  pin
+    '2':
+      PIN_NUMBER='(2)';
+      PIN_TYPE='ANALOG';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+    '1':
+      PIN_NUMBER='(1)';
+      PIN_TYPE='ANALOG';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+  end_pin;
+  body
+    PART_NAME='CAP_NP';
+    BODY_NAME='CAP_NP';
+    JEDEC_TYPE='CAPA3048-2300X1270';
+    PHYS_DES_PREFIX='C';
+    CLASS='DISCRETE';
+  end_body;
+end_primitive;
+
+primitive 'CAP_NP_CAPR590-480X1170X970';
+  pin
+    '2':
+      PIN_NUMBER='(2)';
+      PIN_TYPE='ANALOG';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+    '1':
+      PIN_NUMBER='(1)';
+      PIN_TYPE='ANALOG';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+  end_pin;
+  body
+    PART_NAME='CAP_NP';
+    BODY_NAME='CAP_NP';
+    JEDEC_TYPE='CAPR590-480X1170X970';
+    PHYS_DES_PREFIX='C';
+    CLASS='DISCRETE';
+  end_body;
+end_primitive;
+
+primitive 'CAP_NP_CAPR590-530X1190X990';
+  pin
+    '2':
+      PIN_NUMBER='(2)';
+      PIN_TYPE='ANALOG';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+    '1':
+      PIN_NUMBER='(1)';
+      PIN_TYPE='ANALOG';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+  end_pin;
+  body
+    PART_NAME='CAP_NP';
+    BODY_NAME='CAP_NP';
+    JEDEC_TYPE='CAPR590-530X1190X990';
+    PHYS_DES_PREFIX='C';
+    CLASS='DISCRETE';
+  end_body;
+end_primitive;
+
+primitive 'CAP_NP_CAPR360-480X940X860';
+  pin
+    '2':
+      PIN_NUMBER='(2)';
+      PIN_TYPE='ANALOG';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+    '1':
+      PIN_NUMBER='(1)';
+      PIN_TYPE='ANALOG';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+  end_pin;
+  body
+    PART_NAME='CAP_NP';
+    BODY_NAME='CAP_NP';
+    JEDEC_TYPE='CAPR360-480X940X860';
+    PHYS_DES_PREFIX='C';
+    CLASS='DISCRETE';
+  end_body;
+end_primitive;
+
+primitive 'CAP_NP_CAPR360-560X990X940';
+  pin
+    '2':
+      PIN_NUMBER='(2)';
+      PIN_TYPE='ANALOG';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+    '1':
+      PIN_NUMBER='(1)';
+      PIN_TYPE='ANALOG';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+  end_pin;
+  body
+    PART_NAME='CAP_NP';
+    BODY_NAME='CAP_NP';
+    JEDEC_TYPE='CAPR360-560X990X940';
+    PHYS_DES_PREFIX='C';
+    CLASS='DISCRETE';
+  end_body;
+end_primitive;
+
+primitive 'CAP_NP_CAPR590-530X1170X970';
+  pin
+    '2':
+      PIN_NUMBER='(2)';
+      PIN_TYPE='ANALOG';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+    '1':
+      PIN_NUMBER='(1)';
+      PIN_TYPE='ANALOG';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+  end_pin;
+  body
+    PART_NAME='CAP_NP';
+    BODY_NAME='CAP_NP';
+    JEDEC_TYPE='CAPR590-530X1170X970';
+    PHYS_DES_PREFIX='C';
+    CLASS='DISCRETE';
+  end_body;
+end_primitive;
+
+primitive 'CAP_NP_CAPR870-530X1650X1300';
+  pin
+    '2':
+      PIN_NUMBER='(2)';
+      PIN_TYPE='ANALOG';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+    '1':
+      PIN_NUMBER='(1)';
+      PIN_TYPE='ANALOG';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+  end_pin;
+  body
+    PART_NAME='CAP_NP';
+    BODY_NAME='CAP_NP';
+    JEDEC_TYPE='CAPR870-530X1650X1300';
+    PHYS_DES_PREFIX='C';
+    CLASS='DISCRETE';
+  end_body;
+end_primitive;
+
+primitive 'CAP_NP_CAPR590-460X1140X910';
+  pin
+    '2':
+      PIN_NUMBER='(2)';
+      PIN_TYPE='ANALOG';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+    '1':
+      PIN_NUMBER='(1)';
+      PIN_TYPE='ANALOG';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+  end_pin;
+  body
+    PART_NAME='CAP_NP';
+    BODY_NAME='CAP_NP';
+    JEDEC_TYPE='CAPR590-460X1140X910';
+    PHYS_DES_PREFIX='C';
+    CLASS='DISCRETE';
+  end_body;
+end_primitive;
+
+primitive 'CAP_NP_0508CAP';
+  pin
+    '2':
+      PIN_NUMBER='(2)';
+      PIN_TYPE='ANALOG';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+    '1':
+      PIN_NUMBER='(1)';
+      PIN_TYPE='ANALOG';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+  end_pin;
+  body
+    PART_NAME='CAP_NP';
+    BODY_NAME='CAP_NP';
+    JEDEC_TYPE='CAPC1220X107M';
+    PHYS_DES_PREFIX='C';
+    CLASS='DISCRETE';
+  end_body;
+end_primitive;
+
+primitive 'CAP_NP_1210CAP';
+  pin
+    '2':
+      PIN_NUMBER='(2)';
+      PIN_TYPE='ANALOG';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      ALLOW_CONNECT='TRUE';
+    '1':
+      PIN_NUMBER='(1)';
+      PIN_TYPE='ANALOG';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      ALLOW_CONNECT='TRUE';
+  end_pin;
+  body
+    PART_NAME='CAP_NP';
+    NO_DIR_CHECK='TRUE';
+    BODY_NAME='CAP_NP';
+    JEDEC_TYPE='1210';
+    PHYS_DES_PREFIX='C';
+    CLASS='DISCRETE';
+  end_body;
+end_primitive;
+
+primitive 'CAP_NP_2220CAP';
+  pin
+    '2':
+      PIN_NUMBER='(2)';
+      PIN_TYPE='ANALOG';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      ALLOW_CONNECT='TRUE';
+    '1':
+      PIN_NUMBER='(1)';
+      PIN_TYPE='ANALOG';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      ALLOW_CONNECT='TRUE';
+  end_pin;
+  body
+    PART_NAME='CAP_NP';
+    NO_DIR_CHECK='TRUE';
+    BODY_NAME='CAP_NP';
+    JEDEC_TYPE='2220';
+    PHYS_DES_PREFIX='C';
+    CLASS='DISCRETE';
+  end_body;
+end_primitive;
+
+primitive 'CAP_NP_CAPR508-381X762X914';
+  pin
+    '2':
+      PIN_NUMBER='(2)';
+      PIN_TYPE='ANALOG';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+    '1':
+      PIN_NUMBER='(1)';
+      PIN_TYPE='ANALOG';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+  end_pin;
+  body
+    PART_NAME='CAP_NP';
+    BODY_NAME='CAP_NP';
+    JEDEC_TYPE='CAPR508-381X762X914';
+    PHYS_DES_PREFIX='C';
+    CLASS='DISCRETE';
+  end_body;
+end_primitive;
+
+primitive 'CAP_NP_CAPR508-381X1016X1168';
+  pin
+    '2':
+      PIN_NUMBER='(2)';
+      PIN_TYPE='ANALOG';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+    '1':
+      PIN_NUMBER='(1)';
+      PIN_TYPE='ANALOG';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+  end_pin;
+  body
+    PART_NAME='CAP_NP';
+    BODY_NAME='CAP_NP';
+    JEDEC_TYPE='CAPR508-381X1016X1168';
+    PHYS_DES_PREFIX='C';
+    CLASS='DISCRETE';
+  end_body;
+end_primitive;
+
+primitive 'CAP_NP_CAPR254-317X508X660';
+  pin
+    '2':
+      PIN_NUMBER='(2)';
+      PIN_TYPE='ANALOG';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+    '1':
+      PIN_NUMBER='(1)';
+      PIN_TYPE='ANALOG';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+  end_pin;
+  body
+    PART_NAME='CAP_NP';
+    BODY_NAME='CAP_NP';
+    JEDEC_TYPE='CAPR254-317X508X660';
+    PHYS_DES_PREFIX='C';
+    CLASS='DISCRETE';
+  end_body;
+end_primitive;
+
+primitive 'CAP_NP_CAPPR200-1000X1200';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PIN_TYPE='ANALOG';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+    '2':
+      PIN_NUMBER='(2)';
+      PIN_TYPE='ANALOG';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+  end_pin;
+  body
+    PART_NAME='CAP_NP';
+    BODY_NAME='CAP_NP';
+    JEDEC_TYPE='CAPPR200-1000X1200';
+    PHYS_DES_PREFIX='C';
+    CLASS='DISCRETE';
+  end_body;
+end_primitive;
+
+primitive 'CAP_NP_CAPR1000-450X1300X900';
+  pin
+    '2':
+      PIN_NUMBER='(2)';
+      PIN_TYPE='ANALOG';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+    '1':
+      PIN_NUMBER='(1)';
+      PIN_TYPE='ANALOG';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+  end_pin;
+  body
+    PART_NAME='CAP_NP';
+    BODY_NAME='CAP_NP';
+    JEDEC_TYPE='CAPR1000-450X1300X900';
+    PHYS_DES_PREFIX='C';
+    CLASS='DISCRETE';
+  end_body;
+end_primitive;
+
+primitive 'CAP_NP_0502CAP';
+  pin
+    '2':
+      PIN_NUMBER='(2)';
+      PIN_TYPE='ANALOG';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      ALLOW_CONNECT='TRUE';
+    '1':
+      PIN_NUMBER='(1)';
+      PIN_TYPE='ANALOG';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      ALLOW_CONNECT='TRUE';
+  end_pin;
+  body
+    PART_NAME='CAP_NP';
+    NO_DIR_CHECK='TRUE';
+    BODY_NAME='CAP_NP';
+    JEDEC_TYPE='0502';
+    PHYS_DES_PREFIX='C';
+    CLASS='DISCRETE';
+  end_body;
+end_primitive;
+
+primitive 'CAP_NP_0204CAP';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PIN_TYPE='ANALOG';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      ALLOW_CONNECT='TRUE';
+    '2':
+      PIN_NUMBER='(2)';
+      PIN_TYPE='ANALOG';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      ALLOW_CONNECT='TRUE';
+  end_pin;
+  body
+    PART_NAME='CAP_NP';
+    NO_DIR_CHECK='TRUE';
+    BODY_NAME='CAP_NP';
+    JEDEC_TYPE='0204';
+    PHYS_DES_PREFIX='C';
+    CLASS='DISCRETE';
+  end_body;
+end_primitive;
+
+primitive 'CAP_NP_CAPA4000-2900X1300';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PIN_TYPE='ANALOG';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+    '2':
+      PIN_NUMBER='(2)';
+      PIN_TYPE='ANALOG';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+  end_pin;
+  body
+    PART_NAME='CAP_NP';
+    BODY_NAME='CAP_NP';
+    JEDEC_TYPE='CAPA4000-2900X1300';
+    PHYS_DES_PREFIX='C';
+    CLASS='DISCRETE';
+  end_body;
+end_primitive;
+
+primitive 'CAP_NP_CAPA2040-1350X680';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PIN_TYPE='ANALOG';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+    '2':
+      PIN_NUMBER='(2)';
+      PIN_TYPE='ANALOG';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+  end_pin;
+  body
+    PART_NAME='CAP_NP';
+    BODY_NAME='CAP_NP';
+    JEDEC_TYPE='CAPA2040-1350X680';
+    PHYS_DES_PREFIX='C';
+    CLASS='DISCRETE';
+  end_body;
+end_primitive;
+
+primitive 'CAP_NP_CAPR500-500X720X1000','CAP_NP_CAPR500-350X720X800';
+  pin
+    '2':
+      PIN_NUMBER='(2)';
+      PIN_TYPE='ANALOG';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+    '1':
+      PIN_NUMBER='(1)';
+      PIN_TYPE='ANALOG';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+  end_pin;
+  body
+    PART_NAME='CAP_NP';
+    BODY_NAME='CAP_NP';
+    JEDEC_TYPE='CAPR500-500X720X1000';
+    PHYS_DES_PREFIX='C';
+    CLASS='DISCRETE';
+  end_body;
+end_primitive;
+
+primitive 'CAP_NP_CAPR500-300X720X750';
+  pin
+    '2':
+      PIN_NUMBER='(2)';
+      PIN_TYPE='ANALOG';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+    '1':
+      PIN_NUMBER='(1)';
+      PIN_TYPE='ANALOG';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+  end_pin;
+  body
+    PART_NAME='CAP_NP';
+    BODY_NAME='CAP_NP';
+    JEDEC_TYPE='CAPR500-300X720X750';
+    PHYS_DES_PREFIX='C';
+    CLASS='DISCRETE';
+  end_body;
+end_primitive;
+
+primitive 'CAP_NP_CAPR508-318X508X660';
+  pin
+    '2':
+      PIN_NUMBER='(2)';
+      PIN_TYPE='ANALOG';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+    '1':
+      PIN_NUMBER='(1)';
+      PIN_TYPE='ANALOG';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+  end_pin;
+  body
+    PART_NAME='CAP_NP';
+    BODY_NAME='CAP_NP';
+    JEDEC_TYPE='CAPR508-318X508X660';
+    PHYS_DES_PREFIX='C';
+    CLASS='DISCRETE';
+  end_body;
+end_primitive;
+
+primitive 'CAP_NP_CAPR750-500X1000X1050';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PIN_TYPE='ANALOG';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+    '2':
+      PIN_NUMBER='(2)';
+      PIN_TYPE='ANALOG';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+  end_pin;
+  body
+    PART_NAME='CAP_NP';
+    BODY_NAME='CAP_NP';
+    JEDEC_TYPE='CAPR750-500X1000X1050';
+    PHYS_DES_PREFIX='C';
+    CLASS='DISCRETE';
+  end_body;
+end_primitive;
+
+primitive 'CAP_NP_0505CAP';
+  pin
+    '2':
+      PIN_NUMBER='(2)';
+      PIN_TYPE='ANALOG';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+    '1':
+      PIN_NUMBER='(1)';
+      PIN_TYPE='ANALOG';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+  end_pin;
+  body
+    PART_NAME='CAP_NP';
+    ALT_SYMBOLS='(CAPC1514X145M_V)';
+    BODY_NAME='CAP_NP';
+    JEDEC_TYPE='CAPC1514X145M_H';
+    PHYS_DES_PREFIX='C';
+    CLASS='DISCRETE';
+  end_body;
+end_primitive;
+
+primitive 'CAP_NP_0306CAP';
+  pin
+    '2':
+      PIN_NUMBER='(2)';
+      PIN_TYPE='ANALOG';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+    '1':
+      PIN_NUMBER='(1)';
+      PIN_TYPE='ANALOG';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+  end_pin;
+  body
+    PART_NAME='CAP_NP';
+    BODY_NAME='CAP_NP';
+    JEDEC_TYPE='CAPC0816X61M';
+    PHYS_DES_PREFIX='C';
+    CLASS='DISCRETE';
+  end_body;
+end_primitive;
+
+primitive 'CAP_NP_1812CAP';
+  pin
+    '2':
+      PIN_NUMBER='(2)';
+      PIN_TYPE='ANALOG';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+    '1':
+      PIN_NUMBER='(1)';
+      PIN_TYPE='ANALOG';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+  end_pin;
+  body
+    PART_NAME='CAP_NP';
+    BODY_NAME='CAP_NP';
+    JEDEC_TYPE='CAPC4732X280M';
+    PHYS_DES_PREFIX='C';
+    CLASS='DISCRETE';
+  end_body;
+end_primitive;
+
+primitive 'CAP_NP_CAPR1500-700X1750X1350';
+  pin
+    '2':
+      PIN_NUMBER='(2)';
+      PIN_TYPE='ANALOG';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+    '1':
+      PIN_NUMBER='(1)';
+      PIN_TYPE='ANALOG';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+  end_pin;
+  body
+    PART_NAME='CAP_NP';
+    BODY_NAME='CAP_NP';
+    JEDEC_TYPE='CAPR1500-700X1750X1350';
+    PHYS_DES_PREFIX='C';
+    CLASS='DISCRETE';
+  end_body;
+end_primitive;
+
+primitive 'CAP_NP_CAPR1500-700X1850X1600';
+  pin
+    '2':
+      PIN_NUMBER='(2)';
+      PIN_TYPE='ANALOG';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+    '1':
+      PIN_NUMBER='(1)';
+      PIN_TYPE='ANALOG';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+  end_pin;
+  body
+    PART_NAME='CAP_NP';
+    BODY_NAME='CAP_NP';
+    JEDEC_TYPE='CAPR1500-700X1850X1600';
+    PHYS_DES_PREFIX='C';
+    CLASS='DISCRETE';
+  end_body;
+end_primitive;
+
+primitive 'CAP_NP_CAPR2250-1150X2600X2250';
+  pin
+    '2':
+      PIN_NUMBER='(2)';
+      PIN_TYPE='ANALOG';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+    '1':
+      PIN_NUMBER='(1)';
+      PIN_TYPE='ANALOG';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+  end_pin;
+  body
+    PART_NAME='CAP_NP';
+    BODY_NAME='CAP_NP';
+    JEDEC_TYPE='CAPR2250-1150X2600X2250';
+    PHYS_DES_PREFIX='C';
+    CLASS='DISCRETE';
+  end_body;
+end_primitive;
+
+primitive 'CAP_NP_CAPR500-1100X720X1600','CAP_NP_CAPR500-450X720X600';
+  pin
+    '2':
+      PIN_NUMBER='(2)';
+      PIN_TYPE='ANALOG';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+    '1':
+      PIN_NUMBER='(1)';
+      PIN_TYPE='ANALOG';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+  end_pin;
+  body
+    PART_NAME='CAP_NP';
+    BODY_NAME='CAP_NP';
+    JEDEC_TYPE='CAPR500-1100X720X1600';
+    PHYS_DES_PREFIX='C';
+    CLASS='DISCRETE';
+  end_body;
+end_primitive;
+
+primitive 'CAP_NP_CODE_2824','CAP_NP_1808';
+  pin
+    '2':
+      PIN_NUMBER='(2)';
+      PIN_TYPE='ANALOG';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      ALLOW_CONNECT='TRUE';
+    '1':
+      PIN_NUMBER='(1)';
+      PIN_TYPE='ANALOG';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      ALLOW_CONNECT='TRUE';
+  end_pin;
+  body
+    PART_NAME='CAP_NP';
+    NO_DIR_CHECK='TRUE';
+    BODY_NAME='CAP_NP';
+    JEDEC_TYPE='CAPC7360X470N';
+    PHYS_DES_PREFIX='C';
+    CLASS='DISCRETE';
+  end_body;
+end_primitive;
+
+primitive 'CAP_NP_CODE_6560';
+  pin
+    '2':
+      PIN_NUMBER='(2)';
+      PIN_TYPE='ANALOG';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      ALLOW_CONNECT='TRUE';
+    '1':
+      PIN_NUMBER='(1)';
+      PIN_TYPE='ANALOG';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      ALLOW_CONNECT='TRUE';
+  end_pin;
+  body
+    PART_NAME='CAP_NP';
+    NO_DIR_CHECK='TRUE';
+    BODY_NAME='CAP_NP';
+    JEDEC_TYPE='CAPC165150X670M';
+    PHYS_DES_PREFIX='C';
+    CLASS='DISCRETE';
+  end_body;
+end_primitive;
+
+primitive 'CAP_NP_CAPR300-460X690X610';
+  pin
+    '2':
+      PIN_NUMBER='(2)';
+      PIN_TYPE='ANALOG';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      ALLOW_CONNECT='TRUE';
+    '1':
+      PIN_NUMBER='(1)';
+      PIN_TYPE='ANALOG';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      ALLOW_CONNECT='TRUE';
+  end_pin;
+  body
+    PART_NAME='CAP_NP';
+    NO_DIR_CHECK='TRUE';
+    BODY_NAME='CAP_NP';
+    JEDEC_TYPE='CAPR300-460X690X610';
+    PHYS_DES_PREFIX='C';
+    CLASS='DISCRETE';
+  end_body;
+end_primitive;
+
+primitive 'CAP_NP_MD01';
+  pin
+    '2':
+      PIN_NUMBER='(2)';
+      PIN_TYPE='ANALOG';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      ALLOW_CONNECT='TRUE';
+    '1':
+      PIN_NUMBER='(1)';
+      PIN_TYPE='ANALOG';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      ALLOW_CONNECT='TRUE';
+  end_pin;
+  body
+    PART_NAME='CAP_NP';
+    NO_DIR_CHECK='TRUE';
+    BODY_NAME='CAP_NP';
+    JEDEC_TYPE='CAPA8255-254X660';
+    PHYS_DES_PREFIX='C';
+    CLASS='DISCRETE';
+  end_body;
+end_primitive;
+
+primitive 'CAP_NP_0201CAPM';
+  pin
+    '2':
+      PIN_NUMBER='(2)';
+      PIN_TYPE='ANALOG';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      ALLOW_CONNECT='TRUE';
+    '1':
+      PIN_NUMBER='(1)';
+      PIN_TYPE='ANALOG';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      ALLOW_CONNECT='TRUE';
+  end_pin;
+  body
+    PART_NAME='CAP_NP';
+    ALT_SYMBOLS='(0201_nosilk)';
+    NO_DIR_CHECK='TRUE';
+    BODY_NAME='CAP_NP';
+    JEDEC_TYPE='CAPC0603X33M';
+    PHYS_DES_PREFIX='C';
+    CLASS='DISCRETE';
+  end_body;
+end_primitive;
+
+primitive 'CAP_NP_CAPR1000-700X1150X1550';
+  pin
+    '2':
+      PIN_NUMBER='(2)';
+      PIN_TYPE='ANALOG';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+    '1':
+      PIN_NUMBER='(1)';
+      PIN_TYPE='ANALOG';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+  end_pin;
+  body
+    PART_NAME='CAP_NP';
+    BODY_NAME='CAP_NP';
+    JEDEC_TYPE='CAPR1000-700X1150X1550';
+    PHYS_DES_PREFIX='C';
+    CLASS='DISCRETE';
+  end_body;
+end_primitive;
+
+primitive 'CAP_NP_CAPR1500-550X1750X1250';
+  pin
+    '2':
+      PIN_NUMBER='(2)';
+      PIN_TYPE='ANALOG';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+    '1':
+      PIN_NUMBER='(1)';
+      PIN_TYPE='ANALOG';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+  end_pin;
+  body
+    PART_NAME='CAP_NP';
+    BODY_NAME='CAP_NP';
+    JEDEC_TYPE='CAPR1500-550X1750X1250';
+    PHYS_DES_PREFIX='C';
+    CLASS='DISCRETE';
+  end_body;
+end_primitive;
+
+primitive 'CAP_NP_CAPADH2255W90L1905D635';
+  pin
+    '2':
+      PIN_NUMBER='(2)';
+      PIN_TYPE='ANALOG';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+    '1':
+      PIN_NUMBER='(1)';
+      PIN_TYPE='ANALOG';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+  end_pin;
+  body
+    PART_NAME='CAP_NP';
+    BODY_NAME='CAP_NP';
+    JEDEC_TYPE='CAPADH2255W90L1905D635';
+    PHYS_DES_PREFIX='C';
+    CLASS='DISCRETE';
+  end_body;
+end_primitive;
+
+primitive 'CAP_NP_CAPADH2890W90L2540D838';
+  pin
+    '2':
+      PIN_NUMBER='(2)';
+      PIN_TYPE='ANALOG';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+    '1':
+      PIN_NUMBER='(1)';
+      PIN_TYPE='ANALOG';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+  end_pin;
+  body
+    PART_NAME='CAP_NP';
+    BODY_NAME='CAP_NP';
+    JEDEC_TYPE='CAPADH2890W90L2540D838';
+    PHYS_DES_PREFIX='C';
+    CLASS='DISCRETE';
+  end_body;
+end_primitive;
+
+primitive 'CAP_NP_2225CAP';
+  pin
+    '2':
+      PIN_NUMBER='(2)';
+      PIN_TYPE='ANALOG';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      ALLOW_CONNECT='TRUE';
+    '1':
+      PIN_NUMBER='(1)';
+      PIN_TYPE='ANALOG';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      ALLOW_CONNECT='TRUE';
+  end_pin;
+  body
+    PART_NAME='CAP_NP';
+    NO_DIR_CHECK='TRUE';
+    BODY_NAME='CAP_NP';
+    JEDEC_TYPE='2225';
+    PHYS_DES_PREFIX='C';
+    CLASS='DISCRETE';
+  end_body;
+end_primitive;
+
+primitive 'CAP_NP_CAP_ECQUL';
+  pin
+    '2':
+      PIN_NUMBER='(2)';
+      PIN_TYPE='ANALOG';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      ALLOW_CONNECT='TRUE';
+    '1':
+      PIN_NUMBER='(1)';
+      PIN_TYPE='ANALOG';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      ALLOW_CONNECT='TRUE';
+  end_pin;
+  body
+    PART_NAME='CAP_NP';
+    NO_DIR_CHECK='TRUE';
+    BODY_NAME='CAP_NP';
+    JEDEC_TYPE='CAPR2250-1200X2550X2250';
+    PHYS_DES_PREFIX='C';
+    CLASS='DISCRETE';
+  end_body;
+end_primitive;
+
+primitive 'CAP_NP_CAPR508-255X385X585';
+  pin
+    '2':
+      PIN_NUMBER='(2)';
+      PIN_TYPE='ANALOG';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+    '1':
+      PIN_NUMBER='(1)';
+      PIN_TYPE='ANALOG';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+  end_pin;
+  body
+    PART_NAME='CAP_NP';
+    BODY_NAME='CAP_NP';
+    JEDEC_TYPE='CAPR508-255X385X585';
+    PHYS_DES_PREFIX='C';
+    CLASS='DISCRETE';
+  end_body;
+end_primitive;
+
+primitive 'CAP_NP_CAPR1000-650X1300X1750';
+  pin
+    '2':
+      PIN_NUMBER='(2)';
+      PIN_TYPE='ANALOG';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+    '1':
+      PIN_NUMBER='(1)';
+      PIN_TYPE='ANALOG';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+  end_pin;
+  body
+    PART_NAME='CAP_NP';
+    BODY_NAME='CAP_NP';
+    JEDEC_TYPE='CAPR1000-650X1300X1750';
+    PHYS_DES_PREFIX='C';
+    CLASS='DISCRETE';
+  end_body;
+end_primitive;
+
+primitive 'CAP_NP_CAPR1000-700X950X1350';
+  pin
+    '2':
+      PIN_NUMBER='(2)';
+      PIN_TYPE='ANALOG';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+    '1':
+      PIN_NUMBER='(1)';
+      PIN_TYPE='ANALOG';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+  end_pin;
+  body
+    PART_NAME='CAP_NP';
+    BODY_NAME='CAP_NP';
+    JEDEC_TYPE='CAPR1000-700X950X1350';
+    PHYS_DES_PREFIX='C';
+    CLASS='DISCRETE';
+  end_body;
+end_primitive;
+
+primitive 'CAP_NP_CAPR1000-900X1300X1800';
+  pin
+    '2':
+      PIN_NUMBER='(2)';
+      PIN_TYPE='ANALOG';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+    '1':
+      PIN_NUMBER='(1)';
+      PIN_TYPE='ANALOG';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+  end_pin;
+  body
+    PART_NAME='CAP_NP';
+    BODY_NAME='CAP_NP';
+    JEDEC_TYPE='CAPR1000-900X1300X1800';
+    PHYS_DES_PREFIX='C';
+    CLASS='DISCRETE';
+  end_body;
+end_primitive;
+
+primitive 'CAP_NP_CAPR1000-700X750X1150';
+  pin
+    '2':
+      PIN_NUMBER='(2)';
+      PIN_TYPE='ANALOG';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+    '1':
+      PIN_NUMBER='(1)';
+      PIN_TYPE='ANALOG';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+  end_pin;
+  body
+    PART_NAME='CAP_NP';
+    BODY_NAME='CAP_NP';
+    JEDEC_TYPE='CAPR1000-700X750X1150';
+    PHYS_DES_PREFIX='C';
+    CLASS='DISCRETE';
+  end_body;
+end_primitive;
+
+primitive 'CAP_NP_CAPR1016-508X1270X1422';
+  pin
+    '2':
+      PIN_NUMBER='(2)';
+      PIN_TYPE='ANALOG';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+    '1':
+      PIN_NUMBER='(1)';
+      PIN_TYPE='ANALOG';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+  end_pin;
+  body
+    PART_NAME='CAP_NP';
+    BODY_NAME='CAP_NP';
+    JEDEC_TYPE='CAPR1016-508X1270X1422';
+    PHYS_DES_PREFIX='C';
+    CLASS='DISCRETE';
+  end_body;
+end_primitive;
+
+primitive 'CAP_NP_0402CAP_RF';
+  pin
+    '2':
+      PIN_NUMBER='(2)';
+      PIN_TYPE='ANALOG';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      ALLOW_CONNECT='TRUE';
+    '1':
+      PIN_NUMBER='(1)';
+      PIN_TYPE='ANALOG';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      ALLOW_CONNECT='TRUE';
+  end_pin;
+  body
+    PART_NAME='CAP_NP';
+    NO_DIR_CHECK='TRUE';
+    BODY_NAME='CAP_NP';
+    JEDEC_TYPE='CAP_LBB0402';
+    PHYS_DES_PREFIX='C';
+    CLASS='DISCRETE';
+  end_body;
+end_primitive;
+
+primitive 'CAP_NP_CAPRB500W60L900T450H1200A';
+  pin
+    '2':
+      PIN_NUMBER='(2)';
+      PIN_TYPE='ANALOG';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+    '1':
+      PIN_NUMBER='(1)';
+      PIN_TYPE='ANALOG';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+  end_pin;
+  body
+    PART_NAME='CAP_NP';
+    BODY_NAME='CAP_NP';
+    JEDEC_TYPE='CAPRB500W60L900T450H1200A';
+    PHYS_DES_PREFIX='C';
+    CLASS='DISCRETE';
+  end_body;
+end_primitive;
+
+primitive 'CAP_NP_CAPR500-315X500X550';
+  pin
+    '2':
+      PIN_NUMBER='(2)';
+      PIN_TYPE='ANALOG';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      ALLOW_CONNECT='TRUE';
+    '1':
+      PIN_NUMBER='(1)';
+      PIN_TYPE='ANALOG';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      ALLOW_CONNECT='TRUE';
+  end_pin;
+  body
+    PART_NAME='CAP_NP';
+    NO_DIR_CHECK='TRUE';
+    BODY_NAME='CAP_NP';
+    JEDEC_TYPE='CAPR500-315X500X550';
+    PHYS_DES_PREFIX='C';
+    CLASS='DISCRETE';
+  end_body;
+end_primitive;
+
+primitive 'CAP_NP_CAPRR500W53L750T400H800A';
+  pin
+    '2':
+      PIN_NUMBER='(2)';
+      PIN_TYPE='ANALOG';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+    '1':
+      PIN_NUMBER='(1)';
+      PIN_TYPE='ANALOG';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+  end_pin;
+  body
+    PART_NAME='CAP_NP';
+    BODY_NAME='CAP_NP';
+    JEDEC_TYPE='CAPRR500W53L750T400H800A';
+    PHYS_DES_PREFIX='C';
+    CLASS='DISCRETE';
+  end_body;
+end_primitive;
+
+primitive 'CAP_NP_01005CAP';
+  pin
+    '2':
+      PIN_NUMBER='(2)';
+      PIN_TYPE='ANALOG';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      ALLOW_CONNECT='TRUE';
+    '1':
+      PIN_NUMBER='(1)';
+      PIN_TYPE='ANALOG';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      ALLOW_CONNECT='TRUE';
+  end_pin;
+  body
+    PART_NAME='CAP_NP';
+    NO_DIR_CHECK='TRUE';
+    BODY_NAME='CAP_NP';
+    JEDEC_TYPE='RESC0402X40M';
+    PHYS_DES_PREFIX='C';
+    CLASS='DISCRETE';
+  end_body;
+end_primitive;
+
+primitive 'CAP_NP_1825CAP';
+  pin
+    '2':
+      PIN_NUMBER='(2)';
+      PIN_TYPE='ANALOG';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+    '1':
+      PIN_NUMBER='(1)';
+      PIN_TYPE='ANALOG';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+  end_pin;
+  body
+    PART_NAME='CAP_NP';
+    BODY_NAME='CAP_NP';
+    JEDEC_TYPE='CAPC4564X220M';
+    PHYS_DES_PREFIX='C';
+    CLASS='DISCRETE';
+  end_body;
+end_primitive;
+
+primitive 'CAP_NP_CAPRR750W80L1750T780H1600A';
+  pin
+    '2':
+      PIN_NUMBER='(2)';
+      PIN_TYPE='ANALOG';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+    '1':
+      PIN_NUMBER='(1)';
+      PIN_TYPE='ANALOG';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+  end_pin;
+  body
+    PART_NAME='CAP_NP';
+    BODY_NAME='CAP_NP';
+    JEDEC_TYPE='CAPRR750W80L1750T780H1600A';
+    PHYS_DES_PREFIX='C';
+    CLASS='DISCRETE';
+  end_body;
+end_primitive;
+
+primitive 'CAP_NP_1812_STACK_CAP';
+  pin
+    '2':
+      PIN_NUMBER='(2)';
+      PIN_TYPE='ANALOG';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+    '1':
+      PIN_NUMBER='(1)';
+      PIN_TYPE='ANALOG';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+  end_pin;
+  body
+    PART_NAME='CAP_NP';
+    BODY_NAME='CAP_NP';
+    JEDEC_TYPE='CAPC5035X500M';
+    PHYS_DES_PREFIX='C';
+    CLASS='DISCRETE';
+  end_body;
+end_primitive;
+
+primitive 'CAP_NP_CAPRB1000W60L1100T500H1500A';
+  pin
+    '2':
+      PIN_NUMBER='(2)';
+      PIN_TYPE='ANALOG';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+    '1':
+      PIN_NUMBER='(1)';
+      PIN_TYPE='ANALOG';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+  end_pin;
+  body
+    PART_NAME='CAP_NP';
+    BODY_NAME='CAP_NP';
+    JEDEC_TYPE='CAPRB1000W60L1100T500H1500A';
+    PHYS_DES_PREFIX='C';
+    CLASS='DISCRETE';
+  end_body;
+end_primitive;
+
+primitive 'CAP_NP_CAPRB950W81L2160T580H2480A';
+  pin
+    '2':
+      PIN_NUMBER='(2)';
+      PIN_TYPE='ANALOG';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+    '1':
+      PIN_NUMBER='(1)';
+      PIN_TYPE='ANALOG';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+  end_pin;
+  body
+    PART_NAME='CAP_NP';
+    BODY_NAME='CAP_NP';
+    JEDEC_TYPE='CAPRB950W81L2160T580H2480A';
+    PHYS_DES_PREFIX='C';
+    CLASS='DISCRETE';
+  end_body;
+end_primitive;
+
+primitive 'CAP_NP_CAPRR1500W60L1800T850H1450A';
+  pin
+    '2':
+      PIN_NUMBER='(2)';
+      PIN_TYPE='ANALOG';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+    '1':
+      PIN_NUMBER='(1)';
+      PIN_TYPE='ANALOG';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+  end_pin;
+  body
+    PART_NAME='CAP_NP';
+    BODY_NAME='CAP_NP';
+    JEDEC_TYPE='CAPRR1500W60L1800T850H1450A';
+    PHYS_DES_PREFIX='C';
+    CLASS='DISCRETE';
+  end_body;
+end_primitive;
+
+primitive 'CAP_NP_CAPRB1000W60L800T500H1200';
+  pin
+    '2':
+      PIN_NUMBER='(2)';
+      PIN_TYPE='ANALOG';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      ALLOW_CONNECT='TRUE';
+    '1':
+      PIN_NUMBER='(1)';
+      PIN_TYPE='ANALOG';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      ALLOW_CONNECT='TRUE';
+  end_pin;
+  body
+    PART_NAME='CAP_NP';
+    NO_DIR_CHECK='TRUE';
+    BODY_NAME='CAP_NP';
+    JEDEC_TYPE='CAPRB1000W60L800T500H1200';
+    PHYS_DES_PREFIX='C';
+    CLASS='DISCRETE';
+  end_body;
+end_primitive;
+
+primitive 'CAP_NP_CAP_GX0S';
+  pin
+    '2':
+      PIN_NUMBER='(2)';
+      PIN_TYPE='ANALOG';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      ALLOW_CONNECT='TRUE';
+    '1':
+      PIN_NUMBER='(1)';
+      PIN_TYPE='ANALOG';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      ALLOW_CONNECT='TRUE';
+  end_pin;
+  body
+    PART_NAME='CAP_NP';
+    NO_DIR_CHECK='TRUE';
+    BODY_NAME='CAP_NP';
+    JEDEC_TYPE='CAPC0803X43L36M';
+    PHYS_DES_PREFIX='C';
+    CLASS='DISCRETE';
+  end_body;
+end_primitive;
+
+primitive 'CAP_NP_CAPRR1000W64L1300T500H1100';
+  pin
+    '2':
+      PIN_NUMBER='(2)';
+      PIN_TYPE='ANALOG';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+    '1':
+      PIN_NUMBER='(1)';
+      PIN_TYPE='ANALOG';
+      PIN_GROUP='val 1';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+  end_pin;
+  body
+    PART_NAME='CAP_NP';
+    BODY_NAME='CAP_NP';
+    JEDEC_TYPE='CAPRR1000W64L1300T500H1100';
+    PHYS_DES_PREFIX='C';
+    CLASS='DISCRETE';
+  end_body;
+end_primitive;
+
+END.

@@ -1,0 +1,137 @@
+pagename "MAXIM B SIZE PAGE"
+version 1
+lowerleft (300, 100)
+upperright (8300, 5100)
+xmark "1" 7850
+xmark "2" 6850
+xmark "3" 5850
+xmark "4" 4850
+xmark "5" 3850
+xmark "6" 2850
+xmark "7" 1850
+xmark "8"  850
+ymark "A" 1200
+ymark "B" 2200
+ymark "C" 3425
+ymark "D" 4600
+excludearea "1"  (5500, 125) (8250, 1075)
+excludearea "2"  (6650, 4725)(8300, 5100)
+pagename "MAXIM B SIZE PAGE 2"
+version 1
+lowerleft (300, 100)
+upperright (8300, 5100)
+xmark "1" 7850
+xmark "2" 6850
+xmark "3" 5850
+xmark "4" 4850
+xmark "5" 3850
+xmark "6" 2850
+xmark "7" 1850
+xmark "8"  850
+ymark "A" 1200
+ymark "B" 2200
+ymark "C" 3425
+ymark "D" 4600
+excludearea "1"  (5500, 125) (8250, 1075)
+excludearea "2"  (6650, 4725)(8300, 5100)
+pagename "MAXIM D SIZE PAGE"
+version 1
+lowerleft (-14625, 250)
+upperright (1875, 10750)
+xmark "1" 950
+xmark "2" -1075
+xmark "3" -3200
+xmark "4" -5300
+xmark "5" -7450
+xmark "6" -9575
+xmark "7" -11700
+xmark "8" -13725
+ymark "A" 1625
+ymark "B" 4200
+ymark "C" 6825
+ymark "D" 9475
+excludearea "1" (-2250,250) (1875,1100)
+excludearea "2" (-1600,10150) (1875,10750)
+pagename "MAXIM D SIZE PAGE 2"
+version 1
+lowerleft (-14625, 250)
+upperright (1875, 10750)
+xmark "1" 950
+xmark "2" -1075
+xmark "3" -3200
+xmark "4" -5300
+xmark "5" -7450
+xmark "6" -9575
+xmark "7" -11700
+xmark "8" -13725
+ymark "A" 1625
+ymark "B" 4200
+ymark "C" 6825
+ymark "D" 9475
+excludearea "1" (-2250,250) (1875,1100)
+excludearea "2" (-1600,10150) (1875,10750)
+pagename "MAXIM E SIZE PAGE"
+version 1
+lowerleft (-10700, -8200)
+upperright  (10750, 7750)
+xmark "1" 9650
+xmark "2" 6850
+xmark "3" 4150
+xmark "4" 1400
+xmark "5" -1400
+xmark "6" -4150
+xmark "7" -6850
+xmark "8" -9650
+ymark "A" -7700
+ymark "B" -5500
+ymark "C" -3450
+ymark "D" -1300
+ymark "E"  800
+ymark "F"  2950
+ymark "G"  5100
+ymark "H"  7200
+excludearea "1"  (6825, -8175) (10750, -7200)
+excludearea "2"  (6975, 7250)  (10750, 7750)
+pagename "MAXIM E SIZE PAGE 2"
+version 1
+lowerleft (-10700, -8200)
+upperright  (10750, 7750)
+xmark "1" 9650
+xmark "2" 6850
+xmark "3" 4150
+xmark "4" 1400
+xmark "5" -1400
+xmark "6" -4150
+xmark "7" -6850
+xmark "8" -9650
+ymark "A" -7700
+ymark "B" -5500
+ymark "C" -3450
+ymark "D" -1300
+ymark "E"  800
+ymark "F"  2950
+ymark "G"  5100
+ymark "H"  7200
+excludearea "1"  (6825, -8175) (10750, -7200)
+excludearea "2"  (6975, 7250)  (10750, 7750)
+INFLAG "OFFPAGE" VERSION 1
+INFLAG "OFFPAGE" VERSION 4
+OUTFLAG "OFFPAGE" VERSION 2
+OUTFLAG "OFFPAGE" VERSION 5
+BIFLAG "OFFPAGE" VERSION 3
+BIFLAG "OFFPAGE" VERSION 6
+INFLAG "INPORT" VERSION 1
+OUTFLAG "OUTPORT" VERSION 1
+BIFLAG "IOPORT" VERSION 1
+INFLAG "FLAG" VERSION 1
+INFLAG "FLAG" VERSION 2
+INFLAG "FLAG" VERSION 3
+INFLAG "FLAG" VERSION 4
+OUTFLAG "FLAG" VERSION 5
+OUTFLAG "FLAG" VERSION 6
+OUTFLAG "FLAG" VERSION 7
+OUTFLAG "FLAG" VERSION 8
+BIFLAG "FLAG" VERSION 9
+BIFLAG "FLAG" VERSION 10
+BIFLAG "FLAG" VERSION 11
+BIFLAG "FLAG" VERSION 12

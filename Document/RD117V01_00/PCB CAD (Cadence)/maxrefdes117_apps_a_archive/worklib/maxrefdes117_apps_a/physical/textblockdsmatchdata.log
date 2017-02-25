@@ -1,0 +1,33 @@
+REFDES working :"L1"
+Refdes: "L1", Package:"INDC1608X90L", placebound area(79.92 x 32.68): 2611.786 , text characters: 2 			Text block needed with  width  20.0 & height 35.0
+Refdes: "L1", Package:"INDC1608X90L", txt_block_match_number:21 
+REFDES working :"C4"
+Refdes: "C4", Package:"CAPC1005X50L", placebound area(51.18 x 19.7): 1008.246 , text characters: 2 			Text block needed with  width  13.0 & height 20.0
+Refdes: "C4", Package:"CAPC1005X50L", txt_block_match_number:20 
+REFDES working :"C5"
+Refdes: "C5", Package:"CAPC1005X50L", placebound area(51.18 x 19.7): 1008.246 , text characters: 2 			Text block needed with  width  13.0 & height 20.0
+Refdes: "C5", Package:"CAPC1005X50L", txt_block_match_number:20 
+REFDES working :"R6"
+Refdes: "R6", Package:"RESC1005X50L", placebound area(51.18 x 19.7): 1008.246 , text characters: 2 			Text block needed with  width  13.0 & height 20.0
+Refdes: "R6", Package:"RESC1005X50L", txt_block_match_number:20 
+REFDES working :"C3"
+Refdes: "C3", Package:"CAPC1005X50L", placebound area(51.18 x 19.7): 1008.246 , text characters: 2 			Text block needed with  width  13.0 & height 20.0
+Refdes: "C3", Package:"CAPC1005X50L", txt_block_match_number:20 
+REFDES working :"C7"
+Refdes: "C7", Package:"CAPC1005X50L", placebound area(51.18 x 19.7): 1008.246 , text characters: 2 			Text block needed with  width  13.0 & height 20.0
+Refdes: "C7", Package:"CAPC1005X50L", txt_block_match_number:20 
+REFDES working :"C6"
+Refdes: "C6", Package:"CAPC1005X50L", placebound area(51.18 x 19.7): 1008.246 , text characters: 2 			Text block needed with  width  13.0 & height 20.0
+Refdes: "C6", Package:"CAPC1005X50L", txt_block_match_number:20 
+REFDES working :"R5"
+Refdes: "R5", Package:"RESC1005X50L", placebound area(51.18 x 19.7): 1008.246 , text characters: 2 			Text block needed with  width  13.0 & height 20.0
+Refdes: "R5", Package:"RESC1005X50L", txt_block_match_number:20 
+REFDES working :"R4"
+Refdes: "R4", Package:"RESC1005X50L", placebound area(51.18 x 19.7): 1008.246 , text characters: 2 			Text block needed with  width  13.0 & height 20.0
+Refdes: "R4", Package:"RESC1005X50L", txt_block_match_number:20 
+REFDES working :"U3"
+Refdes: "U3", Package:"SOT95P280X145-6M", placebound area(163.39 x 100.39): 16402.72 , text characters: 2 			Text block needed with  width  41.0 & height 82.0
+Refdes: "U3", Package:"SOT95P280X145-6M", txt_block_match_number:23 
+REFDES working :"U2"
+Refdes: "U2", Package:"SON50P200X205X80-8M", placebound area(116.14 x 70.87): 8230.842 , text characters: 2 			Text block needed with  width  29.0 & height 58.0
+Refdes: "U2", Package:"SON50P200X205X80-8M", txt_block_match_number:22 

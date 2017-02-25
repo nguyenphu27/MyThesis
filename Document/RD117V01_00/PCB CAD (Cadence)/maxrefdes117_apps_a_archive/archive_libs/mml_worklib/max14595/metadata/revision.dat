@@ -1,0 +1,194 @@
+(Cell	max14595
+
+	(RevisionInfoBlock	
+
+		(Baselined	0)
+
+		(Revision	0.0.1)
+
+		(ModificationStatus	NULL)
+
+		(Status	Created)
+
+		(ErrorStatus	0)
+
+		(CreateInfo	
+
+			(Time	03/24/14,11:33:10)
+
+			(User	Ryan.Cabreza)
+
+			(Path	default_lib.max14595)
+
+		)
+
+	)
+
+	(Views	
+
+		(View	Symbol
+
+			(RevisionInfoBlock	
+
+				(Baselined	0)
+
+				(Revision	0.0.1)
+
+				(ModificationStatus	NULL)
+
+				(Status	Created)
+
+				(ErrorStatus	0)
+
+				(CreateInfo	
+
+					(Time	03/24/14,11:33:10)
+
+					(User	Ryan.Cabreza)
+
+					(Path	default_lib.max14595)
+
+				)
+
+			)
+
+			(Symbols	1
+
+				(Symbol	sym_1
+
+					(Symbol_Type	Normal)
+
+					(Max_Size	0)
+
+					(Checksum	00000000a546f53d)
+
+					(RevisionInfoBlock	
+
+						(Baselined	0)
+
+						(Revision	0.0.1)
+
+						(ModificationStatus	NULL)
+
+						(Status	Created)
+
+						(ErrorStatus	0)
+
+						(CreateInfo	
+
+							(Time	03/24/14,11:33:10)
+
+							(User	Ryan.Cabreza)
+
+							(Path	default_lib.max14595)
+
+						)
+
+					)
+
+				)
+
+			)
+
+			(Checksum	000000001c9203b3)
+
+		)
+
+		(View	Chips
+
+			(Checksum	000000008ebd4653)
+
+			(Primitives	1
+
+				(Primitive	MAX14595_TDFN8
+
+					(RevisionInfoBlock	
+
+						(Baselined	0)
+
+						(Revision	0.0.1)
+
+						(ModificationStatus	NULL)
+
+						(Status	Created)
+
+						(ErrorStatus	0)
+
+						(CreateInfo	
+
+							(Time	03/24/14,11:33:10)
+
+							(User	Ryan.Cabreza)
+
+							(Path	default_lib.max14595)
+
+						)
+
+					)
+
+					(LogicalPhysicalPartRelation	
+
+						(LogicalPart	MAX14595
+
+							(PackType	MAX14595_TDFN8)
+
+						)
+
+					)
+
+					(Packages	1
+
+						(FunctionGroups	1
+
+							(FunctionGroup	1[1]
+
+								(Linkages	
+
+									(Linkage	Symbol
+
+										(Name	sym_1)
+
+									)
+
+								)
+
+							)
+
+						)
+
+						(Linkages	
+
+							(DefaultFootPrint	
+
+								(Name	SON50P200X205X80-8M)
+
+							)
+
+						)
+
+					)
+
+				)
+
+			)
+
+		)
+
+		(Checksum	000000001e4503d9)
+
+	)
+
+	(VersionInfoBlock	
+
+		(ToolName	PDV)
+
+		(Version	16.6-S016 (v16-6-112AU))
+
+		(License	PCB_librarian_expert)
+
+	)
+
+	(Checksum	000000001bb60380)
+
+)
+

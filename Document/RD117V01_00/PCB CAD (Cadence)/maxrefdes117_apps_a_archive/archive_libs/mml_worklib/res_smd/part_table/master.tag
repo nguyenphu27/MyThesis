@@ -1,0 +1,8 @@
+SMD_RES_0201.ptf
+SMD_RES_0402.ptf
+SMD_RES_0603.ptf
+SMD_RES_0805.ptf
+SMD_RES_1206.ptf
+SMD_RES_1210.ptf
+SMD_RES_2512.ptf
+part.ptf

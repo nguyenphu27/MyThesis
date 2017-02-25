@@ -1,0 +1,1 @@
+SPLBPD-505,Cell 'induct':For logical part INDUCT, pack type IND_74404054330 is present in the chips.prt file but missing in the part table file. Add PTF rows for that package to ensure that you can instantiate the package.,Warning

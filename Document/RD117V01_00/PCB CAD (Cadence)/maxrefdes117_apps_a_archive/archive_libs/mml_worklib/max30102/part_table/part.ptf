@@ -1,0 +1,14 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'MAX30102'
+
+{========================================================================================}
+:'PACK_TYPE'  |'JEDEC_TYPE'              |'VALUE'         |'MAXINV'                = 'MFG_PART_NUMBER'    |'MANUFACTURER'    |'TOLERANCE'    |'DESCRIPTION'                                                                                               |'VOLTAGE_RATING'    |'TEMP_RANGE'              |'BOM'    |'LEAD_LENGTH'    |'STATUS'                |'DATASHEET_URL'                                                                                           |'EST_STOCK_STATUS'              |'REFLOW'    |'BEHAVIORAL_MODEL'    |'EST_PRICE'    ;
+{========================================================================================}
+ 'OLGA14'     |'PSON80P560X330X165-14M'  |'MAX30102EFD+'  |'10-MAX30102EFD-00' (!)  = 'MAX30102EFD+'     |'MAXIM'         |'N/A'        |'MODULE; SNSR; HIGH-SENSITIVITY PULSE OXIMETER AND HEART-RATE SENSOR FOR WEARABLE; SMT 5.6MM X 3.3MM'  |'+1.8V AND +5V'   |'-40 DEGC TO +85 DEGC'  |'Y'    |'N/A'          |'EVKIT-NOT FOR TEST'  |'http://cavwapp018.maxim-ic.com/inv/attachfile/attachfiledialog.php?pn=10-MAX30102EFD-00'  |'HQ(0):HBO(0):MPOC(0):DL(0)'  |'-'       |'FALSE'             |'($0)'       
+
+END_PART
+
+END.
+
+

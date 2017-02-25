@@ -1,0 +1,34 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'RES'
+
+{========================================================================================}
+:PACK_TYPE | JEDEC_TYPE     | VALUE | MAXINV        = MFG_PART_NUMBER | TOLERANCE | DESCRIPTION                                              | POWER_RATING | TEMP_COEF     | BOM | STATUS   | DATASHEET_URL | EST_STOCK_STATUS | LEAD_LENGTH | RES | VLOG_PARAM01 | REFLOW | BEHAVIORAL_MODEL | EST_PRICE | TEMP_RANGE | MANUFACTURER ;
+{========================================================================================}
+'1210RES' | 'RESC3225X65M' | '10K' |'80-0010K-67'(!) = 'CRCW121010K0FK'| '1%'      | 'RESISTOR; 1210; 10K OHM; 1%; 100PPM; 0.33W; THICK FILM' | '0.33W'       | '+/-100PPM/K' | 'Y' | 'ACTIVE' | 'http://cavwapp018.maxim-ic.com/inv/attachfile/downloadfile.php?mode=open&id=0803-000040&fsize=117569' | 'HQ(146):HBO(75):MPOC(58):DL(0)' | 'N/A' | '1.00E04' | 'RES:INTEGER' | '-' | 'TRUE' | '($0.089)' | '-55 DEGC TO +155 DEGC' | 'VISHAY DALE' 
+
+END_PART
+
+END.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

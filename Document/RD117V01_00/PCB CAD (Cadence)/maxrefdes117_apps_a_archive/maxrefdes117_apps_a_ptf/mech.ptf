@@ -1,0 +1,863 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+
+PART 'LTX_BRACKET_COVER'
+CLASS=MECH
+
+{========================================================================================}
+:PART_NUMBER       = DESCRIPTION              | BOM         |MAXINV  ;
+{========================================================================================}
+ 'R-[80-0161]-S'(!) = 'LTX BRACKET COVER'            | 'Y'       | '32-800161A-00'       
+
+END_PART
+
+PART 'LTX_OCS_SSIP_GTO_DROP_BRACKET'
+CLASS=MECH
+
+{========================================================================================}
+:PART_NUMBER       = DESCRIPTION              | BOM         |MAXINV  ;
+{========================================================================================}
+ 'R-[852-9671-00]-S'(!) = 'LTX OCS GTO DROP BRACKET' | 'Y'       | '32-800160B-00'      
+
+END_PART
+
+PART 'LTX_SSIP_DROP_BRACKET'
+CLASS=MECH
+
+{========================================================================================}
+:PART_NUMBER       = DESCRIPTION              | BOM         |MAXINV     ;
+{========================================================================================}
+ 'R-[852-9864-00]-S'(!) = 'LTX SSIP DROP BRACKET'  | 'Y'     |'32-800164B-00'  
+
+END_PART
+
+PART 'LTX_MX_STIFFENER_FRAME'
+CLASS=MECH
+
+{========================================================================================}
+:PART_NUMBER       = DESCRIPTION              | BOM         |MAXINV    ;
+{========================================================================================}
+ 'R-[852-9696-00]-A'(!) = 'LTX MX STIFFENER FRAME' | 'N'      |'32-800109F-00'  
+
+END_PART
+
+PART 'ASL_RF_STIFFENER_FRAME'
+CLASS=MECH
+
+{========================================================================================}
+:PART_NUMBER       = DESCRIPTION              | BOM          |MAXINV    ;
+{========================================================================================}
+ 'R-[80-0162]-S'(!) = 'ASL RF STIFFENER FRAME' | 'N'          | '32-MSRQ074301B-00'  
+
+END_PART
+
+PART 'ASL_3K_MM_STIFFENER_FRAME'
+CLASS=MECH
+
+{========================================================================================}
+:PART_NUMBER       = DESCRIPTION              | BOM          |MAXINV   ;
+{========================================================================================}
+ 'R-[381-3600-00]-S'(!) = 'ASL 3K MM STIFFENER FRAME' | 'N'  | '32-800159B-00'
+
+END_PART
+  
+
+PART 'CHAMELEON_12"_PROBECARD_STIFFENER'
+CLASS=MECH
+
+{========================================================================================}
+:PART_NUMBER       = DESCRIPTION                      | BOM          |MAXINV   ;
+{========================================================================================}
+ 'R-[41466]-S'(!) = 'CHAMELEON_12"_PROBECARD_STIFFENER'  | 'N'           | '32-800155C-00'
+
+END_PART
+
+ 
+PART 'MICROFLEX_STIFFENER_FRAME'
+CLASS=MECH
+
+{========================================================================================}
+:PART_NUMBER       = DESCRIPTION              | BOM           |MAXINV     ;
+{========================================================================================}
+ 'R-[P1-900-00]-A'(!) = 'MICROFLEX STIFFENER FRAME' | 'N'      | '32-800153C-00'  
+
+END_PART
+
+PART 'TRIAD_12"_PROBECARD_STIFFENER'
+CLASS=MECH
+
+{========================================================================================}
+:PART_NUMBER       = DESCRIPTION              | BOM           |MAXINV     ;
+{========================================================================================}
+ 'R-[RA41556-01]-S'(!) = 'TRIAD 12" PROBECARD STIFFENER' | 'N'  | '32-800154B-00'   
+
+END_PART
+
+PART 'LTX_VHDM_CONNECTOR_2_PER_CONN'
+CLASS=MECH
+
+{========================================================================================}
+:PART_NUMBER       = DESCRIPTION              | BOM           |MAXINV    ;
+{========================================================================================}
+ 'R-[493-5025-004]-S'(!) = 'LTX VHDM CONNECTOR_2_Per_Conn' | 'N'    |'?'
+                                                                          
+
+END_PART
+
+PART 'LTX_VHDM_CONNECTOR_3_PER_CONN'
+CLASS=MECH
+
+{========================================================================================}
+:PART_NUMBER       = DESCRIPTION              | BOM           |MAXINV      ;
+{========================================================================================}
+ 'R-[495-7242-000]-S'(!) = 'LTX VHDM CONNECTOR_3_Per_Conn' | 'N'    |'?'
+                                                                          
+
+END_PART
+
+PART 'LTX_VHDM_CONNECTOR_1_PER_CONN'
+CLASS=MECH
+
+{========================================================================================}
+:PART_NUMBER       = DESCRIPTION              | BOM           |MAXINV      ;
+{========================================================================================}
+ 'R-[495-5025-004]-S'(!) = 'LTX VHDM CONNECTOR_1_Per_Conn' | 'N'    |'?'
+                                                                          
+
+END_PART
+
+PART '10-32_3\8_FLAT_HEAD_SCREW'
+CLASS=MECH
+
+{========================================================================================}
+:PART_NUMBER       = DESCRIPTION              | BOM           |MAXINV     ;
+{========================================================================================}
+ '[91771A27]'(!) = '10-32 3\8 FLAT HEAD SCREW' | 'N'       | '02-MS1032038P-01'      
+    
+END_PART
+
+PART '6-32_1\4_FLAT_HEAD_SCREW'
+CLASS=MECH
+
+{========================================================================================}
+:PART_NUMBER       = DESCRIPTION              | BOM           |MAXINV     ;
+{========================================================================================}
+ '[HARDWARE]'(!) = '6-32 1\4 FLAT HEAD SCREW' | 'N'      | '02-MS632014P-01'  
+
+END_PART
+
+PART '6-32_1\4_BUTTON_HEAD_SCREW'
+CLASS=MECH
+
+{========================================================================================}
+:PART_NUMBER       = DESCRIPTION              | BOM           |MAXINV     ;
+{========================================================================================}
+ '[HARDWARE]'(!) = '6-32 1\4 BUTTON HEAD SCREW' | 'N'    |'?'  
+
+END_PART 
+
+PART '6-32_3\8_FLAT_HEAD_SCREW'
+CLASS=MECH
+
+{========================================================================================}
+:PART_NUMBER       = DESCRIPTION              | BOM           |MAXINV    ;
+{========================================================================================}
+ '[HARDWARE]'(!) = '6-32 3\8 FLAT HEAD SCREW' | 'N'      | '02-MS632038P-01' 
+
+END_PART 
+
+PART '6-32_3\8_PAN_HEAD_SCREW'
+CLASS=MECH
+
+{========================================================================================}
+:PART_NUMBER       = DESCRIPTION              | BOM           |MAXINV    ;
+{========================================================================================}
+ '[HARDWARE]'(!) = '6-32 3\8 PAN HEAD SCREW' | 'N'      | '02-MS632038P-02' 
+
+END_PART 
+
+
+PART '4-40_3\8_FLAT_HEAD_SCREW'
+CLASS=MECH
+
+{========================================================================================}
+:PART_NUMBER       = DESCRIPTION              | BOM           |MAXINV      ;
+{========================================================================================}
+ '[HARDWARE]'(!) = '4_40 3\8 FLAT HEAD SCREW' | 'N'          |'02-MS440038P-01'      
+
+END_PART
+
+
+PART 'STANDOFF_3\4_HEX_WIDTH_1\4_SCREW_SIZE_6-32'
+CLASS=MECH
+
+{========================================================================================}
+:PART_NUMBER       = DESCRIPTION                          | BOM       |MAXINV  ;
+{========================================================================================}
+ '[91780A131]'(!) = 'STANDOFF 3\4 HEX WIDTH 1\4 SCREW SIZE 6-32' | 'N'   |   '?'
+
+END_PART
+
+PART 'STANDOFF_3\4_HEX_WDTH_1\4_MALE_SCRW_SIZE_6-32_MALE_THRD_LGTH_1\4_FEMALE_SCRW_SIZE_6-32'
+CLASS=MECH
+
+{========================================================================================}
+:PART_NUMBER       = DESCRIPTION              | BOM    |MAXINV  ;
+{========================================================================================}
+ '[93505A444]'(!) = 'STANDOFF 3\4 HEX WDTH 1\4 MALE SCRW SIZE 6-32 MALE THRD LGTH 1\4 FEMALE SCRW SIZE 6-32' | 'N' | '?'
+
+END_PART  
+
+PART 'IC-SOCKET'
+CLASS=MECH
+
+{========================================================================================}
+:MAXINV                     = DESCRIPTION                           | MFG_PART_NUMBER      | MANUFACTURER | STATUS | EST_PRICE  | EST_STOCK_STATUS  ; 
+{========================================================================================}
+ '15-500PL44-00'(~940-44-044-24-000000) = 'IC-SOCKET; STANDARD PLCC SOCKETS; NO. OF PINS:44; 500MIL' | '940-44-044-24-000000' | 'MILL-MAX'        | 'ACTIVE' | '($00)'   | 'HQ(00):HBO(00):MPOC(00):DL(00)'
+ '15-300DP20P-10'(~110-93-320-41-105000) = 'IC-SOCKET; DIP; STRAIGHT SMT; STANDARD SOLDER TAIL; OPEN FRAME; 20PINS; 300MIL' | '110-93-320-41-105000' | 'MILL-MAX'        | 'ACTIVE' | '($00)'   | 'HQ(00):HBO(00):MPOC(00):DL(00)'
+ '15-300DP24-02'(~111-43-324-41-001000) = 'IC SOCKET; DUAL-IN-LINE SOCKET; LONG SOLDER TAIL; OPEN FRAME; NO. OF PINS:24; 300MIL' | '111-43-324-41-001000' | 'MILL-MAX'   | 'ACTIVE' | '($00)'   | 'HQ(00):HBO(00):MPOC(00):DL(00)'
+ '15-300DP28P-00'(~4828-3004-CP) = 'IC-SOCKET; DIP; STRAIGHT; DUAL-IN-LINE SOCKET; 4800 SERIES; OPEN FRAME; 28PINS' | '4828-3004-CP' | '3M ELECTRONIC SOLUTIONS DIVISION'   | 'EVKIT-NOT FOR TEST' | '($00)'   | 'HQ(00):HBO(00):MPOC(00):DL(00)'
+
+END_PART
+
+PART 'SOCKET-PIN'
+CLASS=MECH
+
+{========================================================================================}
+:MAXINV                     = DESCRIPTION                           | MFG_PART_NUMBER      | MANUFACTURER | STATUS  | MAXINV  | EST_PRICE  ;
+{========================================================================================}
+ '02-23308087-00'(~2-330808-7; 2-5330808-7) = 'PIN RECEPTACLE; PIN DIA=0.020IN; TOTAL LENGTH=0.142IN; BOARD HOLE=0.040IN; TIN-LEAD PLATE FINISH' | '2-330808-7; 2-5330808-7' | 'TYCO ELECTRONICS'        | 'ACTIVE'  | '02-23308087-00' | '($0.15)' 
+ '02-23320954-00'(~2-332095-4; 2-5332095-4) = 'PIN RECEPTACLE; PIN DIA=0.020IN; TOTAL LENGTH=0.142IN; BOARD HOLE=0.040IN; TIN-LEAD PLATE FINISH' | '2-332095-4; 2-5332095-4' | 'TYCO ELECTRONICS'        | 'ACTIVE'  | '02-23320954-00' | '($0.2)' 
+ '02-9354015151827100-00'(~9354-0-15-15-18-27-10-0) = 'PIN RECEPTACLE; PIN DIA=0.053IN; TOTAL LENGTH=0.170IN; BOARD HOLE=0.071IN;GOLD OVER NICKEL FINISH; RECOMMENDED FOR BOARD THICKNESS=0.125IN' | '9354-0-15-15-18-27-10-0' | 'MILL-MAX'        | 'ACTIVE'  | '02-9354015151827100-00' | '($0.68)' 
+ '02-0364015151327100-00'(~0364-0-15-15-13-27-10-0) = 'PIN RECEPTACLE; PIN DIA=0.064IN; TOTAL LENGTH=0.213IN; BOARD HOLE=0.100IN;GOLD OVER NICKEL FINISH; RECOMMENDED FOR BOARD THICKNESS=0.205IN' | '0364-0-15-15-13-27-10-0' | 'MILL-MAX'        | 'ACTIVE'  | '02-0364015151327100-00' | '($0.86)' 
+ '02-293015151627100-00'(~0293-0-15-15-16-27-10-0) = 'PIN RECEPTACLE; PRESS-FIT; PIN DIA=0.061IN; TOTAL LENGTH=0.200IN; BOARD HOLE=0.067IN; GOLD OVER NICKEL PLATE FINISH; RECOMMENDED FOR BOARD THICKNESS=0.125IN' | '0293-0-15-15-16-27-10-0' | 'MILL-MAX'        | 'ACTIVE'  | '02-293015151627100-00' | '($0)' 
+ '02-579015012114100-00'(~0579-0-15-01-21-14-10-0) = 'PIN RECEPTACLE; PRESS-FIT; PIN DIA=0.042IN; TOTAL LENGTH=0.225IN; BOARD HOLE=0.040IN; GOLD OVER NICK' | '0579-0-15-01-21-14-10-0' | 'MILL-MAX'        | 'ACTIVE'  | '02-579015012114100-00' | '($0.68)' 
+ '02-R1WW429-00'(~R-1-WW-429) = 'PIN RECEPTACLE; ; 0.057D/1.124L; BERYLLIUM-COPPER FINISH; RECOMMENDED FOR BOARD THICKNESS=0.125IN' | 'R-1-WW-429' | 'INTERCONNECT DEVICES INC.'        | 'ACTIVE'  | '02-R1WW429-00' | '($0.324)' 
+
+END_PART
+
+PART 'NUT'
+CLASS=MECH
+
+{========================================================================================}
+:MAXINV                     = DESCRIPTION                           | MFG_PART_NUMBER      | MANUFACTURER | STATUS   | MAXINV   ;
+{========================================================================================}
+ '02-NUTWSHD4-03'(~SS NUT WITH WASHER) = 'NUT/WASHER/4-40(#4)/STAINLESS STEEL' | 'SS NUT WITH WASHER' | 'N/A'        | 'ACTIVE' | '02-NUTWSHD4-03'
+ '02-NUTINSM3-08'(~4972) = 'MACHINE FABRICATED; METRIC HEX LOCK NUTS NYLON INSERT; 3MM X .5BOX (100); M3; 18-8 STAINLESS STEEL-NYLON' | '4972' | 'BOLT DEPOT'        | 'ACTIVE' | '02-NUTINSM3-08'
+ '02-NUTHEXM3-01'(~4773) = 'MACHINE FABRICATED; METRIC HEX NUTS; STAINLESS A-1 (18-8); 3MM X .5BOX (100)' | '4773' | 'BOLT DEPOT'        | 'ACTIVE' | '02-NUTHEXM3-01'
+ '02-NUTHEXM2.5-01'(~.25CNHNS) = 'NUT; HEX; 2.5; M2.5; STAINLESS STEEL' | '.25CNHNS' | 'GENERIC PART'        | 'ACTIVE' | '02-NUTHEXM2.5-01'
+
+END_PART
+
+PART 'SCREW'
+CLASS=MECH
+
+{========================================================================================}
+:MAXINV                           = DESCRIPTION                                        | MFG_PART_NUMBER            | MANUFACTURER | STATUS   | MAXINV  | EST_PRICE ;
+{========================================================================================}
+ '02-MS440034P-01'(~PHILLIPS-FLAT_4-40X3/4IN) = 'SCREW/PHL/FLAT/4-40/(3/4IN)/18-8 STAINLESS STEEL' | 'PHILLIPS-FLAT_4-40X3/4IN' | 'N/A'        | 'ACTIVE' | '02-MS440034P-01' | '($0)'  
+ '02-MS440034P-02'(~PHILLIPS-PAN_4-40X3/4IN) = 'SCREW/PHL/PAN/4-40/(3/4IN)/18-8 STAINLESS STEEL'  | 'PHILLIPS-PAN_4-40X3/4IN'  | 'N/A'        | 'ACTIVE' | '02-MS440034P-02' | '($0)'  
+ '02-MSM30004P-01'(~6811) = 'METRIC MACHINE SCREW; PHILLIPS FLAT HEAD, STAINLESS A-2 (18-8); 3MM X 0.5 X 4MM BOX (100)'  | '6811'  | 'BOLT DEPOT'        | 'ACTIVE' | '02-MSM30004P-01' | '($0)'  
+ '02-SSM25010H-01'(~STAR-SOCKET_CAP_M2.5X10MM) = 'SOCKET HEAD CAP SCREW; STAR; SOCKET_CAP; M2.5; 10MM; 8.8 ZINC PLATED STEEL'  | 'STAR-SOCKET_CAP_M2.5X10MM'  | 'GENERIC PART'        | 'ACTIVE' | '02-SSM25010H-01' | '($0)'  
+ '02-MS440316P-02'(~PHILLIPS-PAN_4-40X3/16IN) = 'MACHINE SCREW; PHILLIPS; PAN; 4-40; 3/16IN; 18-8 STAINLESS STEEL'  | 'PHILLIPS-PAN_4-40X3/16IN'  | 'GENERIC PART'        | 'ACTIVE' | '02-MS440316P-02' | '($0)'  
+ '02-MS440038P-01'(~PHILLIPS-FLAT_4-40X3/8IN) = 'MACHINE SCREW; PHILLIPS; FLAT; 4-40; 3/8IN; 18-8 STAINLESS STEEL'  | 'PHILLIPS-FLAT_4-40X3/8IN'  | 'GENERIC PART'        | 'TEMPLATE' | '02-MS440038P-01' | '($0.0125)'  
+ '02-MS632516P-02'(~PMS_632_0031_PH; PHILLIPS-PAN_6-32X5/16IN) = 'MACHINE FABRICATED; PAN- ; 6-32; 5/16IN; 8.8 ZINC PLATED STEEL'    | 'PMS_632_0031_PH; PHILLIPS-PAN_6-32X5/16IN'  | 'GENERIC PART'        | 'ACTIVE' | '02-MS632516P-02' | '($0)'  
+ '02-MS440038P-02A'(~91735A104; PHILLIPS-PAN_4-40X3/8IN) = 'MACHINE FABRICATED; PAN- ; 4-40; 3/8IN; 316 STAINLESS STEEL'  | '91735A104; PHILLIPS-PAN_4-40X3/8IN'  | 'GENERIC PART'        | 'TEMPLATE' | '02-MS440038P-02A' | '($0.103)'  
+ '02-ASM40010H-01'(~93395A254; ALLEN-SOCKET_CAP_M4X10MM) = 'MACHINE FABRICATED; SOCKET_CAP-0.7 ; M4; 10MM; 316 STAINLESS STEEL'  | '93395A254; ALLEN-SOCKET_CAP_M4X10MM'  | 'GENERIC PART'        | 'ACTIVE' | '02-ASM40010H-01' | '($0)'  
+ '02-AS440034SH-02'(~ALLEN-SOCKET_CAP_4-40X3/4IN) = 'SOCKET HEAD CAP SCREW; ALLEN; SKT; 4-40; 3/4IN; 18-8 STAINLESS STEEL'  | 'ALLEN-SOCKET_CAP_4-40X3/4IN'  | 'GENERIC PART'        | 'TEMPLATE' | '02-AS440034SH-02' | '($0)'  
+ '02-MS440038P-02'(~91772A108; PHILLIPS-PAN_4-40X3/8IN; PMSSS4400038PH) = 'MACHINE SCREW; PHILLIPS; PAN; 4-40; 3/8IN; 18-8 STAINLESS STEEL'  | '91772A108; PHILLIPS-PAN_4-40X3/8IN; PMSSS4400038PH'  | 'GENERIC PART'        | 'TEMPLATE' | '02-MS440038P-02' | '($0.012)'  
+ '02-MS632038P-01'(~PHILLIPS-FLAT_6-32X3/8IN) = 'MACHINE SCREW; PHILLIPS; FLAT; 6-32; 3/8IN; 18-8 STAINLESS STEEL'    | 'PHILLIPS-FLAT_6-32X3/8IN'  | 'GENERIC PART'        | 'TEMPLATE' | '02-MS632038P-01' | '($0.014)'  
+ '02-AS832012HF-02'(~67559328) = 'MACHINE SCREW; ALLEN; FLAT; 8-32IN; 1/2IN; 18-8 STAINLESS STEEL'    | '67559328'  | 'GENERIC PART'        | 'TEMPLATE' | '02-AS832012HF-02' | '($0.0858)'  
+ '02-MS440014P-02'(~4C25MXPS; PMSSS4400025PH; 9900; 91735A102) = 'MACHINE SCREW; PHILLIPS; PAN; 4-40; 1/4IN; 18-8 STAINLESS STEEL'    | '4C25MXPS; PMSSS4400025PH; 9900; 91735A102'  | 'GENERIC PART'        | 'TEMPLATE' | '02-MS440014P-02' | '($0.01)'  
+ 
+END_PART
+
+PART 'PEMNUT'
+CLASS=MECH
+
+{========================================================================================}
+:MAXINV                           = DESCRIPTION                                        | MFG_PART_NUMBER            | MANUFACTURER | STATUS   | MAXINV  ;
+{========================================================================================}
+ '02-NUTPEMD4-03'(~PEMNUT #4-40)  = 'NUT; PEM; 4-40; #4; STAINLESS STEEL'              | 'PEMNUT #4-40'             | 'N/A'        | 'ACTIVE' | '02-NUTPEMD4-03' 
+ '02-NUTPEMM3-01'(~KFS2-M3)  = 'NUT; PEM; 3.0MM; M3; STAINLESS STEEL '              | 'KFS2-M3'             | 'N/A'        | 'ACTIVE' | '02-NUTPEMM3-01' 
+
+END_PART
+
+PART 'IBAR'
+CLASS=MECH
+
+{========================================================================================}
+:MAXINV                           = DESCRIPTION                                        | MFG_PART_NUMBER            | MANUFACTURER | STATUS   | MAXINV  ;
+{========================================================================================}
+ '02-IBRS2X15P300-02'(~MCH-I-BAR_G10-004) = 'I-BAR/CTB/S2X15P/300ML/FIBERGLASS'                | 'MCH-I-BAR_G10-004'        | 'MAXIM'      | 'ACTIVE' | '02-IBRS2X15P300-02'
+ '02-IBR2X25P600-02'(~MCH-I-BAR_G10-003) = 'MACHINE FABRICATED; I-BAR; 600MIL; 2X25P; FIBER GLASS'                | 'MCH-I-BAR_G10-003'        | 'MAXIM'      | 'ACTIVE' | '02-IBR2X25P600-02'
+ '02-IBR2X22P600-02'(~MCH-I-BAR_G10-002) = 'MACHINE FABRICATED; I-BAR; 600MIL; 2X22P; FIBER GLASS'                | 'MCH-I-BAR_G10-002'        | 'MAXIM'      | 'ACTIVE' | '02-IBR2X22P600-02'
+ '02-IBR2X15P300-02'(~MCH-I-BAR_G10-000) = 'MACHINE FABRICATED; I-BAR; 300MIL; 2X15P; FIBER GLASS'                | 'MCH-I-BAR_G10-000'        | 'MAXIM'      | 'ACTIVE' | '02-IBR2X15P300-02'
+
+END_PART
+
+PART 'COVER'
+CLASS=MECH
+
+{========================================================================================}
+:MAXINV                           = DESCRIPTION                                        | MFG_PART_NUMBER            | MANUFACTURER | STATUS   | MAXINV  ;
+{========================================================================================}
+ '32-SCVRCTBATOP-00'(~MCH-CTB_CVR-000) = 'COVER/CTB/SIZEA/TOP/A'                            | 'MCH-CTB_CVR-000'          | 'MAXIM'      | 'ACTIVE' | '32-SCVRCTBATOP-00'     
+ '32-SCVRCTB44PSFDBTM-00'(~MCH-CTB_CVR-023) = 'COVER/CTB/SIZED/44P/SINGLE_FLEX/BOTTOM/A'         | 'MCH-CTB_CVR-023'          | 'MAXIM'      | 'ACTIVE' | '32-SCVRCTB44PSFDBTM-00'
+ '32-SCVRCTBDTOP-00'(~MCH-CTB_CVR-003) = 'COVER; TOP-CTB; D; LAMINATED PLASTIC WITH COPPER CLAD'         | 'MCH-CTB_CVR-003'          | 'MAXIM'      | 'ACTIVE' | '32-SCVRCTBDTOP-00'
+ '32-SCVRCTB22P600DBTM-00'(~MCH-CTB_CVR-011) = 'COVER; BTM-CTB; 22P600D; LAMINATED PLASTIC WITH COPPER CLAD'         | 'MCH-CTB_CVR-011'          | 'MAXIM'      | 'ACTIVE' | '32-SCVRCTB22P600DBTM-00'
+ '32-SCVRCTB15P300DBTM-00'(~MCH-CTB_CVR-015) = 'COVER; BTM-CTB; 15P300D; LAMINATED PLASTIC WITH COPPER CLAD'         | 'MCH-CTB_CVR-015'          | 'MAXIM'      | 'ACTIVE' | '32-SCVRCTB15P300DBTM-00'
+ '32-SCVRCTBCTOP-00'(~MCH-CTB_CVR-002) = 'COVER; TOP-CTB; C; LAMINATED PLASTIC WITH COPPER CLAD'         | 'MCH-CTB_CVR-002'          | 'MAXIM'      | 'ACTIVE' | '32-SCVRCTBCTOP-00'
+ '32-SCVRCTB22P600CBTM-00'(~MCH-CTB_CVR-010) = 'COVER; BTM-CTB; 22P600C; LAMINATED PLASTIC WITH COPPER CLAD'         | 'MCH-CTB_CVR-010'          | 'MAXIM'      | 'ACTIVE' | '32-SCVRCTB22P600CBTM-00'
+ '32-SCVRCTB15P300CBTM-00'(~MCH-CTB_CVR-014) = 'COVER; BTM-CTB; 15P300C; LAMINATED PLASTIC WITH COPPER CLAD'         | 'MCH-CTB_CVR-014'          | 'MAXIM'      | 'ACTIVE' | '32-SCVRCTB15P300CBTM-00'
+ '32-SCVRCTBBTOP-00'(~MCH-CTB_CVR-001) = 'COVER; TOP-CTB; B; LAMINATED PLASTIC WITH COPPER CLAD'         | 'MCH-CTB_CVR-001'          | 'MAXIM'      | 'ACTIVE' | '32-SCVRCTBBTOP-00'
+ '32-SCVRCTB25P600BBTM-00'(~MCH-CTB_CVR-005) = 'COVER; BTM-CTB; 25P600B; LAMINATED PLASTIC WITH COPPER CLAD'         | 'MCH-CTB_CVR-005'          | 'MAXIM'      | 'ACTIVE' | '32-SCVRCTB25P600BBTM-00'
+ '32-SCVRCTB22P600BBTM-00'(~MCH-CTB_CVR-009) = 'COVER; BTM-CTB; 22P600B; LAMINATED PLASTIC WITH COPPER CLAD'         | 'MCH-CTB_CVR-009'          | 'MAXIM'      | 'ACTIVE' | '32-SCVRCTB22P600BBTM-00'
+ '32-SCVRCTB15P300BBTM-00'(~MCH-CTB_CVR-013) = 'COVER; BTM-CTB; 15P300B; LAMINATED PLASTIC WITH COPPER CLAD'         | 'MCH-CTB_CVR-013'          | 'MAXIM'      | 'ACTIVE' | '32-SCVRCTB15P300BBTM-00'
+ '32-SCVRCTB25P600ABTM-00'(~MCH-CTB_CVR-004) = 'COVER; BTM-CTB; 25P600A; LAMINATED PLASTIC WITH COPPER CLAD'         | 'MCH-CTB_CVR-004'          | 'MAXIM'      | 'ACTIVE' | '32-SCVRCTB25P600ABTM-00'
+ '32-SCVRCTB22P600ABTM-00'(~MCH-CTB_CVR-008) = 'COVER; BTM-CTB; 22P600A; LAMINATED PLASTIC WITH COPPER CLAD'         | 'MCH-CTB_CVR-008'          | 'MAXIM'      | 'ACTIVE' | '32-SCVRCTB22P600ABTM-00'
+ '32-SCVRCTB15P300ABTM-00'(~MCH-CTB_CVR-012) = 'COVER; BTM-CTB; 15P300A; LAMINATED PLASTIC WITH COPPER CLAD'         | 'MCH-CTB_CVR-012'          | 'MAXIM'      | 'ACTIVE' | '32-SCVRCTB15P300ABTM-00'
+ '02-FLATSHLDSMT-10'(~BMI-S-205-C) = 'MACHINE FABRICATED; FLAT-SMT STANDARD SURFACE MOUNT SHIELDS-TWO-PIECE-COVER; 0.2mm; ; 1.0X1.5IN; CRS-TIN'         | 'BMI-S-205-C'          | 'LAIRD TECHNOLOGIES'      | 'EVKIT- NOT FOR TEST' | '02-FLATSHLDSMT-10'
+ '02-FLATSHLDSMT1747SQ-10'(~BMI-S-207-C) = 'MACHINE FABRICATED; FLAT-SMT; STANDARD SURFACE MOUNT SHIELDS-TWO-PIECE-SHIELD; 44.37MM X 44.37MM; 0.2MM; CRS-TIN'         | 'BMI-S-207-C'          | 'LAIRD TECHNOLOGIES'      | 'EVKIT- NOT FOR TEST' | '02-FLATSHLDSMT1747SQ-10'
+
+END_PART
+
+PART 'PADDLE'
+CLASS=MECH
+
+{========================================================================================}
+:MAXINV                           = DESCRIPTION                                        | MFG_PART_NUMBER            | MANUFACTURER | STATUS   | MAXINV  ;
+{========================================================================================}
+ '01-LB2S3A30P-05'(~05-3S1-21)    = 'CON/SPL/X2/15P/300ML/SPDL/05-3S1SA'               | '05-3S1-21'                | 'MAXIM'      | 'ACTIVE' | '01-LB2S3A30P-05'       
+
+END_PART
+
+PART 'WASHER'
+CLASS=MECH
+
+{========================================================================================}
+:MAXINV                           = DESCRIPTION                                        | MFG_PART_NUMBER            | MANUFACTURER | STATUS   | MAXINV   ;
+{========================================================================================}
+ '02-WH3NWSFSD3-03'(~4513)    = 'METRIC FLAT WASHERS; STAINLESS A-2 (18-8); 3MM BOX (100); NON-LOCKING/FLAT'               | '4513'                | 'BOLT DEPOT'      | 'ACTIVE' | '02-WH3NWSFSD3-03'       
+ '02-WHNFWD6-00'(~NYLON_WASHER_NO-6_THICK)    = 'WASHER; NON-LOCKING/THICK; 6-32/2MM; No6; NYLON'               | 'NYLON_WASHER_NO-6_THICK'                | 'GENERIC PART'      | 'ACTIVE' | '02-WHNFWD6-00'       
+ '02-WHNFWD4-00'(~LON WASHER #4 THICK)    = 'WASHER; NON-LOCKING/THICK; 4-40/1MM; #4; NYLON '               | 'LON WASHER #4 THICK'                | 'GENERIC PART'      | 'TEMPLATE' | '02-WHNFWD4-00'       
+
+END_PART
+
+PART 'STANDOFF'
+CLASS=MECH
+
+{========================================================================================}
+:MAXINV                           = DESCRIPTION                                        | MFG_PART_NUMBER     | MANUFACTURER | STATUS   | MAXINV   | EST_PRICE ;
+{========================================================================================}
+ '02-SOM35HX-01'(~R30-3000502)    = 'STANDOFF; MALE_FEMALE-THREADED; HEX; 3MM; 5MM; ALUMINUM'          | 'R30-3000502'      | 'HARWIN'      | 'ACTIVE' | '02-SOM35HX-01'       | '($0)' 
+ '02-SOM3M5H-01'(~R30-1000502)    = 'STANDOFF; FEMALE-THREADED; HEX; 3MM; 5MM; ALUMINUM'               | 'R30-1000502'      | 'HARWIN'      | 'ACTIVE' | '02-SOM3M5H-01'       | '($0)' 
+ '02-SO6321332H-09'(~91920A460)   = 'STANDOFF-LTX_MX_TEMPLATE; FEMALE-THREADED; HEX WIDTH; 7.94MM; LENGTH 10.319MM; STEEL'  | '91920A460'   | 'MCMASTER_CARR' | 'TEMPLATE' | '02-SO6321332H-09'       | '($1.3)' 
+ '02-SO440038H-01'(~MCH_SO_F_HEX_4-40X3/8)   = 'STANDOFF; FEMALE-THREADED; HEX; 4-40; 3/8IN; ALUMINUM'  | 'MCH_SO_F_HEX_4-40X3/8'   | 'GENERIC PART' | 'ACTIVE' | '02-SO440038H-01'       | '($0.055)' 
+ '02-SO440116RPF-01'(~SO-0165-04-01-02)   = 'STANDOFF; FEMALE ROUND/FIT-BOARD TO BOARD PRESSFIT-IN ; 4-40; 1/16IN; STAINLESS STEEL'  | 'SO-0165-04-01-02'   | 'SAMTEC' | 'ACTIVE' | '02-SO440116RPF-01'   | '($0)'     
+ '02-SO632012H-01'(~2210;MCH_SO_F_HEX_6-32X1/2)   = 'STANDOFF; FEMALE-THREADED; HEX; 6-32; 1/2IN; ALUMINUM'  | '2210;MCH_SO_F_HEX_6-32X1/2'   | 'GENERIC PART' | 'ACTIVE' | '02-SO632012H-01'    | '($0.09)'    
+ '02-SO440012H-01'(~MCH_SO_F_HEX_4-40X1/2)   = 'STANDOFF; FEMALE-THREADED; HEX; 4-40; 1/2IN; ALUMINUM'  | 'MCH_SO_F_HEX_4-40X1/2'   | 'GENERIC PART' | 'TEMPLATE' | '02-SO440012H-01'       | '($0.27)' 
+ '02-SO440932H-01'(~91780A419)   = 'STANDOFF; FEMALE-THREADED; HEX; 4-40IN; LENGTH=9/32IN; HEXWIDTH=1/4IN; ALUMINUM'  | '91780A419'   | 'GENERIC PART' | 'TEMPLATE' | '02-SO440932H-01'       | '($0.44)' 
+ '02-SO440932HX-01'(~93505A476)   = 'STANDOFF; MALE_FEMALE-THREADED; HEX; 4-40IN; LENGTH=9/32IN; HEXWIDTH=1/4IN; ALUMINUM'  | '93505A476'   | 'GENERIC PART' | 'TEMPLATE' | '02-SO440932HX-01'       | '($0.49)' 
+ '02-SO440916H-01'(~2058-440-AL-7)   = 'STANDOFF; FEMALE-THREADED; HEX; 4-40IN; LENGTH=9/16IN; HEXWIDTH=3/16IN; ALUMINUM'  | '2058-440-AL-7'   | 'GENERIC PART' | 'TEMPLATE' | '02-SO440916H-01'       | '($0.33)' 
+ '02-SOM3M16H-01'(~R30-1001602)   = 'STANDOFF; FEMALE-THREADED; HEX; M3X0.5; 16MM; BRASS'  | '02-SOM3M16H-01'   | 'HARWIN' | 'ACTIVE' | 'R30-1001602'       | '($00)' 
+
+END_PART
+
+PART 'POLARIZING_KEY'
+CLASS=MECH
+
+{========================================================================================}
+:MAXINV                           = DESCRIPTION                                        | MFG_PART_NUMBER            | MANUFACTURER | STATUS   | MAXINV   ;
+{========================================================================================}
+ '01-3518-99'(~3518)    = 'CONNECTOR; HEADER ACCESSORY; POLARIZING KEY'               | '3518'                | '3M ELECTRONIC SOLUTIONS DIVISION'      | 'ACTIVE' | '01-3518-99'       
+
+END_PART
+
+PART 'POLARIZER-LH'
+CLASS=MECH
+
+{========================================================================================}
+:MAXINV                           = DESCRIPTION                                        | MFG_PART_NUMBER            | MANUFACTURER | STATUS   | MAXINV   ;
+{========================================================================================}
+ '32-LHSITE1POL20P-01'(~[67-1449]-A-3)    = 'MACHINE FABRICATED; LATCH HEADER-POLARIZING KEY SITE 1 (RED); 20P; ALUMINUM'               | '[67-1449]-A-3'                | 'MAXIM'      | 'ACTIVE' | '32-LHSITE1POL20P-01'       
+ '32-LHSITE2POL20P-01'(~[67-1450]-A-3)    = 'MACHINE FABRICATED; LATCH HEADER-POLARIZING KEY SITE 2 (YELLOW); 20P; ALUMINUM'               | '[67-1450]-A-3'                | 'MAXIM'      | 'ACTIVE' | '32-LHSITE2POL20P-01'
+ '32-LHSITE3POL20P-01'(~[67-1451]-A-3)    = 'MACHINE FABRICATED; LATCH HEADER-POLARIZING KEY SITE 3 (GREEN); 20P; ALUMINUM'               | '[67-1451]-A-3'                | 'MAXIM'      | 'ACTIVE' | '32-LHSITE3POL20P-01'
+ '32-LHSITE4POL20P-01'(~[67-1452]-A-3)    = 'MACHINE FABRICATED; LATCH HEADER-POLARIZING KEY SITE 4 (BLUE); 20P; ALUMINUM'               | '[67-1452]-A-3'                | 'MAXIM'      | 'ACTIVE' | '32-LHSITE4POL20P-01'
+ '32-LHSITE5POL20P-01'(~[67-1453]-A-3)    = 'MACHINE FABRICATED; LATCH HEADER-POLARIZING KEY SITE 5 (ORANGE); 20P; ALUMINUM'               | '[67-1453]-A-3'                | 'MAXIM'      | 'ACTIVE' | '32-LHSITE5POL20P-01'
+ '32-LHSITE6POL20P-01'(~[67-1454]-A-3)    = 'MACHINE FABRICATED; LATCH HEADER-POLARIZING KEY SITE 6 (VIOLET); 20P; ALUMINUM'               | '[67-1454]-A-3'                | 'MAXIM'      | 'ACTIVE' | '32-LHSITE6POL20P-01'
+ '32-LHSITE7POL20P-01'(~[67-1455]-A-3)    = 'MACHINE FABRICATED; LATCH HEADER-POLARIZING KEY SITE 7 (BLACK); 20P; ALUMINUM'               | '[67-1455]-A-3'                | 'MAXIM'      | 'ACTIVE' | '32-LHSITE7POL20P-01'
+ '32-LHSITE8POL20P-01'(~[67-1456]-A-3)    = 'MACHINE FABRICATED; LATCH HEADER-POLARIZING KEY SITE 8 (GRAY); 20P; ALUMINUM'               | '[67-1456]-A-3'                | 'MAXIM'      | 'ACTIVE' | '32-LHSITE8POL20P-01'
+ '32-LHSITE1POL40P-01'(~[67-1365]-A-3)    = 'MACHINE FABRICATED; LATCH HEADER-POLARIZING KEY SITE 1 (RED); 40P; ALUMINUM'               | '[67-1365]-A-3'                | 'MAXIM'      | 'ACTIVE' | '32-LHSITE1POL40P-01'
+ '32-LHSITE2POL40P-01'(~[67-1366]-A-3)    = 'MACHINE FABRICATED; LATCH HEADER-POLARIZING KEY SITE 2 (YELLOW); 40P; ALUMINUM'               | '[67-1366]-A-3'                | 'MAXIM'      | 'ACTIVE' | '32-LHSITE2POL40P-01'
+ '32-LHSITE3POL40P-01'(~[67-1368]-A-3)    = 'MACHINE FABRICATED; LATCH HEADER-POLARIZING KEY SITE 3 (GREEN); 40P; ALUMINUM'               | '[67-1368]-A-3'                | 'MAXIM'      | 'ACTIVE' | '32-LHSITE3POL40P-01'
+ '32-LHSITE4POL40P-01'(~[67-1369]-A-3)    = 'MACHINE FABRICATED; LATCH HEADER-POLARIZING KEY SITE 4 (BLUE); 40P; ALUMINUM'               | '[67-1369]-A-3'                | 'MAXIM'      | 'ACTIVE' | '32-LHSITE4POL40P-01'
+ '32-LHSITE5POL40P-01'(~[67-1370]-A-3)    = 'MACHINE FABRICATED; LATCH HEADER-POLARIZING KEY SITE 5 (ORANGE); 40P; ALUMINUM'               | '[67-1370]-A-3'                | 'MAXIM'      | 'ACTIVE' | '32-LHSITE5POL40P-01'
+ '32-LHSITE6POL40P-01'(~[67-1371]-A-3)    = 'MACHINE FABRICATED; LATCH HEADER-POLARIZING KEY SITE 6 (PURPLE); 40P; ALUMINUM'               | '[67-1371]-A-3'                | 'MAXIM'      | 'ACTIVE' | '32-LHSITE6POL40P-01'
+ '32-LHSITE7POL40P-01'(~[67-1372]-A-3)    = 'MACHINE FABRICATED; LATCH HEADER-POLARIZING KEY SITE 7 (BLACK); 40P; ALUMINUM'               | '[67-1372]-A-3'                | 'MAXIM'      | 'ACTIVE' | '32-LHSITE7POL40P-01'
+ '32-LHSITE8POL40P-01'(~[67-1373]-A-3)    = 'MACHINE FABRICATED; LATCH HEADER-POLARIZING KEY SITE 8 (GRAY); 40P; ALUMINUM'               | '[67-1373]-A-3'                | 'MAXIM'      | 'ACTIVE' | '32-LHSITE8POL40P-01'
+ '32-LHSITE1POL60P-01'(~[67-1431]-A-3)    = 'MACHINE FABRICATED; LATCH HEADER-POLARIZING KEY SITE 1 (RED); 60P; ALUMINUM'               | '[67-1431]-A-3'                | 'MAXIM'      | 'ACTIVE' | '32-LHSITE1POL60P-01'
+ '32-LHSITE2POL60P-01'(~[67-1432]-A-3)    = 'MACHINE FABRICATED; LATCH HEADER-POLARIZING KEY SITE 2 (YELLOW); 60P; ALUMINUM'               | '[67-1432]-A-3'                | 'MAXIM'      | 'ACTIVE' | '32-LHSITE2POL60P-01'
+ '32-LHSITE3POL60P-01'(~[67-1433]-A-3)    = 'MACHINE FABRICATED; LATCH HEADER-POLARIZING KEY SITE 3 (GREEN); 60P; ALUMINUM'               | '[67-1433]-A-3'                | 'MAXIM'      | 'ACTIVE' | '32-LHSITE3POL60P-01'
+ '32-LHSITE4POL60P-01'(~[67-1434]-A-3)    = 'MACHINE FABRICATED; LATCH HEADER-POLARIZING KEY SITE 4 (BLUE); 60P; ALUMINUM'               | '[67-1434]-A-3'                | 'MAXIM'      | 'ACTIVE' | '32-LHSITE4POL60P-01'
+ '32-LHSITE5POL60P-01'(~[67-1435]-A-3)    = 'MACHINE FABRICATED; LATCH HEADER-POLARIZING KEY SITE 5 (ORANGE); 60P; ALUMINUM'               | '[67-1435]-A-3'                | 'MAXIM'      | 'ACTIVE' | '32-LHSITE5POL60P-01'
+ '32-LHSITE6POL60P-01'(~[67-1436]-A-3)    = 'MACHINE FABRICATED; LATCH HEADER-POLARIZING KEY SITE 6 (VIOLET); 60P; ALUMINUM'               | '[67-1436]-A-3'                | 'MAXIM'      | 'ACTIVE' | '32-LHSITE6POL60P-01'
+ '32-LHSITE7POL60P-01'(~[67-1437]-A-3)    = 'MACHINE FABRICATED; LATCH HEADER-POLARIZING KEY SITE 7 (BLACK); 60P; ALUMINUM'               | '[67-1437]-A-3'                | 'MAXIM'      | 'ACTIVE' | '32-LHSITE7POL60P-01'
+ '32-LHSITE8POL60P-01'(~[67-1438]-A-3)    = 'MACHINE FABRICATED; LATCH HEADER-POLARIZING KEY SITE 8 (GRAY); 60P; ALUMINUM'               | '[67-1438]-A-3'                | 'MAXIM'      | 'ACTIVE' | '32-LHSITE8POL60P-01'
+ '32-LHSITE1POL64P-01'(~[67-1376]-A-3)    = 'MACHINE FABRICATED; LATCH HEADER-POLARIZING KEY SITE 1 (RED); 64P; ALUMINUM'               | '[67-1376]-A-3'                | 'MAXIM'      | 'ACTIVE' | '32-LHSITE1POL64P-01'
+ '32-LHSITE2POL64P-01'(~[67-1377]-A-3)    = 'MACHINE FABRICATED; LATCH HEADER-POLARIZING KEY SITE 2 (YELLOW); 64P; ALUMINUM'               | '[67-1377]-A-3'                | 'MAXIM'      | 'ACTIVE' | '32-LHSITE2POL64P-01'
+ '32-LHSITE3POL64P-01'(~[67-1378]-A-3)    = 'MACHINE FABRICATED; LATCH HEADER-POLARIZING KEY SITE 3 (GREEN); 64P; ALUMINUM'               | '[67-1378]-A-3'                | 'MAXIM'      | 'ACTIVE' | '32-LHSITE3POL64P-01'
+ '32-LHSITE4POL64P-01'(~[67-1379]-A-3)    = 'MACHINE FABRICATED; LATCH HEADER-POLARIZING KEY SITE 4 (BLUE); 64P; ALUMINUM'               | '[67-1379]-A-3'                | 'MAXIM'      | 'ACTIVE' | '32-LHSITE4POL64P-01'
+ '32-LHSITE1POL50P-01'(~[67-1440]-A-3)    = 'MACHINE FABRICATED; LATCH HEADER-POLARIZING KEY SITE 1 (RED); 50P; ALUMINUM'               | '[67-1440]-A-3'                | 'MAXIM'      | 'ACTIVE' | '32-LHSITE1POL50P-01'
+ '32-LHSITE2POL50P-01'(~[67-1441]-A-3)    = 'MACHINE FABRICATED; LATCH HEADER-POLARIZING KEY SITE 2 (YELLOW); 50P; ALUMINUM'               | '[67-1441]-A-3'                | 'MAXIM'      | 'ACTIVE' | '32-LHSITE2POL50P-01'
+ '32-LHSITE3POL50P-01'(~[67-1442]-A-3)    = 'MACHINE FABRICATED; LATCH HEADER-POLARIZING KEY SITE 3 (GREEN); 50P; ALUMINUM'               | '[67-1442]-A-3'                | 'MAXIM'      | 'ACTIVE' | '32-LHSITE3POL50P-01'
+ '32-LHSITE4POL50P-01'(~[67-1443]-A-3)    = 'MACHINE FABRICATED; LATCH HEADER-POLARIZING KEY SITE 4 (BLUE); 50P; ALUMINUM'               | '[67-1443]-A-3'                | 'MAXIM'      | 'ACTIVE' | '32-LHSITE4POL50P-01'
+ '32-LHSITE1POL26P-01'(~[67-3085]-A-3)    = 'MACHINE FABRICATED; LATCH HEADER-POLARIZING KEY SITE 1 (RED); 26P; ALUMINUM'               | '[67-3085]-A-3'                | 'MAXIM'      | 'ACTIVE' | '32-LHSITE1POL26P-01'
+ '32-LHSITE2POL26P-01'(~[67-3086]-A-3)    = 'MACHINE FABRICATED; LATCH HEADER-POLARIZING KEY SITE 2 (YELLOW); 26P; ALUMINUM'               | '[67-3086]-A-3'                | 'MAXIM'      | 'ACTIVE' | '32-LHSITE2POL26P-01'
+ '32-LHSITE3POL26P-01'(~[67-3087]-A-3)    = 'MACHINE FABRICATED; LATCH HEADER-POLARIZING KEY SITE 3 (GREEN); 26P; ALUMINUM'               | '[67-3087]-A-3'                | 'MAXIM'      | 'ACTIVE' | '32-LHSITE3POL26P-01'
+ '32-LHSITE4POL26P-01'(~[67-3088]-A-3)    = 'MACHINE FABRICATED; LATCH HEADER-POLARIZING KEY SITE 4 (BLUE); 26P; ALUMINUM'               | '[67-3088]-A-3'                | 'MAXIM'      | 'ACTIVE' | '32-LHSITE4POL26P-01'
+ '32-LHSITE5POL26P-01'(~LH-POL26P-SITE5)    = 'MACHINE FABRICATED; LATCH HEADER-POLARIZING KEY SITE 5 (ORANGE); 26P; ALUMINUM'               | 'LH-POL26P-SITE5'                | 'MAXIM'      | 'ACTIVE' | '32-LHSITE5POL26P-01'
+ '32-LHSITE6POL26P-01'(~LH-POL26P-SITE6)    = 'MACHINE FABRICATED; LATCH HEADER-POLARIZING KEY SITE 6 (VIOLET); 26P; ALUMINUM'               | 'LH-POL26P-SITE6'                | 'MAXIM'      | 'ACTIVE' | '32-LHSITE6POL26P-01'
+ '32-LHSITE7POL26P-01'(~LH-POL26P-SITE7)    = 'MACHINE FABRICATED; LATCH HEADER-POLARIZING KEY SITE 7 (BLACK); 26P; ALUMINUM'               | 'LH-POL26P-SITE7'                | 'MAXIM'      | 'ACTIVE' | '32-LHSITE7POL26P-01'
+ '32-LHSITE8POL26P-01'(~LH-POL26P-SITE8)    = 'MACHINE FABRICATED; LATCH HEADER-POLARIZING KEY SITE 8 (GRAY); 26P; ALUMINUM'               | 'LH-POL26P-SITE8'                | 'MAXIM'      | 'ACTIVE' | '32-LHSITE8POL26P-01'
+ '32-LHSITE1POL30P-01'(~67-1985)    = 'MACHINE FABRICATED; LATCH HEADER-POLARIZING KEY SITE 1 (RED); 30P; ALUMINUM'               | '67-1985'                | 'MAXIM'      | 'ACTIVE' | '32-LHSITE1POL30P-01'
+ '32-LHSITE2POL30P-01'(~67-1990)    = 'MACHINE FABRICATED; LATCH HEADER-POLARIZING KEY SITE 2 (YELLOW); 30P; ALUMINUM'               | '67-1990'                | 'MAXIM'      | 'ACTIVE' | '32-LHSITE2POL30P-01'
+ '32-LHSITE3POL30P-01'(~67-1998)    = 'MACHINE FABRICATED; LATCH HEADER-POLARIZING KEY SITE 3 (GREEN); 30P; ALUMINUM'               | '67-1998'                | 'MAXIM'      | 'ACTIVE' | '32-LHSITE3POL30P-01'
+ '32-LHSITE4POL30P-01'(~67-2002)    = 'MACHINE FABRICATED; LATCH HEADER-POLARIZING KEY SITE 4 (BLUE); 30P; ALUMINUM'               | '67-2002'                | 'MAXIM'      | 'ACTIVE' | '32-LHSITE4POL30P-01'
+ '32-LHSITE5POL30P-01'(~LH-POL30P-SITE5)    = 'MACHINE FABRICATED; LATCH HEADER-POLARIZING KEY SITE 5 (ORANGE); 30P; ALUMINUM'               | 'LH-POL30P-SITE5'                | 'MAXIM'      | 'ACTIVE' | '32-LHSITE5POL30P-01'
+ '32-LHSITE6POL30P-01'(~LH-POL30P-SITE6)    = 'MACHINE FABRICATED; LATCH HEADER-POLARIZING KEY SITE 6 (VIOLET); 30P; ALUMINUM'               | 'LH-POL30P-SITE6'                | 'MAXIM'      | 'ACTIVE' | '32-LHSITE6POL30P-0'
+ '32-LHSITE7POL30P-01'(~LH-POL30P-SITE7)    = 'MACHINE FABRICATED; LATCH HEADER-POLARIZING KEY SITE 7 (BLACK); 30P; ALUMINUM'               | 'LH-POL30P-SITE7'                | 'MAXIM'      | 'ACTIVE' | '32-LHSITE7POL30P-01'
+ '32-LHSITE8POL30P-01'(~LH-POL30P-SITE8)    = 'MACHINE FABRICATED; LATCH HEADER-POLARIZING KEY SITE 8 (GRAY); 30P; ALUMINUM'               | 'LH-POL30P-SITE8'                | 'MAXIM'      | 'ACTIVE' | '32-LHSITE8POL30P-01'
+ '32-LHSITE1POL34P-01'(~[67-2925]-A-3)    = 'MACHINE FABRICATED; LATCH HEADER-POLARIZING KEY SITE 1 (RED); 34P; ALUMINUM'               | '[67-2925]-A-3'                | 'MAXIM'      | 'ACTIVE' | '32-LHSITE1POL34P-01'
+ '32-LHSITE2POL34P-01'(~[67-2929]-A-3)    = 'MACHINE FABRICATED; LATCH HEADER-POLARIZING KEY SITE 2 (YELLOW); 34P; ALUMINUM'               | '[67-2929]-A-3'                | 'MAXIM'      | 'ACTIVE' | '32-LHSITE2POL34P-01'
+ '32-LHSITE3POL34P-01'(~[67-2930]-A-3)    = 'MACHINE FABRICATED; LATCH HEADER-POLARIZING KEY SITE 3 (GREEN); 34P; ALUMINUM'               | '[67-2930]-A-3'                | 'MAXIM'      | 'ACTIVE' | '32-LHSITE3POL34P-01'
+ '32-LHSITE4POL34P-01'(~[67-2931]-A-3)    = 'MACHINE FABRICATED; LATCH HEADER-POLARIZING KEY SITE 4 (BLUE); 34P; ALUMINUM'               | '[67-2931]-A-3'                | 'MAXIM'      | 'ACTIVE' | '32-LHSITE4POL34P-01'
+ '32-LHSITE5POL34P-01'(~LH-POL34P-SITE5)    = 'MACHINE FABRICATED; LATCH HEADER-POLARIZING KEY SITE 5 (ORANGE); 34P; ALUMINUM'               | 'LH-POL34P-SITE5'                | 'MAXIM'      | 'ACTIVE' | '32-LHSITE5POL34P-01'
+ '32-LHSITE6POL34P-01'(~LH-POL34P-SITE6)    = 'MACHINE FABRICATED; LATCH HEADER-POLARIZING KEY SITE 6 (VIOLET); 34P; ALUMINUM'               | 'LH-POL34P-SITE6'                | 'MAXIM'      | 'ACTIVE' | '32-LHSITE6POL34P-01'
+ '32-LHSITE7POL34P-01'(~LH-POL34P-SITE7)    = 'MACHINE FABRICATED; LATCH HEADER-POLARIZING KEY SITE 7 (BLACK); 34P; ALUMINUM'               | 'LH-POL34P-SITE7'                | 'MAXIM'      | 'ACTIVE' | '32-LHSITE7POL34P-01'
+ '32-LHSITE8POL34P-01'(~LH-POL34P-SITE8)    = 'MACHINE FABRICATED; LATCH HEADER-POLARIZING KEY SITE 8 (GRAY); 34P; ALUMINUM'               | 'LH-POL34P-SITE8'                | 'MAXIM'      | 'ACTIVE' | '32-LHSITE8POL34P-01'
+ '32-LHSITE5POL64P-01'(~[67-1380]-A-3)    = 'MACHINE FABRICATED; LATCH HEADER-POLARIZING KEY SITE 5 (ORANGE); 64P; ALUMINUM'               | '[67-1380]-A-3'                | 'MAXIM'      | 'ACTIVE' | '32-LHSITE5POL64P-01'
+ '32-LHSITE6POL64P-01'(~[67-1381]-A-3)    = 'MACHINE FABRICATED; LATCH HEADER-POLARIZING KEY SITE 6 (PURPLE); 64P; ALUMINUM'               | '[67-1381]-A-3'                | 'MAXIM'      | 'ACTIVE' | '32-LHSITE6POL64P-01'
+ '32-LHSITE7POL64P-01'(~[67-1382]-A-3)    = 'MACHINE FABRICATED; LATCH HEADER-POLARIZING KEY SITE 7 (BLACK); 64P; ALUMINUM'               | '[67-1382]-A-3'                | 'MAXIM'      | 'ACTIVE' | '32-LHSITE7POL64P-01'
+ '32-LHSITE8POL64P-01'(~[67-1383]-A-3)    = 'MACHINE FABRICATED; LATCH HEADER-POLARIZING KEY SITE 8 (GRAY); 64P; ALUMINUM'               | '[67-1383]-A-3'                | 'MAXIM'      | 'ACTIVE' | '32-LHSITE8POL64P-01'
+ '32-LHSITE5POL50P-01'(~[67-1444]-A-3)    = 'MACHINE FABRICATED; LATCH HEADER-POLARIZING KEY SITE 5 (ORANGE); 50P; ALUMINUM'               | '[67-1444]-A-3'                | 'MAXIM'      | 'ACTIVE' | '32-LHSITE5POL50P-01'
+ '32-LHSITE6POL50P-01'(~[67-1445]-A-3)    = 'MACHINE FABRICATED; LATCH HEADER-POLARIZING KEY SITE 6 (VIOLET); 50P; ALUMINUM'               | '[67-1445]-A-3'                | 'MAXIM'      | 'ACTIVE' | '32-LHSITE6POL50P-01'
+ '32-LHSITE7POL50P-01'(~[67-1446]-A-3)    = 'MACHINE FABRICATED; LATCH HEADER-POLARIZING KEY SITE 7 (BLACK); 50P; ALUMINUM'                | '[67-1446]-A-3'                | 'MAXIM'      | 'ACTIVE' | '32-LHSITE7POL50P-01'
+ '32-LHSITE8POL50P-01'(~[67-1447]-A-3)    = 'MACHINE FABRICATED; LATCH HEADER-POLARIZING KEY SITE 8 (GRAY); 50P; ALUMINUM'                 | '[67-1447]-A-3'                | 'MAXIM'      | 'ACTIVE' | '32-LHSITE8POL50P-01'
+
+END_PART
+
+PART 'POLARIZER-IDC'
+CLASS=MECH
+
+{========================================================================================}
+:MAXINV                           = DESCRIPTION                                        | MFG_PART_NUMBER            | MANUFACTURER | STATUS   | MAXINV   ;
+{========================================================================================}
+ '32-SCBLPOLSITE120P-01'(~[67-1449]-A-1; [67-1449]-A-2)    = 'MACHINE FABRICATED; IDC-POLARIZING KEY SET SITE 1 (RED); 20P; ALUMINUM'               | '[67-1449]-A-1; [67-1449]-A-2'                | 'MAXIM'      | 'ACTIVE' | '32-SCBLPOLSITE120P-01'       
+ '32-SCBLPOLSITE220P-01'(~[67-1450]-A-1; [67-1450]-A-2)    = 'MACHINE FABRICATED; IDC-POLARIZING KEY SET SITE 2 (YELLOW); 20P; ALUMINUM'               | '[67-1450]-A-1; [67-1450]-A-2'                | 'MAXIM'      | 'ACTIVE' | '32-SCBLPOLSITE220P-01'       
+ '32-SCBLPOLSITE320P-01'(~[67-1451]-A-1; [67-1451]-A-2)    = 'MACHINE FABRICATED; IDC-POLARIZING KEY SET SITE 3 (GREEN); 20P; ALUMINUM'               | '[67-1451]-A-1; [67-1451]-A-2'                | 'MAXIM'      | 'ACTIVE' | '32-SCBLPOLSITE320P-01'       
+ '32-SCBLPOLSITE420P-01'(~[67-1452]-A-1; [67-1452]-A-2)    = 'MACHINE FABRICATED; IDC-POLARIZING KEY SET SITE 4 (BLUE); 20P; ALUMINUM'               | '[67-1452]-A-1; [67-1452]-A-2'                | 'MAXIM'      | 'ACTIVE' | '32-SCBLPOLSITE420P-01'       
+ '32-SCBLPOLSITE520P-01'(~[67-1453]-A-1; [67-1453]-A-2)    = 'MACHINE FABRICATED; IDC-POLARIZING KEY SET SITE 5 (ORANGE); 20P; ALUMINUM'               | '[67-1453]-A-1; [67-1453]-A-2'                | 'MAXIM'      | 'ACTIVE' | '32-SCBLPOLSITE520P-01'       
+ '32-SCBLPOLSITE620P-01'(~[67-1454]-A-1; [67-1454]-A-2)    = 'MACHINE FABRICATED; IDC-POLARIZING KEY SET SITE 6 (VIOLET); 20P; ALUMINUM'               | '[67-1454]-A-1; [67-1454]-A-2'                | 'MAXIM'      | 'ACTIVE' | '32-SCBLPOLSITE620P-01'       
+ '32-SCBLPOLSITE720P-01'(~[67-1455]-A-1; [67-1455]-A-2)    = 'MACHINE FABRICATED; IDC-POLARIZING KEY SET SITE 7 (BLACK); 20P; ALUMINUM'               | '[67-1455]-A-1; [67-1455]-A-2'                | 'MAXIM'      | 'ACTIVE' | '32-SCBLPOLSITE720P-01'       
+ '32-SCBLPOLSITE820P-01'(~[67-1456]-A-1; [67-1456]-A-2)    = 'MACHINE FABRICATED; IDC-POLARIZING KEY SET SITE 8 (GRAY); 20P; ALUMINUM'               | '[67-1456]-A-1; [67-1456]-A-2'                | 'MAXIM'      | 'ACTIVE' | '32-SCBLPOLSITE820P-01'       
+ '32-SCBLPOLSITE140P-01'(~[67-1365]-A-1; [67-1365]-A-2)    = 'MACHINE FABRICATED; IDC-POLARIZING KEY SET SITE 1 (RED); 40P; ALUMINUM'               | '[67-1365]-A-1; [67-1365]-A-2'                | 'MAXIM'      | 'ACTIVE' | '32-SCBLPOLSITE140P-01'       
+ '32-SCBLPOLSITE240P-01'(~[67-1366]-A-1; [67-1366]-A-2)    = 'MACHINE FABRICATED; IDC-POLARIZING KEY SET SITE 2 (YELLOW); 40P; ALUMINUM'               | '[67-1366]-A-1; [67-1366]-A-2'                | 'MAXIM'      | 'ACTIVE' | '32-SCBLPOLSITE240P-01'       
+ '32-SCBLPOLSITE340P-01'(~[67-1368]-A-1; [67-1368]-A-2)    = 'MACHINE FABRICATED; IDC-POLARIZING KEY SET SITE 3 (GREEN); 40P; ALUMINUM'               | '[67-1368]-A-1; [67-1368]-A-2'                | 'MAXIM'      | 'ACTIVE' | '32-SCBLPOLSITE340P-01'       
+ '32-SCBLPOLSITE440P-01'(~[67-1369]-A-1; [67-1369]-A-2)    = 'MACHINE FABRICATED; IDC-POLARIZING KEY SET SITE 4 (BLUE); 40P; ALUMINUM'               | '[67-1369]-A-1; [67-1369]-A-2'                | 'MAXIM'      | 'ACTIVE' | '32-SCBLPOLSITE440P-01'       
+ '32-SCBLPOLSITE540P-01'(~[67-1370]-A-1; [67-1370]-A-2)    = 'MACHINE FABRICATED; IDC-POLARIZING KEY SET SITE 5 (ORANGE); 40P; ALUMINUM'               | '[67-1370]-A-1; [67-1370]-A-2'                | 'MAXIM'      | 'ACTIVE' | '32-SCBLPOLSITE540P-01'  
+ '32-SCBLPOLSITE640P-01'(~[67-1371]-A-1; [67-1371]-A-2)    = 'MACHINE FABRICATED; IDC-POLARIZING KEY SET SITE 6 (PURPLE); 40P; ALUMINUM'               | '[67-1371]-A-1; [67-1371]-A-2'                | 'MAXIM'      | 'ACTIVE' | '32-SCBLPOLSITE640P-01'  
+ '32-SCBLPOLSITE740P-01'(~[67-1372]-A-1; [67-1372]-A-2)    = 'MACHINE FABRICATED; IDC-POLARIZING KEY SET SITE 7 (BLACK); 40P; ALUMINUM'               | '[67-1372]-A-1; [67-1372]-A-2'                | 'MAXIM'      | 'ACTIVE' | '32-SCBLPOLSITE740P-01'  
+ '32-SCBLPOLSITE840P-01'(~[67-1373]-A-1; [67-1373]-A-2)    = 'MACHINE FABRICATED; IDC-POLARIZING KEY SET SITE 8 (GRAY); 40P; ALUMINUM'               | '[67-1373]-A-1; [67-1373]-A-2'                | 'MAXIM'      | 'ACTIVE' | '32-SCBLPOLSITE840P-01'  
+ '32-SCBLPOLSITE160P-01'(~[67-1431]-A-1; [67-1431]-A-2)    = 'MACHINE FABRICATED; IDC-POLARIZING KEY SET SITE 1 (RED); 60P; ALUMINUM'               | '[67-1431]-A-1; [67-1431]-A-2'                | 'MAXIM'      | 'ACTIVE' | '32-SCBLPOLSITE160P-01'  
+ '32-SCBLPOLSITE260P-01'(~[67-1432]-A-1; [67-1432]-A-2)    = 'MACHINE FABRICATED; IDC-POLARIZING KEY SET SITE 2 (YELLOW); 60P; ALUMINUM'               | '[67-1432]-A-1; [67-1432]-A-2'                | 'MAXIM'      | 'ACTIVE' | '32-SCBLPOLSITE260P-01'  
+ '32-SCBLPOLSITE360P-01'(~[67-1433]-A-1; [67-1433]-A-2)    = 'MACHINE FABRICATED; IDC-POLARIZING KEY SET SITE 3 (GREEN); 60P; ALUMINUM'               | '[67-1433]-A-1; [67-1433]-A-2'                | 'MAXIM'      | 'ACTIVE' | '32-SCBLPOLSITE360P-01'  
+ '32-SCBLPOLSITE460P-01'(~[67-1434]-A-1; [67-1434]-A-2)    = 'MACHINE FABRICATED; IDC-POLARIZING KEY SET SITE 4 (BLUE); 60P; ALUMINUM'               | '[67-1434]-A-1; [67-1434]-A-2'                | 'MAXIM'      | 'ACTIVE' | '32-SCBLPOLSITE460P-01'  
+ '32-SCBLPOLSITE560P-01'(~[67-1435]-A-1; [67-1435]-A-2)    = 'MACHINE FABRICATED; IDC-POLARIZING KEY SET SITE 5 (ORANGE); 60P; ALUMINUM'               | '[67-1435]-A-1; [67-1435]-A-2'                | 'MAXIM'      | 'ACTIVE' | '32-SCBLPOLSITE560P-01'  
+ '32-SCBLPOLSITE660P-01'(~[67-1436]-A-1; [67-1436]-A-2)    = 'MACHINE FABRICATED; IDC-POLARIZING KEY SET SITE 6 (VIOLET); 60P; ALUMINUM'               | '[67-1436]-A-1; [67-1436]-A-2'                | 'MAXIM'      | 'ACTIVE' | '32-SCBLPOLSITE660P-01'  
+ '32-SCBLPOLSITE760P-01'(~[67-1437]-A-1; [67-1437]-A-2)    = 'MACHINE FABRICATED; IDC-POLARIZING KEY SET SITE 7 (BLACK); 60P; ALUMINUM'               | '[67-1437]-A-1; [67-1437]-A-2'                | 'MAXIM'      | 'ACTIVE' | '32-SCBLPOLSITE760P-01'  
+ '32-SCBLPOLSITE860P-01'(~[67-1438]-A-1; [67-1438]-A-2)    = 'MACHINE FABRICATED; IDC-POLARIZING KEY SET SITE 8 (GRAY); 60P; ALUMINUM'               | '[67-1438]-A-1; [67-1438]-A-2'                | 'MAXIM'      | 'ACTIVE' | '32-SCBLPOLSITE860P-01'  
+ '32-SCBLPOLSITE164P-01'(~[67-1376]-A-1; [67-1376]-A-2)    = 'MACHINE FABRICATED; IDC-POLARIZING KEY SET SITE 1 (RED); 64P; ALUMINUM'               | '[67-1376]-A-1; [67-1376]-A-2'                | 'MAXIM'      | 'ACTIVE' | '32-SCBLPOLSITE164P-01'  
+ '32-SCBLPOLSITE264P-01'(~[67-1377]-A-1; [67-1377]-A-2)    = 'MACHINE FABRICATED; IDC-POLARIZING KEY SET SITE 2 (YELLOW); 64P; ALUMINUM'               | '[67-1377]-A-1; [67-1377]-A-2'                | 'MAXIM'      | 'ACTIVE' | '32-SCBLPOLSITE264P-01'  
+ '32-SCBLPOLSITE364P-01'(~[67-1378]-A-1; [67-1378]-A-2)    = 'MACHINE FABRICATED; IDC-POLARIZING KEY SET SITE 3 (GREEN); 64P; ALUMINUM'               | '[67-1378]-A-1; [67-1378]-A-2'                | 'MAXIM'      | 'ACTIVE' | '32-SCBLPOLSITE364P-01'  
+ '32-SCBLPOLSITE464P-01'(~[67-1379]-A-1; [67-1379]-A-2)    = 'MACHINE FABRICATED; IDC-POLARIZING KEY SET SITE 4 (BLUE); 64P; ALUMINUM'               | '[67-1379]-A-1; [67-1379]-A-2'                | 'MAXIM'      | 'ACTIVE' | '32-SCBLPOLSITE464P-01'  
+ '32-SCBLPOLSITE150P-01'(~[67-1440]-A-1; [67-1440]-A-2)    = 'MACHINE FABRICATED; IDC-POLARIZING KEY SET SITE 1 (RED); 50P; ALUMINUM'               | '[67-1440]-A-1; [67-1440]-A-2'                | 'MAXIM'      | 'ACTIVE' | '32-SCBLPOLSITE150P-01'  
+ '32-SCBLPOLSITE250P-01'(~[67-1441]-A-1; [67-1441]-A-2)    = 'MACHINE FABRICATED; IDC-POLARIZING KEY SET SITE 2 (YELLOW); 50P; ALUMINUM'               | '[67-1441]-A-1; [67-1441]-A-2'                | 'MAXIM'      | 'ACTIVE' | '32-SCBLPOLSITE250P-01'  
+ '32-SCBLPOLSITE350P-01'(~[67-1442]-A-1; [67-1442]-A-2)    = 'MACHINE FABRICATED; IDC-POLARIZING KEY SET SITE 3 (GREEN); 50P; ALUMINUM'               | '[67-1442]-A-1; [67-1442]-A-2'                | 'MAXIM'      | 'ACTIVE' | '32-SCBLPOLSITE350P-01'  
+ '32-SCBLPOLSITE450P-01'(~[67-1443]-A-1; [67-1443]-A-2)    = 'MACHINE FABRICATED; IDC-POLARIZING KEY SET SITE 4 (BLUE); 50P; ALUMINUM'               | '[67-1443]-A-1; [67-1443]-A-2'                | 'MAXIM'      | 'ACTIVE' | '32-SCBLPOLSITE450P-01'  
+ '32-SCBLPOLSITE126P-01'(~[67-3085]-A-1; [67-3085]-A-2)    = 'MACHINE FABRICATED; IDC-POLARIZING KEY SET SITE 1 (RED); 26P; ALUMINUM'               | '[67-3085]-A-1; [67-3085]-A-2'                | 'MAXIM'      | 'ACTIVE' | '32-SCBLPOLSITE126P-01'  
+ '32-SCBLPOLSITE226P-01'(~[67-3086]-A-1; [67-3086]-A-2)    = 'MACHINE FABRICATED; IDC-POLARIZING KEY SET SITE 2 (YELLOW); 26P; ALUMINUM'               | '[67-3086]-A-1; [67-3086]-A-2'                | 'MAXIM'      | 'ACTIVE' | '32-SCBLPOLSITE226P-01'  
+ '32-SCBLPOLSITE326P-01'(~[67-3087]-A-1; [67-3087]-A-2)    = 'MACHINE FABRICATED; IDC-POLARIZING KEY SET SITE 3 (GREEN); 26P; ALUMINUM'               | '[67-3087]-A-1; [67-3087]-A-2'                | 'MAXIM'      | 'ACTIVE' | '32-SCBLPOLSITE326P-01'  
+ '32-SCBLPOLSITE426P-01'(~[67-3088]-A-1; [67-3088]-A-2)    = 'MACHINE FABRICATED; IDC-POLARIZING KEY SET SITE 4 (BLUE); 26P; ALUMINUM'               | '[67-3088]-A-1; [67-3088]-A-2'                | 'MAXIM'      | 'ACTIVE' | '32-SCBLPOLSITE426P-01'  
+ '32-SCBLPOLSITE526P-01'(~IDC-26P-SITE5)    = 'MACHINE FABRICATED; IDC-POLARIZING KEY SET SITE 5 (ORANGE); 26P; ALUMINUM'               | 'IDC-26P-SITE5'                | 'MAXIM'      | 'ACTIVE' | '32-SCBLPOLSITE526P-01'  
+ '32-SCBLPOLSITE626P-01'(~IDC-26P-SITE6)    = 'MACHINE FABRICATED; IDC-POLARIZING KEY SET SITE 6 (VIOLET); 26P; ALUMINUM'               | 'IDC-26P-SITE6'                | 'MAXIM'      | 'ACTIVE' | '32-SCBLPOLSITE626P-01'  
+ '32-SCBLPOLSITE726P-01'(~IDC-26P-SITE7)    = 'MACHINE FABRICATED; IDC-POLARIZING KEY SET SITE 7 (BLACK); 26P; ALUMINUM'               | 'IDC-26P-SITE7'                | 'MAXIM'      | 'ACTIVE' | '32-SCBLPOLSITE726P-01'  
+ '32-SCBLPOLSITE826P-01'(~IDC-26P-SITE8)    = 'MACHINE FABRICATED; IDC-POLARIZING KEY SET SITE 8 (GRAY); 26P; ALUMINUM'               | 'IDC-26P-SITE8'                | 'MAXIM'      | 'ACTIVE' | '32-SCBLPOLSITE826P-01'  
+ '32-SCBLPOLSITE130P-01'(~67-1983; 67-1984)    = 'MACHINE FABRICATED; IDC-POLARIZING KEY SET SITE 1 (RED); 30P; ALUMINUM'               | '67-1983; 67-1984'                | 'MAXIM'      | 'ACTIVE' | '32-SCBLPOLSITE130P-01'  
+ '32-SCBLPOLSITE230P-01'(~67-1988; 67-1989)    = 'MACHINE FABRICATED; IDC-POLARIZING KEY SET SITE 2 (YELLOW); 30P; ALUMINUM'               | '67-1988; 67-1989'                | 'MAXIM'      | 'ACTIVE' | '32-SCBLPOLSITE230P-01'  
+ '32-SCBLPOLSITE330P-01'(~67-1996; 67-1997)    = 'MACHINE FABRICATED; IDC-POLARIZING KEY SET SITE 3 (GREEN); 30P; ALUMINUM'               | '67-1996; 67-1997'                | 'MAXIM'      | 'ACTIVE' | '32-SCBLPOLSITE330P-01'  
+ '32-SCBLPOLSITE430P-01'(~67-2000; 67-2001)    = 'MACHINE FABRICATED; IDC-POLARIZING KEY SET SITE 4 (BLUE); 30P; ALUMINUM'               | '67-2000; 67-2001'                | 'MAXIM'      | 'ACTIVE' | '32-SCBLPOLSITE430P-01'  
+ '32-SCBLPOLSITE530P-01'(~IDC-30P-SITE5)    = 'MACHINE FABRICATED; IDC-POLARIZING KEY SET SITE 5 (ORANGE); 30P; ALUMINUM'               | 'IDC-30P-SITE5'                | 'MAXIM'      | 'ACTIVE' | '32-SCBLPOLSITE530P-01'  
+ '32-SCBLPOLSITE630P-01'(~IDC-30P-SITE6)    = 'MACHINE FABRICATED; IDC-POLARIZING KEY SET SITE 6 (VIOLET); 30P; ALUMINUM'               | 'IDC-30P-SITE6'                | 'MAXIM'      | 'ACTIVE' | '32-SCBLPOLSITE630P-01'  
+ '32-SCBLPOLSITE730P-01'(~IDC-30P-SITE7)    = 'MACHINE FABRICATED; IDC-POLARIZING KEY SET SITE 7 (BLACK); 30P; ALUMINUM'               | 'IDC-30P-SITE7'                | 'MAXIM'      | 'ACTIVE' | '32-SCBLPOLSITE730P-01'  
+ '32-SCBLPOLSITE830P-01'(~IDC-30P-SITE8)    = 'MACHINE FABRICATED; IDC-POLARIZING KEY SET SITE 8 (GRAY); 30P; ALUMINUM'               | 'IDC-30P-SITE8'                | 'MAXIM'      | 'ACTIVE' | '32-SCBLPOLSITE830P-01'  
+ '32-SCBLPOLSITE134P-01'(~[67-2925]-A-1; [67-2925]-A-2)    = 'MACHINE FABRICATED; IDC-POLARIZING KEY SET SITE 1 (RED); 34P; ALUMINUM'               | '[67-2925]-A-1; [67-2925]-A-2'                | 'MAXIM'      | 'ACTIVE' | '32-SCBLPOLSITE134P-01'  
+ '32-SCBLPOLSITE234P-01'(~[67-2929]-A-1; [67-2929]-A-2)    = 'MACHINE FABRICATED; IDC-POLARIZING KEY SET SITE 2 (YELLOW); 34P; ALUMINUM'               | '[67-2929]-A-1; [67-2929]-A-2'                | 'MAXIM'      | 'ACTIVE' | '32-SCBLPOLSITE234P-01'  
+ '32-SCBLPOLSITE334P-01'(~[67-2930]-A-1; [67-2930]-A-2)    = 'MACHINE FABRICATED; IDC-POLARIZING KEY SET SITE 3 (GREEN); 34P; ALUMINUM'               | '[67-2930]-A-1; [67-2930]-A-2'                | 'MAXIM'      | 'ACTIVE' | '32-SCBLPOLSITE334P-01'  
+ '32-SCBLPOLSITE434P-01'(~[67-2931]-A-1; [67-2931]-A-2)    = 'MACHINE FABRICATED; IDC-POLARIZING KEY SET SITE 4 (BLUE); 34P; ALUMINUM'               | '[67-2931]-A-1; [67-2931]-A-2'                | 'MAXIM'      | 'ACTIVE' | '32-SCBLPOLSITE434P-01'  
+ '32-SCBLPOLSITE534P-01'(~IDC-34P-SITE5)    = 'MACHINE FABRICATED; IDC-POLARIZING KEY SET SITE 5 (ORANGE); 34P; ALUMINUM'               | 'IDC-34P-SITE5'                | 'MAXIM'      | 'ACTIVE' | '32-SCBLPOLSITE534P-01'  
+ '32-SCBLPOLSITE634P-01'(~IDC-34P-SITE6)    = 'MACHINE FABRICATED; IDC-POLARIZING KEY SET SITE 6 (VIOLET); 34P; ALUMINUM'               | 'IDC-34P-SITE6'                | 'MAXIM'      | 'ACTIVE' | '32-SCBLPOLSITE634P-01'  
+ '32-SCBLPOLSITE734P-01'(~IDC-34P-SITE7)    = 'MACHINE FABRICATED; IDC-POLARIZING KEY SET SITE 7 (BLACK); 34P; ALUMINUM'               | 'IDC-34P-SITE7'                | 'MAXIM'      | 'ACTIVE' | '32-SCBLPOLSITE734P-01'  
+ '32-SCBLPOLSITE834P-01'(~IDC-34P-SITE8)    = 'MACHINE FABRICATED; IDC-POLARIZING KEY SET SITE 8 (GRAY); 34P; ALUMINUM'               | 'IDC-34P-SITE8'                | 'MAXIM'      | 'ACTIVE' | '32-SCBLPOLSITE834P-01'  
+ '32-SCBLPOLSITE564P-01'(~[67-1380]-A-1; [67-1380]-A-2)    = 'MACHINE FABRICATED; IDC-POLARIZING KEY SET SITE 5 (ORANGE); 64P; ALUMINUM'            | '[67-1380]-A-1; [67-1380]-A-2'                | 'MAXIM'      | 'ACTIVE' | '32-SCBLPOLSITE564P-01'  
+ '32-SCBLPOLSITE664P-01'(~[67-1381]-A-1; [67-1381]-A-2)    = 'MACHINE FABRICATED; IDC-POLARIZING KEY SET SITE 2 (YELLOW); 64P; ALUMINUM'            | '[67-1381]-A-1; [67-1381]-A-2'                | 'MAXIM'      | 'ACTIVE' | '32-SCBLPOLSITE664P-01'  
+ '32-SCBLPOLSITE764P-01'(~[67-1382]-A-1; [67-1382]-A-2)    = 'MACHINE FABRICATED; IDC-POLARIZING KEY SET SITE 7 (BLACK); 64P; ALUMINUM'             | '[67-1382]-A-1; [67-1382]-A-2'                | 'MAXIM'      | 'ACTIVE' | '32-SCBLPOLSITE764P-01'  
+ '32-SCBLPOLSITE864P-01'(~[67-1383]-A-1; [67-1383]-A-2)    = 'MACHINE FABRICATED; IDC-POLARIZING KEY SET SITE 8 (GRAY); 64P; ALUMINUM'              | '[67-1383]-A-1; [67-1383]-A-2'                | 'MAXIM'      | 'ACTIVE' | '32-SCBLPOLSITE864P-01'  
+ 
+ END_PART
+
+PART 'STUD'
+CLASS=MECH
+
+{========================================================================================}
+:MAXINV                           = DESCRIPTION                                        | MFG_PART_NUMBER            | MANUFACTURER | STATUS   | MAXINV   ;
+{========================================================================================}
+ '02-STDT632012P-01'(~91565A315)    = 'STUD-LTX_MX_TEMPLATE; FULL_THREADED_RODS; 6-32; 1/2 LENGTH; STEEL'   | '91565A315'  | 'MCMASTER_CARR'  | 'TEMPLATE' | '02-STDT632012P-01'       
+
+END_PART
+
+PART 'DIMM_CONNECTOR'
+CLASS=MECH
+
+{========================================================================================}
+:MAXINV                           = DESCRIPTION                                        | MFG_PART_NUMBER            | MANUFACTURER | STATUS   | MAXINV | REFLOW  | EST_PRICE   ;
+{========================================================================================}
+ '01-877822001244P-22'(~87782-2001)    = 'CONNECTOR; FEMALE; SURFACE MOUNT; MINI DIMM 0.6MM PITCH; VERTICAL; 244PINS'   | '87782-2001'  | 'MOLEX'  | 'TEMPLATE' | '01-877822001244P-22' | 'Y'   | '($11.5)'    
+ '01-877822201200P-22'(~87782-2201)    = 'CONNECTOR; FEMALE; SMT; MINI DIMM 0.6MM PITCH; VERTICAL; 200PINS'   | '87782-2201'  | 'MOLEX'  | 'TEMPLATE' | '01-877822201200P-22' | 'Y'      | '($11.51051)' 
+ '01-877822002244P-22'(~87782-2002)    = 'CONNECTOR; FEMALE; SMT; MINI DIMM 0.6MM PITCH; VERTICAL; 244PINS'   | '87782-2002'  | 'MOLEX'  | 'ACTIVE' | '01-877822002244P-22' | '-'    |  '($0)' 
+
+END_PART
+
+PART 'EVK-BOX'
+CLASS=MECH
+
+{========================================================================================}
+:MAXINV                           = DESCRIPTION                                        | MFG_PART_NUMBER            | MANUFACTURER | STATUS   | MAXINV   ;
+{========================================================================================}
+ '88-00711-SML'(~88-00711-SML)    = 'BOX;SMALL BROWN 9 3/16"X7"X1 1/4" - PACKOUT'   | '88-00711-SML'  | 'N/A'  | 'EVKIT-NOT FOR TEST' | '88-00711-SML'       
+ '88-00712-MDM'(~88-00712-MDM)    = 'BOX;+;MEDIUM BROWN 9 3/8” X 7 1/4” X 2 1/2" '   | '88-00712-MDM'  | 'N/A'  | 'EVKIT-NOT FOR TEST' | '88-00712-MDM'       
+ '88-00713-LRG'(~88-00713-LRG)    = 'BOX;+;LARGE  BROWN 15 1/8” X 8 3/4" X 3” '   | '88-00713-LRG'  | 'N/A'  | 'EVKIT-NOT FOR TEST' | '88-00713-LRG'       
+
+END_PART
+
+PART 'EVK-LABEL'
+CLASS=MECH
+
+{========================================================================================}
+:MAXINV                           = DESCRIPTION                                        | MFG_PART_NUMBER            | MANUFACTURER | STATUS   | MAXINV   ;
+{========================================================================================}
+ '85-84003-006'(~85-84003-006)    = 'LABEL(EV KIT BOX) - PACKOUT'   | '85-84003-006'  | 'N/A'  | 'EVKIT-NOT FOR TEST' | '85-84003-006'       
+
+END_PART
+
+PART 'EVK-WEBINSTRACTION'
+CLASS=MECH
+
+{========================================================================================}
+:MAXINV                           = DESCRIPTION                                        | MFG_PART_NUMBER            | MANUFACTURER | STATUS   | MAXINV   ;
+{========================================================================================}
+ 'XXXXXXXXX'(~XXXXXXXXX)    = 'WEB INSTRUCTIONS FOR MAXIM DATA SHEET'   | 'XXXXXXXXX'  | 'N/A'  | 'OBSOLETE' | 'XXXXXXXXX'       
+ 'EVINSERT'(~EVINSERT)    = 'WEB INSTRUCTIONS FOR MAXIM DATA SHEET'   | 'EVINSERT'  | 'N/A'  | 'EVKIT-NOT FOR TEST' | 'EVINSERT'
+
+END_PART
+
+PART 'EVK-ESDBAG'
+CLASS=MECH
+
+{========================================================================================}
+:MAXINV                           = DESCRIPTION                                        | MFG_PART_NUMBER            | MANUFACTURER | STATUS   | MAXINV   ;
+{========================================================================================}
+ '87-02162-00'(~87-02162-00)    = 'ESD BAG;BAG;STATIC SHIELD ZIP 4inX6in;W/ESD LOGO - PACKOUT'   | '87-02162-00'  | 'N/A'  | 'EVKIT-NOT FOR TEST' | '87-02162-00'       
+ '87-02159-000'(~87-02159-000)    = 'ESD BAG;+;BAG; STATIC SHIELD 5"X8";W/ESD LOGO'   | '87-02159-000'  | 'N/A' | 'EVKIT-NOT FOR TEST'  | '87-02159-000'      
+ '87-02163-000'(~87-02163-000)    = 'ESD BAG;+;BAG; STATIC SHIELD ZIP 8”X10”; W/ ESD LOGO'   | '87-02163-000'  | 'N/A'  | 'EVKIT-NOT FOR TEST' | '87-02163-000'       
+
+END_PART
+
+PART 'EVK-PINKFOAM'
+CLASS=MECH
+
+{========================================================================================}
+:MAXINV                           = DESCRIPTION                                        | MFG_PART_NUMBER            | MANUFACTURER | STATUS   | MAXINV   ;
+{========================================================================================}
+ '85-MAXKIT-PNK'(~85-MAXKIT-PNK)    = 'PINK FOAM;FOAM;ANTI-STATIC PE 12inX12inX5MM - PACKOUT'   | '85-MAXKIT-PNK'  | 'N/A'  | 'EVKIT-NOT FOR TEST' | '85-MAXKIT-PNK'       
+
+END_PART
+
+PART 'HEATSINK'
+CLASS=MECH
+
+{========================================================================================}
+:MAXINV                           = DESCRIPTION                                        | MFG_PART_NUMBER            | MANUFACTURER | STATUS   | MAXINV   ;
+{========================================================================================}
+ '02-QBLHEATSINK1905X13208-01'(~577102B00000G)    = 'MACHINE FABRICATED; Q-BLOCK; 19.05MMX13.208MM/9.652; NO SOLDERABLE TABS; BLACK ANNODIZED ALUMINUM'   | '577102B00000G'  | 'N/A'  | 'ACTIVE' | '02-QBLHEATSINK1905X13208-01'       
+
+END_PART
+
+PART 'DSUB_HOUSING'
+CLASS=MECH
+
+{========================================================================================}
+:MAXINV                           = DESCRIPTION                                        | MFG_PART_NUMBER            | MANUFACTURER | STATUS   | MAXINV   ;
+{========================================================================================}
+ '01-FM5W5P5P-09'(~FM5W5P)    = 'CONNECTOR; DSUB; WIREMOUNT; PLUG; STRAIGHT THROUGH; 5PINS'     | 'FM5W5P'  | 'FCT'  | 'ACTIVE' | '01-FM5W5P5P-09'       
+ '01-FM5W5S5P-09'(~FM5W5S)    = 'CONNECTOR; DSUB; WIREMOUNT; SOCKET; STRAIGHT THROUGH; 5PINS'   | 'FM5W5S'  | 'FCT'  | 'ACTIVE' | '01-FM5W5S5P-09'       
+
+END_PART
+
+PART 'DSUB_CONTACT'
+CLASS=MECH
+
+{========================================================================================}
+:MAXINV                           = DESCRIPTION                                        | MFG_PART_NUMBER            | MANUFACTURER | STATUS   | MAXINV   ;
+{========================================================================================}
+ '01-FMX006S102P-01'(~FMX006S102)    = 'CONNECTOR; WIREMOUNT; 50 OHM CR/SO PLUG; FCT ELECTRONICS D-SUB MIXED LAYOUT COAXIAL CONTACT; STRAIGHT THROUGH; 2PINS'   | 'FMX006S102'  | 'FCT'  | 'ACTIVE' | '01-FMX006S102P-01'       
+
+END_PART
+
+PART 'CONNECTOR'
+CLASS=MECH
+
+{========================================================================================}
+:MAXINV                           = DESCRIPTION                                        | MFG_PART_NUMBER            | MANUFACTURER | STATUS   | MAXINV   | REFLOW  | EST_PRICE  | EST_STOCK_STATUS  ;
+{========================================================================================}
+ '01-QSH02001LDDPA40P-19'(~QSH-020-01-L-D-DP-A)    = 'CONNECTOR; FEMALE; SMT; HIGH SPEED GROUND PLANE SOCKET; STRAIGHT; 40PINS'   | 'QSH-020-01-L-D-DP-A'  | 'SAMTEC'  | 'ACTIVE' | '01-QSH02001LDDPA40P-19'       | '-'   | '($8.58)'   | 'HQ(00):HBO(00):MPOC(00):DL(00)'
+ '01-LPAF10035L062K60P-21'(~LPAF-10-03.5-L-06-2-K)    = 'CONNECTOR; FEMALE; SMT; HIGH SPEED LOW PROFILE OPEN PIN FIELD; STRAIGHT; 60PINS'   | 'LPAF-10-03.5-L-06-2-K'  | 'SAMTEC'  | 'ACTIVE' | '01-LPAF10035L062K60P-21'       | '-'   | '($0)'   | 'HQ(00):HBO(00):MPOC(00):DL(00)'
+ '01-QSH-03001LDA60P-19'(~QSH-030-01-L-D-A)    = 'CONNECTOR; MALE; SMT; HIGH SPEED GROUND PLANE SOCKET; STRAIGHT THROUGH; 60PINS'   | 'QSH-030-01-L-D-A'  | 'SAMTEC'  | 'ACTIVE' | '01-QSH-03001LDA60P-19'       | 'Y'   | '($0)'   | 'HQ(00):HBO(00):MPOC(00):DL(00)'
+ '01-4302002002P-15'(~43020-0200)    = 'CONNECTOR; SSC; MALE; WIREMOUNT; STRAIGHT THROUGH; DUAL ROW HOUSING; 2PINS; 26-30 AWG'   | '43020-0200'  | 'MOLEX'  | 'TEMPLATE' | '01-4302002002P-15'       | '-'   | '($0.11)'   | 'HQ(00):HBO(00):MPOC(00):DL(00)'
+ '01-4302502002P-15'(~43025-0200)    = 'CONNECTOR; SSC; FEMALE; WIREMOUNT; STRAIGHT THROUGH; DUAL ROW HOUSING; 2PINS; 26-30 AWG'   | '43025-0200'  | 'MOLEX'  | 'TEMPLATE' | '01-4302502002P-15'       | '-'   | '($0.1)'   | 'HQ(00):HBO(00):MPOC(00):DL(00)'
+ '01-4303100101P-15'(~43031-0010)    = 'CONNECTOR; SSC; MALE; WIREMOUNT; STRAIGHT THROUGH; CONTACT PIN; 1PIN; 26-30 AWG'   | '43031-0010'  | 'MOLEX'  | 'TEMPLATE' | '01-4303100101P-15'       | '-'   | '($0.047)'   | 'HQ(00):HBO(00):MPOC(00):DL(00)'
+ '01-4303000101P-15'(~43030-0010)    = 'CONNECTOR; SSC; FEMALE; WIREMOUNT; STRAIGHT THROUGH; CONTACT PIN; 1PIN; 26-30 AWG'   | '43030-0010'  | 'MOLEX'  | 'TEMPLATE' | '01-4303000101P-15'       | '-'   | '($0.037)'   | 'HQ(00):HBO(00):MPOC(00):DL(00)'
+ '01-QTH06001LDA120P-19'(~QTH-060-01-L-D-A)    = 'CONNECTOR; FEMALE; SMT; HIGH SPEED GROUND PLANE HEADER; STRAIGHT THROUGH; 120PINS'   | 'QTH-060-01-L-D-A'  | 'SAMTEC'  | 'ACTIVE' | '01-QTH06001LDA120P-19'       | '-'   | '($5.83)'   | 'HQ(00):HBO(00):MPOC(00):DL(00)'
+ '01-QTH03001LDA-17'(~QTH-030-01-L-D-A)    = 'CONNECTOR; FEMALE; SMT; HIGH SPEED GROUND PLANE HEADER; STRAIGHT THROUGH; 60PINS'   | 'QTH-030-01-L-D-A'  | 'SAMTEC'  | 'ACTIVE' | '01-QTH03001LDA-17'       | '-'   | '($4.7)'  | 'HQ(00):HBO(00):MPOC(00):DL(00)'
+ '01-QTH02002LDDPA40P-19'(~QTH-020-02-L-D-DP-A)    = 'CONNECTOR; FEMALE; SMT; HIGH SPEED GROUND PLANE HEADER; STRAIGHT; 40PINS'   | 'QTH-020-02-L-D-DP-A'  | 'SAMTEC'  | 'ACTIVE' | '01-QTH02002LDDPA40P-19'       | '-'   | '($00)'   | 'HQ(00):HBO(00):MPOC(00):DL(00)'
+ '01-NPPC151KFXC15P-19'(~NPPC151KFXC-RC)    = 'CONNECTOR; FEMALE; SMT; 2.54MM CC; 1 ROW; STRAIGHT; 15PINS'   | 'NPPC151KFXC-RC'  | 'SULLINS ELECTRONICS CORP'  | 'EVKIT-NOT FOR TEST' | '01-NPPC151KFXC15P-19'       | '-'   | '($00)'   | 'HQ(00):HBO(00):MPOC(00):DL(00)'
+ '01-HSEC812501SDVA-04'(~HSEC8-125-01-S-DV-A)    = 'CONNECTOR; FEMALE; SMT; HSEC8-DV SERIES; 0.8MM VERTICAL EDGE RATE(TM)CARD SOCKET WELD TAB; STRAIGHT; 50PINS; -55 DEGC TO +125 DEGC'   | 'HSEC8-125-01-S-DV-A'  | 'SAMTEC'  | 'ACTIVE' | '01-HSEC812501SDVA-04'       | '-'   | '($4.02)'   | 'HQ(00):HBO(00):MPOC(00):DL(00)'
+ '01-19451194P-19'(~1945119)    = 'CONNECTOR; MALE; THROUGH HOLE; PIN STRIP; 3.5MM PITCH; STRAIGHT; 4PINS'   | '1945119'  | 'PHOENIX CONTACT'  | 'EVKIT-NOT FOR TEST' | '01-19451194P-19'       | '-'   | '($0.3)'   | 'HQ(00):HBO(00):MPOC(00):DL(00)'
+ '01-2228420320P-21'(~22-28-4203)    = 'CONNECTOR; MALE; THROUGH HOLE; FLAT VERTICAL BREAKAWAY; STRAIGHT; 20PINS; 0 DEGC TO +75 DEGC'   | '22-28-4203'  | 'MOLEX'  | 'EVKIT-NOT FOR TEST' | '01-2228420320P-21'       | '-'   | '($0.9)'   | 'HQ(00):HBO(00):MPOC(00):DL(00)'
+ '01-4303000011P-22'(~43030-0001)    = 'CONNECTOR; FEMALE; WIREMOUNT; 20-24AWG; MICRO-FIT 3.0 FEMALE CRIMP TERMINAL; STRAIGHT; 1PIN'    | '43030-0001'  | 'MOLEX'  | 'ACTIVE' | '01-4303000011P-22'       | '-'   | '($00)'   | 'HQ(00):HBO(00):MPOC(00):DL(00)'
+ '01-4364507007P-15'(~43645-0700)    = 'CONNECTOR; FEMALE; WIREMOUNT; MICRO-FIT 3.0; SINGLE ROW RECEPTACLE; STRAIGHT; 7PINS'            | '43645-0700'  | 'MOLEX'  | 'ACTIVE' | '01-4364507007P-15'       | '-'   | '($00)'   | 'HQ(00):HBO(00):MPOC(00):DL(00)'
+ '01-390000391P-22'(~39-00-0039)    = 'CONNECTOR; FEMALE; WIREMOUNT; 18-24AWG; MINI-FIT JR CRIMP TERMINAL; STRAIGHT; 1PIN'              | '39-00-0039'  | 'MOLEX'  | 'ACTIVE' | '01-390000391P-22'        | '-'   | '($00)'   | 'HQ(00):HBO(00):MPOC(00):DL(00)'
+ '01-3901214014P-15'(~39-01-2140)    = 'CONNECTOR; FEMALE; WIREMOUNT; MINI-FIT JR. RECEPTACLE HOUSING; DUAL ROW; STRAIGHT; 14PINS'      | '39-01-2140'  | 'MOLEX'  | 'ACTIVE' | '01-3901214014P-15'       | '-'   | '($00)'   | 'HQ(00):HBO(00):MPOC(00):DL(00)'
+ '01-PPPC132LFBN26P-19'(~PPPC132LFBN-RC)    = 'CONNECTOR; FEMALE; THROUGH HOLE; 0.1IN CC; FEMALE HEADER; STRAIGHT; 26PINS; -40 DEGC TO +105 DEGC'      | 'PPPC132LFBN-RC'  | 'SULLINS ELECTRONICS CORP'  | 'ACTIVE' | '01-PPPC132LFBN26P-19'       | '-'   | '($1.96)'   | 'HQ(00):HBO(00):MPOC(00):DL(00)'
+ '01-51296549454P-18'(~51296-5494)    = 'CONNECTOR; FEMALE; SMT; 0.5 FPC ZIF E/0 HOUSING ASSY; RIGHT ANGLE; 54PINS'                | '51296-5494; 0512965494'  | 'MOLEX'                     | 'ACTIVE' | '01-51296549454P-18'         | '-'   | '($0.38)'   | 'HQ(00):HBO(00):MPOC(00):DL(00)'
+ '01-1089724224P-21'(~10-89-7242)    = 'CONNECTOR; THROUGH HOLE; SALES ASSY-HIGH TEMP DUAL ROW WAFER WITH BREAK-OFF OPTION; STRAIGHT THROUGH; 24PINS'                | '10-89-7242'  | 'MOLEX'                     | 'ACTIVE' | '01-1089724224P-21'         | '-'   | '($0)'  | 'HQ(00):HBO(00):MPOC(00):DL(00)'
+ '01-6130221112122P-21'(~61302211121)    = 'CONNECTOR; MALE; THROUGH HOLE; WR-PHD SERIES; STRAIGHT; 22PINS'                | '61302211121'  | 'WURTH ELECTRONICS INC'                     | 'EVKIT-NOT FOR TEST' | '01-6130221112122P-21'         | '-'   | '($00)'  | 'HQ(00):HBO(00):MPOC(00):DL(00)'
+ '01-FX10A168SSV168P-15'(~FX10A-168S-SV)    = 'CONNECTOR; FEMALE; SMT; FX10 SERIES; WITH GUIDEPOST; 10+GBPS; 0.5MM PITCH STACKING RECEPTACLE CONNECTOR; STRAIGHT; 168PINS'                | 'FX10A-168S-SV'  | 'HIROSE ELECTRIC CO LTD.'                     | 'ACTIVE' | '01-FX10A168SSV168P-15'         | '-'   | '($6.41)'  | 'HQ(00):HBO(00):MPOC(00):DL(00)'
+ '01-ESQ10312LD6P-15'(~ESQ-103-12-L-D)    = 'CONNECTOR; FEMALE; THROUGH HOLE; ESQ SERIES; ELEVATED SOCKET; STRAIGHT; 6PINS'                | 'ESQ-103-12-L-D'  | 'SAMTEC'                     | 'ACTIVE' | '01-ESQ10312LD6P-15'         | '-'   | '($00)'   | 'HQ(00):HBO(00):MPOC(00):DL(00)'
+ '01-ESQ10512LD10P-15'(~ESQ-105-12-L-D)    = 'CONNECTOR; FEMALE; THROUGH HOLE; ESQ SERIES; ELEVATED SOCKET; STRAIGHT; 10PINS'                | 'ESQ-105-12-L-D'  | 'SAMTEC'                     | 'ACTIVE' | '01-ESQ10512LD10P-15'         | '-'   | '($00)'   | 'HQ(00):HBO(00):MPOC(00):DL(00)'
+ '01-ESQ11712LD34P-15'(~ESQ-117-12-L-D)    = 'CONNECTOR; FEMALE; THROUGH HOLE; ESQ SERIES; ELEVATED SOCKET; STRAIGHT; 34PINS'                | 'ESQ-117-12-L-D'  | 'SAMTEC'                     | 'ACTIVE' | '01-ESQ11712LD34P-15'         | '-'   | '($00)'   | 'HQ(00):HBO(00):MPOC(00):DL(00)'
+ '01-SEAF40060L042A200P-17'(~SEAF-20-06.0-L-10-2-A)    = 'CONNECTOR; FEMALE; SMT; 6.0 HIGH SPEED/HIGH DENSITY OPEN PIN FIELD TERMINAL ARRAY; STRAIGHT; 200PINS'                | 'SEAF-20-06.0-L-10-2-A'  | 'SAMTEC'                     | 'ACTIVE' | '01-SEAF40060L042A200P-17'         | '-'   | '($00)'   | 'HQ(00):HBO(00):MPOC(00):DL(00)'
+ '01-QTH02004LDDPA40P-19'(~QTH-020-04-L-D-DP-A)    = 'CONNECTOR; FEMALE; SMT; HIGH SPEED GROUND PLANE HEADER; STRAIGHT; 40PINS'                | 'QTH-020-04-L-D-DP-A'  | 'SAMTEC'                     | 'ACTIVE' | '01-QTH02004LDDPA40P-19'         | '-'   | '($00)'   | 'HQ(00):HBO(00):MPOC(00):DL(00)'
+ '01-6695102626P-19'(~66951-026LF)    = 'CONNECTOR; FEMALE; THROUGH HOLE; VERTICAL CARD CONNECTOR; STRAIGHT; 26PINS'                | '66951-026LF'  | 'FCI CONNECT'                     | 'ACTIVE' | '01-6695102626P-19'         | '-'   | '($00)'   | 'HQ(00):HBO(00):MPOC(00):DL(00)'
+ '01-HSEC814001SDVAWT80P-04'(~HSEC8-140-01-S-DV-A-WT)    = 'CONNECTOR; FEMALE; SMT; VERTICAL EDGE RATE CARD SOCKET WELD TAB OPTION; STRAIGHT; 80PINS'                | 'HSEC8-140-01-S-DV-A-WT'  | 'SAMTEC'                     | 'ACTIVE' | '01-HSEC814001SDVAWT80P-04'         | '-'   | '($00)'   | 'HQ(00):HBO(00):MPOC(00):DL(00)'
+
+END_PART
+
+PART 'BRACKET'
+CLASS=MECH
+
+{========================================================================================}
+:MAXINV                           = DESCRIPTION                                        | MFG_PART_NUMBER            | MANUFACTURER | STATUS   | MAXINV   ;
+{========================================================================================}
+ '02-MBKBNC673893A-02'(~67-3893A BRACKET BNC)    = 'MACHINE FABRICATED; LB-BRACKET; 900MIL; BNC; ALUMINUM'   | '67-3893A BRACKET BNC'  | 'MAXIM'  | 'TEMPLATE' | '02-MBKBNC673893A-02'       
+
+END_PART
+
+PART 'ZIP_CONNECTOR'
+CLASS=MECH
+
+{========================================================================================}
+:MAXINV                           = DESCRIPTION                                        | MFG_PART_NUMBER            | MANUFACTURER | STATUS   | MAXINV   | REFLOW  | EST_PRICE ;
+{========================================================================================}
+ '01-52559205220P-18'(~52559-2052)    = 'CONNECTOR; FEMALE; SMT; 0.5 FPC ZIF CONNECTOR ASSY; STRAIGHT; 20PINS'   | '52559-2052'  | 'MOLEX'  | 'ACTIVE' | '01-52559205220P-18'     | '-'   | '($2.2)'
+
+END_PART
+
+PART 'CABLE_FILM'
+CLASS=MECH
+
+{========================================================================================}
+:MAXINV                           = DESCRIPTION                                        | MFG_PART_NUMBER            | MANUFACTURER | STATUS   | MAXINV   | EST_PRICE;
+{========================================================================================}
+ '99-0210200205-A'(~21020-0205)    = 'FLEX FILM; CABLE 1.18IN; 20PINS; SOCKET NUMBER =52559-2052, 52746-2071'   | '21020-0205'  | 'MOLEX'  | 'ACTIVE' | '99-0210200205-A'  | '($4.287)'     
+
+END_PART
+
+PART 'STIFFENER'
+CLASS=MECH
+
+{========================================================================================}
+:MAXINV                           = DESCRIPTION                                        | MFG_PART_NUMBER            | MANUFACTURER | STATUS   | MAXINV  | EST_PRICE   ;
+{========================================================================================}
+ '32-800236A-00'(~80-0236A)    = 'MACHINE FABRICATED; EAGLE ETS88-FT ; MAIN EAGLE ETS88 CONTACTOR BOARD FRAME; ALUMINUM ALLOY'   | '80-0236A'  | 'MAXIM'  | 'OBSOLETE' | '32-800236A-00'   | '($256.24)'      
+ '32-674077AP1-00'(~67-4077A-P1)    = 'MACHINE FABRICATED; LTX-MX-FT ; 20IN X 20IN; 20X20 FRAME; ALUMINUM; BLACK ANODIZED FINISH'   | '67-4077A-P1'  | 'MAXIM'  | 'ACTIVE' | '32-674077AP1-00'   | '($658.73)'          
+ '32-800153C-00'(~80-0153D; R-[P1-900-00]-A-0)    = 'STIFFENER FRAME; TERADYNE UFLEX; LOADBOARD; 16 IN X 16 IN'   | '80-0153D; R-[P1-900-00]-A-0'  | 'MAXIM'  | 'TEMPLATE' | '32-800153C-00'   | '($650.409)'          
+ '32-672895B-00'(~67-2895B)    = 'STIFFENER FRAME; TERADYNE UFLEX; DIRECTDOCK PROBECARD; 18 IN X 18 IN'   | '67-2895B'  | 'MAXIM'  | 'TEMPLATE' | '32-672895B-00'      | '($693.12)'       
+ '32-800236A-00'(~67-5208)    = 'STIFFENER FRAME; EAGLE ETS88; CONTACTORBOARD; 20 IN X 16 IN'   | '67-5208'  | 'MAXIM'  | 'TEMPLATE' | '32-800236A-00'        | '($259.61)'     
+ '32-800247A-00'(~80-0247A; R-[HAR4127G])    = 'STIFFENER FRAME; EAGLE ETS88; LOADBOARD; 9.25 IN X 8.25 IN'   | '80-0247A; R-[HAR4127G]'  | 'MAXIM'  | 'TEMPLATE' | '32-800247A-00'    | '($203.915)'         
+ '32-800109F-00'(~80-0109; R-[852-9696-00]-A-0)    = 'MACHINE FABRICATED; LTX-MX-FT ; 12IN X 12IN; DIB PLATE ASSEMBLY; ALUMINUM; BLACK ANODIZED FINISH'   | '80-0109; R-[852-9696-00]-A-0'  | 'MAXIM'  | 'TEMPLATE' | '32-800109F-00'    | '($357.1181)'         
+ '32-800255A-00'(~80-0255)    = 'STIFFENER FRAME; EAGLE ETS88; CABLEDOCK PROBECARD; 16 IN X 16 IN'   | '80-0255'  | 'MAXIM'  | 'TEMPLATE' | '32-800255A-00'    | '($627.5)'         
+ '32-800163A-00'(~80-0163; 67-0135; Z01418B)    = 'STIFFENER FRAME;CABLE DOCK; PROBECARD; 12 IN DIA'   | '80-0163; 67-0135; Z01418B'  | 'MAXIM'  | 'TEMPLATE' | '32-800163A-00'    | '($153.53)'         
+ '32-800154B-00'(~80-0154; R-[RA41556-01]-S)    = 'STIFFENER FRAME;HARDDOCK TRIAD; PROBECARD; 12 IN DIA'  | '80-0154; R-[RA41556-01]-S'  | 'MAXIM'  | 'TEMPLATE' | '32-800154B-00'    | '($3.4602)'         
+ '32-800156A-00'(~80-0156; R-[RA41466]-S)    = 'STIFFENER FRAME;HARDDOCK CAMELEON; PROBECARD; 12 IN DIA'  | '80-0156; R-[RA41466]-S'  | 'MAXIM'  | 'TEMPLATE' | '32-800156A-00'    | '($3.5379)'         
+ '32-800258-00'(~80-0258)    = 'STIFFENER FRAME; TERADYNE ULTRAFLEX; LOADBOARD; 16 IN X 16 IN'  | '80-0258'  | 'MAXIM'  | 'TEMPLATE' | '32-800258-00'    | '($1085)'         
+ '32-RC25120025-00'(~RC25-12-0025)    = 'STIFFENER FRAME; ALS3K RF-CUSTOM; LOADBOARD; 11.5 IN DIA'  | 'RC25-12-0025'  | 'RHEMTRONICS CORPORATION'  | 'TEMPLATE' | '32-RC25120025-00'    | '($343)'         
+ '32-800241-00'(~80-0241)    = 'STIFFENER FRAME; SPEA-FT ; 16.772X15.354IN; SPEA C430 LOADBOARD; ANTICORODAL 6060 T5 ALUMINUM; CLEAR ANODIZE FINISH'  | '80-0241'  | 'MAXIM'  | 'TEMPLATE' | '32-800241-00'    | '($135)'         
+ '32-800299-00'(~80-0299)    = 'STIFFENER FRAME; SPEA-FT ; 16.142X14.174IN; SPEA DOT 100 LOADBOARD; ANTICORODAL 6060 T5 ALUMINUM; INOX AISI 304'      | '80-0299'  | 'MAXIM'  | 'TEMPLATE' | '32-800299-00'    | '($0)'         
+
+END_PART
+
+PART 'CLOSED_FRAME'
+CLASS=MECH
+
+{========================================================================================}
+:MAXINV                           = DESCRIPTION                                        | MFG_PART_NUMBER            | MANUFACTURER | STATUS   | MAXINV   | EST_PRICE;
+{========================================================================================}
+ '15-10514281002011P-00'(~E91838-003; 105142-8100)    = 'IC-SOCKET; LGA; STRAIGHT ANGLE; LGA 2011-0 STANDARD ILM ASSEMBLY WITH COVER; CLOSED FRAME; 2011PINS; -40 DEGC TO +100 DEGC'   | 'E91838-003; 105142-8100'  | 'MOLEX'  | 'EVKIT-NOT FOR TEST' | '15-10514281002011P-00'  | '($17.36)'     
+
+END_PART
+
+PART 'BACK_PLATE'
+CLASS=MECH
+
+{========================================================================================}
+:MAXINV                           = DESCRIPTION                                        | MFG_PART_NUMBER            | MANUFACTURER | STATUS   | MAXINV   | EST_PRICE;
+{========================================================================================}
+ '15-10514270002011P-00'(~E91834-001; 105142-7000)    = 'IC-SOCKET; LGA; STRAIGHT ANGLE; LGA 2011-0 BACK PLATE ASSEMBLY; CLOSED FRAME; 2011PINS; ; -40 DEGC TO +100 DEGC'   | 'E91834-001; 105142-7000'  | 'MOLEX'  | 'EVKIT-NOT FOR TEST' | '15-10514270002011P-00'  | '($9.63)'     
+
+END_PART
+
+PART 'PROBECARD_SPACER'
+CLASS=MECH
+
+{========================================================================================}
+:MAXINV                           = DESCRIPTION                                        | MFG_PART_NUMBER            | MANUFACTURER | STATUS   | MAXINV   | EST_PRICE;
+{========================================================================================}
+ '02-PRBRNGSPCRSTD4-02'(~80-0279)    = 'SOCKET RING; SPACER; 4IN; ROUND; WITH 3 HOLES; FIBER GLASS'   | '80-0279'  | 'MAXIM'  | 'ACTIVE' | '02-PRBRNGSPCRSTD4-02'  | '($00)'     
+ '02-PRBRNGSPCRSTD476-02'(~80-0278)    = 'SOCKET RING; SPACER; 4.76IN; ROUND; WITH 3 HOLES; FIBER GLASS'   | '80-0278'  | 'MAXIM'  | 'ACTIVE' | '02-PRBRNGSPCRSTD476-02'  | '($00)'     
+
+END_PART
+
+PART 'MALE_PROBE_PIN'
+CLASS=MECH
+
+{========================================================================================}
+:MAXINV                     = DESCRIPTION                           | MFG_PART_NUMBER      | MANUFACTURER | STATUS  | MAXINV  | EST_PRICE    ;
+{========================================================================================}
+ '02-3137100210000080-00'(~3137-1-00-21-00-00-08-0) = 'PIN RECEPTACLE; PIN DIA=0.040IN; TOTAL LENGTH=0.302IN; BOARD HOLE=0.042IN; GOLD OVER NICKEL PLATE' | '3137-1-00-21-00-00-08-0' | 'MILL-MAX'        | 'ACTIVE' | '02-3137100210000080-00'  | '($0.061)'   
+ '02-3137300210000080-00'(~3137-3-00-21-00-00-08-0) = 'PIN RECEPTACLE; PIN DIA=0.040IN; TOTAL LENGTH=0.365IN; BOARD HOLE=0.043IN; GOLD OVER NICKEL PLATE' | '3137-3-00-21-00-00-08-0' | 'MILL-MAX'        | 'ACTIVE' | '02-3137300210000080-00'  | '($0.1)'   
+
+END_PART
+
+PART 'MODULE'
+CLASS=MECH
+
+{========================================================================================}
+:MAXINV                           = DESCRIPTION                                        | MFG_PART_NUMBER            | MANUFACTURER | STATUS   | MAXINV  | EST_PRICE   | EST_STOCK_STATUS ;
+{========================================================================================}
+ 'N/A'(~INTROSPECT SV1D)    = 'MODULE; 11.3GB/S 8 LANE BERT'                           | 'INTROSPECT SV1D'  | 'INTROSPECT'  | 'NOT RECOMMENDED' | 'N/A'        | '(00)'   | 'HQ(00):HBO(00):MPOC(00):DL(00)'
+ '35-8991230000-00'(~89-91230+000)    = 'MODULE; DS91230 CONNECTOR EVAL KIT+'                           | '89-91230+000'  | 'MAXIM'  | 'EVKIT-NOT FOR TEST' | '35-8991230000-00'        | '(00)'   | 'HQ(00):HBO(00):MPOC(00):DL(00)'
+
+END_PART
+
+PART 'ADHESIVE'
+CLASS=MECH
+
+{========================================================================================}
+:MAXINV                           = DESCRIPTION                                        | MFG_PART_NUMBER            | MANUFACTURER | STATUS   | MAXINV    | EST_PRICE   ;
+{========================================================================================}
+ '00-2423150ML-00'(~24231)    = 'ADHESIVE; THREADLOCKER; BOTTLE; LOCTITE; MEDIUM STRENGTH 242 SERIES; +8 DEGC TO +21 DEGC'                           | '24231'  | 'LOCTITE'  | 'ACTIVE' | '00-2423150ML-00'       | '($0.39)'  
+
+END_PART
+
+PART 'BNC'
+CLASS=MECH
+
+{========================================================================================}
+:MAXINV                           = DESCRIPTION                                        | MFG_PART_NUMBER            | MANUFACTURER | STATUS   | MAXINV    | EST_PRICE   ;
+{========================================================================================}
+ '01-1126242P-01'(~112624)    = 'CONNECTOR; FEMALE; PANELMOUNT; 50 OHM BNC BULKHEAD ISOLATED RECEPTACLE JACK; STRAIGHT; 2PINS'                           | '112624'  | 'AMPHENOL'  | 'ACTIVE' | '01-1126242P-01'       | '($4.9)'  
+
+END_PART
+
+PART 'INSERTER/EXTRACTOR'
+CLASS=MECH
+
+{========================================================================================}
+:MAXINV                           = DESCRIPTION                                        | MFG_PART_NUMBER            | MANUFACTURER | STATUS   | MAXINV    | EST_PRICE   ;
+{========================================================================================}
+ '02-INS107504-01'(~107-50-4)    = 'INSERTER; INSERTER-EXTRACTOR ; 4.5:1; 0.125 THICK BOARD; BLACK; ALUMINUM'    | '107-50-4'  | 'CALMARK'  | 'TEMPLATE' | '02-INS107504-01'       | '($1.95)'  
+
+END_PART
+
+PART 'FUSE_CLIP'
+CLASS=MECH
+
+{========================================================================================}
+:MAXINV                           = DESCRIPTION                                        | MFG_PART_NUMBER            | MANUFACTURER | STATUS   | MAXINV    | EST_PRICE   ;
+{========================================================================================}
+ '40-10A250V-FH1'(~01110506Z)    = 'FUSE HOLDER; THROUGH HOLE-FUSE HOLDER; 2AG OR 5MM SERIES; IC=10A; VC=250V'                           | '01110506Z'  | 'LITTELFUSE'  | 'EVKIT-NOT FOR TEST' | '40-10A250V-FH1'       | '($00)'  
+
+ 
+END_PART
+
+PART 'RECEPTACLE'
+CLASS=MECH
+
+{========================================================================================}
+:MAXINV                           = DESCRIPTION                                        | MFG_PART_NUMBER            | MANUFACTURER | STATUS   | MAXINV    | EST_PRICE   ;
+{========================================================================================}
+ '04-0.94SOT06-00'(~RCL0024MCBAT17501A)    = 'HT RECEPTACLE; PITCH (MM):0.94MM; NO. OF LEADS:6'                           | 'RCL0024MCBAT17501A'  | 'RS TECH'  | 'ACTIVE' | '04-0.94SOT06-00'       | '($20)'  
+ '04-2.54PDIP40-01'(~240-1280-39-0602J)    = 'HT RECEPTACLE; PITCH(2.54MM); NO. OF LEADS-(40); PDIP'                      | '240-1280-39-0602J'   | '3M TEXTOOL'  | 'ACTIVE' | '04-2.54PDIP40-01'       | '($00)'  
+ '04-2.54DIP40-00'(~240-1280-19-0602J)    = 'HT RECEPTACLE; PITCH (2.54MM); NO. OF LEADS -(40); PDIP'                     | '240-1280-19-0602J'   | '3M TEXTOOL'  | 'ACTIVE' | '04-2.54DIP40-00'        | '($00)'  
+
+ 
+END_PART
+
+PART 'TESTONLY'
+CLASS=MECH
+
+{========================================================================================}
+:MAXINV                           = DESCRIPTION                                        | MFG_PART_NUMBER            | MANUFACTURER | STATUS   | MAXINV    | EST_PRICE   | EST_STOCK_STATUS ;
+{========================================================================================}
+ '00-TESTMAXINV1-00'(~DS91230+ ADAPTOR)    = 'TEST DESCRIPTION; DS91230+ ADAPTOR'                           | 'DS91230+ ADAPTOR'  | 'TEST_MANUFACTURER'  | 'ACTIVE' | '00-TESTMAXINV1-00'       | '($00)'   | 'HQ(00):HBO(00):MPOC(00):DL(00)'
+ '00-TESTMAXINV2-00'(~7FT RJ-11 CABLE)     = 'TEST DESCRIPTION; 7FT RJ-11 CABLE'                            | '7FT RJ-11 CABLE'   | 'TEST_MANUFACTURER'  | 'ACTIVE' | '00-TESTMAXINV2-00'       | '($00)'   | 'HQ(00):HBO(00):MPOC(00):DL(00)'
+
+ 
+END_PART
+
+PART 'MECH_CABLES'
+CLASS=MECH
+
+{========================================================================================}
+:MAXINV                           = DESCRIPTION                                        | MFG_PART_NUMBER            | MANUFACTURER | STATUS   | MAXINV    | EST_PRICE   | EST_STOCK_STATUS ;
+{========================================================================================}
+ '01-ATS2666S7R-10'(~AT-S-26-6/6/S-7/R)     = 'CONNECTOR; MALE; FLAT STRAIGHT CABLE; AT SERIES; STRAIGHT; 6PINS'                            | 'AT-S-26-6/6/S-7/R'   | 'ASSMANN'  | 'EVKIT-NOT FOR TEST' | '01-ATS2666S7R-10'       | '($00)'   | 'HQ(00):HBO(00):MPOC(00):DL(00)'
+
+ 
+END_PART
+
+PART 'MECH_CLIP_BOARD'
+CLASS=MECH
+
+{========================================================================================}
+:MAXINV                           = DESCRIPTION                                        | MFG_PART_NUMBER            | MANUFACTURER | STATUS   | MAXINV    | EST_PRICE   | EST_STOCK_STATUS ;
+{========================================================================================}
+ '02-TC2050NL-00'(~TC2050-NL)     = 'CLIP; THROUGH HOLE; RETAINING CLIP BOARD; 3PINS'                            | 'TC2050-NL'   | 'TAG-CONNECT'  | 'EVKIT-NOT FOR TEST' | '02-TC2050NL-00'       | '($00)'   | 'HQ(00):HBO(00):MPOC(00):DL(00)'
+
+
+END_PART
+
+END.
+

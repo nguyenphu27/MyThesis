@@ -1,0 +1,160 @@
+(Cell	ev_kit_box
+
+	(RevisionInfoBlock	
+
+		(Baselined	0)
+
+		(Revision	0.0.5)
+
+		(ModificationStatus	NULL)
+
+		(Status	Created)
+
+		(ErrorStatus	0)
+
+		(CreateInfo	
+
+			(Time	01/28/13,12:47:36)
+
+			(User	Ryan.Cabreza)
+
+			(Path	default_lib.ev_kit_box)
+
+		)
+
+	)
+
+	(Views	
+
+		(View	Symbol
+
+			(Symbols	1
+
+				(Symbol	sym_1
+
+					(Symbol_Type	Normal)
+
+					(Max_Size	0)
+
+					(Checksum	000000006820809a)
+
+					(RevisionInfoBlock	
+
+						(Baselined	0)
+
+						(Revision	0.0.3)
+
+						(ModificationStatus	NULL)
+
+						(Status	Created)
+
+						(ErrorStatus	0)
+
+						(CreateInfo	
+
+							(Time	01/28/13,12:47:36)
+
+							(User	Ryan.Cabreza)
+
+							(Path	default_lib.ev_kit_box)
+
+						)
+
+					)
+
+				)
+
+			)
+
+			(Checksum	000000001a670353)
+
+		)
+
+		(View	Chips
+
+			(Checksum	000000008bcf408e)
+
+			(Primitives	1
+
+				(Primitive	EV_KIT_BOX_ACCESSORY
+
+					(RevisionInfoBlock	
+
+						(Baselined	0)
+
+						(Revision	0.0.2)
+
+						(ModificationStatus	NULL)
+
+						(Status	Created)
+
+						(ErrorStatus	0)
+
+						(CreateInfo	
+
+							(Time	01/28/13,12:47:36)
+
+							(User	Ryan.Cabreza)
+
+							(Path	default_lib.ev_kit_box)
+
+						)
+
+					)
+
+					(LogicalPhysicalPartRelation	
+
+						(LogicalPart	EV_KIT_BOX
+
+							(PackType	EV_KIT_BOX_ACCESSORY)
+
+						)
+
+					)
+
+					(Packages	1
+
+						(FunctionGroups	1
+
+							(FunctionGroup	1[1]
+
+								(Linkages	
+
+									(Linkage	Symbol
+
+										(Name	sym_1)
+
+									)
+
+								)
+
+							)
+
+						)
+
+					)
+
+				)
+
+			)
+
+		)
+
+		(Checksum	000000001bf6037e)
+
+	)
+
+	(VersionInfoBlock	
+
+		(ToolName	PDV)
+
+		(Version	16.5-S011 (v16-5-13AB))
+
+		(License	PCB_librarian_expert)
+
+	)
+
+	(Checksum	000000001ca403af)
+
+)
+

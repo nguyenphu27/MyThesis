@@ -1,0 +1,31 @@
+@@(#)$CDS: Archiver version 16.6-S060 (v16-6-112FA) 10/13/2015
+Archiving cellview C:\allegro_home\maxrefdes117_apps_a\worklib\maxrefdes117_apps_a, from library maxrefdes117_apps_a
+
+Archiving cellview \\sjcndsa01a.maxim-ic.com\tp_loc\hw_cardcat\allegrolib\evk_worklib\ev_kit_box, from library evkit_noncompliant
+
+Archiving cellview \\sjcndsa01a.maxim-ic.com\tp_loc\hw_cardcat\allegrolib\mml_worklib\max14595, from library mml
+
+Archiving cellview \\sjcndsa01a.maxim-ic.com\tp_loc\hw_cardcat\allegrolib\mml_worklib\res_smd, from library mml
+
+Archiving cellview \\sjcndsa01a.maxim-ic.com\tp_loc\hw_cardcat\allegrolib\mml_worklib\cap_np, from library mml
+
+Archiving cellview \\sjcndsa01a.maxim-ic.com\tp_loc\hw_cardcat\allegrolib\mml_worklib\max30102, from library mml
+
+Archiving cellview \\sjcndsa01a.maxim-ic.com\tp_loc\hw_cardcat\allegrolib\mml_worklib\max1921, from library mml
+
+Archiving cellview \\sjcndsa01a.maxim-ic.com\tp_loc\hw_cardcat\allegrolib\mml_worklib\induct, from library mml
+
+Archiving cellview \\sjcndsa01a.maxim-ic.com\tp_loc\hw_cardcat\allegrolib\evk_worklib\evkit_tp, from library evkit_noncompliant
+
+Archiving cellview C:\Cadence\SPB_16.6\share\library\standard\origin, from library standard
+
+Archiving cellview C:\Cadence\SPB_16.6\share\library\standard\gnd_signal, from library standard
+
+Archiving cellview \\sjcndsa01a.maxim-ic.com\tp_loc\hw_cardcat\allegrolib\mml_worklib\mml_vcc_arrow, from library mml
+
+Archiving cellview \\sjcndsa01a.maxim-ic.com\tp_loc\hw_cardcat\allegrolib\mml_worklib\maxim#20b#20size#20page#202, from library mml
+
+Archiving cellview \\sjcndsa01a.maxim-ic.com\tp_loc\hw_cardcat\allegrolib\mml_worklib\maxim#20b#20size#20page, from library mml
+
+Completed archiving the design...
+For more information, please look at the file C:\allegro_home\maxrefdes117_apps_a_archive\archiver.log

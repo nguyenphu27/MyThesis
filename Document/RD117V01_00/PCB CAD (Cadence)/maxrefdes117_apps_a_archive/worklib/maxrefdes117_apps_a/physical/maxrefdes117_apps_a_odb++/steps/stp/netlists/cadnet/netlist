@@ -1,0 +1,105 @@
+H optimize N staggered N
+$0 GND_SIGNAL
+$1 1.8V
+$2 VIN
+$3 UNNAMED_4_CAPNP_I9_1
+$4 UNNAMED_4_EVKITTP_I49_TP1
+$5 UNNAMED_4_INDUCT_I4_1
+$6 UNNAMED_4_MAX14595_I1_IOVL1
+$7 UNNAMED_4_MAX14595_I1_IOVL2
+$8 SDA
+$9 SCL
+$10 $NONE$
+#
+#Netlist points
+#
+0 0 0.345 -0.32172 T 0.01969 0.01575 e e staggered 0 0 0 
+0 0 0.345 -0.20628 T 0.01969 0.01575 e e staggered 0 0 0 
+0 0.02362 0.0394 -0.23937 B e e staggered 0 0 0 
+0 0 0.18115 -0.2389 T 0.04134 0.01575 e e staggered 0 0 0 
+0 0 0.28745 -0.2074 T 0.04134 0.01575 e e staggered 0 0 0 
+0 0 0.373 -0.32172 D 0.01969 0.01575 e e staggered 0 0 0 
+0 0 0.13472 -0.257 D 0.01575 0.01969 e e staggered 0 0 0 
+0 0 0.21972 -0.223 D 0.01575 0.01969 e e staggered 0 0 0 
+0 0 0.25428 -0.223 D 0.01575 0.01969 e e staggered 0 0 0 
+0 0 0.31159 -0.3201 D 0.04921 0.02559 e e staggered 0 0 0 
+0 0 0.19741 -0.3201 D 0.04921 0.02559 e e staggered 0 0 0 
+0 0 0.2753 -0.12507 D 0.04134 0.01181 e e staggered 0 0 0 
+0 0.0025 0.237 -0.223 B m e staggered 0 0 0 v 
+0 0.0025 0.347 -0.191 B m e staggered 0 0 0 v 
+0 0.0025 0.434 -0.15 B m e staggered 0 0 0 v 
+0 0.0025 0.434 -0.056 B m e staggered 0 0 0 v 
+0 0.0025 0.437 -0.34 B m e staggered 0 0 0 v 
+0 0.0025 0.437 -0.418 B m e staggered 0 0 0 v 
+0 0.003 0.14995 -0.24795 B m e staggered 0 0 0 v 
+0 0.003 0.2379 -0.3201 B m e staggered 0 0 0 v 
+0 0.003 0.2753 -0.108 B m e staggered 0 0 0 v 
+0 0.003 0.35 -0.347 B m e staggered 0 0 0 v 
+1 0 0.345 -0.24172 T 0.01969 0.01575 e e staggered 0 0 0 
+1 0 0.125 -0.13628 T 0.01969 0.01575 e e staggered 0 0 0 
+1 0 0.125 -0.24672 T 0.01969 0.01575 e e staggered 0 0 0 
+1 0 0.28745 -0.2389 T 0.04134 0.01575 e e staggered 0 0 0 
+1 0 0.07862 -0.2979999 D 0.02717 0.03268 e e staggered 0 0 0 
+1 0 0.105 -0.33528 D 0.01969 0.01575 e e staggered 0 0 0 
+1 0 0.09928 -0.257 D 0.01575 0.01969 e e staggered 0 0 0 
+1 0 0.18428 -0.223 D 0.01575 0.01969 e e staggered 0 0 0 
+1 0 0.2005 -0.18413 D 0.04134 0.01181 e e staggered 0 0 0 
+1 0 0.2005 -0.12507 D 0.04134 0.01181 e e staggered 0 0 0 
+1 0.003 0.102 -0.234 B m e staggered 0 0 0 v 
+1 0.003 0.149 -0.225 B m e staggered 0 0 0 v 
+1 0.003 0.14993 -0.12507 B m e staggered 0 0 0 v 
+1 0.003 0.322 -0.244 B m e staggered 0 0 0 v 
+1 0.003 0.058 -0.325 B m e staggered 0 0 0 v 
+1 0.003 0.078 -0.34 B m e staggered 0 0 0 v 
+2 0 0.345 -0.28628 T 0.01969 0.01575 e e staggered 0 0 0 
+2 0 0.346 -0.13628 T 0.01969 0.01575 e e staggered 0 0 0 
+2 0.02362 0.4396 -0.23937 B e e staggered 0 0 0 
+2 0 0.28745 -0.30189 T 0.04134 0.01575 e e staggered 0 0 0 
+2 0 0.28745 -0.2704 T 0.04134 0.01575 e e staggered 0 0 0 
+2 0 0.373 -0.28628 D 0.01969 0.01575 e e staggered 0 0 0 
+2 0 0.28972 -0.223 D 0.01575 0.01969 e e staggered 0 0 0 
+2 0 0.327 -0.20572 D 0.01969 0.01575 e e staggered 0 0 0 
+2 0 0.327 -0.10528 D 0.01969 0.01575 e e staggered 0 0 0 
+2 0 0.31159 -0.2827 D 0.04921 0.02559 e e staggered 0 0 0 
+2 0 0.31159 -0.3575 D 0.04921 0.02559 e e staggered 0 0 0 
+2 0 0.2753 -0.18413 D 0.04134 0.01181 e e staggered 0 0 0 
+2 0.003 0.281 -0.381 B m e staggered 0 0 0 v 
+2 0.003 0.306 -0.10513 B m e staggered 0 0 0 v 
+2 0.003 0.321 -0.223 B m e staggered 0 0 0 v 
+2 0.003 0.345 -0.266 B m e staggered 0 0 0 v 
+2 0.003 0.348 -0.119 B m e staggered 0 0 0 v 
+2 0.003 0.406 -0.297 B m e staggered 0 0 0 v 
+3 0 0.105 -0.37072 D 0.01969 0.01575 e e staggered 0 0 0 
+3 0 0.136 -0.37072 D 0.01969 0.01575 e e staggered 0 0 0 
+3 0 0.19741 -0.3575 D 0.04921 0.02559 e e staggered 0 0 0 
+4 0 0.346 -0.17172 T 0.01969 0.01575 e e staggered 0 0 0 
+4 0.02362 0.13937 -0.4394 B e e staggered 0 0 0 
+4 0.02362 0.13937 -0.0394 B e e staggered 0 0 0 
+4 0 0.28745 -0.17591 T 0.04134 0.01575 e e staggered 0 0 0 
+5 0 0.13138 -0.2979999 D 0.02717 0.03268 e e staggered 0 0 0 
+5 0 0.136 -0.33528 D 0.01969 0.01575 e e staggered 0 0 0 
+5 0 0.19741 -0.2827 D 0.04921 0.02559 e e staggered 0 0 0 
+6 0 0.125 -0.21128 T 0.01969 0.01575 e e staggered 0 0 0 
+6 0 0.18115 -0.2074 T 0.04134 0.01575 e e staggered 0 0 0 
+6 0 0.2005 -0.14476 D 0.04134 0.01181 e e staggered 0 0 0 
+6 0.0025 0.109 -0.19 B m e staggered 0 0 0 v 
+7 0 0.125 -0.17172 T 0.01969 0.01575 e e staggered 0 0 0 
+7 0 0.18115 -0.17591 T 0.04134 0.01575 e e staggered 0 0 0 
+7 0 0.2005 -0.16444 D 0.04134 0.01181 e e staggered 0 0 0 
+7 0.0025 0.125 -0.191 B m e staggered 0 0 0 v 
+8 0.02362 0.33937 -0.0394 B e e staggered 0 0 0 
+8 0.02362 0.33937 -0.4395 B e e staggered 0 0 0 
+8 0 0.327 -0.14072 D 0.01969 0.01575 e e staggered 0 0 0 
+8 0 0.2753 -0.14476 D 0.04134 0.01181 e e staggered 0 0 0 
+8 0.0025 0.391 -0.136 B m e staggered 0 0 0 v 
+9 0.02362 0.23937 -0.4394 B e e staggered 0 0 0 
+9 0.02362 0.23937 -0.0394 B e e staggered 0 0 0 
+9 0 0.327 -0.17028 D 0.01969 0.01575 e e staggered 0 0 0 
+9 0 0.2753 -0.16444 D 0.04134 0.01181 e e staggered 0 0 0 
+9 0.0025 0.377 -0.171 B m e staggered 0 0 0 v 
+10 0 0.18115 -0.14441 T 0.04134 0.01575 e e staggered 0 0 0 
+10 0 0.18115 -0.2704 T 0.04134 0.01575 e e staggered 0 0 0 
+10 0 0.18115 -0.30189 T 0.04134 0.01575 e e staggered 0 0 0 
+10 0 0.18115 -0.33339 T 0.04134 0.01575 e e staggered 0 0 0 
+10 0 0.28745 -0.33339 T 0.04134 0.01575 e e staggered 0 0 0 
+10 0 0.28745 -0.14441 T 0.04134 0.01575 e e staggered 0 0 0 

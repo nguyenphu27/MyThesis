@@ -1,0 +1,204 @@
+(Cell	max1921
+
+	(RevisionInfoBlock	
+
+		(Baselined	0)
+
+		(Revision	0.0.3)
+
+		(ModificationStatus	NULL)
+
+		(Status	Created)
+
+		(ErrorStatus	0)
+
+		(CreateInfo	
+
+			(Time	12/14/15,21:03:57)
+
+			(User	Mariel.Mabituin)
+
+			(Path	local_project_lib.max1921)
+
+		)
+
+		(LastModifyInfo	
+
+			(Time	06/04/14,02:06:13)
+
+			(User	joseph.duran)
+
+			(Path	jos_mml_project_lib.max1896)
+
+		)
+
+	)
+
+	(Views	
+
+		(View	Symbol
+
+			(RevisionInfoBlock	
+
+				(Baselined	0)
+
+				(Revision	0.0.3)
+
+				(ModificationStatus	NULL)
+
+				(Status	Created)
+
+				(ErrorStatus	0)
+
+				(CreateInfo	
+
+					(Time	12/14/15,21:03:57)
+
+					(User	Mariel.Mabituin)
+
+					(Path	local_project_lib.max1921)
+
+				)
+
+			)
+
+			(Symbols	1
+
+				(Symbol	sym_1
+
+					(Symbol_Type	Normal)
+
+					(Max_Size	0)
+
+					(Checksum	00000000ae9bce2b)
+
+					(RevisionInfoBlock	
+
+						(Baselined	0)
+
+						(Revision	0.0.3)
+
+						(ModificationStatus	NULL)
+
+						(Status	Created)
+
+						(ErrorStatus	0)
+
+						(CreateInfo	
+
+							(Time	12/14/15,21:03:57)
+
+							(User	Mariel.Mabituin)
+
+							(Path	local_project_lib.max1921)
+
+						)
+
+					)
+
+				)
+
+			)
+
+			(Checksum	000000001f5c043e)
+
+		)
+
+		(View	Chips
+
+			(Checksum	00000000691613b7)
+
+			(Primitives	1
+
+				(Primitive	MAX1921_SOT23-6
+
+					(RevisionInfoBlock	
+
+						(Baselined	0)
+
+						(Revision	0.0.1)
+
+						(ModificationStatus	NULL)
+
+						(Status	Created)
+
+						(ErrorStatus	0)
+
+						(CreateInfo	
+
+							(Time	12/14/15,21:03:57)
+
+							(User	Mariel.Mabituin)
+
+							(Path	local_project_lib.max1921)
+
+						)
+
+					)
+
+					(LogicalPhysicalPartRelation	
+
+						(LogicalPart	MAX1921
+
+							(PackType	MAX1921_SOT23-6)
+
+						)
+
+					)
+
+					(Packages	1
+
+						(FunctionGroups	1
+
+							(FunctionGroup	1[1]
+
+								(Linkages	
+
+									(Linkage	Symbol
+
+										(Name	sym_1)
+
+									)
+
+								)
+
+							)
+
+						)
+
+						(Linkages	
+
+							(DefaultFootPrint	
+
+								(Name	SOT95P280X145-6M)
+
+							)
+
+						)
+
+					)
+
+				)
+
+			)
+
+		)
+
+		(Checksum	000000001ac6035d)
+
+	)
+
+	(VersionInfoBlock	
+
+		(ToolName	PDV)
+
+		(Version	16.6-S051 (v16-6-112ED))
+
+		(License	PCB_librarian_expert)
+
+	)
+
+	(Checksum	000000001c8603a8)
+
+)
+

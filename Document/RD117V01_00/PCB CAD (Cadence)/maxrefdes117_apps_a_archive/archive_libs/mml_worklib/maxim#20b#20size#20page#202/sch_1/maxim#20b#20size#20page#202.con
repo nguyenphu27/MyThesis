@@ -1,0 +1,12 @@
+(
+  (version 16.6)
+  (tool
+    (creator "conceptHDL")
+    (last "conceptHDL")
+  )
+  (library "max14940_evkit_p1_lib")
+  (design "maxim b size page 2"
+    (lastIds
+    )
+  )
+)

@@ -1,0 +1,143 @@
+
+
+    Cadence Design Systems, Inc.
+    Bomhdl 16.6-S063 (v16-6-112FK) 1/12/2016
+    Copyright 2011 Cadence Design Systems, Inc, Cadence Design Systems, Inc.
+
+    Run on Thu Apr 14 16:14:21 2016
+
+
+*****************************
+*  Processing project file  *
+*****************************
+
+    DESIGN_LIBRARY 'maxrefdes117_apps_a'
+    DESIGN_NAME 'maxrefdes117_apps_a'
+    VIEW_SCHEMATIC 'sch_1'
+    VIEW_PACKAGER 'packaged'
+    VIEW_VARIANT 'variant'
+    VIEW_BOM ''
+    VIEW_CONFIG_PHYSICAL 'cfg_package'
+    PPT '\\sjcndsa01a.maxim-ic.com\tp_loc\hw_cardcat\allegrolib\site\..\mml_worklib\mechanical'
+    USE_LIBRARY_PPT 'on'
+    MERGE_PPT 'on'
+    INCLUDE_PPT ''
+    EXCLUDE_PPT ''
+    SPREADSHEET 'on'
+    LAST_OUTPUT_FILE './BOM.rpt'
+    TEMPLATE_FILE 'template.bom'
+    LAST_TEMPLATE_FILE '\\sjcndsa01a.maxim-ic.com\tp_loc\hw_cardcat\allegrolib\site\cdssetup\bom_templates\buy_template.bom'
+    USE_FILTERS '1'
+    LAST_SS_DELIMITER 'Comma ,'
+
+*********************************
+*  End processing project file  *
+*********************************
+
+Initializing tool communication modules... 
+Checking the presence of variant and BOM view. 
+Set the DDBPI message handlers and Tool start time. 
+Initialize jlg string table. 
+
+*********************************
+*  Loading the design database  *
+*********************************
+
+Start loading the design. 
+Loading logical design view of maxrefdes117_apps_a 
+Setting design view directives...
+ 
+Loading pstX files...
+ 
+
+Loading... C:\allegro_home\maxrefdes117_apps_a\worklib\maxrefdes117_apps_a\packaged\pstchip.dat
+ 
+
+Loading... C:\allegro_home\maxrefdes117_apps_a\worklib\maxrefdes117_apps_a\packaged\pstxprt.dat
+ 
+
+Loading... C:\allegro_home\maxrefdes117_apps_a\worklib\maxrefdes117_apps_a\packaged\pstxnet.dat
+ 
+packaging the design view... 
+End loading logical design view of maxrefdes117_apps_a 
+Reading cell level PPTs... 
+INFO(SPCODD-181): Loading //sjcndsa01a.maxim-ic.com/tp_loc/hw_cardcat/allegrolib/site/../mml_worklib/mechanical/mech.ptf.
+ 
+INFO(SPCODD-181): Loading //sjcndsa01a.maxim-ic.com/tp_loc/hw_cardcat/allegrolib/mml_worklib/cap_np/part_table/part.ptf.
+ 
+INFO(SPCODD-181): Loading //sjcndsa01a.maxim-ic.com/tp_loc/hw_cardcat/allegrolib/mml_worklib/cap_np/part_table/0201_SMD_CAP.ptf.
+ 
+INFO(SPCODD-181): Loading //sjcndsa01a.maxim-ic.com/tp_loc/hw_cardcat/allegrolib/mml_worklib/cap_np/part_table/1210_SMD_CAP.ptf.
+ 
+INFO(SPCODD-181): Loading //sjcndsa01a.maxim-ic.com/tp_loc/hw_cardcat/allegrolib/mml_worklib/cap_np/part_table/0402_SMD_CAP.ptf.
+ 
+INFO(SPCODD-181): Loading //sjcndsa01a.maxim-ic.com/tp_loc/hw_cardcat/allegrolib/mml_worklib/cap_np/part_table/0603_SMD_CAP.ptf.
+ 
+INFO(SPCODD-181): Loading //sjcndsa01a.maxim-ic.com/tp_loc/hw_cardcat/allegrolib/mml_worklib/cap_np/part_table/1206_SMD_CAP.ptf.
+ 
+INFO(SPCODD-181): Loading //sjcndsa01a.maxim-ic.com/tp_loc/hw_cardcat/allegrolib/mml_worklib/cap_np/part_table/TH_CAPS.ptf.
+ 
+INFO(SPCODD-181): Loading //sjcndsa01a.maxim-ic.com/tp_loc/hw_cardcat/allegrolib/mml_worklib/cap_np/part_table/0805_SMD_CAP.ptf.
+ 
+INFO(SPCODD-181): Loading //sjcndsa01a.maxim-ic.com/tp_loc/hw_cardcat/allegrolib/mml_worklib/cap_np/part_table/0508_SMD_CAP.ptf.
+ 
+INFO(SPCODD-181): Loading //sjcndsa01a.maxim-ic.com/tp_loc/hw_cardcat/allegrolib/evk_worklib/evkit_tp/part_table/part.ptf.
+ 
+INFO(SPCODD-181): Loading //sjcndsa01a.maxim-ic.com/tp_loc/hw_cardcat/allegrolib/mml_worklib/induct/part_table/INDUCT.ptf.
+ 
+INFO(SPCODD-181): Loading //sjcndsa01a.maxim-ic.com/tp_loc/hw_cardcat/allegrolib/mml_worklib/induct/part_table/part.ptf.
+ 
+INFO(SPCODD-181): Loading //sjcndsa01a.maxim-ic.com/tp_loc/hw_cardcat/allegrolib/mml_worklib/res_smd/part_table/SMD_RES_0201.ptf.
+ 
+INFO(SPCODD-181): Loading //sjcndsa01a.maxim-ic.com/tp_loc/hw_cardcat/allegrolib/mml_worklib/res_smd/part_table/SMD_RES_1210.ptf.
+ 
+INFO(SPCODD-181): Loading //sjcndsa01a.maxim-ic.com/tp_loc/hw_cardcat/allegrolib/mml_worklib/res_smd/part_table/SMD_RES_0402.ptf.
+ 
+INFO(SPCODD-181): Loading //sjcndsa01a.maxim-ic.com/tp_loc/hw_cardcat/allegrolib/mml_worklib/res_smd/part_table/SMD_RES_0603.ptf.
+ 
+INFO(SPCODD-181): Loading //sjcndsa01a.maxim-ic.com/tp_loc/hw_cardcat/allegrolib/mml_worklib/res_smd/part_table/SMD_RES_1206.ptf.
+ 
+INFO(SPCODD-181): Loading //sjcndsa01a.maxim-ic.com/tp_loc/hw_cardcat/allegrolib/mml_worklib/res_smd/part_table/SMD_RES_2512.ptf.
+ 
+INFO(SPCODD-181): Loading //sjcndsa01a.maxim-ic.com/tp_loc/hw_cardcat/allegrolib/mml_worklib/res_smd/part_table/part.ptf.
+ 
+INFO(SPCODD-181): Loading //sjcndsa01a.maxim-ic.com/tp_loc/hw_cardcat/allegrolib/mml_worklib/res_smd/part_table/SMD_RES_0805.ptf.
+ 
+INFO(SPCODD-181): Loading //sjcndsa01a.maxim-ic.com/tp_loc/hw_cardcat/allegrolib/mml_worklib/max30102/part_table/part.ptf.
+ 
+INFO(SPCODD-181): Loading //sjcndsa01a.maxim-ic.com/tp_loc/hw_cardcat/allegrolib/mml_worklib/max14595/part_table/part.ptf.
+ 
+INFO(SPCODD-181): Loading //sjcndsa01a.maxim-ic.com/tp_loc/hw_cardcat/allegrolib/mml_worklib/max1921/part_table/part.ptf.
+ 
+INFO(SPCODD-181): Loading //sjcndsa01a.maxim-ic.com/tp_loc/hw_cardcat/allegrolib/evk_worklib/ev_kit_box/part_table/part.ptf.
+ 
+Design loaded successfully. 
+
+
+******************************************
+*  Finished loading the design database  *
+******************************************
+
+
+**********************************
+*  Start generating bom reports. *
+**********************************
+
+Report generated successfully.
+
+Output file list :
+C:\allegro_home\maxrefdes117_apps_a\build_bom_maxrefdes117_apps_a.csv
+ 
+
+*********************************
+*  End generating bom reports   *
+*********************************
+
+    Start time   16:14:21
+    End time     16:14:24
+    Elapsed time  0:00:03
+
+*********************************
+*  BOM-HDL execution done.      *
+*********************************
+

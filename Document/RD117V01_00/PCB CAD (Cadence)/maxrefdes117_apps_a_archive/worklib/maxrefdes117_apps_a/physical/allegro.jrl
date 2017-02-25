@@ -1,0 +1,1151 @@
+\t (00:00:03) allegro 16.6-2015 S066 (v16-6-112FJ) Windows 32
+\t (00:00:03)     Journal start - Fri Apr 15 13:53:47 2016
+\t (00:00:03)         Host=HQ-LT-OLIAO User=olivia.liao Pid=8920 CPUs=4
+\t (00:00:03) CmdLine= C:\Cadence\SPB_16.6\tools\pcb\bin\allegro.exe C:\allegro_home\maxrefdes117_apps_a\worklib\maxrefdes117_apps_a\physical\maxrefdes117_apps_a.brd
+\t (00:00:03) 
+\t (00:00:03) Script version: 16.5
+   (00:00:03) skillpath ("\\\\sjcndsa01a.maxim-ic.com\\tp_loc\\hw_cardcat\\allegrolib\\site\\pcb\\skill" "." "C:/ALLEGRO_HOME/pcbenv" "//sjcndsa01a.maxim-ic.com/tp_loc/hw_cardcat/allegrolib/site/pcb/skill" "C:/Cadence/SPB_16.6/share/pcb/etc")
+   (00:00:03) function colorresetevkit redefined
+   (00:00:03) function _saveSelSet redefined
+   (00:00:03) function _restoreSelSet redefined
+   (00:00:03) function findAllOfType redefined
+   (00:00:03) function ashFindAllClines redefined
+   (00:00:03) function ashFindAllClinesegs redefined
+   (00:00:03) function lcb_changewidth redefined
+   (00:00:03) function changewidth_Form_Action redefined
+   (00:00:03) function LCB_formupdate redefined
+   (00:00:03) function maxim_cwidth_run redefined
+   (00:00:03) function maxim_cwidth_next redefined
+   (00:00:03) function maxim_cwidth_unDo redefined
+   (00:00:03) function maxim_cwidth_Cancel redefined
+   (00:00:03) function maxim_cwidth_Done redefined
+   (00:00:03) function _createForm_changewidth redefined
+   (00:00:03) function _saveSelSet redefined
+   (00:00:03) function _restoreSelSet redefined
+   (00:00:03) function findAllOfType redefined
+   (00:00:03) function skillFindAll redefined
+   (00:00:03) function ashFindAllPins redefined
+   (00:00:03) function ashFindAllVias redefined
+   (00:00:03) function ashFindAllClines redefined
+   (00:00:03) function ashFindAllClinesegs redefined
+   (00:00:03) function ashFindAllLines redefined
+   (00:00:03) function ashFindAllLinesegs redefined
+   (00:00:03) function ashFindAllDrcs redefined
+   (00:00:03) function ashFindAllText redefined
+   (00:00:03) function ashFindAllShapes redefined
+   (00:00:03) function ashFindAllShapesegs redefined
+   (00:00:03) function ashFindAllVoids redefined
+   (00:00:03) function ashFindAllVoidsegs redefined
+   (00:00:03) function ashFindAllSymbols redefined
+   (00:00:03) function ashFindAllComponents redefined
+   (00:00:03) function ashFindAllNets redefined
+   (00:00:03) function ashFindAllFigures redefined
+   (00:00:03) Loading axlcore.cxt 
+   (00:00:03) "server files read"
+\t (00:00:06) Opening existing design...
+\d (00:00:06) Design opened: C:/allegro_home/maxrefdes117_apps_a/worklib/maxrefdes117_apps_a/physical/maxrefdes117_apps_a.brd
+   (00:00:07) allegro menu loadedLoading skillExt.cxt 
+\i (00:00:07) trapsize 416
+\i (00:00:07) trapsize 407
+\i (00:00:07) trapsize 417
+\i (00:00:07) trapsize 345
+\i (00:00:07) trapsize 345
+\i (00:00:08) generaledit 
+\i (00:00:10) zoom out 
+\i (00:00:10) setwindow pcb
+\i (00:00:10) zoom out 239.37 -240.06
+\i (00:00:10) trapsize 690
+\i (00:00:11) zoom out 
+\i (00:00:11) setwindow pcb
+\i (00:00:11) zoom out 239.38 -240.06
+\i (00:00:11) trapsize 1379
+\i (00:00:11) zoom out 
+\i (00:00:11) setwindow pcb
+\i (00:00:11) zoom out 239.37 -240.06
+\i (00:00:11) trapsize 2759
+\i (00:00:13) roam start
+\i (00:00:13) roam x -512
+\i (00:00:13) roam x -736
+\i (00:00:13) roam x -128
+\i (00:00:13) roam x -112
+\i (00:00:13) roam x -128
+\i (00:00:13) roam x -48
+\i (00:00:13) roam x 160
+\i (00:00:13) roam x 160
+\i (00:00:13) roam x 112
+\i (00:00:13) roam x 96
+\i (00:00:13) roam x 112
+\i (00:00:13) roam x 112
+\i (00:00:14) roam x 240
+\i (00:00:14) roam x 208
+\i (00:00:14) roam x 112
+\i (00:00:14) roam x 176
+\i (00:00:14) roam x 288
+\i (00:00:14) roam x 64
+\i (00:00:14) roam x 80
+\i (00:00:14) roam y -16
+\i (00:00:14) roam end
+\i (00:00:15) roam start
+\i (00:00:15) roam x 272
+\i (00:00:15) roam y 16
+\i (00:00:15) roam x 336
+\i (00:00:15) roam y 16
+\i (00:00:15) roam x 112
+\i (00:00:15) roam y 16
+\i (00:00:15) roam x 48
+\i (00:00:15) roam x 32
+\i (00:00:15) roam y 16
+\i (00:00:15) roam x 48
+\i (00:00:15) roam x 48
+\i (00:00:15) roam y 16
+\i (00:00:15) roam x 48
+\i (00:00:15) roam x 128
+\i (00:00:15) roam x 96
+\i (00:00:15) roam x 32
+\i (00:00:16) roam end
+\i (00:00:17) zoom out 1 
+\i (00:00:17) setwindow pcb
+\i (00:00:17) zoom out 9972.31 -870.42
+\i (00:00:17) trapsize 5518
+\i (00:00:17) zoom out 1 
+\i (00:00:17) setwindow pcb
+\i (00:00:17) zoom out 9917.14 -826.28
+\i (00:00:17) trapsize 11036
+\i (00:00:18) zoom out 1 
+\i (00:00:18) setwindow pcb
+\i (00:00:18) zoom out 6297.36 -583.49
+\i (00:00:18) trapsize 22072
+\i (00:00:19) zoom out 1 
+\i (00:00:19) setwindow pcb
+\i (00:00:19) zoom out 9122.55 -848.35
+\i (00:00:19) trapsize 44144
+\i (00:00:21) zoom in 1 
+\i (00:00:21) setwindow pcb
+\i (00:00:21) zoom in 4697.17 -7381.61
+\i (00:00:21) trapsize 22072
+\i (00:00:22) zoom in 1 
+\i (00:00:22) setwindow pcb
+\i (00:00:22) zoom in 24532.21 -16519.36
+\i (00:00:22) trapsize 11036
+\i (00:00:22) zoom in 1 
+\i (00:00:22) setwindow pcb
+\i (00:00:22) zoom in 24488.07 -16541.43
+\i (00:00:22) trapsize 5518
+\i (00:00:23) roam start
+\i (00:00:23) roam x 48
+\i (00:00:23) roam y 64
+\i (00:00:23) roam x 128
+\i (00:00:23) roam y 160
+\i (00:00:23) roam x 112
+\i (00:00:23) roam y 96
+\i (00:00:24) roam y 16
+\i (00:00:25) roam y -16
+\i (00:00:25) roam y -32
+\i (00:00:25) roam y -32
+\i (00:00:25) roam y -48
+\i (00:00:25) roam y -80
+\i (00:00:25) roam y -96
+\i (00:00:25) roam y -96
+\i (00:00:25) roam y -96
+\i (00:00:25) roam y -96
+\i (00:00:25) roam y -80
+\i (00:00:25) roam x -16
+\i (00:00:25) roam y -96
+\i (00:00:25) roam y -64
+\i (00:00:25) roam x -16
+\i (00:00:25) roam y -48
+\i (00:00:25) roam y -32
+\i (00:00:25) roam x -16
+\i (00:00:25) roam y -32
+\i (00:00:26) roam y -48
+\i (00:00:26) roam y -32
+\i (00:00:26) roam y -32
+\i (00:00:26) roam x -16
+\i (00:00:26) roam y -16
+\i (00:00:26) roam y -32
+\i (00:00:26) roam y -16
+\i (00:00:26) roam y -32
+\i (00:00:26) roam y -16
+\i (00:00:26) roam y -32
+\i (00:00:26) roam y -48
+\i (00:00:26) roam y -32
+\i (00:00:26) roam y -32
+\i (00:00:26) roam y -48
+\i (00:00:26) roam y -32
+\i (00:00:26) roam y -48
+\i (00:00:26) roam y -32
+\i (00:00:26) roam y -32
+\i (00:00:26) roam y -64
+\i (00:00:26) roam y -48
+\i (00:00:26) roam y -48
+\i (00:00:26) roam y -48
+\i (00:00:26) roam y -32
+\i (00:00:26) roam y -16
+\i (00:00:26) roam y -16
+\i (00:00:26) roam y -16
+\i (00:00:26) roam y -32
+\i (00:00:26) roam y -16
+\i (00:00:27) roam y -48
+\i (00:00:27) roam y -16
+\i (00:00:27) roam y -16
+\i (00:00:27) roam y -16
+\i (00:00:27) roam y -16
+\i (00:00:27) roam y -16
+\i (00:00:27) roam y -16
+\i (00:00:27) roam y -16
+\i (00:00:27) roam y -32
+\i (00:00:27) roam y -48
+\i (00:00:27) roam y -48
+\i (00:00:27) roam x -16
+\i (00:00:27) roam y -32
+\i (00:00:27) roam y -32
+\i (00:00:27) roam y -16
+\i (00:00:27) roam y -32
+\i (00:00:27) roam y -32
+\i (00:00:27) roam y -16
+\i (00:00:27) roam y -16
+\i (00:00:28) roam y 16
+\i (00:00:28) roam y 16
+\i (00:00:28) roam y 16
+\i (00:00:28) roam y 16
+\i (00:00:33) roam y 16
+\i (00:00:35) roam y 16
+\i (00:00:35) roam y 16
+\i (00:00:35) roam y 16
+\i (00:00:35) roam y 16
+\i (00:00:35) roam y 16
+\i (00:00:35) roam y 16
+\i (00:00:35) roam y 16
+\i (00:00:35) roam y 16
+\i (00:00:36) roam y 16
+\i (00:00:36) roam y 16
+\i (00:00:36) roam y 32
+\i (00:00:36) roam y 16
+\i (00:00:36) roam y 16
+\i (00:00:36) roam y 16
+\i (00:00:36) roam y 16
+\i (00:00:36) roam y 16
+\i (00:00:36) roam y 16
+\i (00:00:36) roam y 16
+\i (00:00:36) roam y 16
+\i (00:00:36) roam y 16
+\i (00:00:36) roam y 16
+\i (00:00:36) roam y 16
+\i (00:00:36) roam y 32
+\i (00:00:36) roam y 16
+\i (00:00:37) roam y 16
+\i (00:00:37) roam y 16
+\i (00:00:37) roam y 16
+\i (00:00:37) roam y 16
+\i (00:00:38) roam y 16
+\i (00:00:38) roam y 48
+\i (00:00:38) roam y 16
+\i (00:00:38) roam y 16
+\i (00:00:38) roam y 16
+\i (00:00:38) roam y 16
+\i (00:00:38) roam y 16
+\i (00:00:38) roam y 16
+\i (00:00:38) roam y 16
+\i (00:00:38) roam y 16
+\i (00:00:38) roam y 16
+\i (00:00:39) roam y 32
+\i (00:00:39) roam y 32
+\i (00:00:39) roam x 16
+\i (00:00:39) roam y 48
+\i (00:00:39) roam y 16
+\i (00:00:39) roam y 16
+\i (00:00:39) roam y 16
+\i (00:00:39) roam y 16
+\i (00:00:39) roam y 16
+\i (00:00:39) roam y 16
+\i (00:00:39) roam y 32
+\i (00:00:39) roam y 32
+\i (00:00:40) roam y 16
+\i (00:00:40) roam x 16
+\i (00:00:40) roam y 16
+\i (00:00:40) roam y 32
+\i (00:00:40) roam y 16
+\i (00:00:45) roam y 16
+\i (00:00:45) roam x 16
+\i (00:00:45) roam y 48
+\i (00:00:45) roam y 16
+\i (00:00:45) roam y 16
+\i (00:00:45) roam y 16
+\i (00:00:45) roam y 16
+\i (00:00:45) roam y 16
+\i (00:00:46) roam x 16
+\i (00:00:46) roam y 32
+\i (00:00:46) roam y 16
+\i (00:00:46) roam y 32
+\i (00:00:46) roam y 16
+\i (00:00:46) roam y 16
+\i (00:00:46) roam y 16
+\i (00:00:46) roam y 16
+\i (00:00:46) roam x 16
+\i (00:00:46) roam y 16
+\i (00:00:47) roam y 16
+\i (00:00:48) roam y 16
+\i (00:00:48) roam y 16
+\i (00:00:48) roam y 16
+\i (00:00:49) roam y 16
+\i (00:00:49) roam x 16
+\i (00:00:49) roam y 16
+\i (00:00:49) roam y 16
+\i (00:00:49) roam y 16
+\i (00:00:49) roam y 16
+\i (00:00:49) roam y 16
+\i (00:00:49) roam y 16
+\i (00:00:49) roam y 16
+\i (00:00:49) roam y 16
+\i (00:00:49) roam x 16
+\i (00:00:49) roam y 16
+\i (00:00:49) roam y 16
+\i (00:00:49) roam y 16
+\i (00:00:49) roam y 16
+\i (00:00:49) roam y 16
+\i (00:00:49) roam y 48
+\i (00:00:49) roam y 16
+\i (00:00:49) roam y 32
+\i (00:00:49) roam y 32
+\i (00:00:49) roam y 16
+\i (00:00:50) roam y 16
+\i (00:00:50) roam y 16
+\i (00:00:50) roam y 32
+\i (00:00:50) roam x -16
+\i (00:00:50) roam x -480
+\i (00:00:50) roam x -272
+\i (00:00:50) roam x -112
+\i (00:00:50) roam y -16
+\i (00:00:50) roam x -80
+\i (00:00:50) roam y -32
+\i (00:00:50) roam x -80
+\i (00:00:50) roam y -48
+\i (00:00:50) roam x -32
+\i (00:00:50) roam y -32
+\i (00:00:50) roam x -48
+\i (00:00:50) roam y -48
+\i (00:00:50) roam x -48
+\i (00:00:50) roam y -32
+\i (00:00:50) roam x -48
+\i (00:00:50) roam y -48
+\i (00:00:51) roam x -48
+\i (00:00:51) roam y -48
+\i (00:00:51) roam x -32
+\i (00:00:51) roam y -32
+\i (00:00:51) roam x -64
+\i (00:00:51) roam y -80
+\i (00:00:51) roam x -80
+\i (00:00:51) roam y -80
+\i (00:00:51) roam x -112
+\i (00:00:51) roam y -112
+\i (00:00:51) roam x -64
+\i (00:00:51) roam y -64
+\i (00:00:51) roam x -64
+\i (00:00:51) roam y -48
+\i (00:00:51) roam x -48
+\i (00:00:51) roam y -48
+\i (00:00:51) roam x -48
+\i (00:00:51) roam y -32
+\i (00:00:51) roam x -48
+\i (00:00:51) roam y -32
+\i (00:00:51) roam x -64
+\i (00:00:51) roam y -48
+\i (00:00:51) roam x -48
+\i (00:00:51) roam y -16
+\i (00:00:51) roam x -16
+\i (00:00:51) roam y -16
+\i (00:00:51) roam x 16
+\i (00:00:51) roam y -32
+\i (00:00:51) roam x 96
+\i (00:00:51) roam y -96
+\i (00:00:51) roam x 48
+\i (00:00:51) roam y -64
+\i (00:00:51) roam x 16
+\i (00:00:51) roam y -80
+\i (00:00:52) roam x -96
+\i (00:00:52) roam x -64
+\i (00:00:52) roam x 32
+\i (00:00:52) roam y 48
+\i (00:00:53) roam x 80
+\i (00:00:53) roam y 80
+\i (00:00:53) roam end
+\i (00:00:56) zoom in 1 
+\i (00:00:56) setwindow pcb
+\i (00:00:56) zoom in -357.29 950.54
+\i (00:00:56) trapsize 2759
+\i (00:01:00) zoom fit 
+\i (00:01:00) trapsize 345
+\i (00:01:02) status 
+\i (00:01:02) generaledit 
+\i (00:01:04) setwindow form.status
+\i (00:01:04) FORM status done  
+\i (00:01:09) setwindow pcb
+\i (00:01:09) pdf out 
+\i (00:01:11) setwindow form.pdf_out
+\i (00:01:11) FORM pdf_out pdftree 'MULTISEL YES' FAB_DWG 
+\i (00:01:11) FORM pdf_out pdftree  FAB_DWG 
+\i (00:01:12) FORM pdf_out browse  
+\i (00:01:21) fillin "C:\allegro_home\maxrefdes117_apps_a\pdf\maxrefdes117_apps_a_fab_drawing.pdf"
+\i (00:01:34) FORM pdf_out export  
+\t (00:01:34) Starting Exporting PDF File...
+\t (00:01:39) PDF output completed.
+\i (00:01:53) FORM pdf_out clearall  
+\i (00:01:53) FORM pdf_out selectall  
+\i (00:01:54) FORM pdf_out pdftree 'MULTISEL NO' FAB_DWG 
+\i (00:01:55) FORM pdf_out browse  
+\i (00:01:59) fillin "C:\allegro_home\maxrefdes117_apps_a\pdf\maxrefdes117_apps_a_pcb.pdf"
+\i (00:02:04) FORM pdf_out black_white NO 
+\i (00:02:05) FORM pdf_out export  
+\t (00:02:05) Starting Exporting PDF File...
+\t (00:02:22) PDF output completed.
+\i (00:03:49) FORM pdf_out cancel  
+\i (00:03:49) setwindow pcb
+\i (00:03:49) generaledit 
+\i (00:03:52) odb_out 
+\t (00:03:52) Valor: Extract out files
+\i (00:03:54) fillin no 
+\t (00:03:54) extracting technology file
+\t (00:03:54) Starting techfile...
+\t (00:03:56) extracting Component Properties
+\t (00:03:57)  ----- Valor extract completed successfully ----- 
+
+\t (00:03:57) Starting brd2odb translator...
+   (00:12:22) Loading mfg.cxt 
+\w (00:12:22) Save Pending
+\i (00:12:22) generaledit 
+\i (00:12:30) reports 'Component Report' 
+\i (00:12:31) reports "Component Report"
+\i (00:12:31) generaledit 
+\i (00:12:32) setwindow text
+save
+\i (00:12:37) fillin "C:\allegro_home\maxrefdes117_apps_a\fab\maxrefdes117_apps_a_xy.htm"
+\i (00:12:39) setwindow text
+\i (00:12:39) close 
+\i (00:12:45) setwindow pcb
+\i (00:12:45) evkit_assy_top 
+\i (00:12:47) fillin confirm
+\i (00:12:48) unrats all 
+\i (00:12:48) set logic_edit_enabled 
+\i (00:12:48) set display_nohilitefont 
+   (00:12:48) "started colorreset"
+   (00:12:48) "completed colorreset"
+   (00:12:48) "started evkitlayercolortop"
+\i (00:12:48) color192 
+\i (00:12:48) setwindow cvf.dialog
+\i (00:12:48) cvf layer_mode
+\i (00:12:48) setwindow cvf.dialog 
+\i (00:12:48) cvf layer_mode 
+\i (00:12:48) cvf layer_tree_item Stack-Up 
+\i (00:12:48) cvf layer_tree_item 'Stack-Up'
+\i (00:12:48) cvf layer_tree_item 'Stack-Up'
+\i (00:12:48) cvf select_color_cell 1 
+\i (00:12:48) cvf layers_color stack-up pin/all_row 2 
+\i (00:12:48) cvf layers_color stack-up pin/all_row 2
+\i (00:12:48) cvf layers_color stack-up via/all_row 2 
+\i (00:12:48) cvf layers_color stack-up via/all_row 2
+\i (00:12:48) cvf layers_color stack-up etch/all_row 2 
+\i (00:12:48) cvf layers_color stack-up etch/all_row 2
+\i (00:12:48) cvf layers_color stack-up drc/all_row 2 
+\i (00:12:48) cvf layers_color stack-up drc/all_row 2
+\i (00:12:48) cvf layers_color stack-up flow_plan/all_row 2 
+\i (00:12:48) cvf layers_color stack-up flow_plan/all_row 2
+\i (00:12:48) cvf layers_color stack-up anti_etch/all_row 2 
+\i (00:12:48) cvf layers_color stack-up anti_etch/all_row 2
+\i (00:12:48) cvf layers_color stack-up boundary/all_row 2 
+\i (00:12:48) cvf layers_color stack-up boundary/all_row 2
+\i (00:12:48) cvf layers_color stack-up cavity/all_row 2 
+\i (00:12:48) cvf layers_color stack-up cavity/all_row 2
+\i (00:12:48) cvf layer_tree_item Conductor Stack-Up 
+\i (00:12:48) cvf layer_tree_item 'Conductor' 'Stack-Up'
+\i (00:12:48) cvf layer_tree_item 'Conductor' 'Stack-Up'
+\i (00:12:48) cvf layer_tree_item 'Flow Plan' Stack-Up 
+\i (00:12:48) cvf layer_tree_item 'Flow Plan' 'Stack-Up'
+\i (00:12:48) cvf layer_tree_item 'Flow Plan' 'Stack-Up'
+\i (00:12:48) cvf layer_tree_item Non-Conductor Stack-Up 
+\i (00:12:48) cvf layer_tree_item 'Non-Conductor' 'Stack-Up'
+\i (00:12:48) cvf layer_tree_item 'Non-Conductor' 'Stack-Up'
+\i (00:12:48) cvf layer_tree_item Areas 
+\i (00:12:48) cvf layer_tree_item 'Areas'
+\i (00:12:48) cvf layer_tree_item 'Areas'
+\i (00:12:48) cvf layers_color areas constraints_region/all_row 2 
+\i (00:12:48) cvf layers_color areas constraints_region/all_row 2
+\i (00:12:48) cvf layers_color areas route_keepout/all_row 2 
+\i (00:12:48) cvf layers_color areas route_keepout/all_row 2
+\i (00:12:48) cvf layers_color areas via_keepout/all_row 2 
+\i (00:12:48) cvf layers_color areas via_keepout/all_row 2
+\i (00:12:48) cvf layers_color areas package_keepout/all_row 2 
+\i (00:12:48) cvf layers_color areas package_keepout/all_row 2
+\i (00:12:48) cvf layers_color areas package_keepin/all_row 2 
+\i (00:12:48) cvf layers_color areas package_keepin/all_row 2
+\i (00:12:48) cvf layers_color areas route_keepin/all_row 2 
+\i (00:12:48) cvf layers_color areas route_keepin/all_row 2
+\i (00:12:48) cvf layer_tree_item 'Board Geometry' 
+\i (00:12:48) cvf layer_tree_item 'Board Geometry'
+\i (00:12:48) cvf layer_tree_item 'Board Geometry'
+\i (00:12:48) cvf layers_color board_geometry/all_row 2 
+\i (00:12:48) cvf layers_color board_geometry/all_row 2
+\i (00:12:48) cvf layer_tree_item 'Package Geometry' 
+\i (00:12:48) cvf layer_tree_item 'Package Geometry'
+\i (00:12:48) cvf layer_tree_item 'Package Geometry'
+\i (00:12:48) cvf layers_color package_geometry/assembly_bottom 2 
+\i (00:12:48) cvf layers_color package_geometry/assembly_bottom 2
+\i (00:12:48) cvf layers_color package_geometry/assembly_top 2 
+\i (00:12:48) cvf layers_color package_geometry/assembly_top 2
+\i (00:12:48) cvf layers_color package_geometry/body_center 2 
+\i (00:12:48) cvf layers_color package_geometry/body_center 2
+\i (00:12:48) cvf layers_color package_geometry/dfa_bound_bottom 2 
+\i (00:12:48) cvf layers_color package_geometry/dfa_bound_bottom 2
+\i (00:12:48) cvf layers_color package_geometry/dfa_bound_top 2 
+\i (00:12:48) cvf layers_color package_geometry/dfa_bound_top 2
+\i (00:12:48) cvf layers_color package_geometry/display_bottom 2 
+\i (00:12:48) cvf layers_color package_geometry/display_bottom 2
+\i (00:12:48) cvf layers_color package_geometry/display_top 2 
+\i (00:12:48) cvf layers_color package_geometry/display_top 2
+\i (00:12:48) cvf layers_color package_geometry/modules 2 
+\i (00:12:48) cvf layers_color package_geometry/modules 2
+\i (00:12:48) cvf layers_color package_geometry/pad_stack_name 2 
+\i (00:12:48) cvf layers_color package_geometry/pad_stack_name 2
+\i (00:12:48) cvf layers_color package_geometry/pastemask_bottom 2 
+\i (00:12:48) cvf layers_color package_geometry/pastemask_bottom 2
+\i (00:12:48) cvf layers_color package_geometry/pastemask_top 2 
+\i (00:12:48) cvf layers_color package_geometry/pastemask_top 2
+\i (00:12:48) cvf layers_color package_geometry/pin_number 2 
+\i (00:12:48) cvf layers_color package_geometry/pin_number 2
+\i (00:12:48) cvf layers_color package_geometry/place_bound_bottom 2 
+\i (00:12:48) cvf layers_color package_geometry/place_bound_bottom 2
+\i (00:12:48) cvf layers_color package_geometry/place_bound_top 2 
+\i (00:12:48) cvf layers_color package_geometry/place_bound_top 2
+\i (00:12:48) cvf layers_color package_geometry/silkscreen_bottom 2 
+\i (00:12:48) cvf layers_color package_geometry/silkscreen_bottom 2
+\i (00:12:48) cvf layers_color package_geometry/silkscreen_top 2 
+\i (00:12:48) cvf layers_color package_geometry/silkscreen_top 2
+\i (00:12:48) cvf layers_color package_geometry/soldermask_bottom 2 
+\i (00:12:48) cvf layers_color package_geometry/soldermask_bottom 2
+\i (00:12:48) cvf layers_color package_geometry/soldermask_top 2 
+\i (00:12:48) cvf layers_color package_geometry/soldermask_top 2
+\i (00:12:48) cvf layer_tree_item 'Embedded Geomerty' 
+\i (00:12:48) cvf layer_tree_item 'Embedded Geomerty'
+\i (00:12:48) cvf layer_tree_item 'Embedded Geomerty'
+\i (00:12:48) cvf layers_color embedded_geometry/all_row 2 
+\i (00:12:48) cvf layers_color embedded_geometry/all_row 2
+\i (00:12:48) cvf layer_tree_item Components 
+\i (00:12:48) cvf layer_tree_item 'Components'
+\i (00:12:48) cvf layer_tree_item 'Components'
+\i (00:12:48) cvf layers_color components comp_value/all_row 2 
+\i (00:12:48) cvf layers_color components comp_value/all_row 2
+\i (00:12:48) cvf layers_color components dev_type/all_row 2 
+\i (00:12:48) cvf layers_color components dev_type/all_row 2
+\i (00:12:48) cvf layers_color components ref_des/all_row 2 
+\i (00:12:48) cvf layers_color components ref_des/all_row 2
+\i (00:12:48) cvf layers_color components tolerance/all_row 2 
+\i (00:12:48) cvf layers_color components tolerance/all_row 2
+\i (00:12:48) cvf layers_color components user_part/all_row 2 
+\i (00:12:48) cvf layers_color components user_part/all_row 2
+\i (00:12:48) cvf layer_tree_item Manufacturing 
+\i (00:12:48) cvf layer_tree_item 'Manufacturing'
+\i (00:12:48) cvf layer_tree_item 'Manufacturing'
+\i (00:12:48) cvf layers_color manufacturing/all_row 2 
+\i (00:12:48) cvf layers_color manufacturing/all_row 2
+\i (00:12:48) cvf layer_tree_item 'Drawing Format' 
+\i (00:12:48) cvf layer_tree_item 'Drawing Format'
+\i (00:12:48) cvf layer_tree_item 'Drawing Format'
+\i (00:12:48) cvf layers_color drawing_format/all_row 2 
+\i (00:12:48) cvf layers_color drawing_format/all_row 2
+\i (00:12:48) cvf layer_tree_item Analysis 
+\i (00:12:48) cvf layer_tree_item 'Analysis'
+\i (00:12:48) cvf layer_tree_item 'Analysis'
+\i (00:12:48) cvf layers_color analysis/all_row 2 
+\i (00:12:48) cvf layers_color analysis/all_row 2
+\i (00:12:48) cvf layer_tree_item Display 
+\i (00:12:48) cvf layer_tree_item 'Display'
+\i (00:12:48) cvf tmp_hlt_clr 1 
+\i (00:12:48) cvf grids_clr 1 
+\i (00:12:48) cvf ratstt_clr 1 
+\i (00:12:48) cvf ratstb_clr 1 
+\i (00:12:48) cvf ratsbb_clr 1 
+\i (00:12:48) cvf wavedrc_clr 1 
+\i (00:12:48) cvf drillh_clr 1 
+\i (00:12:48) cvf vialabel_clr 1 
+\i (00:12:48) cvf stacked_vialabel_clr 1 
+\i (00:12:48) cvf apply 
+\i (00:12:48) cvf apply
+\i (00:12:48) cvf okay 
+\i (00:12:48) cvf okay
+\i (00:12:48) prmed 
+\i (00:12:48) setwindow form.prmedit 
+\i (00:12:48) FORM prmedit display 
+\i (00:12:48) FORM prmedit display_enhance YES 
+\i (00:12:48) FORM prmedit display_connect_points NO 
+\i (00:12:48) FORM prmedit display_plated_holes NO 
+\i (00:12:48) FORM prmedit display_non_plated_holes NO 
+\i (00:12:48) FORM prmedit display_padless_holes NO 
+\i (00:12:48) FORM prmedit display_endcaps NO 
+\i (00:12:48) FORM prmedit display_enhance YES 
+\i (00:12:48) FORM prmedit done 
+\i (00:12:48) trapsize 345
+   (00:12:48) "layers turn white completed"
+   (00:12:48) "running plot"
+\i (00:12:48) plot setup 
+\i (00:12:48) setwindow form.fpfileplotsetup 
+\i (00:12:48) FORM fpfileplotsetup general 
+\i (00:12:48) FORM fpfileplotsetup fpplotfittopage YES 
+\i (00:12:48) FORM fpfileplotsetup fpplotlineweight 1 
+\i (00:12:48) FORM fpfileplotsetup fpplotautocenter YES 
+\i (00:12:48) FORM fpfileplotsetup fpplotmirror NO 
+\i (00:12:48) FORM fpfileplotsetup fpplotcolor YES 
+\i (00:12:48) FORM fpfileplotsetup fpplotsheetcontents YES 
+\i (00:12:48) FORM fpfileplotsetup fpipfvectortext YES 
+\i (00:12:48) FORM fpfileplotsetup windows 
+\i (00:12:48) FORM fpfileplotsetup fpplotnonvectortext YES 
+\i (00:12:48) FORM fpfileplotsetup fpplotnonvectortextfont Calibri 
+\i (00:12:48) FORM fpfileplotsetup fpplotnonvectortextfontwidth 100 
+\i (00:12:48) FORM fpfileplotsetup fpplotnonvectortextfontheight 100 
+\i (00:12:48) FORM fpfileplotsetup fpplotwindowsmargins 50.00 
+\i (00:12:48) FORM fpfileplotsetup done 
+\i (00:12:49) trapsize 345
+   (00:12:49) "started evkitlayercolortop"
+\i (00:12:49) dehilight 
+\i (00:12:49) setwindow form.find 
+\i (00:12:49) FORM find all_on 
+\i (00:12:49) FORM find symbols NO 
+\i (00:12:49) setwindow form.mini 
+\i (00:12:49) FORM mini dhlt_all 
+\t (00:12:49) Net "Vin" dehighlighted.
+\t (00:12:49) Net "1.8V" dehighlighted.
+\i (00:12:49) setwindow pcb 
+\i (00:12:49) prepopup 0 0 
+\i (00:12:49) prepopup 0.00 0.00
+\i (00:12:49) done 
+\t (00:12:49) Performing autosave...
+\t (00:12:49) Autosave successful
+\i (00:12:49) trapsize 345
+   (00:12:49) Assembly text check started Assembly text check started..1 Assembly text check started: Text missing count: 0
+   (00:12:49) "text check \n"
+   (00:12:49) "text check passed\n"
+   (00:12:49) "sym check \n"
+   (00:12:49) "sym  check passed\n"
+   (00:12:49) "placebound check\n "
+   (00:12:49) "sym check \n"
+   (00:12:49) "sym  check passed\n"
+   (00:12:49) "placebound check\n "
+   (00:12:49) "sym check \n"
+   (00:12:49) "sym  check passed\n"
+   (00:12:49) "placebound check\n "
+   (00:12:49) "sym check \n"
+   (00:12:49) "sym  check passed\n"
+   (00:12:49) "placebound check\n "
+   (00:12:49) "sym check \n"
+   (00:12:49) "sym  check passed\n"
+   (00:12:49) "placebound check\n "
+   (00:12:49) "sym check \n"
+   (00:12:49) "sym  check passed\n"
+   (00:12:49) "placebound check\n "
+   (00:12:49) "sym check \n"
+   (00:12:49) "sym  check passed\n"
+   (00:12:49) "placebound check\n "
+   (00:12:49) "sym check \n"
+   (00:12:49) "sym  check passed\n"
+   (00:12:49) "placebound check\n "
+   (00:12:49) "sym check \n"
+   (00:12:49) "sym  check passed\n"
+   (00:12:49) "placebound check\n "
+   (00:12:49) "sym check \n"
+   (00:12:49) "sym  check passed\n"
+   (00:12:49) "placebound check\n "
+   (00:12:49) "sym check \n"
+   (00:12:49) "sym  check passed\n"
+   (00:12:49) "placebound check\n "
+   (00:12:49) "sym check \n"
+   (00:12:49) "sym  check passed\n"
+   (00:12:49) "placebound check\n "
+   (00:12:49) "sym check \n"
+   (00:12:49) "sym  check passed\n"
+   (00:12:49) "placebound check\n "
+   (00:12:49) "sym check \n"
+   (00:12:49) "sym  check passed\n"
+   (00:12:49) "placebound check\n "
+   (00:12:49) "Check1: Text block can be accomodated"
+   (00:12:49) "maxim_greycode_assy_txtblock completed"
+   (00:12:49) "findtxtblockmatch started"
+   (00:12:49) #1 Placebound shape missing for "X3""findtxtblockmatch completed"
+   (00:12:49) Refdes: "X3", Package:"EK_TP_PEDGE", txt_block_match_number:22 
+   (00:12:49) "findtxtblockmatch started"
+   (00:12:49) #1 Placebound shape missing for "R1""findtxtblockmatch completed"
+   (00:12:49) Refdes: "R1", Package:"RESC1005X50L", txt_block_match_number:20 
+   (00:12:49) "findtxtblockmatch started"
+   (00:12:49) #1 Placebound shape missing for "GND""findtxtblockmatch completed"
+   (00:12:49) Refdes: "GND", Package:"EK_TP_PEDGE", txt_block_match_number:21 
+   (00:12:49) "findtxtblockmatch started"
+   (00:12:49) #1 Placebound shape missing for "INT""findtxtblockmatch completed"
+   (00:12:49) Refdes: "INT", Package:"EK_TP_PEDGE", txt_block_match_number:21 
+   (00:12:49) "findtxtblockmatch started"
+   (00:12:49) #1 Placebound shape missing for "X2""findtxtblockmatch completed"
+   (00:12:49) Refdes: "X2", Package:"EK_TP_PEDGE", txt_block_match_number:22 
+   (00:12:49) "findtxtblockmatch started"
+   (00:12:49) #1 Placebound shape missing for "X1""findtxtblockmatch completed"
+   (00:12:49) Refdes: "X1", Package:"EK_TP_PEDGE", txt_block_match_number:22 
+   (00:12:49) "findtxtblockmatch started"
+   (00:12:49) #1 Placebound shape missing for "C2""findtxtblockmatch completed"
+   (00:12:49) Refdes: "C2", Package:"CAPC1005X50L", txt_block_match_number:20 
+   (00:12:49) "findtxtblockmatch started"
+   (00:12:49) #1 Placebound shape missing for "C1""findtxtblockmatch completed"
+   (00:12:49) Refdes: "C1", Package:"CAPC1005X50L", txt_block_match_number:20 
+   (00:12:49) "findtxtblockmatch started"
+   (00:12:49) #1 Placebound shape missing for "R3""findtxtblockmatch completed"
+   (00:12:49) Refdes: "R3", Package:"RESC1005X50L", txt_block_match_number:20 
+   (00:12:49) "findtxtblockmatch started"
+   (00:12:49) #1 Placebound shape missing for "R2""findtxtblockmatch completed"
+   (00:12:49) Refdes: "R2", Package:"RESC1005X50L", txt_block_match_number:20 
+   (00:12:49) "findtxtblockmatch started"
+   (00:12:49) #1 Placebound shape missing for "U1""findtxtblockmatch completed"
+   (00:12:49) Refdes: "U1", Package:"PSON80P560X330X165-14M", txt_block_match_number:23 
+   (00:12:49) "findtxtblockmatch started"
+   (00:12:49) #1 Placebound shape missing for "SDA""findtxtblockmatch completed"
+   (00:12:49) Refdes: "SDA", Package:"EK_TP_PEDGE", txt_block_match_number:21 
+   (00:12:49) "findtxtblockmatch started"
+   (00:12:49) #1 Placebound shape missing for "SCL""findtxtblockmatch completed"
+   (00:12:49) Refdes: "SCL", Package:"EK_TP_PEDGE", txt_block_match_number:21 
+   (00:12:49) "findtxtblockmatch started"
+   (00:12:49) #1 Placebound shape missing for "VIN""findtxtblockmatch completed"
+\i (00:12:50) unset logic_edit_enabled 
+\i (00:12:50) zoom points 
+\t (00:12:50) Pick 1st corner of the new window.
+\i (00:12:50) pick -14305.0 -19585.0 
+\t (00:12:50) last pick:  -14305.00 -19585.00
+\t (00:12:50) Pick to complete the window.
+\i (00:12:50) pick 30095.0 14615.0 
+\t (00:12:50) last pick:  30095.00 14615.00
+\i (00:12:50) trapsize 24359
+\i (00:12:50) trapsize 24359
+\i (00:12:50) zoom fit 
+\i (00:12:50) trapsize 345
+\i (00:12:50) roam x 400 
+\i (00:12:50) roam x 400
+\i (00:12:50) trapsize 345
+\i (00:12:50) zoom points 
+\t (00:12:50) Pick 1st corner of the new window.
+\i (00:12:50) pick -14305.0 -19585.0 
+\t (00:12:50) last pick:  -14305.00 -19585.00
+\t (00:12:50) Pick to complete the window.
+\i (00:12:50) pick 30095.0 14615.0 
+\t (00:12:50) last pick:  30095.00 14615.00
+\i (00:12:50) trapsize 24359
+\i (00:12:50) trapsize 24359
+\i (00:12:50) zoom fit 
+\i (00:12:50) trapsize 345
+\i (00:12:50) zoom out 
+\i (00:12:50) zoom out 411.12 -344.21
+\i (00:12:50) trapsize 690
+\i (00:12:50) trapsize 690
+\i (00:12:51) zoom world 
+\i (00:12:51) trapsize 66789
+\i (00:12:51) zoom fit 
+\i (00:12:51) trapsize 345
+\i (00:12:51) trapsize 345
+\i (00:12:51) zoom points 
+\t (00:12:51) Pick 1st corner of the new window.
+\i (00:12:51) pick -20005.0 -19585.0 
+\t (00:12:51) last pick:  -20005.00 -19585.00
+\t (00:12:51) Pick to complete the window.
+\i (00:12:51) pick 30095.0 16715.0 
+\t (00:12:51) last pick:  30095.00 16715.00
+\i (00:12:51) trapsize 25855
+\i (00:12:51) trapsize 25855
+\i (00:12:51) create detail 
+   (00:12:51) Refdes: "VIN", Package:"EK_TP_PEDGE", txt_block_match_number:21 
+   (00:12:51) Loading cmds.cxt 
+\i (00:12:51) setwindow form.mini 
+\i (00:12:51) FORM mini class MANUFACTURING 
+\i (00:12:51) FORM mini subclass ASSEMBLY_TOP 
+\i (00:12:51) FORM mini scale_factor 0.1758466 
+\i (00:12:51) FORM mini filled_pads NO 
+\i (00:12:51) setwindow form.find FORM find all_off 
+\i (00:12:51) FORM find text YES 
+\i (00:12:51) FORM find other_segs YES 
+\i (00:12:51) setwindow pcb 
+\i (00:12:51) pick -19862.4 -17410.0 
+\t (00:12:51) last pick:  -19862.40 -17410.00
+\i (00:12:51) pick 24151.0 16590.0 
+\t (00:12:51) last pick:  24151.00 16590.00
+\i (00:12:52) setwindow form.mini 
+\i (00:12:52) FORM mini subcolor 1 
+\i (00:12:52) setwindow pcb 
+\i (00:12:52) pick -2368.65 -2757.296 
+\t (00:12:52) last pick:  -2368.65 -2757.30
+\i (00:12:52) prepopup 0 0 
+\i (00:12:52) prepopup 0.00 0.00
+\i (00:12:52) pop Done 
+\i (00:12:52) trapsize 25855
+\i (00:12:53) enved 
+\i (00:12:54) setwindow form.prfedit 
+\i (00:12:54) FORM prfedit treelist PDF Interfaces 
+\i (00:12:54) FORM prfedit pdf_filled_shape_transparency 100 
+\i (00:12:54) FORM prfedit apply 
+\i (00:12:54) FORM prfedit pdf_filled_shape_transparency 0 
+\i (00:12:54) FORM prfedit apply 
+\i (00:12:54) FORM prfedit done 
+\i (00:12:54) artwork 
+\e (00:12:54) Command not found: fillin confirm
+\i (00:12:54) setwindow form.film_control 
+\i (00:12:54) FORM film_control general_parameters 
+\i (00:12:54) FORM film_control filename_prefix 
+\i (00:12:54) FORM film_control filename_suffix 
+\i (00:12:54) FORM film_control ok 
+\i (00:12:54) setwindow pcb 
+\i (00:12:54) trapsize 25855
+\t (00:12:55) Starting pdf_out...
+\i (00:13:10) fillin confirm
+   (00:13:10) ### Assembly TOP PDF created successfully ("C:/allegro_home/maxrefdes117_apps_a/MAXREFDES117_APPS_A_ASSEMBLY_TOP.pdf").###
+\i (00:13:10) setwindow pcb
+\i (00:13:10) generaledit 
+\i (00:13:18) evkit_assy_bottom 
+\i (00:13:19) fillin confirm
+\i (00:13:19) unrats all 
+\i (00:13:20) set logic_edit_enabled 
+\i (00:13:20) set display_nohilitefont 
+   (00:13:20) "started colorreset"
+   (00:13:20) "completed colorreset"
+\i (00:13:20) color192 
+\i (00:13:20) setwindow cvf.dialog
+\i (00:13:20) cvf layer_mode
+\i (00:13:20) setwindow cvf.dialog 
+\i (00:13:20) cvf layer_mode 
+\i (00:13:20) cvf layer_tree_item Stack-Up 
+\i (00:13:20) cvf layer_tree_item 'Stack-Up'
+\i (00:13:20) cvf layer_tree_item 'Stack-Up'
+\i (00:13:20) cvf select_color_cell 1 
+\i (00:13:20) cvf layers_color stack-up pin/all_row 2 
+\i (00:13:20) cvf layers_color stack-up pin/all_row 2
+\i (00:13:20) cvf layers_color stack-up via/all_row 2 
+\i (00:13:20) cvf layers_color stack-up via/all_row 2
+\i (00:13:20) cvf layers_color stack-up etch/all_row 2 
+\i (00:13:20) cvf layers_color stack-up etch/all_row 2
+\i (00:13:20) cvf layers_color stack-up drc/all_row 2 
+\i (00:13:20) cvf layers_color stack-up drc/all_row 2
+\i (00:13:20) cvf layers_color stack-up flow_plan/all_row 2 
+\i (00:13:20) cvf layers_color stack-up flow_plan/all_row 2
+\i (00:13:20) cvf layers_color stack-up anti_etch/all_row 2 
+\i (00:13:20) cvf layers_color stack-up anti_etch/all_row 2
+\i (00:13:20) cvf layers_color stack-up boundary/all_row 2 
+\i (00:13:20) cvf layers_color stack-up boundary/all_row 2
+\i (00:13:20) cvf layers_color stack-up cavity/all_row 2 
+\i (00:13:20) cvf layers_color stack-up cavity/all_row 2
+\i (00:13:20) cvf layer_tree_item Conductor Stack-Up 
+\i (00:13:20) cvf layer_tree_item 'Conductor' 'Stack-Up'
+\i (00:13:20) cvf layer_tree_item 'Conductor' 'Stack-Up'
+\i (00:13:20) cvf layer_tree_item 'Flow Plan' Stack-Up 
+\i (00:13:20) cvf layer_tree_item 'Flow Plan' 'Stack-Up'
+\i (00:13:20) cvf layer_tree_item 'Flow Plan' 'Stack-Up'
+\i (00:13:20) cvf layer_tree_item Non-Conductor Stack-Up 
+\i (00:13:20) cvf layer_tree_item 'Non-Conductor' 'Stack-Up'
+\i (00:13:20) cvf layer_tree_item 'Non-Conductor' 'Stack-Up'
+\i (00:13:20) cvf layer_tree_item Areas 
+\i (00:13:20) cvf layer_tree_item 'Areas'
+\i (00:13:20) cvf layer_tree_item 'Areas'
+\i (00:13:20) cvf layers_color areas constraints_region/all_row 2 
+\i (00:13:20) cvf layers_color areas constraints_region/all_row 2
+\i (00:13:20) cvf layers_color areas route_keepout/all_row 2 
+\i (00:13:20) cvf layers_color areas route_keepout/all_row 2
+\i (00:13:20) cvf layers_color areas via_keepout/all_row 2 
+\i (00:13:20) cvf layers_color areas via_keepout/all_row 2
+\i (00:13:20) cvf layers_color areas package_keepout/all_row 2 
+\i (00:13:20) cvf layers_color areas package_keepout/all_row 2
+\i (00:13:20) cvf layers_color areas package_keepin/all_row 2 
+\i (00:13:20) cvf layers_color areas package_keepin/all_row 2
+\i (00:13:20) cvf layers_color areas route_keepin/all_row 2 
+\i (00:13:20) cvf layers_color areas route_keepin/all_row 2
+\i (00:13:20) cvf layer_tree_item 'Board Geometry' 
+\i (00:13:20) cvf layer_tree_item 'Board Geometry'
+\i (00:13:20) cvf layer_tree_item 'Board Geometry'
+\i (00:13:20) cvf layers_color board_geometry/all_row 2 
+\i (00:13:20) cvf layers_color board_geometry/all_row 2
+\i (00:13:20) cvf layer_tree_item 'Package Geometry' 
+\i (00:13:20) cvf layer_tree_item 'Package Geometry'
+\i (00:13:20) cvf layer_tree_item 'Package Geometry'
+\i (00:13:20) cvf layers_color package_geometry/assembly_bottom 2 
+\i (00:13:20) cvf layers_color package_geometry/assembly_bottom 2
+\i (00:13:20) cvf layers_color package_geometry/assembly_top 2 
+\i (00:13:20) cvf layers_color package_geometry/assembly_top 2
+\i (00:13:20) cvf layers_color package_geometry/body_center 2 
+\i (00:13:20) cvf layers_color package_geometry/body_center 2
+\i (00:13:20) cvf layers_color package_geometry/dfa_bound_bottom 2 
+\i (00:13:20) cvf layers_color package_geometry/dfa_bound_bottom 2
+\i (00:13:20) cvf layers_color package_geometry/dfa_bound_top 2 
+\i (00:13:20) cvf layers_color package_geometry/dfa_bound_top 2
+\i (00:13:20) cvf layers_color package_geometry/display_bottom 2 
+\i (00:13:20) cvf layers_color package_geometry/display_bottom 2
+\i (00:13:20) cvf layers_color package_geometry/display_top 2 
+\i (00:13:20) cvf layers_color package_geometry/display_top 2
+\i (00:13:20) cvf layers_color package_geometry/modules 2 
+\i (00:13:20) cvf layers_color package_geometry/modules 2
+\i (00:13:20) cvf layers_color package_geometry/pad_stack_name 2 
+\i (00:13:20) cvf layers_color package_geometry/pad_stack_name 2
+\i (00:13:20) cvf layers_color package_geometry/pastemask_bottom 2 
+\i (00:13:20) cvf layers_color package_geometry/pastemask_bottom 2
+\i (00:13:20) cvf layers_color package_geometry/pastemask_top 2 
+\i (00:13:20) cvf layers_color package_geometry/pastemask_top 2
+\i (00:13:20) cvf layers_color package_geometry/pin_number 2 
+\i (00:13:20) cvf layers_color package_geometry/pin_number 2
+\i (00:13:20) cvf layers_color package_geometry/place_bound_bottom 2 
+\i (00:13:20) cvf layers_color package_geometry/place_bound_bottom 2
+\i (00:13:20) cvf layers_color package_geometry/place_bound_top 2 
+\i (00:13:20) cvf layers_color package_geometry/place_bound_top 2
+\i (00:13:20) cvf layers_color package_geometry/silkscreen_bottom 2 
+\i (00:13:20) cvf layers_color package_geometry/silkscreen_bottom 2
+\i (00:13:20) cvf layers_color package_geometry/silkscreen_top 2 
+\i (00:13:20) cvf layers_color package_geometry/silkscreen_top 2
+\i (00:13:20) cvf layers_color package_geometry/soldermask_bottom 2 
+\i (00:13:20) cvf layers_color package_geometry/soldermask_bottom 2
+\i (00:13:20) cvf layers_color package_geometry/soldermask_top 2 
+\i (00:13:20) cvf layers_color package_geometry/soldermask_top 2
+\i (00:13:20) cvf layer_tree_item 'Embedded Geomerty' 
+\i (00:13:20) cvf layer_tree_item 'Embedded Geomerty'
+\i (00:13:20) cvf layer_tree_item 'Embedded Geomerty'
+\i (00:13:20) cvf layers_color embedded_geometry/all_row 2 
+\i (00:13:20) cvf layers_color embedded_geometry/all_row 2
+\i (00:13:20) cvf layer_tree_item Components 
+\i (00:13:20) cvf layer_tree_item 'Components'
+\i (00:13:20) cvf layer_tree_item 'Components'
+\i (00:13:20) cvf layers_color components comp_value/all_row 2 
+\i (00:13:20) cvf layers_color components comp_value/all_row 2
+\i (00:13:20) cvf layers_color components dev_type/all_row 2 
+\i (00:13:20) cvf layers_color components dev_type/all_row 2
+\i (00:13:20) cvf layers_color components ref_des/all_row 2 
+\i (00:13:20) cvf layers_color components ref_des/all_row 2
+\i (00:13:20) cvf layers_color components tolerance/all_row 2 
+\i (00:13:20) cvf layers_color components tolerance/all_row 2
+\i (00:13:20) cvf layers_color components user_part/all_row 2 
+\i (00:13:20) cvf layers_color components user_part/all_row 2
+\i (00:13:20) cvf layer_tree_item Manufacturing 
+\i (00:13:20) cvf layer_tree_item 'Manufacturing'
+\i (00:13:20) cvf layer_tree_item 'Manufacturing'
+\i (00:13:20) cvf layers_color manufacturing/all_row 2 
+\i (00:13:20) cvf layers_color manufacturing/all_row 2
+\i (00:13:20) cvf layer_tree_item 'Drawing Format' 
+\i (00:13:20) cvf layer_tree_item 'Drawing Format'
+\i (00:13:20) cvf layer_tree_item 'Drawing Format'
+\i (00:13:20) cvf layers_color drawing_format/all_row 2 
+\i (00:13:20) cvf layers_color drawing_format/all_row 2
+\i (00:13:20) cvf layer_tree_item Analysis 
+\i (00:13:20) cvf layer_tree_item 'Analysis'
+\i (00:13:20) cvf layer_tree_item 'Analysis'
+\i (00:13:20) cvf layers_color analysis/all_row 2 
+\i (00:13:20) cvf layers_color analysis/all_row 2
+\i (00:13:20) cvf layer_tree_item Display 
+\i (00:13:20) cvf layer_tree_item 'Display'
+\i (00:13:20) cvf tmp_hlt_clr 1 
+\i (00:13:20) cvf grids_clr 1 
+\i (00:13:20) cvf ratstt_clr 1 
+\i (00:13:20) cvf ratstb_clr 1 
+\i (00:13:20) cvf ratsbb_clr 1 
+\i (00:13:20) cvf wavedrc_clr 1 
+\i (00:13:20) cvf drillh_clr 1 
+\i (00:13:20) cvf vialabel_clr 1 
+\i (00:13:20) cvf stacked_vialabel_clr 1 
+\i (00:13:20) cvf apply 
+\i (00:13:20) cvf apply
+\i (00:13:20) cvf okay 
+\i (00:13:20) cvf okay
+\i (00:13:20) prmed 
+\i (00:13:20) setwindow form.prmedit 
+\i (00:13:20) FORM prmedit display 
+\i (00:13:20) FORM prmedit display_enhance YES 
+\i (00:13:20) FORM prmedit display_connect_points NO 
+\i (00:13:20) FORM prmedit display_plated_holes NO 
+\i (00:13:20) FORM prmedit display_non_plated_holes NO 
+\i (00:13:20) FORM prmedit display_padless_holes NO 
+\i (00:13:20) FORM prmedit display_endcaps NO 
+\i (00:13:20) FORM prmedit display_enhance YES 
+\i (00:13:20) FORM prmedit done 
+\i (00:13:20) trapsize 25855
+   (00:13:20) "layers turn white completed"
+   (00:13:20) "running plot"
+\i (00:13:20) plot setup 
+\i (00:13:20) setwindow form.fpfileplotsetup 
+\i (00:13:20) FORM fpfileplotsetup general 
+\i (00:13:20) FORM fpfileplotsetup fpplotfittopage YES 
+\i (00:13:20) FORM fpfileplotsetup fpplotlineweight 1 
+\i (00:13:20) FORM fpfileplotsetup fpplotautocenter NO 
+\i (00:13:20) FORM fpfileplotsetup fpplotmirror YES 
+\i (00:13:20) FORM fpfileplotsetup fpplotcolor YES 
+\i (00:13:20) FORM fpfileplotsetup fpplotsheetcontents YES 
+\i (00:13:20) FORM fpfileplotsetup fpipfvectortext YES 
+\i (00:13:20) FORM fpfileplotsetup windows 
+\i (00:13:20) FORM fpfileplotsetup fpplotnonvectortext YES 
+\i (00:13:20) FORM fpfileplotsetup fpplotnonvectortextfont Calibri 
+\i (00:13:20) FORM fpfileplotsetup fpplotnonvectortextfontwidth 100 
+\i (00:13:20) FORM fpfileplotsetup fpplotnonvectortextfontheight 100 
+\i (00:13:20) FORM fpfileplotsetup fpplotwindowsmargins 50.00 
+\i (00:13:20) FORM fpfileplotsetup done 
+\i (00:13:21) trapsize 25855
+\i (00:13:21) dehilight 
+\i (00:13:21) setwindow form.find 
+\i (00:13:21) FORM find all_on 
+\i (00:13:21) FORM find symbols NO 
+\i (00:13:21) setwindow form.mini 
+\i (00:13:21) FORM mini dhlt_all 
+\i (00:13:21) setwindow pcb 
+\i (00:13:21) prepopup 0 0 
+\i (00:13:21) prepopup 0.00 0.00
+\i (00:13:21) done 
+\i (00:13:21) trapsize 25855
+   (00:13:21) Assembly text check started Assembly text check started: Text missing count: 0
+   (00:13:21) "text check \n"
+   (00:13:21) "text check passed\n"
+   (00:13:21) "sym check \n"
+   (00:13:21) "sym  check passed\n"
+   (00:13:21) "placebound check\n "
+   (00:13:21) "sym check \n"
+   (00:13:21) "sym  check passed\n"
+   (00:13:21) "placebound check\n "
+   (00:13:21) "sym check \n"
+   (00:13:21) "sym  check passed\n"
+   (00:13:21) "placebound check\n "
+   (00:13:21) "sym check \n"
+   (00:13:21) "sym  check passed\n"
+   (00:13:21) "placebound check\n "
+   (00:13:21) "sym check \n"
+   (00:13:21) "sym  check passed\n"
+   (00:13:21) "placebound check\n "
+   (00:13:21) "sym check \n"
+   (00:13:21) "sym  check passed\n"
+   (00:13:21) "placebound check\n "
+   (00:13:21) "sym check \n"
+   (00:13:21) "sym  check passed\n"
+   (00:13:21) "placebound check\n "
+   (00:13:21) "sym check \n"
+   (00:13:21) "sym  check passed\n"
+   (00:13:21) "placebound check\n "
+   (00:13:21) "sym check \n"
+   (00:13:21) "sym  check passed\n"
+   (00:13:21) "placebound check\n "
+   (00:13:21) "sym check \n"
+   (00:13:21) "sym  check passed\n"
+   (00:13:21) "placebound check\n "
+   (00:13:21) "sym check \n"
+   (00:13:21) "sym  check passed\n"
+   (00:13:21) "placebound check\n "
+   (00:13:21) "Check1: Text block can be accomodated"
+   (00:13:21) "maxim_greycode_assy_txtblock completed"
+   (00:13:21) "findtxtblockmatch started"
+   (00:13:21) "findtxtblockmatch completed"
+   (00:13:21) "findtxtblockmatch started"
+   (00:13:21) "findtxtblockmatch completed"
+   (00:13:21) "findtxtblockmatch started"
+   (00:13:21) "findtxtblockmatch completed"
+   (00:13:21) "findtxtblockmatch started"
+   (00:13:21) "findtxtblockmatch completed"
+   (00:13:21) "findtxtblockmatch started"
+   (00:13:21) "findtxtblockmatch completed"
+   (00:13:21) "findtxtblockmatch started"
+   (00:13:21) "findtxtblockmatch completed"
+   (00:13:21) "findtxtblockmatch started"
+   (00:13:21) "findtxtblockmatch completed"
+   (00:13:21) "findtxtblockmatch started"
+   (00:13:21) "findtxtblockmatch completed"
+   (00:13:21) "findtxtblockmatch started"
+   (00:13:21) "findtxtblockmatch completed"
+   (00:13:21) "findtxtblockmatch started"
+   (00:13:21) "findtxtblockmatch completed"
+   (00:13:21) "findtxtblockmatch started"
+   (00:13:21) "findtxtblockmatch completed"
+\i (00:13:21) unset logic_edit_enabled 
+\i (00:13:21) zoom points 
+\t (00:13:21) Pick 1st corner of the new window.
+\i (00:13:21) pick -14305.0 -19585.0 
+\t (00:13:21) last pick:  -14305.00 -19585.00
+\t (00:13:21) Pick to complete the window.
+\i (00:13:21) pick 30095.0 14615.0 
+\t (00:13:21) last pick:  30095.00 14615.00
+\i (00:13:21) trapsize 24359
+\i (00:13:21) trapsize 24359
+\i (00:13:22) zoom fit 
+\i (00:13:22) trapsize 345
+\i (00:13:22) roam x 400 
+\i (00:13:22) roam x 400
+\i (00:13:22) trapsize 345
+\i (00:13:22) zoom points 
+\t (00:13:22) Pick 1st corner of the new window.
+\i (00:13:22) pick -14305.0 -19585.0 
+\t (00:13:22) last pick:  -14305.00 -19585.00
+\t (00:13:22) Pick to complete the window.
+\i (00:13:22) pick 30095.0 14615.0 
+\t (00:13:22) last pick:  30095.00 14615.00
+\i (00:13:22) trapsize 24359
+\i (00:13:22) trapsize 24359
+\i (00:13:24) fillin confirm
+\i (00:13:24) zoom fit 
+\i (00:13:24) trapsize 345
+\i (00:13:24) zoom out 
+\i (00:13:24) zoom out 347.66 -286.27
+\i (00:13:24) trapsize 690
+\i (00:13:24) trapsize 690
+\i (00:13:24) flipdesign 
+\i (00:13:24) zoom world 
+\i (00:13:24) trapsize 66789
+\i (00:13:24) zoom fit 
+\i (00:13:24) trapsize 345
+\i (00:13:24) trapsize 345
+\i (00:13:24) zoom points 
+\t (00:13:24) Pick 1st corner of the new window.
+\i (00:13:24) pick -20005.0 -19585.0 
+\t (00:13:24) last pick:  -20005.00 -19585.00
+\t (00:13:24) Pick to complete the window.
+\i (00:13:24) pick 30095.0 16715.0 
+\t (00:13:24) last pick:  30095.00 16715.00
+\i (00:13:24) trapsize 25855
+\i (00:13:25) trapsize 25855
+\i (00:13:25) create detail 
+\i (00:13:25) setwindow form.mini 
+\i (00:13:25) FORM mini class MANUFACTURING 
+\i (00:13:25) FORM mini subclass ASSEMBLY_BOTTOM 
+\i (00:13:25) FORM mini scale_factor 0.1758466 
+\i (00:13:25) FORM mini filled_pads YES 
+\i (00:13:25) setwindow form.find FORM find all_off 
+\i (00:13:25) FORM find text YES 
+\i (00:13:25) FORM find other_segs YES 
+\i (00:13:25) setwindow pcb 
+\i (00:13:25) pick -19862.4 -17410.0 
+\t (00:13:25) last pick:  -19862.40 -17410.00
+\i (00:13:25) pick 24151.0 16590.0 
+\t (00:13:25) last pick:  24151.00 16590.00
+\i (00:13:25) setwindow form.mini 
+\i (00:13:25) FORM mini subcolor 1 
+\i (00:13:25) setwindow pcb 
+\i (00:13:25) pick -2268.65 -2907.296 
+\t (00:13:25) last pick:  -2268.65 -2907.30
+\i (00:13:25) prepopup 0 0 
+\i (00:13:25) prepopup 0.00 0.00
+\i (00:13:25) pop Done 
+\i (00:13:26) trapsize 25855
+\i (00:13:27) enved 
+\i (00:13:28) setwindow form.prfedit 
+\i (00:13:28) FORM prfedit treelist PDF Interfaces 
+\i (00:13:28) FORM prfedit pdf_filled_shape_transparency 100 
+\i (00:13:28) FORM prfedit apply 
+\i (00:13:28) FORM prfedit pdf_filled_shape_transparency 0 
+\i (00:13:28) FORM prfedit apply 
+\i (00:13:28) FORM prfedit done 
+\i (00:13:28) artwork 
+\e (00:13:28) Command not found: fillin confirm
+\i (00:13:28) setwindow form.film_control 
+\i (00:13:28) FORM film_control general_parameters 
+\i (00:13:28) FORM film_control filename_prefix 
+\i (00:13:28) FORM film_control filename_suffix 
+\i (00:13:28) FORM film_control ok 
+\i (00:13:28) setwindow pcb 
+\i (00:13:28) trapsize 25855
+\t (00:13:29) Starting pdf_out...
+\i (00:13:46) fillin confirm
+   (00:13:46) ### Assembly BOTTOM PDF created successfully ("C:/allegro_home/maxrefdes117_apps_a/MAXREFDES117_APPS_A_ASSEMBLY_BOTTOM.pdf").###
+\i (00:13:46) setwindow pcb
+\i (00:13:46) generaledit 
+\i (00:13:52) setwindow text
+\i (00:13:52) close 
+\i (00:13:54) setwindow text
+\i (00:13:54) close 
+\i (00:13:55) setwindow pcb
+\i (00:13:55) exit 
+\e (00:13:55) Do you want to save the changes you made to C:/allegro_home/maxrefdes117_apps_a/worklib/maxrefdes117_apps_a/physical/MAXREFDES117_APPS_A_ASSEMBLY.brd?
+\i (00:13:56) fillin no 
+\t (00:13:56)     Journal end - Fri Apr 15 14:07:40 2016

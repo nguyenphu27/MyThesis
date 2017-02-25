@@ -1,0 +1,90 @@
+(Cell	gnd_signal
+
+	(RevisionInfoBlock	
+
+		(Baselined	1)
+
+		(Revision	1.0.0)
+
+		(ModificationStatus	NULL)
+
+		(Status	Baselined)
+
+		(ErrorStatus	0)
+
+		(CreateInfo	
+
+			(Time	03/06/05,16:50:34)
+
+			(User	sureshg)
+
+			(Path	standard.gnd_signal)
+
+		)
+
+	)
+
+	(Views	
+
+		(View	Symbol
+
+			(Symbols	1
+
+				(Symbol	sym_1
+
+					(Symbol_Type	Normal)
+
+					(Max_Size	0)
+
+					(Checksum	00000000c8cf2ad6)
+
+					(RevisionInfoBlock	
+
+						(Baselined	1)
+
+						(Revision	1.0.0)
+
+						(ModificationStatus	NULL)
+
+						(Status	Baselined)
+
+						(ErrorStatus	0)
+
+						(CreateInfo	
+
+							(Time	03/06/05,16:50:34)
+
+							(User	sureshg)
+
+							(Path	standard.gnd_signal)
+
+						)
+
+					)
+
+				)
+
+			)
+
+			(Checksum	000000001ea90412)
+
+		)
+
+		(Checksum	000000001c6e0378)
+
+	)
+
+	(VersionInfoBlock	
+
+		(ToolName	PDV)
+
+		(Version	15.50-d029)
+
+		(License	PCB_librarian_expert)
+
+	)
+
+	(Checksum	000000001c490382)
+
+)
+

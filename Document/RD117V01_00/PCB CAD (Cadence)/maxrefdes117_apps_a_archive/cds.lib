@@ -1,0 +1,4 @@
+DEFINE maxrefdes117_apps_a    worklib
+DEFINE evkit_noncompliant    archive_libs/evk_worklib
+DEFINE standard    archive_libs/standard
+DEFINE mml    archive_libs/mml_worklib

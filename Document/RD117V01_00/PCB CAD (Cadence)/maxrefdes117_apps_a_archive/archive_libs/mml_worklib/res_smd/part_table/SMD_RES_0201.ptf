@@ -1,0 +1,37 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'RES'
+
+{========================================================================================}
+:PACK_TYPE | JEDEC_TYPE     | VALUE  | MAXINV        = MFG_PART_NUMBER | TOLERANCE | DESCRIPTION                                                             | POWER_RATING | TEMP_COEF     | BOM | STATUS   | DATASHEET_URL | EST_STOCK_STATUS | LEAD_LENGTH | RES | VLOG_PARAM01 | REFLOW | BEHAVIORAL_MODEL | EST_PRICE | TEMP_RANGE | MANUFACTURER ;
+{========================================================================================}
+'0201RES' | 'RESC0603X33M' | '49.9' |'80-049R9-95'(!) = 'ERJ-1GEF49R9C'| '1%'      | 'RESISTOR; 0201; 49.9 OHM; 1%; 100PPM; 0.05W; THICK FILM 3-LAYER ELECTRODE' | '0.05W'      | '+/-100PPM/K' | 'Y' | 'ACTIVE' | 'http://cavwapp018.maxim-ic.com/inv/attachfile/downloadfile.php?mode=open&id=1009-000020&fsize=276513' | 'HQ(822):HBO(658):MPOC(1823):DL(0)' | 'N/A' | '4.99E01' | 'RES:INTEGER' | '-' | 'TRUE' | '($0.011)' | '-55 DEGC TO +155 DEGC' | 'PANASONIC' 
+'0201RES' | 'RESC0603X33M' | '0'    |'80-0000R-95'(!) = 'CRCW02010000ZS; ERJ-1GN0R00C'| '1%'      | 'RESISTOR; 0201; 0 OHM; 0%; JUMPER; 0.05W; THICK FILM'    | '0.05W'      | '+/-100PPM/K' | 'Y' | 'ACTIVE' | 'http://cavwapp018.maxim-ic.com/inv/attachfile/attachfiledialog.php?pn=80-0000R-95' | 'HQ(14226):HBO(5016):MPOC(6527):DL(9191)' | 'N/A' | '0.00000001E00' | 'RES:INTEGER' | '-' | 'TRUE' | '($0.0041)' | '-55 DEGC TO +155 DEGC' | 'VISHAY DALE/PANASONIC'  : ALT_SYMBOLS = '0201_NOSILK,RESC0603X23L'
+'0201RES' | 'RESC0603X33M' | '10'   |'80-0010R-95'(!) = 'ERJ-1GEF10R0C'| '1%'      | 'RESISTOR; 0201; 10 OHM; 1%; 100PPM; 0.05W; THICK FILM 3-LAYER ELECTRODE'  | '0.05W'      | '+/-100PPM/K' | 'Y' | 'ACTIVE' | 'http://cavwapp018.maxim-ic.com/inv/attachfile/downloadfile.php?mode=open&id=1010-000109&fsize=276513' | 'HQ(0):HBO(26):MPOC(140):DL(0)' | 'N/A' | '1.00E01' | 'RES:INTEGER' | '-' | 'TRUE' | '($0.018)' | '-55 DEGC TO +155 DEGC' | 'PANASONIC' 
+'0201RES' | 'RESC0603X33M' | '100'  |'80-0100R-95'(!) = 'CRCW0201100RFK; ERJ-1GEF1000C'| '1%'      | 'RESISTOR; 0201; 100 OHM; 1%; 100PPM; 0.05W; THICK FILM' | '0.05W'      | '+/-100PPM/K' | 'Y' | 'ACTIVE' | 'http://cavwapp018.maxim-ic.com/inv/attachfile/attachfiledialog.php?pn=80-0100R-95' | 'HQ(208):HBO(205):MPOC(506):DL(0)' | 'N/A' | '1.00E02' | 'RES:INTEGER' | '-' | 'TRUE' | '($0.01426)' | '-55 DEGC TO +155 DEGC' | 'VISHAY DALE/PANASONIC'     : ALT_SYMBOLS = '0201_NOSILK,RESC0603X23L'
+
+END_PART
+
+END.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

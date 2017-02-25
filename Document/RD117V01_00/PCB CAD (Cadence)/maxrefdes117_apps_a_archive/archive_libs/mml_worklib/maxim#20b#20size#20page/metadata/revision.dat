@@ -1,0 +1,144 @@
+(Cell	maxim b size page
+
+	(RevisionInfoBlock	
+
+		(Baselined	1)
+
+		(Revision	3.0.0)
+
+		(ModificationStatus	NULL)
+
+		(Status	Baselined)
+
+		(ErrorStatus	0)
+
+		(CreateInfo	
+
+			(Time	12/02/11,14:48:18)
+
+			(User	Ryan.Cabreza)
+
+			(Path	default_lib.maxim b size page)
+
+		)
+
+		(LastModifyInfo	
+
+			(Time	02/21/14,09:45:41)
+
+			(User	Ryan.Cabreza)
+
+			(Path	default_lib.maxim b size page)
+
+		)
+
+	)
+
+	(Views	
+
+		(View	Symbol
+
+			(RevisionInfoBlock	
+
+				(Baselined	1)
+
+				(Revision	1.0.0)
+
+				(ModificationStatus	NULL)
+
+				(Status	Baselined)
+
+				(ErrorStatus	0)
+
+				(CreateInfo	
+
+					(Time	)
+
+					(User	)
+
+					(Path	)
+
+				)
+
+				(LastModifyInfo	
+
+					(Time	02/21/14,09:45:41)
+
+					(User	Ryan.Cabreza)
+
+					(Path	default_lib.maxim b size page)
+
+				)
+
+			)
+
+			(Symbols	1
+
+				(Symbol	sym_1
+
+					(Symbol_Type	Normal)
+
+					(Max_Size	0)
+
+					(Checksum	000000009ef27874)
+
+					(RevisionInfoBlock	
+
+						(Baselined	1)
+
+						(Revision	3.0.0)
+
+						(ModificationStatus	NULL)
+
+						(Status	Baselined)
+
+						(ErrorStatus	0)
+
+						(CreateInfo	
+
+							(Time	12/02/11,14:48:18)
+
+							(User	Ryan.Cabreza)
+
+							(Path	default_lib.maxim b size page)
+
+						)
+
+						(LastModifyInfo	
+
+							(Time	02/21/14,09:45:41)
+
+							(User	Ryan.Cabreza)
+
+							(Path	default_lib.maxim b size page)
+
+						)
+
+					)
+
+				)
+
+			)
+
+			(Checksum	000000001cdf0391)
+
+		)
+
+		(Checksum	000000001d5f03ac)
+
+	)
+
+	(VersionInfoBlock	
+
+		(ToolName	PDV)
+
+		(Version	16.6-S016 (v16-6-112AU))
+
+		(License	PCB_librarian_expert)
+
+	)
+
+	(Checksum	000000001cce03d8)
+
+)
+

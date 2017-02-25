@@ -1,0 +1,8 @@
+0201_SMD_CAP.ptf
+0402_SMD_CAP.ptf
+0603_SMD_CAP.ptf
+1206_SMD_CAP.ptf
+1210_SMD_CAP.ptf
+0805_SMD_CAP.ptf
+TH_CAPS.ptf
+part.ptf

@@ -1,0 +1,16 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    PDF Export                                                       )
+(                                                                     )
+(    Software Version : 16.6-2015S066                                 )
+(    Date/Time        : Fri Apr 15 14:07:13 2016                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+
+WARNING: Wrong value of orientation in the file //sjcndsa01a.maxim-ic.com/tp_loc/hw_cardcat/allegrolib/site/pcb/skill/assembly_pdf_configuration.txt: 0.0
+
+Output file: C:/allegro_home/maxrefdes117_apps_a/worklib/maxrefdes117_apps_a/physical/MAXREFDES117_APPS_A_ASSEMBLY_BOTTOM.pdf
+Design file: C:/allegro_home/maxrefdes117_apps_a/worklib/maxrefdes117_apps_a/physical/MAXREFDES117_APPS_A_ASSEMBLY.brd
+pdf_out complete.

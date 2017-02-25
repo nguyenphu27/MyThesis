@@ -1,0 +1,42 @@
+FILE_TYPE=LIBRARY_PARTS;
+primitive 'EVKIT_TP_EVKIT_TP';
+  pin
+    'TP1':
+      PIN_NUMBER='(1)';
+      PIN_TYPE='ANALOG';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+  end_pin;
+  body
+    PART_NAME='EVKIT_TP';
+    BODY_NAME='EVKIT_TP';
+    JEDEC_TYPE='tp';
+    PHYS_DES_PREFIX='TP';
+    CLASS='IO';
+  end_body;
+end_primitive;
+
+primitive 'EVKIT_TP_EVKIT_TP_N';
+  pin
+    'TP1':
+      PIN_NUMBER='(1)';
+      PIN_TYPE='ANALOG';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+  end_pin;
+  body
+    PART_NAME='EVKIT_TP';
+    BODY_NAME='EVKIT_TP';
+    JEDEC_TYPE='tp';
+    PHYS_DES_PREFIX='TP';
+    CLASS='IO';
+  end_body;
+end_primitive;
+
+END.

@@ -1,0 +1,39 @@
+<schema xmlns="http://www.cadence.com/spb/csschema"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.cadence.com/spb/csschema CSSchema002.xsd">
+  <header>
+    <schemaVersion>16.6</schemaVersion>
+    <creatorTool>conceptHDL</creatorTool>
+    <modifierTool>conceptHDL</modifierTool>
+    <modificationTime>2014-04-21T08:14:10</modificationTime>
+    <savedLibrary>max14940_evkit_p1_lib</savedLibrary>
+  </header>
+  <designs>
+    <design schemaType="nameBased" name="maxim b size page 2" view="sch_1">
+      <lastids>
+      </lastids>
+      <cells>
+      </cells>
+      <nets>
+      </nets>
+      <aliases>
+      </aliases>
+      <differentialnets>
+      </differentialnets>
+      <differentialbusnets>
+      </differentialbusnets>
+      <netgroups>
+      </netgroups>
+      <netinterfaces>
+      </netinterfaces>
+      <instances>
+      </instances>
+      <templateresolutions>
+      </templateresolutions>
+      <templateinstances>
+      </templateinstances>
+      <extensions>
+      </extensions>
+    </design>
+  </designs>
+</schema>

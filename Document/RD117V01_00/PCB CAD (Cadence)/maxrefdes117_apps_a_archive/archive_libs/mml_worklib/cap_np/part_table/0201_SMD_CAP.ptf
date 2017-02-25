@@ -1,0 +1,35 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'CAP_NP'
+
+{========================================================================================}
+:PACK_TYPE | JEDEC_TYPE     | VALUE    | MAXINV        = MFG_PART_NUMBER | TOLERANCE | DESCRIPTION                                                                                                                      | VOLTAGE_RATING | TEMP_RANGE            | BOM | STATUS            | DATASHEET_URL | EST_STOCK_STATUS | LEAD_LENGTH | CAP | VLOG_PARAM01 | REFLOW | BEHAVIORAL_MODEL | EST_PRICE | MANUFACTURER ;
+{========================================================================================}
+'0201CAP' | '0201'         | '1000PF' |'20-1000P-C2'(!) = 'ECJZEB1E102K'| '10%'     | 'CAPACITOR; SMT; 0201; CERAMIC;  1000pF; 25V; 10%; C0G; -25degC to + 85degC;OBSOLETE DUE TO SMALL PADS'                          | '25V'          | '-25degC to + 85degC' | 'Y' | 'OBSOLETE'        | '' | 'HQ(0):HBO(461):MPOC(0):DL(0)' | 'N/A' | '1.00E-09' | 'CAP:INTEGER' | '-' | 'TRUE' | '($0.0163)' | 'PANASONIC' 
+'0201CAP' | 'CAPC0603X33M' | '1000PF' |'20-1000P-C2'(!) = 'ECJZEB1E102K'| '10%'     | 'CAPACITOR; SMT; 0201; CERAMIC;  1000pF; 25V; 10%; C0G; -25degC to + 85degC; DO NOT USE FOR NEW DESIGN-OBSELETE USE 20-1000P-E0' | '25V'          | '-25degC to + 85degC' | 'Y' | 'OBSOLETE'        | '' | 'HQ(0):HBO(461):MPOC(0):DL(0)' | 'N/A' | '1.00E-09' | 'CAP:INTEGER' | '-' | 'TRUE' | '($0.0163)' | 'PANASONIC' 
+'0201CAP' | '0201'         | '100PF'  |'20-0100P-C3'(!) = 'ECJ-ZEC1C101J'| '5%'      | 'CAPACITOR; SMT; 0201; CERAMIC;  100pF; 16V; 5%; C0G; -25degC to + 85degC: USE 20-0100p-D8 FOR NEW DESIGN'                       | '16V'          | '-25degC to + 85degC' | 'Y' | 'OBSOLETE'        | '' | 'HQ(0):HBO(22):MPOC(99):DL(0)' | 'N/A' | '1.00E-10' | 'CAP:INTEGER' | '-' | 'TRUE' | '($0.0163)' | 'PANASONIC' 
+'0201CAP' | 'CAPC0603X33M' | '100PF'  |'20-0100P-C3'(!) = 'ECJ-ZEC1C101J'| '5%'      | 'CAPACITOR; SMT; 0201; CERAMIC;  100pF; 16V; 5%; C0G; -25degC to + 85degC: USE 20-0100p-D8 FOR NEW DESIGN; ALTERNATE SYMBOL HAS PADSTACKS NOT ENOUGH FOR MANUAL SOLDERING'                       | '16V'          | '-25degC to + 85degC' | 'Y' | 'OBSOLETE' | '' | 'HQ(0):HBO(22):MPOC(99):DL(0)' | 'N/A' | '1.00E-10' | 'CAP:INTEGER' | '-' | 'TRUE' | '($0.0163)' | 'PANASONIC' 
+'0201CAP' | '0201'         | '220PF'  |'20-0220P-C2'(!) = 'ECJZEB1E221K'| '10%'     | 'CAPACITOR; SMT; 0201; CERAMIC;  220pF; 25V; 10%; C0G; -25degC to + 85degC;OBSOLETE DUE TO SMALL PADS'                           | '25V'          | '-25degC to + 85degC' | 'Y' | 'OBSOLETE'        | '' | 'HQ(0):HBO(180):MPOC(46):DL(0)' | 'N/A' | '2.20E-10' | 'CAP:INTEGER' | '-' | 'TRUE' | '($0.0163)' | 'PANASONIC' 
+'0201CAP' | 'CAPC0603X33M' | '220PF'  |'20-0220P-C2'(!) = 'ECJZEB1E221K'| '10%'     | 'CAPACITOR; SMT; 0201; CERAMIC;  220pF; 25V; 10%; C0G; -25degC to + 85degC; ALTERNATE SYMBOL HAS PADSTACKS NOT ENOUGH FOR MANUAL SOLDERING'                                                      | '25V'          | '-25degC to + 85degC' | 'Y' | 'OBSOLETE'          | '' | 'HQ(0):HBO(180):MPOC(46):DL(0)' | 'N/A' | '2.20E-10' | 'CAP:INTEGER' | '-' | 'TRUE' | '($0.0163)' | 'PANASONIC' 
+'0201CAP' | '0201'         | '10PF'   |'20-0010P-D8'(!) = 'C0201C100J3GAC; ECJZEC1E100D'| '5%'      | 'CAPACITOR; SMT; 0201; CERAMIC;  10pF; 25V; 5%; C0G; -25degC to + 85degC;OBSOLETE DUE TO SMALL PADS'                             | '25V'          | '-25degC to + 85degC' | 'Y' | 'OBSOLETE'        | '' | 'HQ(0):HBO(906):MPOC(88):DL(0)' | 'N/A' | '1.00E-11' | 'CAP:INTEGER' | '-' | 'TRUE' | '($0.05)' | 'KEMET/PANASONIC' 
+'0201CAP' | 'CAPC0603X33M' | '10PF'   |'20-0010P-D8'(!) = 'C0201C100J3GAC; ECJZEC1E100D'| '5%'      | 'CAPACITOR; SMT; 0201; CERAMIC;  10pF; 25V; 5%; C0G; -25degC to + 85degC; ALTERNATE SYMBOL HAS PADSTACKS NOT ENOUGH FOR MANUAL SOLDERING'                                                        | '25V'          | '-25degC to + 85degC' | 'Y' | 'OBSOLETE'          | '' | 'HQ(0):HBO(906):MPOC(88):DL(0)' | 'N/A' | '1.00E-11' | 'CAP:INTEGER' | '-' | 'TRUE' | '($0.05)' | 'KEMET/PANASONIC' 
+
+END_PART
+
+END.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

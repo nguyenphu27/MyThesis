@@ -1,0 +1,41 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'RES'
+
+{========================================================================================}
+:PACK_TYPE | JEDEC_TYPE     | VALUE  | MAXINV        = MFG_PART_NUMBER | TOLERANCE | DESCRIPTION                                               | POWER_RATING | TEMP_COEF         | BOM | STATUS   | DATASHEET_URL | EST_STOCK_STATUS | LEAD_LENGTH | RES | VLOG_PARAM01 | REFLOW | BEHAVIORAL_MODEL | EST_PRICE | TEMP_RANGE | MANUFACTURER ;
+{========================================================================================}
+'2512RES' | 'RESC6432X76M' | '0.22' |'80-00R22-75'(!) = 'CRL2512-FW-R220ELF'| '1%'      | 'RESISTOR; 2512; 0.22 OHM; 200PPM; 1%; 1W; THICK FILM'    | '1W'         | '+/- 200PPM/degC' | 'Y' | 'ACTIVE' | 'http://cavwapp018.maxim-ic.com/inv/attachfile/downloadfile.php?mode=open&id=1005-000032&fsize=197751' | 'HQ(0):HBO(0):MPOC(7):DL(0)' | 'N/A' | '2.20E-01' | 'RES:INTEGER' | '-' | 'TRUE' | '($0.8)' | '-55 DEGC TO +125 DEGC' | 'BOURNS' 
+'2512RES' | 'RESC6432X76M' | '100'  |'80-0100R-65'(!) = 'CRCW2512100RFK'| '1%'      | 'RESISTOR; 2512; 100 OHM; 1%; 100PPM; 1.0W; THICK FILM'   | '1W'       | '+/-100PPM/K'     | 'Y' | 'ACTIVE' | 'http://cavwapp018.maxim-ic.com/inv/attachfile/downloadfile.php?mode=open&id=0906-000006&fsize=117569' | 'HQ(673):HBO(0):MPOC(108):DL(5001)' | 'N/A' | '1.00E02' | 'RES:INTEGER' | '-' | 'TRUE' | '($0.11)' | '-55 DEGC TO +155 DEGC' | 'VISHAY DALE' 
+'2512RES' | 'RESC6432X76M' | '120'  |'80-0120R-65'(!) = 'CRCW2512120RFK'| '1%'      | 'RESISTOR; 2512; 120 OHM; 1%; 100PPM; 1W; THICK FILM'     | '1W'         | '+/-100PPM/K'     | 'Y' | 'ACTIVE' | 'http://cavwapp018.maxim-ic.com/inv/attachfile/downloadfile.php?mode=open&id=1005-000018&fsize=117569' | 'HQ(824):HBO(110):MPOC(137):DL(0)' | 'N/A' | '1.20E02' | 'RES:INTEGER' | '-' | 'TRUE' | '($0.09)' | '-55 DEGC TO +155 DEGC' | 'VISHAY DALE' 
+'2512RES' | 'RESC6432X76M' | '121'  |'80-0121R-91'(!) = 'RK73H3ALTE1210F'| '1%'      | 'RESISTOR; 2512; 121 OHM; 1%; 100PPM; 1W; THICK FILM'     | '1W'         | '+/-100PPM/K'     | 'Y' | 'ACTIVE' | 'http://cavwapp018.maxim-ic.com/inv/attachfile/downloadfile.php?mode=open&id=0808-000022&fsize=60925' | 'HQ(0):HBO(70):MPOC(243):DL(0)' | 'N/A' | '1.21E02' | 'RES:INTEGER' | '-' | 'TRUE' | '($0.3)' | '-55 DEGC TO +155 DEGC' | 'KOA SPEER ELECTRONICS INC.' 
+'2512RES' | 'RESC6432X76M' | '130'  |'80-0130R-65'(!) = 'CRCW2512130RFK; RK73B3ALTE131J'| '1%'      | 'RESISTOR; 2512; 130 OHMS; 1%; 100PPM; 1W; THICK FILM'    | '1W'         | '+/-100PPM/K'     | 'Y' | 'ACTIVE' | 'http://cavwapp018.maxim-ic.com/inv/attachfile/downloadfile.php?mode=open&id=0905-0000307fsize=117569' | 'HQ(0):HBO(140):MPOC(105):DL(0)' | 'N/A' | '1.30E02' | 'RES:INTEGER' | '-' | 'TRUE' | '($0.389)' | '-55 DEGC TO +155 DEGC' | 'VISHAY DALE' 
+'2512RES' | 'RESC6432X76M' | '61.9' |'80-061R9-65'(!) = 'CRCW251261R9FK; ERJ-1TNF61R9U'| '1%'      | 'RESISTOR; 2512; 61.9 OHM; 1%; +/-100PPM; 1W; THICK FILM' | '1W'         | '+/- 100ppm/degC' | 'Y' | 'ACTIVE' | 'http://cavwapp018.maxim-ic.com/inv/attachfile/downloadfile.php?mode=open&id=0801-000307&fsize=150992' | 'HQ(0):HBO(1055):MPOC(160):DL(0)' | 'N/A' | '6.19E01' | 'RES:INTEGER' | '-' | 'TRUE' | '($0.1233)' | '-55 DEGC TO +155 DEGC' | 'VISHAY DALE' 
+'2512RES' | 'RESC6432X76M' | '90.9' |'80-090R9-65'(!) = 'CRCW251290R9FK'| '1%'      | 'RESISTOR; 2512; 90.9 OHM; 1%; 100PPM; 1.0W; THICK FILM'  | '1W'       | '+/- 100ppm/degC' | 'Y' | 'ACTIVE' | 'http://cavwapp018.maxim-ic.com/inv/attachfile/downloadfile.php?mode=open&id=1005-000019&fsize=117569' | 'HQ(0):HBO(0):MPOC(300):DL(0)' | 'N/A' | '9.09E01' | 'RES:INTEGER' | '-' | 'TRUE' | '($0.1233)' | '-55 DEGC TO +155 DEGC' | 'VISHAY DALE' 
+'2512RES' | 'RESC6432X76M' | '91'   |'80-0091R-65'(!) = 'ERJ-1TNF91R0U'| '1%'      | 'RESISTOR; 2512; 91OHM; 1%; +/-100PPM; 1W; THICK FILM'    | '1W'         | '+/- 100ppm/degC' | 'Y' | 'ACTIVE' | 'http://cavwapp018.maxim-ic.com/inv/attachfile/downloadfile.php?mode=open&id=0801-000306&fsize=150992' | 'HQ(0):HBO(52):MPOC(256):DL(0)' | 'N/A' | '9.10E01' | 'RES:INTEGER' | '-' | 'TRUE' | '($0.3395)' | '-55 DEGC TO +125 DEGC' | 'VISHAY DALE' 
+
+END_PART
+
+END.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

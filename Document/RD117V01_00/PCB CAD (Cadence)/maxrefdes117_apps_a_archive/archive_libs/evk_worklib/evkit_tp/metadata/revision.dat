@@ -1,0 +1,320 @@
+(Cell	evkit_tp
+
+	(RevisionInfoBlock	
+
+		(Baselined	0)
+
+		(Revision	0.0.8)
+
+		(ModificationStatus	NULL)
+
+		(Status	Created)
+
+		(ErrorStatus	0)
+
+		(CreateInfo	
+
+			(Time	03/06/13,16:06:31)
+
+			(User	tois)
+
+			(Path	ddd_lib.evkit_tp)
+
+		)
+
+		(LastModifyInfo	
+
+			(Time	12/16/13,18:42:31)
+
+			(User	moises.condicion)
+
+			(Path	evkit_noncompliant.evkit_tp)
+
+		)
+
+	)
+
+	(Views	
+
+		(View	Symbol
+
+			(RevisionInfoBlock	
+
+				(Baselined	0)
+
+				(Revision	0.0.4)
+
+				(ModificationStatus	NULL)
+
+				(Status	)
+
+				(ErrorStatus	0)
+
+				(CreateInfo	
+
+					(Time	)
+
+					(User	)
+
+					(Path	)
+
+				)
+
+			)
+
+			(Symbols	2
+
+				(Symbol	sym_2
+
+					(Symbol_Type	Normal)
+
+					(Max_Size	0)
+
+					(Checksum	00000000e3d16546)
+
+					(RevisionInfoBlock	
+
+						(Baselined	0)
+
+						(Revision	0.0.4)
+
+						(ModificationStatus	NULL)
+
+						(Status	Created)
+
+						(ErrorStatus	0)
+
+						(CreateInfo	
+
+							(Time	08/08/13,15:59:16)
+
+							(User	Vhan.Manalo)
+
+							(Path	local_lib.evkit_tp)
+
+						)
+
+					)
+
+				)
+
+				(Symbol	sym_1
+
+					(Symbol_Type	Normal)
+
+					(Max_Size	0)
+
+					(Checksum	0000000070a95584)
+
+					(RevisionInfoBlock	
+
+						(Baselined	0)
+
+						(Revision	0.0.1)
+
+						(ModificationStatus	NULL)
+
+						(Status	Created)
+
+						(ErrorStatus	0)
+
+						(CreateInfo	
+
+							(Time	03/06/13,16:06:31)
+
+							(User	tois)
+
+							(Path	ddd_lib.evkit_tp)
+
+						)
+
+					)
+
+				)
+
+			)
+
+			(Checksum	000000001cee040a)
+
+		)
+
+		(View	Chips
+
+			(Checksum	000000001c72d3b0)
+
+			(Primitives	2
+
+				(Primitive	EVKIT_TP_EVKIT_TP
+
+					(RevisionInfoBlock	
+
+						(Baselined	0)
+
+						(Revision	0.0.2)
+
+						(ModificationStatus	NULL)
+
+						(Status	Created)
+
+						(ErrorStatus	0)
+
+						(CreateInfo	
+
+							(Time	03/06/13,16:06:31)
+
+							(User	tois)
+
+							(Path	ddd_lib.evkit_tp)
+
+						)
+
+					)
+
+					(LogicalPhysicalPartRelation	
+
+						(LogicalPart	EVKIT_TP
+
+							(PackType	EVKIT_TP_EVKIT_TP)
+
+						)
+
+					)
+
+					(Packages	1
+
+						(FunctionGroups	1
+
+							(FunctionGroup	1[1]
+
+								(Linkages	
+
+									(Linkage	Symbol
+
+										(Name	sym_2)
+
+									)
+
+									(Linkage	Symbol
+
+										(Name	sym_1)
+
+									)
+
+								)
+
+							)
+
+						)
+
+						(Linkages	
+
+							(DefaultFootPrint	
+
+								(Name	tp)
+
+							)
+
+						)
+
+					)
+
+				)
+
+				(Primitive	EVKIT_TP_EVKIT_TP_N
+
+					(RevisionInfoBlock	
+
+						(Baselined	0)
+
+						(Revision	0.0.1)
+
+						(ModificationStatus	NULL)
+
+						(Status	Created)
+
+						(ErrorStatus	0)
+
+						(CreateInfo	
+
+							(Time	12/16/13,18:42:24)
+
+							(User	moises.condicion)
+
+							(Path	evkit_noncompliant.evkit_tp)
+
+						)
+
+					)
+
+					(LogicalPhysicalPartRelation	
+
+						(LogicalPart	EVKIT_TP
+
+							(PackType	EVKIT_TP_EVKIT_TP_N)
+
+						)
+
+					)
+
+					(Packages	1
+
+						(FunctionGroups	1
+
+							(FunctionGroup	1[1]
+
+								(Linkages	
+
+									(Linkage	Symbol
+
+										(Name	sym_2)
+
+									)
+
+									(Linkage	Symbol
+
+										(Name	sym_1)
+
+									)
+
+								)
+
+							)
+
+						)
+
+						(Linkages	
+
+							(DefaultFootPrint	
+
+								(Name	tp)
+
+							)
+
+						)
+
+					)
+
+				)
+
+			)
+
+		)
+
+		(Checksum	000000001b8503b1)
+
+	)
+
+	(VersionInfoBlock	
+
+		(ToolName	PDV)
+
+		(Version	16.6-S016 (v16-6-112AU))
+
+		(License	PCB_librarian_expert)
+
+	)
+
+	(Checksum	000000001bad0377)
+
+)
+
