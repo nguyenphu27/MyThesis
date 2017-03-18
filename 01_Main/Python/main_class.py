@@ -1,10 +1,11 @@
 import os, os.path
 import sys
+import subprocess
 # Define class
+PROJECTPATH = "/home/pi/healthsystem/"
 
-
-class File:
-    'Base class for all files used for inter-process communication'
+class MODULE:
+    'Base class for all modules, used for inter-process communication'
 	
     def __init__(self, name, path, existFlag=0):
         self.name = name
@@ -31,6 +32,18 @@ class File:
             print "%s is not exist, Error: E102" %self.fullpath
             raise
             
+    def call(self):
+        #if self.existFlag:
+        if 1:
+            subprocess.Popen(self.fullpath)
+            print "call %s" %self.fullpath
+        else:
+            print "%s is not exist, Error: E102" %self.fullpath
+class File(MODULE):
+    'Class for communication files'
+    def call(self):
+        return
+
 class File_finish(File):
     'Class for all files named "_finish"'
     
@@ -67,6 +80,11 @@ class File_result(File):
         self.fullpath = os.path.join(self.path, self.name)
         File_result.result_count+=1
 
-audio_file = File("audio","/home/pi/")
-
+#audio_file = File("audio","/home/pi/")
+sample_process_1 = MODULE("sample_process_1",PROJECTPATH)
+sample_process_2 = MODULE("sample_process_2",PROJECTPATH)
+#sample_process_1.__File__call()
+#print sample_process_2.fullpath
+sample_process_2.call()
+#subprocess.Popen(r'/home/pi/healthsystem/sample_process_2')
 
