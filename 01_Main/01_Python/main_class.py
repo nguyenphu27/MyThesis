@@ -1,93 +1,135 @@
+# pylint: disable=C0326, C1001, C0303
+
 import os, os.path
 import sys
 import subprocess
 # Define class
-#PROJECTPATH = "/home/pi/healthsystem/"
-PROJECTPATH = "D:\99_repo\99_local"
+#PROJECTPATH = r"/home/pi/healthsystem/"
+PROJECTPATH = r"D:\99_repo\99_local"
 
 class MODULE:
     'Base class for all modules, used for inter-process communication'
-	
-    def __init__(self, name, path=PROJECTPATH, existFlag=0, start=0, finish=0, result=0):
-        self.name = name
+    module_count = 0
+
+    def __init__(self, name, path=PROJECTPATH, filetype=".c", sublist=[]):
+        if filetype==".c":
+            self.name = name
+        else:
+            self.name = name + filetype
         self.path = path
         self.fullpath = os.path.join(self.path, self.name)
-        self.existFlag = self.isExist()
-        if existFlag==0:
-            print "Missing Module %s, E104" %self.name
+        self.exist_flag = self.is_exist()
+        if self.exist_flag==0:
+            self.missing()
+        self.finish=FileFinish(self.name)
+        self.start=FileStart(self.name)
+        self.result=FileResult(self.name)
+        MODULE.module_count += 1
+        self.sub = []
+        self.subcount = 0
+        for item in sublist:
+            self.sub.append(SUBMODULE(item))
+            self.subcount+=1
 
-        self.finish=File_finish(self.name)
-        self.start=File_start(self.name)
-        self.result=File_result(self.name)
-        
-    def isExist(self):
-        self.existFlag = os.path.isfile(self.fullpath)
-        return self.existFlag
+    def is_exist(self):
+        "Check module's existence"
+        self.exist_flag = os.path.isfile(self.fullpath)
+        return self.exist_flag
         
     def call(self):
-        #if self.existFlag:
-        if 1:
+        "Call the module"
+        if self.exist_flag:
             subprocess.Popen(self.fullpath)
             print "call %s" %self.fullpath
         else:
-            print "%s is not exist, Error: E102" %self.fullpath
+            self.missing()
+
+    def missing(self):
+        "Print the missing message"
+        print "Missing Module %s, E104" %self.name
+
+class SUBMODULE(MODULE):
+    'Class for submodule'
+    def cons(self):
+        'Test constructor of SUBMODULE'
+        print "SUBMODULE: " + self.fullpath
+    def missing(self):
+        print "Missing Submodule %s, E105" %self.name
 
 class File():
     'Class for communication files'
-    def __init__(self, name, path=PROJECTPATH, existFlag=0):
+    def __init__(self, name, path=PROJECTPATH):
         self.name = name
         self.path = path
-        self.existFlag = existFlag
         self.fullpath = os.path.join(self.path, self.name)
+        self.exist_flag = self.is_exist()
 
     def create(self):
-        if self.existFlag:
+        "Create the file for communication"
+        if self.exist_flag:
             print "%s already exist, Error: E101" %self.fullpath
         else:
             file_stream = open(self.fullpath,'w')
             file_stream.close()
 
     def delete(self):
-        if self.existFlag:
+        "Delete the file"
+        if self.exist_flag:
             os.remove(self.fullpath)
         else:
             print "%s is not exist, Error: E102" %self.fullpath
 
-    def isExist(self):
-        self.existFlag = os.path.isfile(self.fullpath)
-        return self.existFlag
+    def is_exist(self):
+        "Check file's existence"
+        self.exist_flag = os.path.isfile(self.fullpath)
+        return self.exist_flag
 
-class File_finish(File):
+class FileFinish(File):
     'Class for all files named "_finish"'
     
     finish_count = 0
     
     def __init__(self, name):
         File.__init__(self,name+'_finish')
-        File_finish.finish_count+=1
+        FileFinish.finish_count+=1
 
     
-class File_start(File):
+class FileStart(File):
     'Class for all files named "_start"'
     
     start_count = 0
     
     def __init__(self, name):
         File.__init__(self,name+'_start')
-        File_start.start_count+=1
+        FileStart.start_count+=1
 
-class File_result(File):
+class FileResult(File):
     'Class for all files named "_result"'
     
     result_count = 0
     
     def __init__(self, name):
         File.__init__(self,name+'_result')
-        File_result.result_count+=1
+        FileResult.result_count+=1
 
 class FLOW:
     'Base class handles flow information'
     
     def __init__(self):
-        
+        self.audio = MODULE("audio")
+        self.bluetooth = MODULE("bluetooth")
+        self.bpressure = MODULE("bpressure", sublist=["bpressure_poweron"])
+        self.scale = MODULE("scale")
+        self.spo2 = MODULE("spo2")
+        self.temp = MODULE("temp")
+        self.touch = MODULE("touch")
+        self.uno = MODULE("spo2")
+        self.wifi = MODULE("wifi")
 
+    def setup_bluetooth(self):
+        'Call bluetooth module for preparing service to pair with user\'s phone'
+        self.bluetooth.call()
+
+    def setup_bpressure(self):
+        'Call bpressure_poweron to power on the BP machine'
+        return 1
