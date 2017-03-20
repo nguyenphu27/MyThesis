@@ -1,7 +1,8 @@
-# pylint: disable=C0326, C1001, C0303
+# pylint: disable=C0326, C1001
+"""HEADER FOR MAIN PROGRAM"""
 
-import os, os.path
-import sys
+import os
+import os.path
 import subprocess
 # Define class
 #PROJECTPATH = r"/home/pi/healthsystem/"
@@ -16,6 +17,7 @@ class MODULE:
             self.name = name
         else:
             self.name = name + filetype
+        self.filetype=filetype
         self.path = path
         self.fullpath = os.path.join(self.path, self.name)
         self.exist_flag = self.is_exist()
@@ -35,12 +37,16 @@ class MODULE:
         "Check module's existence"
         self.exist_flag = os.path.isfile(self.fullpath)
         return self.exist_flag
-        
+
     def call(self):
         "Call the module"
         if self.exist_flag:
-            subprocess.Popen(self.fullpath)
-            print "call %s" %self.fullpath
+            if self.filetype==".py":
+                args=['python',self.fullpath]
+                subprocess.Popen(args)
+            else:
+                subprocess.Popen(self.fullpath)
+                print "call %s" %self.fullpath
         else:
             self.missing()
 
@@ -86,44 +92,43 @@ class File():
 
 class FileFinish(File):
     'Class for all files named "_finish"'
-    
+
     finish_count = 0
-    
+
     def __init__(self, name):
         File.__init__(self,name+'_finish')
         FileFinish.finish_count+=1
 
-    
 class FileStart(File):
     'Class for all files named "_start"'
-    
+
     start_count = 0
-    
+
     def __init__(self, name):
         File.__init__(self,name+'_start')
         FileStart.start_count+=1
 
 class FileResult(File):
     'Class for all files named "_result"'
-    
+
     result_count = 0
-    
+
     def __init__(self, name):
         File.__init__(self,name+'_result')
         FileResult.result_count+=1
 
 class FLOW:
     'Base class handles flow information'
-    
+
     def __init__(self):
-        self.audio = MODULE("audio")
+        self.audio = MODULE("audio", filetype=".py")
         self.bluetooth = MODULE("bluetooth")
         self.bpressure = MODULE("bpressure", sublist=["bpressure_poweron"])
         self.scale = MODULE("scale")
         self.spo2 = MODULE("spo2")
         self.temp = MODULE("temp")
         self.touch = MODULE("touch")
-        self.uno = MODULE("spo2")
+        self.uno = MODULE("uno", sublist=["height"])
         self.wifi = MODULE("wifi")
 
     def setup_bluetooth(self):
