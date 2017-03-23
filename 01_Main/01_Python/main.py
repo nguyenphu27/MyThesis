@@ -68,11 +68,11 @@ if HEALTHSYSTEM.uno.exist_flag==1:
 # temp_result, height_result(from uno)
 
 # when exist 5 files above, call wifi module to send data to server
-RESULT = HEALTHSYSTEM.uno.sub[0].result.exist_flag and\
-        HEALTHSYSTEM.spo2.result.exist_flag and\
-        HEALTHSYSTEM.scale.result.exist_flag and\
-        HEALTHSYSTEM.temp.result.exist_flag and\
-        HEALTHSYSTEM.bpressure.result.exist_flag
+RESULT = HEALTHSYSTEM.uno.sub[0].result.is_exist() and\
+        HEALTHSYSTEM.spo2.result.is_exist() and\
+        HEALTHSYSTEM.scale.result.is_exist() and\
+        HEALTHSYSTEM.temp.result.is_exist() and\
+        HEALTHSYSTEM.bpressure.result.is_exist()
 
 # send result to server by calling wifi module
 if RESULT:

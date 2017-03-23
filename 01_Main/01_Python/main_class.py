@@ -4,10 +4,15 @@
 import os
 import os.path
 import subprocess
-# Define class
-#PROJECTPATH = r"/home/pi/healthsystem/"
-PROJECTPATH = r"D:\99_repo\99_local"
+from platform import platform
 
+# Detect Project's path (windows version is here only for testing, will be remove when stable
+if 'Linux' in platform():
+    PROJECTPATH = r"/home/pi/healthsystem/"
+else:
+    PROJECTPATH = r"D:\99_repo\99_local"
+
+# Define class
 class MODULE:
     'Base class for all modules, used for inter-process communication'
     module_count = 0
