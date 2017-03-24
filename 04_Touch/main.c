@@ -6,7 +6,7 @@
 #include <time.h>
 #include <unistd.h>
 
-void main()
+int main()
 {
 	FILE *fp;
   while (1)
@@ -17,14 +17,11 @@ void main()
         if(GPIO_GEN3==1)
         {
            // create new file
-            fp = fopen("/cwd/touch_finish", "r"); 
+            fp = fopen("/cwd/touch_finish", "w"); 
 	  break;
         }
-  }
- while(1)
- {
-	  //Sleep still 2 second
-	sleep(2); 
+   }
+ return 0;
  }
 	
 }
