@@ -240,9 +240,9 @@ void assert_failed(uint8_t* file, uint32_t line)
   {
         if(GPIO_Pin_10==1)
         {
-          FILE *fp;
+          FILE *fp;                                         // create new file
 
-            fp = fopen("/cwd/touch_finish", "r");
+            fp = fopen("/cwd/touch_finish", "r"); 
         }
   }
   while (1)
