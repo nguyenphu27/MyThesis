@@ -11,7 +11,8 @@ void main()
 	FILE *fp;
   while (1)
   {
-	  sleep(2);
+	  //Sleep still 2 second
+	  sleep(2); 
 	 // when GPIO22 set to 1
         if(GPIO_GEN3==1)
         {
@@ -22,6 +23,7 @@ void main()
   }
  while(1)
  {
+	  //Sleep still 2 second
 	sleep(2); 
  }
 	
