@@ -8,19 +8,28 @@
 
 int main()
 {
-	FILE *fp;
-  while (1)
+  try
   {
-	  //Sleep still 2 second
-	  sleep(2); 
-	 // when GPIO22 set to 1
-        if(GPIO_GEN3==1)
-        {
-           // create new file
-            fp = fopen("./touch_finish", "w"); 
-	  break;
-        }
-   }
+	 FILE *fp;
+    while (1)
+    {
+	    //Sleep still 2 second
+	    sleep(2); 
+	    // when GPIO22 set to 1
+            if(GPIO_GEN3==1)
+            {
+            // create new file
+                fp = fopen("./touch_finish", "w"); 
+	
+	        break;
+             }
+      }
+	  
+  }
+  catch (excecption &ex)
+    {
+        cout << "ERROR CODE : " << ex;
+    }
  return 0;
  }
 	
