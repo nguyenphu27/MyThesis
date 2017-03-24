@@ -17,7 +17,7 @@ int main()
         if(GPIO_GEN3==1)
         {
            // create new file
-            fp = fopen("/cwd/touch_finish", "w"); 
+            fp = fopen("./touch_finish", "w"); 
 	  break;
         }
    }
