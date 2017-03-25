@@ -1,6 +1,7 @@
 #  pylint: disable=C0326, C1001
 """MAIN PROGRAM OF THE SYSTEM"""
 # START
+from time import sleep
 from main_class import FLOW
 
 HEALTHSYSTEM = FLOW()
@@ -68,16 +69,19 @@ if HEALTHSYSTEM.uno.exist_flag==1:
 # temp_result, height_result(from uno)
 
 # when exist 5 files above, call wifi module to send data to server
-RESULT = HEALTHSYSTEM.uno.sub[0].result.is_exist() and\
-        HEALTHSYSTEM.spo2.result.is_exist() and\
-        HEALTHSYSTEM.scale.result.is_exist() and\
-        HEALTHSYSTEM.temp.result.is_exist() and\
-        HEALTHSYSTEM.bpressure.result.is_exist()
+while 1:
+    sleep(1)
+    RESULT = HEALTHSYSTEM.uno.sub[0].result.is_exist() and\
+            HEALTHSYSTEM.spo2.result.is_exist() and\
+            HEALTHSYSTEM.scale.result.is_exist() and\
+            HEALTHSYSTEM.temp.result.is_exist() and\
+            HEALTHSYSTEM.bpressure.result.is_exist()
 
 # send result to server by calling wifi module
-if RESULT:
-    print "Call WIFI module for sending data to server"
-    HEALTHSYSTEM.wifi.call()
+    if RESULT:
+        print "Call WIFI module for sending data to server"
+        HEALTHSYSTEM.wifi.call()
+        break
 
 # NOTE: audio will automatically call when exist appropriate file
 # NOTE: this flow only run once, will upgrade to run repeatedly when once-running correctly
