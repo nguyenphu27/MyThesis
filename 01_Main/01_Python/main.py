@@ -1,9 +1,12 @@
 #  pylint: disable=C0326, C1001
-"""MAIN PROGRAM OF THE SYSTEM"""
+"""MAIN PROGRAM OF THE SYSTEM
+Author: Huy Vu
+Date: Mar 18, 2017
+Update: Mar 27, 2017"""
 # START
 from time import sleep
 from main_class import FLOW
-
+from prepare_result import prepare_result
 HEALTHSYSTEM = FLOW()
 
 # setup audio
@@ -79,6 +82,8 @@ while 1:
 
 # send result to server by calling wifi module
     if RESULT:
+        print "Preparing result"
+        prepare_result()
         print "Call WIFI module for sending data to server"
         HEALTHSYSTEM.wifi.call()
         break

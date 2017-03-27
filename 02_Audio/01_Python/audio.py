@@ -1,7 +1,8 @@
 # pylint: disable=C0326, C1001
 """AUDIO
 Author: Huy Vu
-Date: Mar 20, 2017"""
+Date: Mar 20, 2017
+Update: Mar 23, 2017"""
 
 from time import sleep
 from main_class import FLOW

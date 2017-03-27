@@ -1,7 +1,8 @@
 # pylint: disable=C0326, C1001
 """AUDIO CLASS
 Author: Huy Vu
-Date: Mar 20, 2017"""
+Date: Mar 20, 2017
+Update: Mar 27, 2017"""
 
 import os
 import os.path
@@ -12,7 +13,7 @@ from main_class import File
 if 'Linux' in platform():
     PROJECTPATH = r"/home/pi/healthsystem/"
 else:
-    PROJECTPATH = r"D:\99_repo\99_local"
+    PROJECTPATH = r"D:\00_work\local\01_healthsystem"
 MP3_SUFFIX = r"mp3"
 MP3PATH = os.path.join(PROJECTPATH, MP3_SUFFIX)
 

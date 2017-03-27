@@ -10,7 +10,7 @@ from platform import platform
 if 'Linux' in platform():
     PROJECTPATH = r"/home/pi/healthsystem/"
 else:
-    PROJECTPATH = r"D:\99_repo\99_local"
+    PROJECTPATH = r"D:\00_work\local\01_healthsystem"
 
 # Define class
 class MODULE:
