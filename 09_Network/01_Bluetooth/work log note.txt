@@ -1,0 +1,4 @@
+Apr 3 2017: 
+ - finished bluetooth server on pi
+ - start researching how to add bluetooth function to android app
+ 

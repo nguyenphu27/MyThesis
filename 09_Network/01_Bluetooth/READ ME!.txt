@@ -1,0 +1,11 @@
+Apr 3 2017
+Finished bluetooth part: using python and command line for discovering, pairing and connecting
+
+bluetooth server: written with python, can connect with phone
+modified from rfcomm-server.py of pybluez example
+
+command line: turn discoverable on 
+
+pre condition:
+phone has to use bluetooth terminal app to connect to pi 
+phone has to pair with pi in setting (of phone) before connecting to pi using bluetooth app
