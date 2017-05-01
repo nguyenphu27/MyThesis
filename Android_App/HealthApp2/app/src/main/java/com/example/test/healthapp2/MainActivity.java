@@ -33,5 +33,15 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent(this, DisplayWeightActivity.class);
         startActivity(intent);
     }
+
+    public void temperature(View view){
+        Intent intent = new Intent(this, DisplayTemperatureActivity.class);
+        startActivity(intent);
+    }
+
+    public void bloodpressure(View view){
+        Intent intent = new Intent(this, DisplayBloodPressureActivity.class);
+        startActivity(intent);
+    }
 }
 

@@ -37,12 +37,15 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".MainActivity" />
         </activity>
-        <activity android:name=".DisplayWeightActivity"
+        <activity
+            android:name=".DisplayWeightActivity"
             android:parentActivityName=".MainActivity">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".MainActivity" />
         </activity>
+        <activity android:name=".DisplayTemperatureActivity" />
+        <activity android:name=".DisplayBloodPressureActivity"></activity>
     </application>
 
 </manifest>
