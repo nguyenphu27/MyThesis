@@ -5,4 +5,18 @@
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string-array name="consciousness_level">
+        <item>tỉnh táo</item>
+        <item>đau đớn</item>
+        <item>không phản ứng</item>
+    </string-array>
+
+    <string-array name="respiration">
+        <item>  8 </item>
+        <item>9 - 11</item>
+        <item>12 - 20</item>
+        <item>21 - 24</item>
+        <item> >= 25</item>
+    </string-array>
 </resources>

@@ -45,7 +45,8 @@
                 android:value=".MainActivity" />
         </activity>
         <activity android:name=".DisplayTemperatureActivity" />
-        <activity android:name=".DisplayBloodPressureActivity"></activity>
+        <activity android:name=".DisplayBloodPressureActivity" />
+        <activity android:name=".EWSActivity"></activity>
     </application>
 
 </manifest>

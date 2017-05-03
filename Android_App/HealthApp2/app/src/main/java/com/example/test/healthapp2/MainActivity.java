@@ -43,5 +43,10 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent(this, DisplayBloodPressureActivity.class);
         startActivity(intent);
     }
+
+    public void EWS(View view){
+        Intent intent = new Intent(this, EWSActivity.class);
+        startActivity(intent);
+    }
 }
 

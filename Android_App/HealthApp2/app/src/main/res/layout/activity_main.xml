@@ -28,6 +28,7 @@
         android:layout_marginLeft="26dp"
         android:layout_marginStart="19dp"
         android:layout_marginTop="8dp"
+        android:onClick="EWS"
         app:layout_constraintBottom_toBottomOf="@+id/imageButton8"
         app:layout_constraintLeft_toRightOf="@+id/imageButton8"
         app:layout_constraintTop_toTopOf="@+id/imageButton8"
