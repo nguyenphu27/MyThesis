@@ -4,7 +4,6 @@
     <string name="button_send">send</string>
 
     <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
 
     <string-array name="consciousness_level">
         <item>tỉnh táo</item>
