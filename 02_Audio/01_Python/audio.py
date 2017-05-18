@@ -2,7 +2,7 @@
 """AUDIO
 Author: Huy Vu
 Date: Mar 20, 2017
-Update: Mar 23, 2017"""
+Update: May 18, 2017"""
 
 from time import sleep
 from main_class import FLOW

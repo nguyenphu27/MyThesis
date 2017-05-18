@@ -2,7 +2,7 @@
 """AUDIO CLASS
 Author: Huy Vu
 Date: Mar 20, 2017
-Update: Mar 27, 2017"""
+Update: May 18, 2017"""
 
 import os
 import os.path
