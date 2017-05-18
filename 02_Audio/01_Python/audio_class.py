@@ -61,11 +61,16 @@ class MP3:
         if self.was_played_flag==1:
             return
         if 'Linux' in platform():
-            try:
-                subprocess.Popen(args)
-                print self.name, 'is playing'
-            except Exception as err:
-                print err
+            while 1:
+                try:
+                    exit_code = subprocess.check_output(['omxplayer_wrapper.sh'])
+                    if exit_code == 0:
+                        # no omxplayer is running
+                        subprocess.Popen(args)
+                        print self.name, 'is playing'
+                        break
+                except Exception as err:
+                    print err
         else:
             print self.name, 'is playing'
         self.was_played_flag=1
