@@ -26,28 +26,21 @@ public class Bluetooth extends AppCompatActivity {
     BluetoothSocket mmSocket;
     BluetoothDevice mmDevice = null;
 
-    final byte delimiter = 33;
-    int readBufferPosition = 0;
-
+    boolean workDone = false;
+    UUID uuid = UUID.fromString("00001101-0000-1000-8000-00805f9b34fb"); //Standard SerialPortService ID
     private BluetoothAdapter BA;
-    private Set<BluetoothDevice> pairedDevices;
-    private ArrayAdapter<String> mPairedDevicesArrayAdapter;
-    private ArrayAdapter<String> mNewDevicesArrayAdapter;
+    private Set<BluetoothDevice>pairedDevices;
     ListView lv;
 
     public void sendBtMsg(String msg2send){
-        UUID uuid = UUID.fromString("00001101-0000-1000-8000-00805f9b34fb"); //Standard SerialPortService ID
-//        UUID uuid = UUID.fromString("94f39d29-7d6d-437d-973b-fba39e49d4ee"); //Standard SerialPortService ID
         try {
-            mmSocket = mmDevice.createRfcommSocketToServiceRecord(uuid);
+//            mmSocket = mmDevice.createRfcommSocketToServiceRecord(uuid);
             if (!mmSocket.isConnected()){
                 mmSocket.connect();
             }
             String msg = msg2send;
-            //msg += "\n";
             OutputStream mmOutputStream = mmSocket.getOutputStream();
             mmOutputStream.write(msg.getBytes());
-
         } catch (IOException e) {
             // TODO Auto-generated catch block
             e.printStackTrace();
@@ -60,16 +53,17 @@ public class Bluetooth extends AppCompatActivity {
         setContentView(R.layout.activity_bluetooth);
 
         BA = BluetoothAdapter.getDefaultAdapter();
-//        lv = (ListView)findViewById(R.id.listView);
+        lv = (ListView)findViewById(R.id.listView);
 
-//        final Handler handler = new Handler();
-        final Button lightOnButton = (Button) findViewById(R.id.button);
+        final Button connectButton = (Button) findViewById(R.id.button);
+        final Button disconnectButton = (Button) findViewById(R.id.disconnect);
 
         pairedDevices = BA.getBondedDevices();
         final ArrayList List = new ArrayList();
         final ArrayAdapter<String> adapter = new ArrayAdapter<>(this, android.R.layout.simple_list_item_1,List);
 
-        BluetoothAdapter mBluetoothAdapter = BluetoothAdapter.getDefaultAdapter();
+        final BluetoothAdapter mBluetoothAdapter = BluetoothAdapter.getDefaultAdapter();
+
         final class workerThread implements Runnable {
             private String btMsg;
             public workerThread(String msg) {
@@ -78,83 +72,66 @@ public class Bluetooth extends AppCompatActivity {
             public void run()
             {
                 sendBtMsg(btMsg);
-                while(!Thread.currentThread().isInterrupted())
-                {
-                    int bytesAvailable;
-                    boolean workDone = false;
-                    try {
-                        final InputStream mmInputStream;
-                        mmInputStream = mmSocket.getInputStream();
-                        bytesAvailable = mmInputStream.available();
-                        if(bytesAvailable > 0)
-                        {
-                            byte[] packetBytes = new byte[bytesAvailable];
-                            Log.e("Aquarium recv bt","bytes available");
-                            byte[] readBuffer = new byte[1024];
-                            mmInputStream.read(packetBytes);
-                            for(int i=0;i<bytesAvailable;i++)
-                            {
-                                byte b = packetBytes[i];
-                                if(b == delimiter)
-                                {
-                                    byte[] encodedBytes = new byte[readBufferPosition];
-                                    System.arraycopy(readBuffer, 0, encodedBytes, 0, encodedBytes.length);
-                                    final String data = new String(encodedBytes, "US-ASCII");
-                                    readBufferPosition = 0;
-                                    //The variable data now contains our full command
-//                                    handler.post(new Runnable()
-//                                    {
-//                                        public void run()
-//                                        {
-//                                            myLabel.setText(data);
-//                                        }
-//                                    });
-                                    workDone = true;
-                                    break;
-                                }
-                                else
-                                {
-                                    readBuffer[readBufferPosition++] = b;
-                                }
-                            }
-                            if (workDone == true){
-                                mmSocket.close();
-                                break;
-                            }
-                        }
-                    } catch (IOException e) {
-                        // TODO Auto-generated catch block
-                        e.printStackTrace();
+                try {
+                    if (workDone == true){
+                        mmSocket.close();
                     }
+                }
+                catch (IOException e) {
+                    // TODO Auto-generated catch block
+                    e.printStackTrace();
                 }
             }
         }
 
         //start connect button handler
-        lightOnButton.setOnClickListener(new View.OnClickListener() {
+        connectButton.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
-                // Perform action on temp button click
-                (new Thread(new workerThread("Connected!"))).start();
+                (new Thread(new workerThread("Connected and sent string data"))).start();
             }
         });
         //end connect button handler
+
+        //start disconnect button handler
+        disconnectButton.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                (new Thread(new workerThread("disconnected"))).start();
+            }
+        });
+        //end disconnect button handler
 
         if(!mBluetoothAdapter.isEnabled())
         {
             Intent enableBluetooth = new Intent(BluetoothAdapter.ACTION_REQUEST_ENABLE);
             startActivityForResult(enableBluetooth, 0);
         }
-        Set<BluetoothDevice> pairedDevices = mBluetoothAdapter.getBondedDevices();
-        if(pairedDevices.size() > 0)
-        {
-            for(BluetoothDevice device : pairedDevices)
-            {
-                if(device.getName().equals("pi"))
-                {
-                    mmDevice = device;
-                    break;
+        pairedDevices = mBluetoothAdapter.getBondedDevices();
+
+        //show paired devices on list view
+        for(BluetoothDevice device : pairedDevices) List.add(device.getName());
+        lv.setAdapter(adapter);
+
+        //listview on item selected listener
+        lv.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+            @Override
+            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+                for(BluetoothDevice device1 : pairedDevices){
+                    String s1 = adapter.getItem(position).toString();
+                    if(device1.getName().equals(s1)){
+                        mmDevice = device1;
+                        try {
+                            mmSocket = mmDevice.createRfcommSocketToServiceRecord(uuid);
+                            if (!mmSocket.isConnected()){
+                                mmSocket.connect();
+                            }
+                        } catch (IOException e) {
+                            // TODO Auto-generated catch block
+                            e.printStackTrace();
+                        }
+                        Toast.makeText(Bluetooth.this, adapter.getItem(position).toString(), Toast.LENGTH_SHORT).show();
+                    }
                 }
             }
-        }
+        });
     }
 }

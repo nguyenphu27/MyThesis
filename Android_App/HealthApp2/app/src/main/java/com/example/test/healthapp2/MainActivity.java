@@ -48,5 +48,10 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent(this, EWSActivity.class);
         startActivity(intent);
     }
+
+    public void Bluetooth(View view){
+        Intent intent = new Intent(this, Bluetooth.class);
+        startActivity(intent);
+    }
 }
 

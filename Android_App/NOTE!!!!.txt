@@ -1,7 +1,0 @@
-HealthApp2 currently only has UI and a sample chart in heart rate tab.
-please do not change any thing inside this HealthApp2 folder without informing me!!!
-if u want to make any change to this app then please make a copy of it and make your change with that copy.
-this app is still in progress so please restrain from changing it.:) 
-UPDATED!!!!!
-Updated new feature:
-new (random data) real time chart for each tab(heart rate, SPO2, height, weight tab) in app.

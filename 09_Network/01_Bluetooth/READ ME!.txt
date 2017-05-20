@@ -1,11 +1,18 @@
-Apr 3 2017
-Finished bluetooth part: using python and command line for discovering, pairing and connecting
+HOW TO USE BLUETOOTH FUNCTION:
 
-bluetooth server: written with python, can connect with phone
-modified from rfcomm-server.py of pybluez example
+ON PI SIDE:
+ - first thing to do is run this command in healthsystem directory:
+	+ sudo ./bluetoothshell.sh
+ - this shell is for:
+	+ turning discovery mode for bluetooth on
+	+ run bluetooth server code 
+ - after running that command, pi will begin to wait for connection from android app
 
-command line: turn discoverable on 
-
-pre condition:
-phone has to use bluetooth terminal app to connect to pi 
-phone has to pair with pi in setting (of phone) before connecting to pi using bluetooth app
+ON ANDROID APP SIDE:
+ - after opening app, open bluetooth function
+ - choose pi in paired devices list
+ - after choosing paired device, pi will notify a connection was accepted
+ - now 2 buttons on android app will send string to pi everytime they are pushed:
+	+ connect button will send a default string to pi and pi will print the string on screen
+	+ disconnect button will send "disconnected" string to pi to terminate the connection 
+between 2 devices and pi will also print the string on screen

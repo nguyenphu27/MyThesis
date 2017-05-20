@@ -14,6 +14,7 @@
         android:layout_marginLeft="19dp"
         android:layout_marginStart="19dp"
         android:layout_marginTop="8dp"
+        android:onClick="Bluetooth"
         app:layout_constraintBottom_toBottomOf="@+id/imageButton6"
         app:layout_constraintLeft_toRightOf="@+id/imageButton6"
         app:layout_constraintTop_toTopOf="@+id/imageButton6"
