@@ -1,5 +1,5 @@
 /**
-	waiting GPIO22 set to 1 , create file 
+	waiting GPIO17 set to 1 , create file 
  */
 
 #include <stdio.h>
@@ -22,18 +22,17 @@ int main()
 	 FILE *fp;
     while (1)
     {
-	    //Sleep still 2 second
-	    sleep(2); 
+	    
 	    uint8_t value = bcm2835_gpio_lev(PIN);
 	    // when GPIO17 set to 1
             if(value==1)
             {
             // create new file
-                fp = fopen("./touch_finish", "w"); 
-	
+                fp = fopen("./touch_finish", "w"); 	
 	        break;
              }
-	    
+	   //Sleep still 2 second
+	    sleep(2);  
       }
 	  bcm2835_close();
 	
