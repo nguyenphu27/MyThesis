@@ -49,8 +49,11 @@ class MODULE:
             if self.filetype==".py":
                 args=['python',self.fullpath]
                 subprocess.Popen(args)
-            if self.filetype==".sh":
+            elif self.filetype==".sh":
                 args=['bash',self.fullpath]
+                subprocess.Popen(args)
+            elif self.filetype==".py3":
+                args=['python3',self.fullpath]
                 subprocess.Popen(args)
             else:
                 subprocess.Popen(self.fullpath)
@@ -132,7 +135,7 @@ class FLOW:
         self.audio = MODULE("audio", filetype=".py")
         self.bluetooth = MODULE("bluetooth", filetype=".sh")
         self.bpressure = MODULE("bpressure", sublist=["bpressure_poweron"])
-        self.scale = MODULE("scale", filetype=".py")
+        self.scale = MODULE("scale", filetype=".py3")
         self.spo2 = MODULE("spo2")
         self.temp = MODULE("temp")
         self.touch = MODULE("touch")

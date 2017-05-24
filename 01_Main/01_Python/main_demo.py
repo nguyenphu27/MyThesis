@@ -26,9 +26,8 @@ if 1:
 # initialize scale
 #if HEALTHSYSTEM.scale.exist_flag==1 or 1:
     print "Initializing Scale module"
-    # HEALTHSYSTEM.scale.call()
-    #subprocess.Popen("python3 scale.py")
-    os.system("python3 scale.py")
+    HEALTHSYSTEM.scale.call()
+#    os.system("python3 scale.py")
 
 # Note: at this point, spo2, scale, temperature modules will wait for signal-file
 # e.g. spo2 wait for file scale_finish and temp_finish

@@ -14,12 +14,13 @@ def prepare_result():
     filestream.append(open('bpressure_result','r'))
     filestream.append(open('spo2_result','r'))
     filestream.append(open('temp_result','r'))
-
+    idx = 0
     collected=list()
     for item in filestream:
         collected.append(item.read())
         collected.append(',')
         item.close()
+        idx+=1
     result= open('result','w')
     for each in collected[0:len(collected)-1]:
         result.write(each)
