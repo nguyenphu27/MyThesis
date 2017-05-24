@@ -40,14 +40,17 @@ class MODULE:
 
     def is_exist(self):
         "Check module's existence"
-        self.exist_flag = os.path.isfile(self.fullpath)
-        return self.exist_flag
+        returnvalue = os.path.isfile(self.fullpath)
+        return returnvalue
 
     def call(self):
         "Call the module"
         if self.exist_flag:
             if self.filetype==".py":
                 args=['python',self.fullpath]
+                subprocess.Popen(args)
+            if self.filetype==".sh":
+                args=['bash',self.fullpath]
                 subprocess.Popen(args)
             else:
                 subprocess.Popen(self.fullpath)
@@ -57,7 +60,7 @@ class MODULE:
 
     def missing(self):
         "Print the missing message"
-        print "Missing Module %s, E104" %self.name
+        print "Missing Module %s, E104" %self.fullpath
 
 class SUBMODULE(MODULE):
     'Class for submodule'
@@ -127,9 +130,9 @@ class FLOW:
 
     def __init__(self):
         self.audio = MODULE("audio", filetype=".py")
-        self.bluetooth = MODULE("bluetooth")
+        self.bluetooth = MODULE("bluetooth", filetype=".sh")
         self.bpressure = MODULE("bpressure", sublist=["bpressure_poweron"])
-        self.scale = MODULE("scale")
+        self.scale = MODULE("scale", filetype=".py")
         self.spo2 = MODULE("spo2")
         self.temp = MODULE("temp")
         self.touch = MODULE("touch")

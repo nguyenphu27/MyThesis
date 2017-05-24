@@ -6,6 +6,7 @@ Update: Mar 27, 2017"""
 
 def prepare_result():
     "Collecting data from result files and format the data"
+    print "Can do chieu cao, can nang, do huyet ap, thu suc keo, ..."
     filestream = list()
     # Can do chieu cao, can nang, do huyet ap, ...
     filestream.append(open('height_result','r'))
