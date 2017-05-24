@@ -20,7 +20,7 @@ if HEALTHSYSTEM.audio.is_exist() == 0:
 
 else:
     # START voice
-    MP3LIST['main_voice'].play()
+    MP3LIST['welcome_voice'].play()
     # Sleep to free resource
     # Poll every 2secs
     sleep(10)
