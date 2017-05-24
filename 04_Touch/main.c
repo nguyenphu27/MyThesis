@@ -22,6 +22,8 @@ int main()
  
 // Set RPI pin P1-11 to be an input
 	bcm2835_gpio_fsel(PIN, BCM2835_GPIO_FSEL_INPT);	  
+	  /*  with a pullup */
+    //bcm2835_gpio_set_pud(RPI_GPIO_P1_15, BCM2835_GPIO_PUD_UP);
 	 FILE *fp;
     while (1)
     {
