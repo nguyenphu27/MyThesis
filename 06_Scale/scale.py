@@ -17,10 +17,12 @@ while True:
     line = ser.readline();
     line = line.decode("utf-8") #ser.readline returns a binary, convert to string
     print(line);
-    delay_sample += 1
     if delay_sample==2:
         start_file = open(make_this_file, "w+")
         start_file.close()
+        delay_sample += 1
+    elif delay_sample<2:
+        delay_sample += 1
 
     if '0.0' not in line:
         count +=1
