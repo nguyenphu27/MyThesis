@@ -11,6 +11,10 @@ import subprocess
 from prepare_result import prepare_result
 HEALTHSYSTEM = FLOW()
 
+# wait for touch module send start signal
+# ... 
+
+
 # setup audio
 if HEALTHSYSTEM.audio.exist_flag:
     print "Setup audio system"
@@ -22,7 +26,7 @@ if HEALTHSYSTEM.bluetooth.exist_flag:
     HEALTHSYSTEM.bluetooth.call()
 
 # initialize scale
-if HEALTHSYSTEM.scale.exist_flag==1:
+if HEALTHSYSTEM.scale.exist_flag:
     print "Initializing Scale module"
     HEALTHSYSTEM.scale.call()
 
@@ -39,5 +43,6 @@ while 1:
             #HEALTHSYSTEM.wifi.call()
             break
     except KeyboardInterrupt:
-        print 'Ctrl C'
+        print '\nCatched Ctrl C'
+        break
 # END

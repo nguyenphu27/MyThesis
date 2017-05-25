@@ -73,7 +73,7 @@ class MP3:
            #         print err
 
             subprocess.Popen(args)
-            print self.name, 'is playing'
+            #print self.name, 'is playing'
         else:
-            print self.name, 'is playing'
+            pass
         self.was_played_flag=1

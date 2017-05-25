@@ -1,0 +1,2 @@
+scp D:\00_works\MyThesis\01_Main\*.py pi@123.21.132.223:/home/pi/healthsystem/
+ps -ef | grep xx
