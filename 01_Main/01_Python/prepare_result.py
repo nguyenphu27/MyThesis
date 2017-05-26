@@ -9,18 +9,43 @@ def prepare_result():
     print "Can do chieu cao, can nang, do huyet ap, thu suc keo, ..."
     filestream = list()
     # Can do chieu cao, can nang, do huyet ap, ...
-    #filestream.append(open('height_result','r'))
-    filestream.append(open('scale_result','r'))
-    #filestream.append(open('bpressure_result','r'))
-    #filestream.append(open('spo2_result','r'))
-    #filestream.append(open('temp_result','r'))
-    idx = 0
+    try:
+        filestream.append(open('height_result','r'))
+    except:
+        filestream.append('0')
+
+    try:
+        filestream.append(open('scale_result','r'))
+    except:
+        filestream.append('0')
+
+    try:
+        filestream.append(open('bpressure_result','r'))
+    except:
+        filestream.append('0')
+
+    try:
+        filestream.append(open('spo2_result','r'))
+    except:
+        filestream.append('0')
+
+    try:
+        filestream.append(open('temp_result','r'))
+    except:
+        filestream.append('0')
+
     collected=list()
     for item in filestream:
-        collected.append(item.read())
+        try:
+            collected.append(item.read())
+        except AttributeError:
+            collected.append('0')
         collected.append(',')
-        item.close()
-        idx+=1
+        try:
+            item.close()
+        except AttributeError:
+            pass
+
     result= open('result','w')
     for each in collected[0:len(collected)-1]:
         result.write(each)

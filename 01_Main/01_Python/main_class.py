@@ -148,7 +148,7 @@ class FLOW:
         'Clean communication files when initialize system'
         self.touch.finish.delete()
         self.scale.start.delete()
-        self.scale.reult.delete()
+        self.scale.result.delete()
         self.bluetooth.result.delete()
 
     def setup_bpressure(self):

@@ -32,4 +32,4 @@ while 1:
         MP3LIST['end_voice'].play()
         break
 # Says sth when all result presented
-
+print 'Audio OFF'
