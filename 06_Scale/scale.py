@@ -29,6 +29,8 @@ while True:
         result.append(line)
         if count==3:
             output_file = open(write_to_file_path, "w+");
-            output_file.write(result[1]);
+            for i in range (10):
+                if result[i] = result[i-1]:
+                    output_file.write(result[i]);
             output_file.close()
             break
