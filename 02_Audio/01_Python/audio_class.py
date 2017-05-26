@@ -12,9 +12,10 @@ from main_class import File
 # Detect Project's path (windows version is here only for testing, will be remove when stable
 if 'Linux' in platform():
     PROJECTPATH = r"/home/pi/healthsystem/"
+    MP3_SUFFIX = r"mp3/"
 else:
     PROJECTPATH = r"D:\00_work\local\01_healthsystem"
-MP3_SUFFIX = r"mp3"
+    MP3_SUFFIX = r"mp3\\"
 MP3PATH = os.path.join(PROJECTPATH, MP3_SUFFIX)
 
 # Define class
@@ -27,6 +28,7 @@ class MP3:
         self.filetype=filetype
         self.path = path
         self.fullpath = os.path.join(self.path, self.name)
+        print self.fullpath
         self.exist_flag = self.is_exist()
         self.was_played_flag = 0
         if self.exist_flag==0:
