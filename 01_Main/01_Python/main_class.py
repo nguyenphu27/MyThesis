@@ -142,10 +142,14 @@ class FLOW:
         self.touch = MODULE("touch")
         self.uno = MODULE("uno", sublist=["height"])
         self.wifi = MODULE("wifi")
+        self.clean_workspace()
 
-    def setup_bluetooth(self):
-        'Call bluetooth module for preparing service to pair with user\'s phone'
-        self.bluetooth.call()
+    def clean_workspace(self):
+        'Clean communication files when initialize system'
+        self.touch.finish.delete()
+        self.scale.start.delete()
+        self.scale.reult.delete()
+        self.bluetooth.result.delete()
 
     def setup_bpressure(self):
         'Call bpressure_poweron to power on the BP machine'
