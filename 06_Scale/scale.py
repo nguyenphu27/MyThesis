@@ -33,3 +33,4 @@ while True:
         output_file.write(result[i])
         output_file.close()
         break
+ser.close() #close serial
