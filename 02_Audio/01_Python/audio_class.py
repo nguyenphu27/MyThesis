@@ -24,6 +24,7 @@ class MP3:
     mp3_count = 0
 
     def __init__(self, name, path=MP3PATH, filetype=".mp3", sublist=[]):
+        self.firstname = name
         self.name = name + filetype
         self.filetype=filetype
         self.path = path

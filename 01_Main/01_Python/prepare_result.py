@@ -9,11 +9,11 @@ def prepare_result():
     print "Can do chieu cao, can nang, do huyet ap, thu suc keo, ..."
     filestream = list()
     # Can do chieu cao, can nang, do huyet ap, ...
-    filestream.append(open('height_result','r'))
+    #filestream.append(open('height_result','r'))
     filestream.append(open('scale_result','r'))
-    filestream.append(open('bpressure_result','r'))
-    filestream.append(open('spo2_result','r'))
-    filestream.append(open('temp_result','r'))
+    #filestream.append(open('bpressure_result','r'))
+    #filestream.append(open('spo2_result','r'))
+    #filestream.append(open('temp_result','r'))
     idx = 0
     collected=list()
     for item in filestream:

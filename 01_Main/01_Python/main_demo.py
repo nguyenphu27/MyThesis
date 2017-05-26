@@ -45,4 +45,14 @@ while 1:
     except KeyboardInterrupt:
         print '\nCatched Ctrl C'
         break
+
+        os.system('pgrep python > pidlist')
+        f = open('./pidlist','r')
+        for i in f:
+            print 'kill',
+            print i
+            try:
+                os.system('sudo kill ' + i)
+            except:
+                pass
 # END

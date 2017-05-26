@@ -18,6 +18,7 @@ class MODULE:
     module_count = 0
 
     def __init__(self, name, path=PROJECTPATH, filetype=".c", sublist=[]):
+        self.firstname=name
         if filetype==".c":
             self.name = name
         else:
@@ -28,9 +29,9 @@ class MODULE:
         self.exist_flag = self.is_exist()
         if self.exist_flag==0:
             self.missing()
-        self.finish=FileFinish(self.name)
-        self.start=FileStart(self.name)
-        self.result=FileResult(self.name)
+        self.finish=FileFinish(self.firstname)
+        self.start=FileStart(self.firstname)
+        self.result=FileResult(self.firstname)
         MODULE.module_count += 1
         self.sub = []
         self.subcount = 0
