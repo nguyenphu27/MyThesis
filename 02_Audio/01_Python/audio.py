@@ -13,23 +13,28 @@ MP3LIST = {'welcome_voice':MP3('welcome_voice'),\
         'touch_voice':MP3('touch_voice', sublist=['touch_finish']),\
         'scale_voice':MP3('scale_voice', sublist=['scale_start']),\
         'scale_start_voice':MP3('scale_start_voice', sublist=['scale_start']),
-        'end_voice':MP3('end_voice', sublist=['spo2_result', 'scale_result',\
-                         'temp_result','height_result','bpressure_result'])}
+        'end_voice_demo':MP3('end_voice',sublist=['scale_result']),\
+        #'end_voice':MP3('end_voice', sublist=['spo2_result', 'scale_result',\
+        #                 'temp_result','height_result','bpressure_result'])\
+            }
 # Check audio modules existence
 
 # START voice
 MP3LIST['welcome_voice'].play()
 # Sleep to free resource
-sleep(3)
+
+sleep(2)
+
 # wait for scale_start file
 while HEALTHSYSTEM.scale.start.is_exist() == 0:
+    sleep(1)
     pass
 MP3LIST['scale_start_voice'].play()
 while 1:
     sleep(3)
-    SCALE_RESULT =  HEALTHSYSTEM.scale.result.is_exist()
-    if SCALE_RESULT and MP3LIST['end_voice'].was_played_flag==0:
-        MP3LIST['end_voice'].play()
+    MP3LIST['end_voice_demo'].play()
+    if MP3LIST['end_voice_demo'].was_played_flag==1:
+        sleep(3)
         break
 # Says sth when all result presented
 print 'Audio OFF'

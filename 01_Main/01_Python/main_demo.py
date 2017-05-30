@@ -14,21 +14,23 @@ HEALTHSYSTEM = FLOW()
 # wait for touch module send start signal
 # ... 
 
-
+# setup bluetooth
+if HEALTHSYSTEM.bluetooth.exist_flag:
+    print "Setup bluetooth service"
+    HEALTHSYSTEM.bluetooth.call()
+    while HEALTHSYSTEM.bluetooth.result.is_exist()==0:
+        sleep(0.5)
+        pass
 # setup audio
 if HEALTHSYSTEM.audio.exist_flag:
     print "Setup audio system"
     HEALTHSYSTEM.audio.call()
 
-# setup bluetooth
-if HEALTHSYSTEM.bluetooth.exist_flag:
-    print "Setup bluetooth service"
-    HEALTHSYSTEM.bluetooth.call()
-
 # initialize scale
 if HEALTHSYSTEM.scale.exist_flag:
     print "Initializing Scale module"
     HEALTHSYSTEM.scale.call()
+    #HEALTHSYSTEM.scale.start.create()
 
 while 1:
     try:
@@ -52,7 +54,7 @@ while 1:
             print 'kill',
             print i
             try:
-                os.system('sudo kill ' + i)
+                os.system('sudo kill ' + i +'>./log/kill_log')
             except:
                 pass
 # END
