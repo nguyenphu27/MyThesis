@@ -13,6 +13,10 @@ HEALTHSYSTEM = FLOW()
 
 # wait for touch module send start signal
 # ... 
+# setup audio
+if HEALTHSYSTEM.audio.exist_flag:
+    print "Setup audio system"
+    HEALTHSYSTEM.audio.call()
 
 # setup bluetooth
 if HEALTHSYSTEM.bluetooth.exist_flag:
@@ -21,10 +25,7 @@ if HEALTHSYSTEM.bluetooth.exist_flag:
     while HEALTHSYSTEM.bluetooth.result.is_exist()==0:
         sleep(0.5)
         pass
-# setup audio
-if HEALTHSYSTEM.audio.exist_flag:
-    print "Setup audio system"
-    HEALTHSYSTEM.audio.call()
+
 
 # initialize scale
 if HEALTHSYSTEM.scale.exist_flag:
