@@ -49,4 +49,3 @@ def prepare_result():
     with open("result","w") as result:
         json.dump(collected[0:len(collected)-1],result)
         result.close()
-prepare_result()
