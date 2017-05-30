@@ -58,7 +58,11 @@
         <activity android:name=".Bluetooth" />
         <activity
             android:name=".LoginActivity"
-            android:label="@string/title_activity_login"></activity>
+            android:label="@string/title_activity_login" />
+        <activity
+            android:name=".Navigation"
+            android:label="@string/title_activity_navigation"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
 </manifest>

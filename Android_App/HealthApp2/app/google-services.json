@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "442270632346",
+    "project_id": "healthapp-697c2"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:442270632346:android:924921f196cbc0f2",
+        "android_client_info": {
+          "package_name": "com.example.test.healthapp2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "442270632346-mqh1e02ssl4ls8jcjvl1d2o1aclk9ff4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.test.healthapp2",
+            "certificate_hash": "be2f23e2145a14926f9f2e040a4008ed2484c08a"
+          }
+        },
+        {
+          "client_id": "442270632346-pm2sto99sp9hd3t5sbdef2qc30ob4khj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyArN-H6OFTBCO0GBM-BlZJvpHFrwPcRvgw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

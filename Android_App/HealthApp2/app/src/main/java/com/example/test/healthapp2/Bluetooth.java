@@ -26,6 +26,7 @@ public class Bluetooth extends AppCompatActivity {
     BluetoothSocket mmSocket;
     BluetoothDevice mmDevice = null;
 
+    boolean connected = false;
     boolean workDone = false;
     UUID uuid = UUID.fromString("00001101-0000-1000-8000-00805f9b34fb"); //Standard SerialPortService ID
     private BluetoothAdapter BA;
@@ -87,7 +88,8 @@ public class Bluetooth extends AppCompatActivity {
         //start connect button handler
         connectButton.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
-                (new Thread(new workerThread("Connected and sent string data"))).start();
+                if(connected)(new Thread(new workerThread("Connected and sent string data"))).start();
+                else Toast.makeText(Bluetooth.this, "device hasn't connected yet", Toast.LENGTH_SHORT).show();
             }
         });
         //end connect button handler
@@ -95,7 +97,8 @@ public class Bluetooth extends AppCompatActivity {
         //start disconnect button handler
         disconnectButton.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
-                (new Thread(new workerThread("disconnected"))).start();
+                if(connected)(new Thread(new workerThread("disconnected"))).start();
+                else Toast.makeText(Bluetooth.this, "device hasn't connected yet", Toast.LENGTH_SHORT).show();
             }
         });
         //end disconnect button handler
@@ -108,8 +111,16 @@ public class Bluetooth extends AppCompatActivity {
         pairedDevices = mBluetoothAdapter.getBondedDevices();
 
         //show paired devices on list view
-        for(BluetoothDevice device : pairedDevices) List.add(device.getName());
-        lv.setAdapter(adapter);
+        for(BluetoothDevice device : pairedDevices)
+        {
+            adapter.notifyDataSetChanged();
+            List.add(device.getName());
+            lv.setAdapter(adapter);
+
+        }
+//        adapter.notifyDataSetChanged();
+
+
 
         //listview on item selected listener
         lv.setOnItemClickListener(new AdapterView.OnItemClickListener() {
@@ -122,13 +133,21 @@ public class Bluetooth extends AppCompatActivity {
                         try {
                             mmSocket = mmDevice.createRfcommSocketToServiceRecord(uuid);
                             if (!mmSocket.isConnected()){
-                                mmSocket.connect();
+                                try{
+                                    mmSocket.connect();
+                                    connected = true;
+                                    Toast.makeText(Bluetooth.this, adapter.getItem(position).toString(), Toast.LENGTH_SHORT).show();
+                                }
+                                catch(IOException e) {
+                                    // TODO Auto-generated catch block
+                                    e.printStackTrace();
+                                    Toast.makeText(Bluetooth.this, "device cannot be connected", Toast.LENGTH_SHORT).show();
+                                }
                             }
                         } catch (IOException e) {
                             // TODO Auto-generated catch block
                             e.printStackTrace();
                         }
-                        Toast.makeText(Bluetooth.this, adapter.getItem(position).toString(), Toast.LENGTH_SHORT).show();
                     }
                 }
             }
