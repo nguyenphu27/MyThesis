@@ -29,7 +29,9 @@ while True:
         for i in range (10):
             result.append(line)
             if result[i] == result[i-1]:
-                break
+                if i>=2:
+                    if result[i]==result[i-2]:
+                        break
         output_file.write(result[i])
         output_file.close()
         break
