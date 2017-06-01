@@ -28,10 +28,9 @@ while True:
         output_file = open(write_to_file_path, "w+");
         for i in range (10):
             result.append(line)
-            if result[i] == result[i-1]:
-                if i>=2:
-                    if result[i]==result[i-2]:
-                        break
+            if i>=2:
+                if result[i] == result[i-1] and result[i] == result[i-2]:
+                    break
         output_file.write(result[i])
         output_file.close()
         break
