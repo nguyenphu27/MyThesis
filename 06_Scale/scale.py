@@ -31,7 +31,7 @@ while True:
             if i>=2:
                 if result[i] == result[i-1] and result[i] == result[i-2]:
                     break
-        output_file.write(result[i])
+        output_file.write(result[i][0:len(result[i])-3])
         output_file.close()
         break
 ser.close() #close serial
