@@ -60,8 +60,10 @@ public class Bluetooth extends AppCompatActivity {
         final Button disconnectButton = (Button) findViewById(R.id.disconnect);
 
         pairedDevices = BA.getBondedDevices();
-        final ArrayList List = new ArrayList();
+        final ArrayList<String> List = new ArrayList();
         final ArrayAdapter<String> adapter = new ArrayAdapter<>(this, android.R.layout.simple_list_item_1,List);
+
+        lv.setAdapter(adapter);
 
         final BluetoothAdapter mBluetoothAdapter = BluetoothAdapter.getDefaultAdapter();
 
@@ -113,14 +115,10 @@ public class Bluetooth extends AppCompatActivity {
         //show paired devices on list view
         for(BluetoothDevice device : pairedDevices)
         {
-            adapter.notifyDataSetChanged();
             List.add(device.getName());
-            lv.setAdapter(adapter);
-
+//            adapter.notifyDataSetChanged();
         }
-//        adapter.notifyDataSetChanged();
-
-
+        lv.setAdapter(adapter);
 
         //listview on item selected listener
         lv.setOnItemClickListener(new AdapterView.OnItemClickListener() {
@@ -153,4 +151,5 @@ public class Bluetooth extends AppCompatActivity {
             }
         });
     }
+
 }
