@@ -9,6 +9,12 @@ def prepare_result():
     print "Can do chieu cao, can nang, do huyet ap, thu suc keo, ..."
     filestream = list()
     # Can do chieu cao, can nang, do huyet ap, ...
+
+    try:
+        filestream.append(open('bluetooth_result','r'))
+    except:
+        filestream.append('30:75:12:A0:74:5A')
+
     try:
         filestream.append(open('height_result','r'))
     except:
@@ -39,8 +45,8 @@ def prepare_result():
         try:
             collected.append(item.read())
         except AttributeError:
-            collected.append('00')
-        collected.append(',')
+            collected.append('0')
+        #collected.append(',')
         try:
             item.close()
         except AttributeError:
