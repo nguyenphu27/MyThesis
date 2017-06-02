@@ -4,12 +4,13 @@ Author: Huy Vu
 Date: Mar 27, 2017
 Update: Mar 27, 2017"""
 import json
+from time import ctime
 def prepare_result():
     "Collecting data from result files and format the data"
     print "Can do chieu cao, can nang, do huyet ap, thu suc keo, ..."
     filestream = list()
     # Can do chieu cao, can nang, do huyet ap, ...
-
+    
     try:
         filestream.append(open('bluetooth_result','r'))
     except:
@@ -41,6 +42,7 @@ def prepare_result():
         filestream.append('0')
 
     collected=list()
+    collected.append(ctime())
     for item in filestream:
         try:
             collected.append(item.read())
@@ -52,6 +54,6 @@ def prepare_result():
         except AttributeError:
             pass
 
-    with open("result","w") as result:
+    with open("result","a") as result:
         json.dump(collected[0:len(collected)-1],result)
         result.close()
