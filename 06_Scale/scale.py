@@ -27,11 +27,14 @@ while True:
     if '0.0' not in line:
         output_file = open(write_to_file_path, "w+");
         for i in range (10):
+            line = ser.readline();
+            line = line.decode("utf-8") #ser.readline returns a binary, convert to string
+            print(line);
             result.append(line)
             if i>=2:
                 if result[i] == result[i-1] and result[i] == result[i-2]:
                     break
-        output_file.write(result[i][0:len(result[i])-3])
+        output_file.write(result[i][0:len(result[i])-2])
         output_file.close()
         break
 ser.close() #close serial
