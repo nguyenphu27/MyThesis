@@ -1,52 +1,3 @@
-//#include "stm32f103c8t6.h"
-//#include "mbed.h"
-//  
-//int main() {
-//    confSysClock();     //Configure system clock (72MHz HSE clock, 48MHz USB clock)
-//    
-//    Serial      pc(PA_2, PA_3);
-//	pc.baud(115200);
-//    DigitalOut  myled(LED1);
-//    
-//    while(1) {
-//        // The on-board LED is connected, via a resistor, to +3.3V (not to GND). 
-//        // So to turn the LED on or off we have to set it to 0 or 1 respectively
-//        myled = 0;      // turn the LED on
-//        wait_ms(200);   // 200 millisecond
-//        myled = 1;      // turn the LED off
-//        wait_ms(1000);  // 1000 millisecond
-//        pc.printf("Blink\r\n");
-//			printf("blink\n;");
-//    }
-//}
- 
-
-/** \file main.cpp ******************************************************
-*
-* Project: MAXREFDES117#
-* Filename: main.cpp
-* Description: This module contains the Main application for the MAXREFDES117 example program.
-*
-*
-* --------------------------------------------------------------------
-*
-* This code follows the following naming conventions:
-*
-* char              ch_pmod_value
-* char (array)      s_pmod_s_string[16]
-* float             f_pmod_value
-* int32_t           n_pmod_value
-* int32_t (array)   an_pmod_value[16]
-* int16_t           w_pmod_value
-* int16_t (array)   aw_pmod_value[16]
-* uint16_t          uw_pmod_value
-* uint16_t (array)  auw_pmod_value[16]
-* uint8_t           uch_pmod_value
-* uint8_t (array)   auch_pmod_buffer[16]
-* uint32_t          un_pmod_value
-* int32_t *         pn_pmod_value
-*
-* ------------------------------------------------------------------------- */
 /*******************************************************************************
 * Copyright (C) 2016 Maxim Integrated Products, Inc., All Rights Reserved.
 *
@@ -98,6 +49,7 @@
 #include "mbed.h"
 #include "algorithm.h"
 #include "MAX30102.h"
+#include "string.h"
 
 #define MAX_BRIGHTNESS 255
 
@@ -111,18 +63,15 @@ int8_t  ch_hr_valid;    //indicator to show if the heart rate calculation is val
 uint8_t uch_dummy;
 
 Serial pc(USBTX, USBRX);    //initializes the serial port
-//#ifdef TARGET_KL25Z 
-//PwmOut led(PTB18);  //initializes the pwm output that connects to the on board LED
-DigitalIn INT(PA_4);  //pin PTD1 connects to the interrupt output pin of the MAX30102
-//#endif
-//#ifdef TARGET_K64F
-//DigitalIn INT(PTD1);  //pin PTD1 connects to the interrupt output pin of the MAX30102
-//#endif
-//#ifdef TARGET_MAX32600MBED
-//PwmOut led(LED_RED);    //initializes the pwm output that connects to the on board LED
-//DigitalIn INT(P2_0);  //pin P20 connects to the interrupt output pin of the MAX30102
-//#endif
 
+DigitalIn INT(PA_4);  //pin PTD1 connects to the interrupt output pin of the MAX30102
+
+const char start[]="start";
+const char stop[]="stop";
+char buffer[5];
+void callback(){
+	pc.printf("SPO2");
+}
 // the setup routine runs once when you press reset:
 int main() { 
     uint32_t un_min, un_max, un_prev_data;  //variables to calculate the on-board LED brightness that reflects the heartbeats
@@ -130,31 +79,25 @@ int main() {
     int32_t n_brightness;
     float f_temp;
     
+//		pc.attach(&callback);
+	
     maxim_max30102_reset(); //resets the MAX30102
     // initialize serial communication at 115200 bits per second:
     pc.baud(115200);
     pc.format(8,SerialBase::None,1);
     wait(1);
-    
+		
     //read and clear status register
     maxim_max30102_read_reg(0,&uch_dummy);
-    
-    //wait until the user presses a key
-    while(pc.readable()==0)
-    {
-        pc.printf("\x1B[2J");  //clear terminal program screen
-        pc.printf("Press any key to start conversion\n\r");
-        wait(1);
-    }
+
     uch_dummy=getchar();
     
     maxim_max30102_init();  //initializes the MAX30102
         
-        
     n_brightness=0;
     un_min=0x3FFFF;
     un_max=0;
-  
+
     n_ir_buffer_length=500; //buffer length of 100 stores 5 seconds of samples running at 100sps
     
     //read the first 500 samples, and determine the signal range
