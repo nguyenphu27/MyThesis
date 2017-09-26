@@ -3,7 +3,7 @@
 <title>Static Call Graph - [.\BUILD\STM32F103C8T6_Hello.axf]</title></head>
 <body><HR>
 <H1>Static Call Graph for image .\BUILD\STM32F103C8T6_Hello.axf</H1><HR>
-<BR><P>#&#060CALLGRAPH&#062# ARM Linker, 5060422: Last Updated: Sun Sep 24 13:07:05 2017
+<BR><P>#&#060CALLGRAPH&#062# ARM Linker, 5060422: Last Updated: Mon Sep 25 20:32:15 2017
 <BR><P>
 <H3>Maximum Stack Usage =        760 bytes + Unknown(Cycles, Untraceable Function Pointers)</H3><H3>
 Call chain for Maximum Stack Depth:</H3>
@@ -2697,7 +2697,7 @@ Global Symbols
 <LI><a href="#[163]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;serial_init
 </UL>
 
-<P><STRONG><a name="[118]"></a>$Super$$main</STRONG> (Thumb, 492 bytes, Stack size 16 bytes, main.o(i.main))
+<P><STRONG><a name="[118]"></a>$Super$$main</STRONG> (Thumb, 506 bytes, Stack size 16 bytes, main.o(i.main))
 <BR><BR>[Stack]<UL><LI>Max Depth = 744 + Unknown Stack Size
 <LI>Call Chain = $Super$$main &rArr; maxim_max30102_read_fifo(unsigned*, unsigned*) &rArr; maxim_max30102_read_reg(unsigned char, unsigned char*) &rArr; mbed::I2C::write(int, const char*, int, bool) &rArr; i2c_write &rArr; i2c_init &rArr; mbed_assert_internal &rArr; mbed_error_printf &rArr; serial_init &rArr;  mbed_assert_internal (Cycle)
 </UL>

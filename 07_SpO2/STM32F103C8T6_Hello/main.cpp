@@ -177,6 +177,7 @@ int main() {
 //            pc.printf("HRvalid=%i, ", ch_hr_valid);
 						
 						pc.printf("%i\n\r", n_sp02);
+						pc.printf("%i\n\r", n_heart_rate);
 //            pc.printf("SpO2=%i, SPO2Valid=%i", n_sp02, ch_spo2_valid);
 //            pc.printf("SPO2Valid=%i\n\r", ch_spo2_valid);
 						
