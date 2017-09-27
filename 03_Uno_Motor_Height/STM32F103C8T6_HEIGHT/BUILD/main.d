@@ -142,3 +142,4 @@
 .\build\main.o: mbed/./mbed.h
 .\build\main.o: mbed/./platform/FileSystemHandle.h
 .\build\main.o: mbed/./platform/DirHandle.h
+.\build\main.o: ultrasonic.h
