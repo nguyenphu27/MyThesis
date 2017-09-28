@@ -44,4 +44,5 @@ class ultrasonic
         float _timeout;
         int d;
 };
+
 #endif

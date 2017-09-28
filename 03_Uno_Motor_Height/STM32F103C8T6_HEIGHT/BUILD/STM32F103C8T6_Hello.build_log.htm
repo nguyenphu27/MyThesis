@@ -29,28 +29,28 @@ Project File Date:  09/24/2017
 Rebuild target 'STM32F103C8T6_Hello'
 compiling SysClockConf.cpp...
 compiling main.cpp...
-ultrasonic.h(47): warning:  #1-D: last line of file ends without a newline
+compiling ultrasonic.cpp...
+ultrasonic\ultrasonic.h(47): warning:  #1-D: last line of file ends without a newline
   #endif
-main.cpp(67): warning:  #177-D: variable "sum"  was declared but never referenced
-        int sum = 0;
-main.cpp(68): warning:  #177-D: variable "i"  was declared but never referenced
-        int i=0;
-main.cpp: 3 warnings, 0 errors
+ultrasonic\ultrasonic.cpp(32): warning:  #1361-D: function "mbed::Ticker::attach(T *, M, float) [with T=ultrasonic, M=void (ultrasonic::*)()]"  (declared at line 94 of "mbed/./drivers/Ticker.h") was declared "deprecated"
+          _tout.attach(this,&ultrasonic::_startTrig, _updateSpeed);   
+ultrasonic\ultrasonic.cpp(40): warning:  #1361-D: function "mbed::InterruptIn::rise(T *, M) [with T=ultrasonic, M=void (ultrasonic::*)()]"  (declared at line 101 of "mbed/./drivers/InterruptIn.h") was declared "deprecated"
+              _echo.rise(this,&ultrasonic::_startT);   
+ultrasonic\ultrasonic.cpp(41): warning:  #1361-D: function "mbed::InterruptIn::fall(T *, M) [with T=ultrasonic, M=void (ultrasonic::*)()]"  (declared at line 125 of "mbed/./drivers/InterruptIn.h") was declared "deprecated"
+              _echo.fall(this,&ultrasonic::_updateDist);
+ultrasonic\ultrasonic.cpp(43): warning:  #1361-D: function "mbed::Ticker::attach(T *, M, float) [with T=ultrasonic, M=void (ultrasonic::*)()]"  (declared at line 94 of "mbed/./drivers/Ticker.h") was declared "deprecated"
+              _tout.attach(this,&ultrasonic::_startTrig,_timeout);
+ultrasonic\ultrasonic.cpp: 5 warnings, 0 errors
 linking...
-.\BUILD\STM32F103C8T6_Hello.axf: Error: L6218E: Undefined symbol ultrasonic::startUpdates() (referred from main.o).
-.\BUILD\STM32F103C8T6_Hello.axf: Error: L6218E: Undefined symbol ultrasonic::checkDistance() (referred from main.o).
-.\BUILD\STM32F103C8T6_Hello.axf: Error: L6218E: Undefined symbol ultrasonic::ultrasonic(PinName, PinName, float, float, void(*)(int)) (referred from main.o).
-Not enough information to list image symbols.
-Finished: 1 information, 0 warning and 3 error messages.
-".\BUILD\STM32F103C8T6_Hello.axf" - 3 Error(s), 3 Warning(s).
+Program Size: Code=27336 RO-data=2364 RW-data=92 ZI-data=2016  
+".\BUILD\STM32F103C8T6_Hello.axf" - 0 Error(s), 5 Warning(s).
 
 <h2>Collection of Component include folders:</h2>
   .\RTE\_STM32F103C8T6_Hello
   d:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include
 
 <h2>Collection of Component Files used:</h2>
-Target not created.
-Build Time Elapsed:  00:00:08
+Build Time Elapsed:  00:00:10
 </pre>
 </body>
 </html>

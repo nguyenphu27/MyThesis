@@ -60,12 +60,11 @@ void dist(int dist)
 	printf("distant:%d", dist);
 }
 
-ultrasonic u(PA_4,PA_5,.1,1,&dist);
+
 
 // the setup routine runs once when you press reset:
 int main() { 
-	int sum = 0;
-	int i=0;
+	ultrasonic u(PA_4,PA_5,.1,1,&dist);
 	  pc.baud(9600);
     pc.format(8,SerialBase::None,1);
 		wait(1);
