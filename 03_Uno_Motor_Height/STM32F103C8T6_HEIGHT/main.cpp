@@ -50,13 +50,13 @@
 #include "string.h"
 #include "ultrasonic.h"
 
-Serial pc(USBTX, USBRX);    //initializes the serial port
-Serial pc1(USBTX1, USBRX1);    //initializes the serial port
+Serial pc(USBTX, USBRX);    //initializes the serial port   
 char r[9];
 
 
 void dist(int dist)
 {
+	pc.printf("distant:%d", dist);
 	printf("distant:%d", dist);
 }
 
@@ -64,19 +64,18 @@ void dist(int dist)
 
 // the setup routine runs once when you press reset:
 int main() { 
-	ultrasonic u(PA_4,PA_5,.1,1,&dist);
+	
+//	ultrasonic u(PA_4,PA_5,.1,1,&dist);
 	  pc.baud(9600);
     pc.format(8,SerialBase::None,1);
-		wait(1);
-		pc1.baud(9600);
-    pc1.format(8,SerialBase::None,1);
-    wait(1);
-	
-	u.startUpdates();
-		while(1){
-			u.checkDistance();
-			wait(1);
-		}
+		wait(1);int a=10;
+	pc.printf("%d\r\n",a);
+//	u.startUpdates();
+//		while(1){
+//			
+//			u.checkDistance();
+//			wait(1);
+//		}
 
 }
 

@@ -19,6 +19,7 @@ int Status = Wait;
 void setup() {
   // put your setup code here, to run once:
   Serial.begin(9600);
+  Serial.println("Ready");
   pinMode(6, OUTPUT);
   pinMode(input, INPUT_PULLUP);
   
@@ -40,20 +41,15 @@ void setup() {
 int Distance()
 {
    unsigned long duration;
-   int distance;
-   
-   digitalWrite(trig,0);   // tắt chân trig
-   delayMicroseconds(2);
-   digitalWrite(trig,1);   // phát xung từ chân trig
-   delayMicroseconds(5);   // xung có độ dài 5 microSeconds
-   digitalWrite(trig,0);   // tắt chân trig
-   
-   duration = pulseIn(echo,HIGH);  
-   distance = int(duration/2/29.412);
-   
-   Serial.print(distance);//Serial.print(210 - distance);
-   Serial.println("cm");
-   delay(300);
+   int distance = 0;
+  char inByte= ' ';
+  
+  if(Serial.available()){ // only send data back if data has been sent
+  char inByte = Serial.read(); // read the incoming data
+  distance = int(inByte);
+  Serial.println(distance); // send the data back in a new line so that it is not all one long line
+  }
+  delay(100); // delay for 1/10 of a second
    return distance;
 }
 
@@ -80,7 +76,7 @@ bool IsStable()
   int maxDistance, minDistance;
   int TestDistance[5];
   
-  for (int i=0; i<5; i++)
+  for (int i=0; i<1; i++)
   {
     TestDistance[i]=Distance();
     if(i < 4)delay(200);
@@ -90,7 +86,7 @@ bool IsStable()
   maxDistance = TestDistance[0];
   minDistance = TestDistance[0];
   
-  for (int i=1; i<5; i++)
+  for (int i=1; i<2; i++)
   {
     if ( maxDistance < TestDistance[i])
     {
