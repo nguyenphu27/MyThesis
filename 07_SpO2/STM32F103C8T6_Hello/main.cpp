@@ -65,26 +65,44 @@ uint8_t uch_dummy;
 Serial pc(USBTX, USBRX);    //initializes the serial port
 
 DigitalIn INT(PA_4);  //pin PTD1 connects to the interrupt output pin of the MAX30102
-
-const char start[]="start";
-const char stop[]="stop";
+DigitalOut myled(LED1);
 char buffer[5];
-void callback(){
-	pc.printf("SPO2");
-}
+char r[9];
+int check=0;
 // the setup routine runs once when you press reset:
 int main() { 
     uint32_t un_min, un_max, un_prev_data;  //variables to calculate the on-board LED brightness that reflects the heartbeats
     int i;
     int32_t n_brightness;
     float f_temp;
-    
-//		pc.attach(&callback);
 	
-    maxim_max30102_reset(); //resets the MAX30102
-    // initialize serial communication at 115200 bits per second:
-    pc.baud(115200);
-    pc.format(8,SerialBase::None,1);
+		pc.baud(9600);
+  pc.format(8,SerialBase::None,1);
+	label:
+	myled=0;// turn the LED on
+  wait_ms(200); // 200 millisecond
+	myled=1; // turn the LED off
+  wait_ms(1000);
+ maxim_max30102_reset(); //resets the MAX30102
+	pc.printf("first while\n");
+	while(1)
+	{
+		pc.printf("first while\n");
+		pc.gets(r,3);
+		if(strcmp(r,"ID")==0)break;
+		wait(1);
+	}
+	
+	pc.printf("spo2");
+	wait(1);
+	
+	while(1)
+	{
+		pc.gets(r,6);
+		if(strcmp(r,"start")==0)break;
+		wait(1);
+	}
+
     wait(1);
 		
     //read and clear status register
@@ -97,7 +115,7 @@ int main() {
     n_brightness=0;
     un_min=0x3FFFF;
     un_max=0;
-
+	
     n_ir_buffer_length=500; //buffer length of 100 stores 5 seconds of samples running at 100sps
     
     //read the first 500 samples, and determine the signal range
@@ -111,10 +129,6 @@ int main() {
             un_min=aun_red_buffer[i];    //update signal min
         if(un_max<aun_red_buffer[i])
             un_max=aun_red_buffer[i];    //update signal max
-//        pc.printf("red=");
-//        pc.printf("%i", aun_red_buffer[i]);
-//        pc.printf(", ir=");
-//        pc.printf("%i\n\r", aun_ir_buffer[i]);
     }
     un_prev_data=aun_red_buffer[i];
     
@@ -130,7 +144,7 @@ int main() {
         un_max=0;
         
         //dumping the first 100 sets of samples in the memory and shift the last 400 sets of samples to the top
-        for(i=100;i<500;i++)
+        for(i=100;i<450;i++)
         {
             aun_red_buffer[i-100]=aun_red_buffer[i];
             aun_ir_buffer[i-100]=aun_ir_buffer[i];
@@ -143,7 +157,7 @@ int main() {
         }
         
         //take 100 sets of samples before calculating the heart rate.
-        for(i=400;i<500;i++)
+        for(i=400;i<450;i++)
         {
             un_prev_data=aun_red_buffer[i-1];
             while(INT.read()==1);
@@ -168,23 +182,26 @@ int main() {
                     n_brightness=MAX_BRIGHTNESS;
             }
 						
-            //send samples and calculation result to terminal program through UART
-//            pc.printf("red=");
-//            pc.printf("%i", aun_red_buffer[i]);
-//            pc.printf(", ir=");
-//            pc.printf("%i", aun_ir_buffer[i]);
-//            pc.printf(", HR=%i, ", n_heart_rate); 
-//            pc.printf("HRvalid=%i, ", ch_hr_valid);
+						pc.printf("sp%i\n", n_sp02);
 						
-						pc.printf("%i\n\r", n_sp02);
-						pc.printf("%i\n\r", n_heart_rate);
-//            pc.printf("SpO2=%i, SPO2Valid=%i", n_sp02, ch_spo2_valid);
-//            pc.printf("SPO2Valid=%i\n\r", ch_spo2_valid);
-						
+						pc.printf("hr%i\n", n_heart_rate);
+					
+					pc.gets(r,5);
+						pc.printf(r);
+					wait(1);
+					if(r[0]=='s')
+					{
+						check =1;
+						break;
+					}
         }
         maxim_heart_rate_and_oxygen_saturation(aun_ir_buffer, n_ir_buffer_length, aun_red_buffer, &n_sp02, &ch_spo2_valid, &n_heart_rate, &ch_hr_valid); 
-
+					if(check==1)
+					{
+						check=0;
+						break;
+					}
     }
-
+	goto label;
 }
 

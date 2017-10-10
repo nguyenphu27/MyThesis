@@ -51,25 +51,63 @@
 
 Serial pc(USBTX, USBRX);    //initializes the serial port
 Serial pc1(USBTX1, USBRX1);    //initializes the serial port
-char r[9];
-// the setup routine runs once when you press reset:
-int main() { 
-	int sum = 0;
-	int i=0;
-	  pc.baud(9600);
-    pc.format(8,SerialBase::None,1);
-		wait(1);
-		pc1.baud(9600);
-    pc1.format(8,SerialBase::None,1);
-    wait(1);
-		while(1){
-			pc1.putc(0xa5);
-			pc1.putc(0x15);
-			pc1.putc(0xba);
-			pc1.gets(r,9);
-			pc.printf(r);
-			wait(1);
-		}
 
+
+char r[9];
+
+// the setup routine runs once when you press reset:
+int main() {
+	pc.baud(9600);
+  pc.format(8,SerialBase::None,1);
+	label:
+	wait(1);
+	while(1)
+	{
+		pc.gets(r,3);
+		if(strcmp(r,"ID")==0)break;
+		wait(1);
+	}
+	
+	pc.printf("temp");
+	wait(1);
+	
+	while(1)
+	{
+		pc.gets(r,6);
+		if(strcmp(r,"start")==0)break;
+		wait(1);
+	}
+	
+	int i=0;
+	int a=0;
+	float ob,am=0;
+	wait(1);
+	pc1.baud(9600);
+	pc1.format(8,SerialBase::None,1);
+	wait(1);
+	while(1){
+		pc1.putc(0xa5);
+		pc1.putc(0x15);
+		pc1.putc(0xba);
+		pc1.gets(r,10);
+
+		for(i=0;i<8;i++)
+		{
+			a = r[i] + a;
+		}
+		a = a & 0xff;
+		if(a == int(r[i]))
+		{
+			wait(1);
+			ob=(float)(r[4]<<8|r[5])/100;
+			pc.printf("%f",ob);
+		}
+		a=0;
+		wait(1);
+		pc.gets(r,5);
+		wait(1);
+		if(strcmp(r,"stop")==0)break;
+	}
+	goto label;
 }
 
