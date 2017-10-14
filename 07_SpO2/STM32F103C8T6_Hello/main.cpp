@@ -84,26 +84,14 @@ int main() {
 	myled=1; // turn the LED off
   wait_ms(1000);
  maxim_max30102_reset(); //resets the MAX30102
-	pc.printf("first while\n");
-	while(1)
-	{
-		pc.printf("first while\n");
-		pc.gets(r,3);
-		if(strcmp(r,"ID")==0)break;
-		wait(1);
-	}
-	
-	pc.printf("spo2");
-	wait(1);
 	
 	while(1)
 	{
 		pc.gets(r,6);
+		if(strcmp(r,"ID   ")==0)pc.printf("spo2");
 		if(strcmp(r,"start")==0)break;
 		wait(1);
 	}
-
-    wait(1);
 		
     //read and clear status register
     maxim_max30102_read_reg(0,&uch_dummy);

@@ -1924,26 +1924,6 @@
               <FileType>5</FileType>
               <FilePath>mbed_config.h</FilePath>
             </File>
-            <File>
-              <FileName>ultrasonic.cpp</FileName>
-              <FileType>8</FileType>
-              <FilePath>.\ultrasonic\ultrasonic.cpp</FilePath>
-            </File>
-            <File>
-              <FileName>ultrasonic.h</FileName>
-              <FileType>5</FileType>
-              <FilePath>.\ultrasonic\ultrasonic.h</FilePath>
-            </File>
-            <File>
-              <FileName>hcsr04.cpp</FileName>
-              <FileType>8</FileType>
-              <FilePath>.\ultrasonic\hcsr04.cpp</FilePath>
-            </File>
-            <File>
-              <FileName>hcsr04.h</FileName>
-              <FileType>5</FileType>
-              <FilePath>.\ultrasonic\hcsr04.h</FilePath>
-            </File>
           </Files>
         </Group>
       </Groups>

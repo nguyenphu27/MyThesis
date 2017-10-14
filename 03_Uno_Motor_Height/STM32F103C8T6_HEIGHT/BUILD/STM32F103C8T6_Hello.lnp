@@ -90,8 +90,6 @@
 "mbed/TARGET_NUCLEO_F103RB/TOOLCHAIN_ARM_STD/us_ticker_32b.o"
 ".\build\sysclockconf.o"
 ".\build\main.o"
-".\build\ultrasonic.o"
-".\build\hcsr04.o"
 --scatter "mbed/TARGET_NUCLEO_F103RB/TOOLCHAIN_ARM_STD/stm32f103xb.sct"
 --summary_stderr --info summarysizes --map --xref --callgraph --symbols
 --info sizes --info totals --info unused --info veneers

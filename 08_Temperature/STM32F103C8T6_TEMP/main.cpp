@@ -59,21 +59,13 @@ char r[9];
 int main() {
 	pc.baud(9600);
   pc.format(8,SerialBase::None,1);
+	int check=0;
 	label:
 	wait(1);
 	while(1)
 	{
-		pc.gets(r,3);
-		if(strcmp(r,"ID")==0)break;
-		wait(1);
-	}
-	
-	pc.printf("temp");
-	wait(1);
-	
-	while(1)
-	{
 		pc.gets(r,6);
+		if(strcmp(r,"ID   ")==0)pc.printf("temp");;
 		if(strcmp(r,"start")==0)break;
 		wait(1);
 	}
