@@ -3,7 +3,7 @@
 <title>Static Call Graph - [.\BUILD\STM32F103C8T6_Hello.axf]</title></head>
 <body><HR>
 <H1>Static Call Graph for image .\BUILD\STM32F103C8T6_Hello.axf</H1><HR>
-<BR><P>#&#060CALLGRAPH&#062# ARM Linker, 5060422: Last Updated: Sat Oct 14 21:58:56 2017
+<BR><P>#&#060CALLGRAPH&#062# ARM Linker, 5060422: Last Updated: Sun Oct 15 12:52:15 2017
 <BR><P>
 <H3>Maximum Stack Usage =        760 bytes + Unknown(Cycles, Untraceable Function Pointers)</H3><H3>
 Call chain for Maximum Stack Depth:</H3>
@@ -2126,7 +2126,7 @@ Global Symbols
 
 <P><STRONG><a name="[1c2]"></a>mbed::FilePath::FilePath__sub_object(const char*)</STRONG> (Thumb, 0 bytes, Stack size 8 bytes, FilePath.o(i._ZN4mbed8FilePathC1EPKc), UNUSED)
 
-<P><STRONG><a name="[16a]"></a>mbed::DigitalIn::operator int()</STRONG> (Thumb, 26 bytes, Stack size 0 bytes, main.o(i._ZN4mbed9DigitalIncviEv))
+<P><STRONG><a name="[16b]"></a>mbed::DigitalIn::operator int()</STRONG> (Thumb, 26 bytes, Stack size 0 bytes, main.o(i._ZN4mbed9DigitalIncviEv))
 <BR><BR>[Called By]<UL><LI><a href="#[110]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;$Super$$main
 </UL>
 
@@ -2413,7 +2413,7 @@ Global Symbols
 <LI><a href="#[138]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;serial_init
 </UL>
 
-<P><STRONG><a name="[110]"></a>$Super$$main</STRONG> (Thumb, 360 bytes, Stack size 0 bytes, main.o(i.main))
+<P><STRONG><a name="[110]"></a>$Super$$main</STRONG> (Thumb, 318 bytes, Stack size 0 bytes, main.o(i.main))
 <BR><BR>[Stack]<UL><LI>Max Depth = 616 + Unknown Stack Size
 <LI>Call Chain = $Super$$main &rArr; mbed::SerialBase::format(int, mbed::SerialBase::Parity, int) &rArr; serial_format &rArr; mbed_assert_internal &rArr; mbed_error_printf &rArr; serial_init &rArr;  mbed_assert_internal (Cycle)
 </UL>
@@ -2421,9 +2421,9 @@ Global Symbols
 <LI><a href="#[13e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;core_util_critical_section_enter
 <LI><a href="#[16d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;wait_us
 <LI><a href="#[167]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;gpio_mode
-<LI><a href="#[16a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbed::DigitalIn::operator int()
+<LI><a href="#[16b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbed::DigitalIn::operator int()
 <LI><a href="#[16c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbed::DigitalOut::operator =(int)
-<LI><a href="#[16b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;wait
+<LI><a href="#[16a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;wait
 <LI><a href="#[14b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbed::Stream::printf(const char*, ...)
 <LI><a href="#[149]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbed::Stream::gets(char*, int)
 <LI><a href="#[143]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbed::Timer::read_us()
@@ -2708,7 +2708,7 @@ Global Symbols
 </UL>
 <BR>[Called By]<UL><LI><a href="#[172]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;wait_ms
 <LI><a href="#[16d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;wait_us
-<LI><a href="#[16b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;wait
+<LI><a href="#[16a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;wait
 </UL>
 <BR>[Address Reference Count : 1]<UL><LI> mbed_us_ticker_api.o(.constdata)
 </UL>
@@ -2720,7 +2720,7 @@ Global Symbols
 </UL>
 <BR>[Address Reference Count : 1]<UL><LI> mbed_us_ticker_api.o(.constdata)
 </UL>
-<P><STRONG><a name="[16b]"></a>wait</STRONG> (Thumb, 32 bytes, Stack size 16 bytes, mbed_wait_api_no_rtos.o(i.wait))
+<P><STRONG><a name="[16a]"></a>wait</STRONG> (Thumb, 32 bytes, Stack size 16 bytes, mbed_wait_api_no_rtos.o(i.wait))
 <BR><BR>[Stack]<UL><LI>Max Depth = 64<LI>Call Chain = wait &rArr; us_ticker_read &rArr; HAL_InitTick &rArr; HAL_TIM_Base_Init &rArr; TIM_Base_SetConfig
 </UL>
 <BR>[Calls]<UL><LI><a href="#[5c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;us_ticker_read
@@ -2834,7 +2834,7 @@ Global Symbols
 <P><STRONG><a name="[180]"></a>__aeabi_f2iz</STRONG> (Thumb, 0 bytes, Stack size 16 bytes, ffix.o(x$fpl$ffix))
 <BR><BR>[Stack]<UL><LI>Max Depth = 16<LI>Call Chain = __aeabi_f2iz
 </UL>
-<BR>[Called By]<UL><LI><a href="#[16b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;wait
+<BR>[Called By]<UL><LI><a href="#[16a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;wait
 </UL>
 
 <P><STRONG><a name="[185]"></a>_ffix</STRONG> (Thumb, 54 bytes, Stack size 16 bytes, ffix.o(x$fpl$ffix), UNUSED)
@@ -2844,7 +2844,7 @@ Global Symbols
 <P><STRONG><a name="[17f]"></a>__aeabi_fmul</STRONG> (Thumb, 0 bytes, Stack size 16 bytes, fmul.o(x$fpl$fmul))
 <BR><BR>[Stack]<UL><LI>Max Depth = 16<LI>Call Chain = __aeabi_fmul
 </UL>
-<BR>[Called By]<UL><LI><a href="#[16b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;wait
+<BR>[Called By]<UL><LI><a href="#[16a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;wait
 </UL>
 
 <P><STRONG><a name="[187]"></a>_fmul</STRONG> (Thumb, 258 bytes, Stack size 16 bytes, fmul.o(x$fpl$fmul), UNUSED)

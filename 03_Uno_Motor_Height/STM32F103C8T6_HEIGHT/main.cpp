@@ -62,29 +62,21 @@ Timer sonar;
 
 // the setup routine runs once when you press reset:
 int main() { 
-	echo.mode(PullUp);
-	  pc.baud(9600);
-    pc.format(8,SerialBase::None,1);
-		int echo1 = echo;
+		echo.mode(PullUp);
+		pc.baud(9600);
+		pc.format(8,SerialBase::None,1);
+
 		label:
-	wait(1);
+		wait(0.5);
 		sonar.reset();
-	while(1)
-	{
-		pc.gets(r,3);
-		if(strcmp(r,"ID")==0)break;
-		wait(1);
-	}
-	
-	pc.printf("height");
-	wait(1);
-	
-	while(1)
-	{
-		pc.gets(r,6);
-		if(strcmp(r,"start")==0)break;
-		wait(1);
-	}
+		while(1)
+		{
+			pc.gets(r,6);
+			if(strcmp(r,"ID   ")==0)pc.printf("height");
+			if(strcmp(r,"start")==0)break;
+			wait(0.5);
+		}
+
 		sonar.start();
 		while(echo==2){};
 		sonar.stop();
