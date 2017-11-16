@@ -14,7 +14,7 @@ if os.path.exists("height_port"):
 connect = 1
 
 try: 
-	ser_motor = serial.Serial("/dev/ACM0", baudrate = 9600,timeout=1)
+	ser_motor = serial.Serial('/dev/ttyACM0', baudrate = 9600,timeout=1)
 except serial.SerialException as ex:
 	print("cannot connect to motor of temp module")
 	connect=0
@@ -37,9 +37,6 @@ try:
 					a=ser.readline()
 					data=a.decode()
 					print(data)
-#					data=a
-#					data=data.rstrip()
-#					print(data)
 					j+=1
 					if data != '':
 						j=0
@@ -49,17 +46,21 @@ try:
 						if connect:
 							data=str(int(a))+'!'
 							for k in range(3):
+								print("send distance to temp motor")
 								ser_motor.write(bytes(data,'UTF-8'))
 								a=ser_motor.readline()
 							while(1):
+								print("wait for response")
 								ser.write(bytes("     ",'UTF-8'))
 								a=ser.readline().decode()
 								data=a
-								if int(a)>50:
-									for k in range(3):
-										ser_motor.write(bytes(data,'UTF-8'))
-										a=ser_motor.readline()
-									break
+								print("distance after finished:",data)
+								if data!=bytes("     ",'UTF-8'):
+									if int(data)>50:
+										for k in range(3):
+											ser_motor.write(bytes(data,'UTF-8'))
+											a=ser_motor.readline()
+										break
 						break
 				ser.write(bytes("stop",'UTF-8'))
 				ser.close()

@@ -65,8 +65,12 @@ int main() {
 	while(1)
 	{
 		pc.gets(r,6);
-		if(strcmp(r,"ID   ")==0)pc.printf("temp");;
-		if(strcmp(r,"start")==0)break;
+		if(strcmp(r,"ID   ")==0)pc.printf("temp");
+		if(strcmp(r,"start")==0)
+		{
+			pc.printf("start");
+			break;
+		}
 		wait(1);
 	}
 	
@@ -98,7 +102,11 @@ int main() {
 		wait(1);
 		pc.gets(r,5);
 		wait(1);
-		if(strcmp(r,"stop")==0)break;
+		if(strcmp(r,"stop")==0)
+		{
+			pc.printf("stop");
+			break;
+		}
 	}
 	goto label;
 }
