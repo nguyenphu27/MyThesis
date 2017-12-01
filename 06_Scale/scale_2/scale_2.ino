@@ -29,24 +29,43 @@
 
 #define DOUT  3
 #define CLK  2
-
+long a=0;
 HX711 scale(DOUT, CLK);
 
 void setup() {
+   //Assuming there is no weight on the scale at start up, reset the scale to 0
   Serial.begin(9600);
   //Serial.println("HX711 scale demo");
-
   scale.set_scale(calibration_factor); //This value is obtained by using the SparkFun_HX711_Calibration sketch
-  scale.tare();  //Assuming there is no weight on the scale at start up, reset the scale to 0
-
-  //Serial.println("Readings:");
+  scale.tare(); 
+  scale.get_units();
 }
-
+String string;
 void loop() {
-  //Serial.print("Reading: ");
-  Serial.print(scale.get_units(), 1); //scale.get_units() returns a float
-  Serial.print(" kgs"); //You can change this to kg but you'll need to refactor the calibration_factor
-  Serial.println();
-  delay(5000);
-
+  
+Serial.println();
+  label:
+  Serial.println("out");
+  while(1){
+    string=Serial.readString();
+//    if(string!= "" or string!="start"){
+//    Serial.println(string);}
+    if (string=="ID"){ Serial.println("scale");}
+    if (string=="start"){ Serial.println("start"); break;}
+     delay(1000);
+  }
+  
+  while(1){
+    
+    //Serial.print("Reading: ");
+    Serial.print(scale.get_units(), 1); //scale.get_units() returns a float
+//    Serial.print(" kgs"); //You can change this to kg but you'll need to refactor the calibration_factor
+    Serial.println();
+    delay(3000);
+    string=Serial.readString();
+    Serial.println(string);
+    if (string=="stop") break; 
+  }
+  
+  goto label;
 }
