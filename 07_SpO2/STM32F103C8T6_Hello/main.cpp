@@ -132,7 +132,7 @@ int main() {
         un_max=0;
         
         //dumping the first 100 sets of samples in the memory and shift the last 400 sets of samples to the top
-        for(i=100;i<450;i++)
+        for(i=100;i<500;i++)
         {
             aun_red_buffer[i-100]=aun_red_buffer[i];
             aun_ir_buffer[i-100]=aun_ir_buffer[i];
@@ -145,7 +145,7 @@ int main() {
         }
         
         //take 100 sets of samples before calculating the heart rate.
-        for(i=400;i<450;i++)
+        for(i=400;i<500;i++)
         {
             un_prev_data=aun_red_buffer[i-1];
             while(INT.read()==1);
