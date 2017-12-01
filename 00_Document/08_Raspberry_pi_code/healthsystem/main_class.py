@@ -139,19 +139,13 @@ class FLOW:
         self.scale = MODULE("scale", filetype=".py3")
         self.spo2 = MODULE("spo2", filetype=".py3")
         self.temp = MODULE("temp", filetype=".py3")
-        self.touch = MODULE("touch")
+        self.touch = MODULE("touch_detect", filetype=".py3")
         self.height = MODULE("height", filetype=".py3")
-        self.wifi = MODULE("wifi")
         self.clean_workspace()
 
     def clean_workspace(self):
         'Clean communication files when initialize system'
-        self.touch.finish.delete()
         self.scale.start.delete()
-#        self.scale.result.delete()
-#        self.bluetooth.result.delete()
-#        self.temp.result.delete()
-#        self.spo2.result.delete()
 
     def setup_bpressure(self):
         'Call bpressure_poweron to power on the BP machine'

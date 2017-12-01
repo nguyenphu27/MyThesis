@@ -22,7 +22,17 @@ g.setup(4,g.IN,pull_up_down=g.PUD_DOWN)
 state1=0
 state2=0
 
+# initialize touch panel for moving table up and down
+HEALTHSYSTEM.touch.call()
+
 while(1):
+
+    if os.path.exists("result"):
+        os.remove("result")
+        
+    # check each port looking for modules
+    check_port()
+
     print("please press start to run")
     # check start signal from touch
     if state1==state2:
@@ -40,19 +50,15 @@ while(1):
                 # print("state 1:", state1)
                 break
 
-    # check each port looking for modules
-    check_port()
-
     c_spo2=0
     c_temp=0
     c_scale=0
     c_height=0
 
-
     # setup audio
     if HEALTHSYSTEM.audio.exist_flag:
         print "Setup audio system"
-    #    HEALTHSYSTEM.audio.call()
+        HEALTHSYSTEM.audio.call()
 
     # setup bluetooth
     #if HEALTHSYSTEM.bluetooth.exist_flag:
@@ -83,15 +89,12 @@ while(1):
         print "Initializing Temp module"
         HEALTHSYSTEM.temp.call()
 
-    abc=False
     # initialize scale
-    #if HEALTHSYSTEM.scale.exist_flag:
-    if abc:
+    if HEALTHSYSTEM.scale.exist_flag:
         print "Initializing Scale module"
-        HEALTHSYSTEM.scale.call()
         if os.path.exists("scale_port"):
             c_scale=1
-        #HEALTHSYSTEM.scale.start.create()
+            HEALTHSYSTEM.scale.call()
 
     r_temp = r_spo2 = r_scale = r_height = r_hr = 0
     print r_temp , r_spo2 , r_scale
@@ -115,7 +118,7 @@ while(1):
                 print "Preparing result"
                 prepare_result()
                 print "Call WIFI module for sending data to server"
-#                HEALTHSYSTEM.wifi.call()
+
                 if r_temp:
                     os.remove("temp_result")
                 if r_spo2:
@@ -124,9 +127,20 @@ while(1):
                     os.remove("scale_result")
                 if r_hr:
                     os.remove("hr_result")
+
+                if r_temp:
+                    while not os.path.exists("temp_stop"): continue
+                if r_spo2:
+                    while not os.path.exists("spo2_stop"): continue
+                if r_scale:
+                    while not os.path.exists("scale_stop"): continue
+                if r_hr:
+                    while not os.path.exists("hr_stop"): continue
+                print("break in main demo 1")
                 break
-    #        else: 
-    #            break
+            print("break in main demo")
+            break
+
         except KeyboardInterrupt:
             print '\nCatched Ctrl C'
             break

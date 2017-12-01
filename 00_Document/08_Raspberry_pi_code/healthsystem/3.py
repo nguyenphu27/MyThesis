@@ -9,8 +9,8 @@ c=0
 d=0
 #a=test()
 #print a
-#prepare_result()
-check.check_port()
+prepare_result()
+# check.check_port()
 #if not a or not b:
 #	print("abc")
 #if not c or not d:

@@ -9,6 +9,9 @@ if os.path.exists("spo2_port"):
 		p=f.read()
 		f.close()
 	os.remove("spo2_port")
+
+if os.path.exists("spo2_stop"):
+	os.remove("spo2_stop")
 try:
 	ser = serial.Serial(p, 9600, parity = serial.PARITY_NONE,
 	stopbits = serial.STOPBITS_ONE,
@@ -52,17 +55,21 @@ try:
 		while(1):
 			ser.write(bytes("ssss",'UTF-8'))
 			a=ser.readline().decode()
-			print("spo2",a)
+			# print("spo2",a)
 			if a[0:2]=='ss':
 				break
 		ser.close()
-		avg_spo2=sum(arr2)/j2
-		avg_hr=sum(arr1)/j1
+		print("stop module spo2")
 		with open("spo2_result","w") as f:
-			f.write(str(int(avg_spo2)))
+			f.write(str(int(arr2[j2])))
 			f.close()
+		
 		with open("hr_result","w") as f:
-			f.write(str(int(avg_hr)))
+			f.write(str(int(arr1[j1])))
+			f.close()
+
+		with open("spo2_stop","w") as f:
+			f.write("stop")
 			f.close()
 except serial.SerialException as ex:
 	pass

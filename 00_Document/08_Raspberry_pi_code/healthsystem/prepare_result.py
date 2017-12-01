@@ -4,6 +4,8 @@ Author: Huy Vu
 Date: Mar 27, 2017
 Update: Mar 27, 2017"""
 import json
+import requests
+
 def prepare_result():
     "Collecting data from result files and format the data"
 #    print "Can do chieu cao, can nang, do huyet ap, thu suc keo, ..."
@@ -26,22 +28,22 @@ def prepare_result():
         filestream.append('0')
 
     try:
-        filestream.append(open('bpressure_result','r'))
-    except:
-        filestream.append('0')
-
-    try:
         filestream.append(open('spo2_result','r'))
     except:
         filestream.append('0')
 
     try:
-        filestream.append(open('hr_result','r'))
+        filestream.append(open('temp_result','r'))
     except:
         filestream.append('0')
 
     try:
-        filestream.append(open('temp_result','r'))
+        filestream.append(open('bpressure_result','r'))
+    except:
+        filestream.append('0')
+
+    try:
+        filestream.append(open('hr_result','r'))
     except:
         filestream.append('0')
 
@@ -57,6 +59,17 @@ def prepare_result():
         except AttributeError:
             pass
 
-    with open("result","w") as result:
-        json.dump(collected[0:len(collected)-1],result)
-        result.close()
+    result={'macid':collected[0], 'height':collected[1],'weight':collected[2],
+                    'spo2':collected[3],'temp':collected[4],'bloodpressure':collected[5], 'heartrate':collected[6]}
+    
+    with open("result","w") as f:
+        f.write(str(result))
+        f.close()
+    try:
+        r = requests.post("http://148.72.249.42:3000/addinfor", data=result)
+        print(r.text)
+    except requests.exceptions.RequestException as e:
+        print(e)
+
+
+    

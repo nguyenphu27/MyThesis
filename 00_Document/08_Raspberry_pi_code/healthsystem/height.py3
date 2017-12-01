@@ -31,7 +31,11 @@ try:
 			check=ser.readline()
 			if check==bytes("height",'UTF-8'):
 				print("start height module")
-				ser.write(bytes("start",'UTF-8'))
+				while(1):
+					ser.write(bytes("start",'UTF-8'))
+					a=ser.readline().rstrip().decode()
+					if a == 'start':
+						break
 				while(1):
 					ser.write(bytes("     ",'UTF-8'))
 					a=ser.readline()
@@ -62,7 +66,15 @@ try:
 											a=ser_motor.readline()
 										break
 						break
-				ser.write(bytes("stop",'UTF-8'))
+				while(1):
+					ser.write(bytes("stop",'UTF-8'))
+					a=ser.readline().rstrip().decode()
+					if "stop" in a:
+						break
+				print("stop module height")
+				with open("height_stop","w") as f:
+					f.write("stop")
+					f.close
 				ser.close()
 				check2=1
 				sys.exit(0)
