@@ -33,6 +33,11 @@ while(1):
     # check each port looking for modules
     check_port()
 
+    # setup audio
+    if HEALTHSYSTEM.audio.exist_flag:
+        print "Setup audio system"
+        HEALTHSYSTEM.audio.call()
+
     print("please press start to run")
     # check start signal from touch
     if state1==state2:
@@ -54,11 +59,6 @@ while(1):
     c_temp=0
     c_scale=0
     c_height=0
-
-    # setup audio
-    if HEALTHSYSTEM.audio.exist_flag:
-        print "Setup audio system"
-        HEALTHSYSTEM.audio.call()
 
     # setup bluetooth
     #if HEALTHSYSTEM.bluetooth.exist_flag:
@@ -125,6 +125,7 @@ while(1):
                     os.remove("spo2_result")
                 if r_scale:
                     os.remove("scale_result")
+                    os.remove("scale_port")
                 if r_hr:
                     os.remove("hr_result")
 

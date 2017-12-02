@@ -53,13 +53,14 @@ def prepare_result():
             collected.append(item.read())
         except AttributeError:
             collected.append('0')
-        collected.append(',')
+
         try:
             item.close()
         except AttributeError:
             pass
 
-    result={'macid':collected[0], 'height':collected[1],'weight':collected[2],
+    print(collected)
+    result={'macid':'69:69:69:69:69:69', 'height':collected[1],'weight':str(collected[2]),
                     'spo2':collected[3],'temp':collected[4],'bloodpressure':collected[5], 'heartrate':collected[6]}
     
     with open("result","w") as f:

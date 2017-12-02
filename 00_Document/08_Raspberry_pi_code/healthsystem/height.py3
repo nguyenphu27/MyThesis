@@ -4,7 +4,9 @@ from serial import tools
 from serial.tools import list_ports
 import sys 
 import os
+
 p=None
+p2='/dev/ttyACM0'
 
 if os.path.exists("height_port"):
 	with open("height_port","r") as f:
@@ -13,8 +15,15 @@ if os.path.exists("height_port"):
 	os.remove("height_port")
 connect = 1
 
+if os.path.exists("scale_port"):
+	with open("scale_port","r") as f:
+		check_p=f.read()
+		f.close()
+		if 'ttyACM0' in check_p:
+			p2 = '/dev/ttyACM1'
+
 try: 
-	ser_motor = serial.Serial('/dev/ttyACM0', baudrate = 9600,timeout=1)
+	ser_motor = serial.Serial(p2, baudrate = 9600,timeout=1)
 except serial.SerialException as ex:
 	print("cannot connect to motor of temp module")
 	connect=0
