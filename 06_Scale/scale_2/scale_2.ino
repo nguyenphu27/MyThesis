@@ -61,7 +61,7 @@ Serial.println();
     Serial.print(scale.get_units(), 1); //scale.get_units() returns a float
 //    Serial.print(" kgs"); //You can change this to kg but you'll need to refactor the calibration_factor
     Serial.println();
-    delay(3000);
+    delay(1000);
     string=Serial.readString();
     Serial.println(string);
     if (string=="stop") break; 
