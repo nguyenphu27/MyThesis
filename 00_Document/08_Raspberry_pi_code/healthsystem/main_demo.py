@@ -45,14 +45,12 @@ while(1):
             state1=g.input(4)
             if state1!= state2:
                 print("start running")
-                # print("state 1:", state1)
                 break
     else:
         while(1):
             state1=g.input(4)
             if state1!= state2:
                 print("start running")
-                # print("state 1:", state1)
                 break
 
     c_spo2=0
@@ -71,33 +69,32 @@ while(1):
     # initialize height
     if HEALTHSYSTEM.height.exist_flag:
         if os.path.exists("height_port"):
-            r_height=0
-        print "Initializing Height module"
-        HEALTHSYSTEM.height.call()
+            c_height=0
+            print "Initializing Height module"
+            HEALTHSYSTEM.height.call()
 
     # initialize spo2
     if HEALTHSYSTEM.spo2.exist_flag:
         if os.path.exists("spo2_port"):
             c_spo2=1
-        HEALTHSYSTEM.spo2.call()
-        print "Initializing Spo2 module"
+            print "Initializing Spo2 module"
+            HEALTHSYSTEM.spo2.call()
 
     # initialize temp
     if HEALTHSYSTEM.temp.exist_flag:
         if os.path.exists("temp_port"):
             c_temp=1
-        print "Initializing Temp module"
-        HEALTHSYSTEM.temp.call()
+            print "Initializing Temp module"
+            HEALTHSYSTEM.temp.call()
 
     # initialize scale
     if HEALTHSYSTEM.scale.exist_flag:
-        print "Initializing Scale module"
         if os.path.exists("scale_port"):
             c_scale=1
+            print "Initializing Scale module"
             HEALTHSYSTEM.scale.call()
 
     r_temp = r_spo2 = r_scale = r_height = r_hr = 0
-    print r_temp , r_spo2 , r_scale
     while 1:
         try:
             if c_temp:
@@ -119,28 +116,27 @@ while(1):
                 prepare_result()
                 print "Call WIFI module for sending data to server"
 
-                if r_temp:
-                    os.remove("temp_result")
-                if r_spo2:
-                    os.remove("spo2_result")
+                if r_temp: os.remove("temp_result")
+                if r_spo2: os.remove("spo2_result")
                 if r_scale:
                     os.remove("scale_result")
                     os.remove("scale_port")
-                if r_hr:
-                    os.remove("hr_result")
+                if r_hr: os.remove("hr_result")
 
                 if r_temp:
                     while not os.path.exists("temp_stop"): continue
+                    os.remove('temp_stop')
                 if r_spo2:
                     while not os.path.exists("spo2_stop"): continue
+                    os.remove('spo2_stop')
                 if r_scale:
                     while not os.path.exists("scale_stop"): continue
+                    os.remove('scale_stop')
                 if r_hr:
-                    while not os.path.exists("hr_stop"): continue
-                print("break in main demo 1")
+                    while not os.path.exists("height_stop"): continue
+                    os.remove('height_stop')
                 break
-            print("break in main demo")
-            break
+
 
         except KeyboardInterrupt:
             print '\nCatched Ctrl C'

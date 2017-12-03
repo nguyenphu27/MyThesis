@@ -135,7 +135,7 @@ class FLOW:
     def __init__(self):
         self.audio = MODULE("audio", filetype=".py")
         self.bluetooth = MODULE("bluetooth", filetype=".sh")
-        self.bpressure = MODULE("bpressure", sublist=["bpressure_poweron"])
+        # self.bpressure = MODULE("bpressure", sublist=["bpressure_poweron"])
         self.scale = MODULE("scale", filetype=".py3")
         self.spo2 = MODULE("spo2", filetype=".py3")
         self.temp = MODULE("temp", filetype=".py3")

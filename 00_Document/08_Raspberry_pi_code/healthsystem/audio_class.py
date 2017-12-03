@@ -29,7 +29,7 @@ class MP3:
         self.filetype=filetype
         self.path = path
         self.fullpath = os.path.join(self.path, self.name)
-        print self.fullpath
+        # print self.fullpath
         self.exist_flag = self.is_exist()
         self.was_played_flag = 0
         if self.exist_flag==0:

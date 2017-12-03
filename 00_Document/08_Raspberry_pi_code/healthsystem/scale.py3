@@ -3,6 +3,8 @@
 ##############
 ## requires pySerial to be installed 
 import serial
+import os, os.path
+from time import sleep
 
 serial_port = None
 baud_rate = 9600; #In arduino, Serial.begin(baud_rate)
@@ -21,53 +23,44 @@ try:
     delay_sample = 0
     if ser.isOpen():
         while(1):
-            ser.write(bytes("start").encode('UTF-8'))
+            ser.write(bytes("start", 'UTF-8'))
             a=ser.readline().rstrip().decode()
             sleep(1)
             if a=='start':
                 print("start module scale")
                 break
-       
+        i=0
+        sleep(1)
         while True:
-            line = ser.readline()
-            line = line.decode("utf-8") #ser.readline returns a binary, convert to string
-            print(line)
+            ser.write(bytes("  ", 'UTF-8'))
+            line = ser.readline().rstrip().decode()
             sleep(1)
-            
-            if delay_sample==2:
-                start_file = open(make_this_file, "w+")
-                start_file.close()
-                delay_sample += 1
-            elif delay_sample<2:
-                delay_sample += 1
 
-            if '0.0' not in line:
-                for i in range (20):
-                    line = ser.readline().rstrip().decode()
-                    print(line)
-                    result.append(float(line))
-                    if i>=2:
-                        diff_0 = (result[i-1] - result[i]) / (result[i])
-                        diff_1 = (result[i-2] - result[i]) / (result[i])
-                        #if result[i] == result[i-1] and result[i] == result[i-2]:
-                        if abs(diff_0)<0.05 and abs(diff_1)<0.05:
-                            break
-                output_file = open(write_to_file_path, "w+")
-                output_file.write(str(result[i]) + ' kgs')
-                output_file.close()
-                break
-        
+            if line != '' and 'start' not in line:
+                print(line+'kgs')
+                result.append(float(line))
+                if i>=2:
+                    diff_0 = (result[i-1] - result[i]) / (result[i])
+                    diff_1 = (result[i-2] - result[i]) / (result[i])
+                    if abs(diff_0)<0.02 and abs(diff_1)<0.02:
+                        break
+                i+=1
+
+        output_file = open(write_to_file_path, "w+")
+        output_file.write(str(result[i]) + ' kgs')
+        output_file.close()
+
         while(1):
-            ser.write(bytes("stop").encode('UTF-8'))
+            ser.write(bytes("stop", 'UTF-8'))
             a=ser.readline().rstrip().decode()
-            sleep(1)
+            sleep(2)
             if a=='stop':
                 print("stop module scale")
                 break
         
         with open("scale_stop","w") as f:
-					f.write("stop")
-					f.close
+            f.write("stop")
+            f.close
     ser.close() #close serial
 except serial.serialutil.SerialException as er:
     print(er)

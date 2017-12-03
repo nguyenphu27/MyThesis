@@ -31,7 +31,7 @@ def check_port():
 					a=ser.readline().rstrip().decode()
 					sleep(1)
 					if a=='scale':
-						os.system(str('stty -F "/dev/ttyACM{}'.format(i))+' -hupcl')
+						os.system(str('stty -F /dev/ttyACM{}'.format(i))+' -hupcl')
 						print "module",a,"is connected to port ACM",i
 						with open(a+'_port',"w") as f:
 							f.write(str("/dev/ttyACM{0}".format(i)))

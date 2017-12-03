@@ -11,9 +11,9 @@ import os, os.path
 
 HEALTHSYSTEM = FLOW()
 MP3LIST = {'welcome_voice':MP3('welcome_voice'),\
-        'touch_voice':MP3('touch_voice', sublist=['touch_finish']),\
-        'scale_voice':MP3('scale_voice', sublist=['scale_start']),\
-        'scale_start_voice':MP3('scale_start_voice', sublist=['scale_start']),
+        # 'touch_voice':MP3('touch_voice', sublist=['touch_finish']),\
+        # 'scale_voice':MP3('scale_voice', sublist=['scale_start']),\
+        # 'scale_start_voice':MP3('scale_start_voice', sublist=['scale_start']),
         'end_voice_demo':MP3('end_voice',sublist=['result'])\
         #'end_voice':MP3('end_voice', sublist=['spo2_result', 'scale_result',\
         #                 'temp_result','height_result','bpressure_result'])\
