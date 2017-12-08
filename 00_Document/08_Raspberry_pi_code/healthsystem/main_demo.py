@@ -38,6 +38,7 @@ while(1):
         print "Setup audio system"
         HEALTHSYSTEM.audio.call()
 
+    sleep(1)
     print("please press start to run")
     # check start signal from touch
     if state1==state2:
@@ -69,7 +70,7 @@ while(1):
     # initialize height
     if HEALTHSYSTEM.height.exist_flag:
         if os.path.exists("height_port"):
-            c_height=0
+            c_height=1
             print "Initializing Height module"
             HEALTHSYSTEM.height.call()
 

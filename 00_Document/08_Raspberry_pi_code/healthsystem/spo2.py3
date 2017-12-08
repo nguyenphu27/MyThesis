@@ -22,7 +22,7 @@ try:
 		j=0
 		arr1=[0]*3000
 		arr2=[0]*3000
-		print("port",p,"is opened")
+		#print("port",p,"is opened")
 		ser.write(bytes("ID   ",'UTF-8'))
 		while(1):
 			a=ser.readline()

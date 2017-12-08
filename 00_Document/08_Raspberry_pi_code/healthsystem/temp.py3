@@ -19,7 +19,7 @@ try:
 	if ser.isOpen():
 		j=0
 		TO = [0]*7
-		print("port",p,"is opened")
+		#print("port",p,"is opened")
 		ser.write(bytes("ID   ",'UTF-8'))
 		while(1):
 			check=ser.readline()
@@ -33,13 +33,14 @@ try:
 				while(1):
 					ser.write(bytes("     ",'UTF-8'))
 					a=ser.readline().rstrip().decode()
-					data=a
+					data=float(a)
+					if data < 30:
+						data+=8
 					if data!=' ':
-						print(data) 
 						with open("temp_result","w") as f:
-							f.write(str(a))
+							f.write(str(data))
 							f.close()
-							print("temp:",float(a))
+							print("temp:",float(data))
 						break
 				while(1):
 					ser.write(bytes("stop",'UTF-8'))

@@ -29,12 +29,12 @@ except serial.SerialException as ex:
 	connect=0
 
 try:
-	ser = serial.Serial(p, baudrate = 9600,timeout=1)
+	ser = serial.Serial(p, baudrate = 9600, timeout=1)
 	check2=0
 	if ser.isOpen():
 		j=0
 		TO = [0]*7
-		print("port",p,"is opened")
+		#print("port",p,"is opened")
 		ser.write(bytes("ID   ",'UTF-8'))
 		while(1):
 			check=ser.readline()
@@ -43,36 +43,35 @@ try:
 				while(1):
 					ser.write(bytes("start",'UTF-8'))
 					a=ser.readline().rstrip().decode()
-					if a == 'start':
+					if 'start' in a:
 						break
 				while(1):
 					ser.write(bytes("     ",'UTF-8'))
 					a=ser.readline()
 					data=a.decode()
-					print(data)
 					j+=1
 					if data != '':
 						j=0
 						with open("height_result","w") as f:
+							print("height:",200-int(data))
 							f.write(str(200-int(data)))
 							f.close()
 						if connect:
 							data=str(int(a))+'!'
 							for k in range(3):
-								print("send distance to temp motor")
+								#print("send distance to temp motor")
 								ser_motor.write(bytes(data,'UTF-8'))
-								a=ser_motor.readline()
+								a=ser_motor.readline().rstrip().decode()
 							while(1):
-								print("wait for response")
 								ser.write(bytes("     ",'UTF-8'))
-								a=ser.readline().decode()
+								a=ser.readline().rstrip().decode()
 								data=a
-								print("distance after finished:",data)
-								if data!=bytes("     ",'UTF-8'):
+								if data != '':
 									if int(data)>50:
+										data=str(int(a))+'!'
 										for k in range(3):
 											ser_motor.write(bytes(data,'UTF-8'))
-											a=ser_motor.readline()
+											a=ser_motor.readline().rstrip().decode()
 										break
 						break
 				while(1):

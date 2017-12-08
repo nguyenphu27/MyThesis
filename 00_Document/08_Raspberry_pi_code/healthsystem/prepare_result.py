@@ -66,11 +66,11 @@ def prepare_result():
     with open("result","w") as f:
         f.write(str(result))
         f.close()
-    try:
-        r = requests.post("http://148.72.249.42:3000/addinfor", data=result)
-        print(r.text)
-    except requests.exceptions.RequestException as e:
-        print(e)
+    # try:
+    #     r = requests.post("http://148.72.249.42:3000/addinfor", data=result)
+    #     print(r.text)
+    # except requests.exceptions.RequestException as e:
+    #     print(e)
 
 
     
