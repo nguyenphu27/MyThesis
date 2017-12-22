@@ -63,4 +63,7 @@ try:
             f.close
     ser.close() #close serial
 except serial.serialutil.SerialException as er:
+    with open("scale_stop","w") as f:
+        f.write("stop")
+        f.close
     print(er)

@@ -49,12 +49,13 @@ try:
 					ser.write(bytes("     ",'UTF-8'))
 					a=ser.readline()
 					data=a.decode()
+					# print(data)
 					j+=1
-					if data != '':
+					if data != '' and int(data) != 0 and int(data)<200:
 						j=0
 						with open("height_result","w") as f:
-							print("height:",200-int(data))
-							f.write(str(200-int(data)))
+							print("height:",204-int(data))
+							f.write(str(204-int(data)))
 							f.close()
 						if connect:
 							data=str(int(a))+'!'
@@ -91,4 +92,7 @@ try:
 				break
 except serial.SerialException as ex:
 	print("cannot connect height module")
+	with open("height_stop","w") as f:
+		f.write("stop")
+		f.close
 	pass

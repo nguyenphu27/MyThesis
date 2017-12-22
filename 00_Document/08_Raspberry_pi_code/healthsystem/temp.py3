@@ -33,18 +33,29 @@ try:
 				while(1):
 					ser.write(bytes("     ",'UTF-8'))
 					a=ser.readline().rstrip().decode()
-					data=float(a)
-					if data < 30:
-						data+=8
-					if data!=' ':
+					# data=float(a)
+					data = a
+					if data!='':
+						print("temp:",data)
+						data = float(a)
+						if data < 30:
+							data+=8
+						if data > 47:
+							data-=10
 						with open("temp_result","w") as f:
 							f.write(str(data))
 							f.close()
 							print("temp:",float(data))
 						break
+					ser.timeout = 0.5
+					threshold_time = 0
 				while(1):
+					threshold_time += 1
 					ser.write(bytes("stop",'UTF-8'))
 					a=ser.readline().rstrip().decode()
+					print("temp stop:",a)
+					if threshold_time == 4:
+						ser.timeout = 3
 					if "stop" in a:
 						break
 				print("stop module temp")
@@ -55,4 +66,7 @@ try:
 				check2=1
 				sys.exit(0)
 except serial.SerialException as ex:
+	with open("temp_stop","w") as f:
+		f.write("stop")
+		f.close
 	pass

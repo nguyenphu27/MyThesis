@@ -41,11 +41,11 @@ try:
 				data=a1[2:5].decode()
 			if a1[0:2]==bytes("hr",'UTF-8') and int(data)!=arr1[j1-1] and int(data)<204:
 				arr1[j1]=int(data)
-				print("hr:",arr1[j1],"j=",j1)
+				print("hr:",arr1[j1])
 				j1+=1
 			if a1[0:2]==bytes("sp",'UTF-8') and int(data)!=arr2[j2-1] and int(data)>0:
 				arr2[j2]=int(data)
-				print("spo2:",arr2[j2],"j=",j2)
+				print("spo2:",arr2[j2])
 				j2+=1
 			j+=1
 			if j1>1 and j2>1:
@@ -61,15 +61,18 @@ try:
 		ser.close()
 		print("stop module spo2")
 		with open("spo2_result","w") as f:
-			f.write(str(int(arr2[j2])))
+			f.write(str(int(arr2[j2-1])))
 			f.close()
 		
 		with open("hr_result","w") as f:
-			f.write(str(int(arr1[j1])))
+			f.write(str(int(arr1[j1-1])))
 			f.close()
 
 		with open("spo2_stop","w") as f:
 			f.write("stop")
 			f.close()
 except serial.SerialException as ex:
+	with open("spo2_stop","w") as f:
+		f.write("stop")
+		f.close()
 	pass

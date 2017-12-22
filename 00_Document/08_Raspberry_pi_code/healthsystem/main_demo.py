@@ -40,16 +40,19 @@ while(1):
 
     sleep(1)
     print("please press start to run")
+    print("state before run: state2:",state2,"state1:",state1)
     # check start signal from touch
     if state1==state2:
         while(1):
             state1=g.input(4)
+            # print("if state1:",state1)
             if state1!= state2:
                 print("start running")
                 break
     else:
         while(1):
             state1=g.input(4)
+            # print("else state1:",state1)
             if state1!= state2:
                 print("start running")
                 break
@@ -123,6 +126,7 @@ while(1):
                     os.remove("scale_result")
                     os.remove("scale_port")
                 if r_hr: os.remove("hr_result")
+                if r_height: os.remove("height_result")
 
                 if r_temp:
                     while not os.path.exists("temp_stop"): continue
@@ -155,3 +159,4 @@ while(1):
     # END
     state2=g.input(4)
     print("finished")
+    print("state after finished: state2:",state2,"state1:",state1)
