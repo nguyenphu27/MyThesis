@@ -1,9 +1,17 @@
+####################################################################
+### This is code for plug-and-play spo2 and heart-rate module
+### using python 3.5 with auto-recognition port and
+### timeout for crash or errors safety reason features
+####################################################################
+
 import serial
 import time
 from serial import tools
 from serial.tools import list_ports
 import os
+
 p=None
+
 if os.path.exists("spo2_port"):
 	with open("spo2_port","r") as f:
 		p=f.read()
@@ -12,6 +20,9 @@ if os.path.exists("spo2_port"):
 
 if os.path.exists("spo2_stop"):
 	os.remove("spo2_stop")
+
+checking_timeout = 0
+
 try:
 	ser = serial.Serial(p, 9600, parity = serial.PARITY_NONE,
 	stopbits = serial.STOPBITS_ONE,
@@ -24,13 +35,20 @@ try:
 		arr2=[0]*3000
 		#print("port",p,"is opened")
 		ser.write(bytes("ID   ",'UTF-8'))
+		ser.timeout=0.05
+
 		while(1):
 			a=ser.readline()
 			j+=1
-			ser.timeout=0.05
+			# ser.timeout=0.05
 			if a==bytes("spo2",'UTF-8'):
 				ser.write(bytes("start",'UTF-8'))
+				# checking_timeout=0
+				# 	break
+				# checking_timeout+=1
+				# if checking_timeout == 3:
 				break
+
 		j1=1
 		j2=1
 		while(1):
@@ -50,6 +68,10 @@ try:
 			j+=1
 			if j1>1 and j2>1:
 				break
+			checking_timeout+=1
+			if checking_timeout == 200:
+				break
+
 		ser.timeout=0.5
 		ser.write(bytes("sssss",'UTF-8'))
 		while(1):
@@ -58,6 +80,7 @@ try:
 			# print("spo2",a)
 			if a[0:2]=='ss':
 				break
+			
 		ser.close()
 		print("stop module spo2")
 		with open("spo2_result","w") as f:
@@ -71,6 +94,7 @@ try:
 		with open("spo2_stop","w") as f:
 			f.write("stop")
 			f.close()
+
 except serial.SerialException as ex:
 	with open("spo2_stop","w") as f:
 		f.write("stop")

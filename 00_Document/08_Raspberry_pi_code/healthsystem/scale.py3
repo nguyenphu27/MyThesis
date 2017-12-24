@@ -1,7 +1,9 @@
-##############
-## Script listens to serial port and writes contents into a file
-##############
-## requires pySerial to be installed 
+####################################################################
+### This is code for plug-and-play scale module
+### using python 3.5 with auto-recognition port and
+### timeout for crash or errors safety reason features
+####################################################################
+
 import serial
 import os, os.path
 from time import sleep
@@ -17,6 +19,11 @@ if os.path.exists("scale_port"):
 		serial_port=f.read()
 		f.close()
 
+checking_timeout = 0
+
+if os.path.exists("scale_stop"):
+	os.remove("scale_stop")
+
 try:
     ser = serial.Serial(serial_port, baud_rate, timeout=0.5)
     count = 0
@@ -28,35 +35,42 @@ try:
             sleep(1)
             if a=='start':
                 print("start module scale")
-                break
+                checking_timeout=0
+                    break
+                checking_timeout+=1
+                if checking_timeout == 20:
+                    break
         i=0
         sleep(1)
-        while True:
-            ser.write(bytes("  ", 'UTF-8'))
-            line = ser.readline().rstrip().decode()
-            sleep(1)
+        if checking_timeout==0: #timeout safe switch for module
+            while True:
+                ser.write(bytes("  ", 'UTF-8'))
+                line = ser.readline().rstrip().decode()
+                sleep(1)
 
-            if line != '' and 'start' not in line:
-                print(line+'kgs')
-                result.append(float(line))
-                if i>=2:
-                    diff_0 = (result[i-1] - result[i]) / (result[i])
-                    diff_1 = (result[i-2] - result[i]) / (result[i])
-                    if abs(diff_0)<0.02 and abs(diff_1)<0.02:
-                        break
-                i+=1
+                if line != '' and 'start' not in line:
+                    print(line+'kgs')
+                    result.append(float(line))
+                    if i>=2:
+                        diff_0 = (result[i-1] - result[i]) / (result[i])
+                        diff_1 = (result[i-2] - result[i]) / (result[i])
+                        if abs(diff_0)<0.02 and abs(diff_1)<0.02:
+                            output_file = open(write_to_file_path, "w+")
+                            output_file.write(str(result[i]) + ' kgs')
+                            output_file.close()
+                            break
+                    i+=1
+                checking_timeout+=1
+                if checking_timeout == 10:
+                    break
 
-        output_file = open(write_to_file_path, "w+")
-        output_file.write(str(result[i]) + ' kgs')
-        output_file.close()
-
-        while(1):
-            ser.write(bytes("stop", 'UTF-8'))
-            a=ser.readline().rstrip().decode()
-            sleep(2)
-            if a=='stop':
-                print("stop module scale")
-                break
+            while(1):
+                ser.write(bytes("stop", 'UTF-8'))
+                a=ser.readline().rstrip().decode()
+                sleep(2)
+                if a=='stop':
+                    print("stop module scale")
+                    break
         
         with open("scale_stop","w") as f:
             f.write("stop")
