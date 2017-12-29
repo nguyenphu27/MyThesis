@@ -24,6 +24,9 @@ checking_timeout = 0
 if os.path.exists("temp_stop"):
 	os.remove("temp_stop")
 	
+if os.path.exists("temp_result"):
+	os.remove("temp_result")
+
 try:
 	ser = serial.Serial(p,	baudrate = 9600,timeout=3)
 	
@@ -36,15 +39,27 @@ try:
 			check=ser.readline()
 			if check==bytes("temp",'UTF-8'):
 				print("start temp module")
-				while(1):
-					ser.write(bytes("start",'UTF-8'))
-					a=ser.readline().rstrip().decode()
-					if a == 'start':
-						checking_timeout=0
-						break
+
+				while not os.path.exists("go_down"): 
 					checking_timeout+=1
-					if checking_timeout == 3:
+					time.sleep(1)
+					if checking_timeout == 15:
 						break
+				if os.path.exists("go_down"):
+					checking_timeout = 0
+					os.remove("go_down")
+				print("timeout temp:",checking_timeout)
+				if checking_timeout == 0:
+					while(1):
+						ser.write(bytes("start",'UTF-8'))
+						a=ser.readline().rstrip().decode()
+						print("temp:",a)
+						if a == 'start':
+							checking_timeout=0
+							break
+						checking_timeout+=1
+						if checking_timeout == 7:
+							break
 
 				if checking_timeout==0: #timeout safe switch for module
 					while(1):
@@ -53,7 +68,7 @@ try:
 						# data=float(a)
 						data = a
 						if data!='':
-							print("temp:",data)
+							# print("temp:",data)
 							data = float(a)
 							if data < 30:
 								data+=8
@@ -65,7 +80,7 @@ try:
 								print("temp:",float(data))
 							break
 						checking_timeout+=1
-						if checking_timeout == 3:
+						if checking_timeout == 7:
 							break
 
 					ser.timeout = 0.5
@@ -74,7 +89,7 @@ try:
 						threshold_time += 1
 						ser.write(bytes("stop",'UTF-8'))
 						a=ser.readline().rstrip().decode()
-						print("temp stop:",a)
+						# print("temp stop:",a)
 						if threshold_time == 4:
 							ser.timeout = 3
 						if "stop" in a:

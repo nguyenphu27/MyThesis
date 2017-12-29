@@ -42,28 +42,34 @@ while(1):
     print("please press start to run")
     print("state before run: state2:",state2,"state1:",state1)
     # check start signal from touch
-    if state1==state2:
-        while(1):
-            state1=g.input(4)
-            # print("if state1:",state1)
-            if state1!= state2:
-                print("start running")
-                break
-    else:
-        while(1):
-            state1=g.input(4)
-            # print("else state1:",state1)
-            if state1!= state2:
-                print("start running")
-                break
+    # if state1==state2:
+    #     while(1):
+    #         state1=g.input(4)
+    #         # print("if state1:",state1)
+    #         if state1!= state2:
+    #             print("start running")
+    #             break
+    # if state1!=state2:
+    #     while(1):
+    #         state1=g.input(4)
+    #         # print("else state1:",state1)
+    #         if state1!= state2:
+    #             print("start running")
+    #             break
+
+    while(1):
+        state1 = g.input(4)
+        if state1 != state2:
+            print("start running")
+            break
 
     c_spo2=0
     c_temp=0
     c_scale=0
     c_height=0
 
-    # setup bluetooth
-    #if HEALTHSYSTEM.bluetooth.exist_flag:
+    # # setup bluetooth
+    # if HEALTHSYSTEM.bluetooth.exist_flag:
     #    print "Setup bluetooth service"
     #    HEALTHSYSTEM.bluetooth.call()
     #    while HEALTHSYSTEM.bluetooth.result.is_exist()==0:
@@ -103,30 +109,29 @@ while(1):
         try:
             if c_temp:
                 while not r_temp:
-                    r_temp = HEALTHSYSTEM.temp.result.is_exist()
+                    r_temp = HEALTHSYSTEM.temp.stop.is_exist()
             if c_spo2:
-                while not r_spo2 or not r_hr:
-                    r_spo2 =  HEALTHSYSTEM.spo2.result.is_exist()
-                    r_hr = os.path.exists("hr_result")
+                while not r_spo2:
+                    r_spo2 =  HEALTHSYSTEM.spo2.stop.is_exist()
             if c_scale:
                 while not r_scale:
-                    r_scale = HEALTHSYSTEM.scale.result.is_exist()
+                    r_scale = HEALTHSYSTEM.scale.stop.is_exist()
             if c_height:
                 while not r_height:
-                    r_height = HEALTHSYSTEM.height.result.is_exist()
+                    r_height = HEALTHSYSTEM.height.stop.is_exist()
 
             if (r_temp and c_temp) + (r_spo2 and c_spo2) + (r_scale and c_scale) + (r_height and c_height):
                 print "Preparing result"
                 prepare_result()
                 print "Call WIFI module for sending data to server"
 
-                if r_temp: os.remove("temp_result")
-                if r_spo2: os.remove("spo2_result")
-                if r_scale:
+                if r_temp and os.path.exists("temp_result"): os.remove("temp_result")
+                if r_spo2 and os.path.exists("spo2_result"): os.remove("spo2_result")
+                if r_scale and os.path.exists("scale_result"):
                     os.remove("scale_result")
                     os.remove("scale_port")
-                if r_hr: os.remove("hr_result")
-                if r_height: os.remove("height_result")
+                if r_hr and os.path.exists("hr_result"): os.remove("hr_result")
+                if r_height and os.path.exists("height_result"): os.remove("height_result")
 
                 if r_temp:
                     while not os.path.exists("temp_stop"): continue

@@ -24,6 +24,9 @@ checking_timeout = 0
 if os.path.exists("scale_stop"):
 	os.remove("scale_stop")
 
+if os.path.exists("scale_result"):
+	os.remove("scale_result")
+
 try:
     ser = serial.Serial(serial_port, baud_rate, timeout=0.5)
     count = 0
@@ -36,10 +39,10 @@ try:
             if a=='start':
                 print("start module scale")
                 checking_timeout=0
-                    break
-                checking_timeout+=1
-                if checking_timeout == 20:
-                    break
+                break
+            checking_timeout+=1
+            if checking_timeout == 40:
+                break
         i=0
         sleep(1)
         if checking_timeout==0: #timeout safe switch for module
@@ -47,21 +50,23 @@ try:
                 ser.write(bytes("  ", 'UTF-8'))
                 line = ser.readline().rstrip().decode()
                 sleep(1)
-
-                if line != '' and 'start' not in line:
-                    print(line+'kgs')
-                    result.append(float(line))
-                    if i>=2:
-                        diff_0 = (result[i-1] - result[i]) / (result[i])
-                        diff_1 = (result[i-2] - result[i]) / (result[i])
-                        if abs(diff_0)<0.02 and abs(diff_1)<0.02:
-                            output_file = open(write_to_file_path, "w+")
-                            output_file.write(str(result[i]) + ' kgs')
-                            output_file.close()
-                            break
-                    i+=1
+                try:
+                    if line != '' and 'start' not in line and float(line) > 0:
+                        print(line+'kgs')
+                        result.append(float(line))
+                        if i>=2:
+                            diff_0 = (result[i-1] - result[i]) / (result[i])
+                            diff_1 = (result[i-2] - result[i]) / (result[i])
+                            if abs(diff_0)<0.02 and abs(diff_1)<0.02:
+                                output_file = open(write_to_file_path, "w+")
+                                output_file.write(str(result[i]) + ' kgs')
+                                output_file.close()
+                                break
+                        i+=1
+                except:
+                    pass
                 checking_timeout+=1
-                if checking_timeout == 10:
+                if checking_timeout == 20:
                     break
 
             while(1):

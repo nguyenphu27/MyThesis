@@ -29,7 +29,7 @@ class MODULE:
         self.exist_flag = self.is_exist()
         if self.exist_flag==0:
             self.missing()
-        self.finish=FileFinish(self.firstname)
+        self.stop=FileStop(self.firstname)
         self.start=FileStart(self.firstname)
         self.result=FileResult(self.firstname)
         MODULE.module_count += 1
@@ -102,14 +102,14 @@ class File():
         self.exist_flag = os.path.isfile(self.fullpath)
         return self.exist_flag
 
-class FileFinish(File):
-    'Class for all files named "_finish"'
+class FileStop(File):
+    'Class for all files named "_stop"'
 
-    finish_count = 0
+    stop_count = 0
 
     def __init__(self, name):
-        File.__init__(self,name+'_finish')
-        FileFinish.finish_count+=1
+        File.__init__(self,name+'_stop')
+        FileStop.stop_count+=1
 
 class FileStart(File):
     'Class for all files named "_start"'

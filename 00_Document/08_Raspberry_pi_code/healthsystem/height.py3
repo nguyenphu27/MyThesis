@@ -27,6 +27,9 @@ checking_timeout = 0
 if os.path.exists("height_stop"):
 	os.remove("height_stop")
 
+if os.path.exists("height_result"):
+	os.remove("height_result")
+
 try: 
 	ser_motor = serial.Serial(p2, baudrate = 9600,timeout=1)
 except serial.SerialException as ex:
@@ -47,11 +50,12 @@ try:
 				while(1):
 					ser.write(bytes("start",'UTF-8'))
 					a=ser.readline().rstrip().decode()
+					# print("height:",a)
 					if 'start' in a:
 						checking_timeout=0
 						break
 					checking_timeout+=1
-					if checking_timeout == 10:
+					if checking_timeout == 20:
 						break
 
 				if checking_timeout==0: #timeout safe switch for module
@@ -61,15 +65,16 @@ try:
 						data=a.decode()
 						# print(data)
 						j+=1
-						if data != '' and int(data) != 0 and int(data)<200:
+						checking_timeout+=1
+						if checking_timeout == 60:
+							break
+						if data != '' and int(data) > 0 and int(data) < 60:
 							j=0
+							checking_timeout = 0
 							with open("height_result","w") as f:
 								print("height:",204-int(data))
 								f.write(str(204-int(data)))
 								f.close()
-						checking_timeout+=1
-						if checking_timeout == 10:
-							break
 
 							if connect:
 								checking_timeout=0
@@ -78,20 +83,23 @@ try:
 									#print("send distance to temp motor")
 									ser_motor.write(bytes(data,'UTF-8'))
 									a=ser_motor.readline().rstrip().decode()
+								with open("go_down","w") as f:
+									f.write("aa")
+									f.close
 								while(1):
 									ser.write(bytes("     ",'UTF-8'))
 									a=ser.readline().rstrip().decode()
 									data=a
 									if data != '':
-										if int(data)>50:
+										if int(data)>60:
 											data=str(int(a))+'!'
-											for k in range(3):
+											for k in range(4):
 												ser_motor.write(bytes(data,'UTF-8'))
 												a=ser_motor.readline().rstrip().decode()
 											break
-									checking_timeout+=1
-									if checking_timeout == 10:
-										break
+									# checking_timeout+=1
+									# if checking_timeout == 20:
+									# 	break
 							break
 						
 					while(1):
