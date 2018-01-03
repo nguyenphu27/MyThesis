@@ -101,7 +101,7 @@ bool IsStable()
   {
     if (Status == Wait)
     {
-      if ((maxDistance <= 50) && (maxDistance != 0))
+      if ((maxDistance <= 60) && (maxDistance != 0))
       {
         distance = maxDistance - 1;
         return true;
@@ -113,7 +113,7 @@ bool IsStable()
     }
     else if (Status == StandBy)
     {
-      if (maxDistance > 50)
+      if (maxDistance > 60)
       {
         return true;
       }
