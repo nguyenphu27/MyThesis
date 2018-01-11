@@ -63,10 +63,10 @@ try:
 						ser.write(bytes("     ",'UTF-8'))
 						a=ser.readline()
 						data=a.decode()
-						# print(data)
+						print(data)
 						j+=1
 						checking_timeout+=1
-						if checking_timeout == 60:
+						if checking_timeout == 20:
 							break
 						if data != '' and int(data) > 0 and int(data) < 60:
 							j=0
@@ -104,7 +104,9 @@ try:
 						
 					while(1):
 						ser.write(bytes("stop",'UTF-8'))
-						a=ser.readline().rstrip().decode()
+						a=ser.readline().rstrip()
+						print(a)
+						a=a.decode()
 						if "stop" in a:
 							break
 

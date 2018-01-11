@@ -1,5 +1,6 @@
 from bluetooth import *
 import json 
+import sys
 
 def bluetoothserver():
 	port = 1
@@ -16,28 +17,28 @@ def bluetoothserver():
 	client_sock, client_info = server_sock.accept()
 	print 'Accepted connection from ', client_info
 	string = str(client_info)
-	with open("bluetooth_result","w") as f:
-		f.write(string[2:19])
-		f.close
+
 	try:
 	        while True:
 	                data = client_sock.recv(4096)
-	                if len(data) == 0:
-	                        print("no data")
-				return
-	                elif data == 'disconnected':
-	                        print("received [%s]" % data)
-#                        with open("bluetooth_result","a") as f:
-#                                f.write(data)
-	                        client_sock.close()
-	                        server_sock.close()
-	                        print("all done")  
-				return      
-	                else:
+	                # if len(data) == 0:
+	                #         print("no data")
+			# 	return
+	                # elif data == 'disconnected':
+	                #         print("received [%s]" % data)
+	                #         client_sock.close()
+	                #         server_sock.close()
+	                #         print("all done")  
+			# 	return      
+	                if data:
 	                        print("received [%s]" % data)                    
-#                        with open("bluetooth_result","a") as f:
-#                                f.write(data)
-
+                       		with open("bluetooth_result","w") as f:
+					       f.write(data)
+					       f.close()
+				client_sock.close()
+				server_sock.close()
+				break
+	
 	except IOError:
         	print("disconnected")
 		return

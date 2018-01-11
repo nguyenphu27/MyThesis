@@ -59,7 +59,7 @@ try:
                             diff_1 = (result[i-2] - result[i]) / (result[i])
                             if abs(diff_0)<0.02 and abs(diff_1)<0.02:
                                 output_file = open(write_to_file_path, "w+")
-                                output_file.write(str(result[i]) + ' kgs')
+                                output_file.write(str(result[i]))
                                 output_file.close()
                                 break
                         i+=1

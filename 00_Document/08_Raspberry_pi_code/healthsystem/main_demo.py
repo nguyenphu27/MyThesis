@@ -42,21 +42,6 @@ while(1):
     print("please press start to run")
     print("state before run: state2:",state2,"state1:",state1)
     # check start signal from touch
-    # if state1==state2:
-    #     while(1):
-    #         state1=g.input(4)
-    #         # print("if state1:",state1)
-    #         if state1!= state2:
-    #             print("start running")
-    #             break
-    # if state1!=state2:
-    #     while(1):
-    #         state1=g.input(4)
-    #         # print("else state1:",state1)
-    #         if state1!= state2:
-    #             print("start running")
-    #             break
-
     while(1):
         state1 = g.input(4)
         if state1 != state2:
@@ -68,13 +53,15 @@ while(1):
     c_scale=0
     c_height=0
 
-    # # setup bluetooth
-    # if HEALTHSYSTEM.bluetooth.exist_flag:
-    #    print "Setup bluetooth service"
-    #    HEALTHSYSTEM.bluetooth.call()
-    #    while HEALTHSYSTEM.bluetooth.result.is_exist()==0:
-    #        sleep(0.5)
-    #        pass
+    # setup bluetooth
+    if HEALTHSYSTEM.bluetooth.exist_flag:
+       print "Setup bluetooth service"
+       HEALTHSYSTEM.bluetooth.call()
+       while HEALTHSYSTEM.bluetooth.result.is_exist()==0:
+           sleep(0.5)
+           pass
+
+    sleep(3)
 
     # initialize height
     if HEALTHSYSTEM.height.exist_flag:
@@ -125,6 +112,7 @@ while(1):
                 prepare_result()
                 print "Call WIFI module for sending data to server"
 
+                os.remove("bluetooth_result")
                 if r_temp and os.path.exists("temp_result"): os.remove("temp_result")
                 if r_spo2 and os.path.exists("spo2_result"): os.remove("spo2_result")
                 if r_scale and os.path.exists("scale_result"):

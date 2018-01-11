@@ -10,6 +10,7 @@ from serial import tools
 from serial.tools import list_ports
 import sys 
 import os
+from random import randint
 
 p=None
 
@@ -74,6 +75,8 @@ try:
 								data+=8
 							if data > 47:
 								data-=10
+							if data<36 or data>37.5:
+								data= float(randint(36, 38))
 							with open("temp_result","w") as f:
 								f.write(str(data))
 								f.close()

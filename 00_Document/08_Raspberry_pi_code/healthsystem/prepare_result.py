@@ -60,20 +60,20 @@ def prepare_result():
             pass
 
     print(collected)
-    result={'macid':'69:69:69:69:69:69', 'height':collected[1],'weight':str(collected[2]),
+    result={'macid':collected[0], 'height':collected[1],'weight':collected[2],
                     'spo2':collected[3],'temp':collected[4],'bloodpressure':collected[5], 'heartrate':collected[6]}
     
     with open("result","w") as f:
         f.write(str(result))
         f.close()
 
-    with open("result.log","a") as f:
-        f.write("\n"+str(result))
-        f.close()
+    # with open("result.log","a") as f:
+    #     f.write("\n"+str(result))
+    #     f.close()
         
     try:
         r = requests.post("http://18.218.77.52:3000/addinfor", data=result)
-        print(r.text)
+        # print(r.text)
     except requests.exceptions.RequestException as e:
         print(e)
 
