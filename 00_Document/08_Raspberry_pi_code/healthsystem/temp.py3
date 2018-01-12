@@ -13,20 +13,19 @@ import os
 from random import randint
 
 p=None
-
-if os.path.exists("temp_port"):
-	with open("temp_port","r") as f:
+if os.path.exists("/home/pi/healthsystem/temp_port"):
+	with open("/home/pi/healthsystem/temp_port","r") as f:
 		p=f.read()
 		f.close()
-	os.remove("temp_port")
+	os.remove("/home/pi/healthsystem/temp_port")
 
 checking_timeout = 0
 
-if os.path.exists("temp_stop"):
-	os.remove("temp_stop")
+if os.path.exists("/home/pi/healthsystem/temp_stop"):
+	os.remove("/home/pi/healthsystem/temp_stop")
 	
-if os.path.exists("temp_result"):
-	os.remove("temp_result")
+if os.path.exists("/home/pi/healthsystem/temp_result"):
+	os.remove("/home/pi/healthsystem/temp_result")
 
 try:
 	ser = serial.Serial(p,	baudrate = 9600,timeout=3)
@@ -40,16 +39,15 @@ try:
 			check=ser.readline()
 			if check==bytes("temp",'UTF-8'):
 				print("start temp module")
-
-				while not os.path.exists("go_down"): 
+				while not os.path.exists("/home/pi/healthsystem/go_down"): 
 					checking_timeout+=1
 					time.sleep(1)
-					if checking_timeout == 15:
+					if checking_timeout == 20:
 						break
-				if os.path.exists("go_down"):
+				if os.path.exists("/home/pi/healthsystem/go_down"):
 					checking_timeout = 0
-					os.remove("go_down")
-				print("timeout temp:",checking_timeout)
+					os.remove("/home/pi/healthsystem/go_down")
+				print("timeout temp:"+str(checking_timeout))
 				if checking_timeout == 0:
 					while(1):
 						ser.write(bytes("start",'UTF-8'))
@@ -77,7 +75,7 @@ try:
 								data-=10
 							if data<36 or data>37.5:
 								data= float(randint(36, 38))
-							with open("temp_result","w") as f:
+							with open("/home/pi/healthsystem/temp_result","w") as f:
 								f.write(str(data))
 								f.close()
 								print("temp:",float(data))
@@ -99,14 +97,14 @@ try:
 							break
 
 				print("stop module temp")
-				with open("temp_stop","w") as f:
+				with open("/home/pi/healthsystem/temp_stop","w") as f:
 					f.write("stop")
 					f.close
 				ser.close()
 				sys.exit(0)
 
 except serial.SerialException as ex:
-	with open("temp_stop","w") as f:
+	with open("/home/pi/healthsystem/temp_stop","w") as f:
 		f.write("stop")
 		f.close
 	pass

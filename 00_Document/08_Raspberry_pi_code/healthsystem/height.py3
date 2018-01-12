@@ -8,15 +8,15 @@ import os
 p=None
 p2='/dev/ttyACM0'
 
-if os.path.exists("height_port"):
-	with open("height_port","r") as f:
+if os.path.exists("/home/pi/healthsystem/height_port"):
+	with open("/home/pi/healthsystem/height_port","r") as f:
 		p=f.read()
 		f.close()
-	os.remove("height_port")
+	os.remove("/home/pi/healthsystem/height_port")
 connect = 1
 
-if os.path.exists("scale_port"):
-	with open("scale_port","r") as f:
+if os.path.exists("/home/pi/healthsystem/scale_port"):
+	with open("/home/pi/healthsystem/scale_port","r") as f:
 		check_p=f.read()
 		f.close()
 		if 'ttyACM0' in check_p:
@@ -24,11 +24,11 @@ if os.path.exists("scale_port"):
 
 checking_timeout = 0
 
-if os.path.exists("height_stop"):
-	os.remove("height_stop")
+if os.path.exists("/home/pi/healthsystem/height_stop"):
+	os.remove("/home/pi/healthsystem/height_stop")
 
-if os.path.exists("height_result"):
-	os.remove("height_result")
+if os.path.exists("/home/pi/healthsystem/height_result"):
+	os.remove("/home/pi/healthsystem/height_result")
 
 try: 
 	ser_motor = serial.Serial(p2, baudrate = 9600,timeout=1)
@@ -71,7 +71,7 @@ try:
 						if data != '' and int(data) > 0 and int(data) < 60:
 							j=0
 							checking_timeout = 0
-							with open("height_result","w") as f:
+							with open("/home/pi/healthsystem/height_result","w") as f:
 								print("height:",204-int(data))
 								f.write(str(204-int(data)))
 								f.close()
@@ -83,7 +83,7 @@ try:
 									#print("send distance to temp motor")
 									ser_motor.write(bytes(data,'UTF-8'))
 									a=ser_motor.readline().rstrip().decode()
-								with open("go_down","w") as f:
+								with open("/home/pi/healthsystem/go_down","w") as f:
 									f.write("aa")
 									f.close
 								while(1):
@@ -111,7 +111,7 @@ try:
 							break
 
 				print("stop module height")
-				with open("height_stop","w") as f:
+				with open("/home/pi/healthsystem/height_stop","w") as f:
 					f.write("stop")
 					f.close
 				ser.close()
@@ -119,7 +119,9 @@ try:
 
 except serial.SerialException as ex:
 	print("cannot connect height module")
-	with open("height_stop","w") as f:
+	with open("/home/pi/healthsystem/height_stop","w") as f:
 		f.write("stop")
 		f.close
+		print("make stop file")
 	pass
+sys.exit(0)

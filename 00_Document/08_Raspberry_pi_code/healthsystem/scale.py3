@@ -10,22 +10,22 @@ from time import sleep
 
 serial_port = None
 baud_rate = 9600; #In arduino, Serial.begin(baud_rate)
-write_to_file_path = "scale_result";
-make_this_file = "scale_start"
+write_to_file_path = "/home/pi/healthsystem/scale_result";
+make_this_file = "/home/pi/healthsystem/scale_start"
 result=list()
 
-if os.path.exists("scale_port"):
-	with open("scale_port","r") as f:
+if os.path.exists("/home/pi/healthsystem/scale_port"):
+	with open("/home/pi/healthsystem/scale_port","r") as f:
 		serial_port=f.read()
 		f.close()
 
 checking_timeout = 0
 
-if os.path.exists("scale_stop"):
-	os.remove("scale_stop")
+if os.path.exists("/home/pi/healthsystem/scale_stop"):
+	os.remove("/home/pi/healthsystem/scale_stop")
 
-if os.path.exists("scale_result"):
-	os.remove("scale_result")
+if os.path.exists("/home/pi/healthsystem/scale_result"):
+	os.remove("/home/pi/healthsystem/scale_result")
 
 try:
     ser = serial.Serial(serial_port, baud_rate, timeout=0.5)
@@ -77,12 +77,12 @@ try:
                     print("stop module scale")
                     break
         
-        with open("scale_stop","w") as f:
+        with open("/home/pi/healthsystem/scale_stop","w") as f:
             f.write("stop")
             f.close
     ser.close() #close serial
 except serial.serialutil.SerialException as er:
-    with open("scale_stop","w") as f:
+    with open("/home/pi/healthsystem/scale_stop","w") as f:
         f.write("stop")
         f.close
     print(er)

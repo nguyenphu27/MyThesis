@@ -13,17 +13,17 @@ from random import randint
 
 p=None
 
-if os.path.exists("spo2_port"):
-	with open("spo2_port","r") as f:
+if os.path.exists("/home/pi/healthsystem/spo2_port"):
+	with open("/home/pi/healthsystem/spo2_port","r") as f:
 		p=f.read()
 		f.close()
-	os.remove("spo2_port")
+	os.remove("/home/pi/healthsystem/spo2_port")
 
-if os.path.exists("spo2_stop"):
-	os.remove("spo2_stop")
+if os.path.exists("/home/pi/healthsystem/spo2_stop"):
+	os.remove("/home/pi/healthsystem/spo2_stop")
 
-if os.path.exists("spo2_result"):
-	os.remove("spo2_result")
+if os.path.exists("/home/pi/healthsystem/spo2_result"):
+	os.remove("/home/pi/healthsystem/spo2_result")
 
 checking_timeout = 0
 
@@ -59,7 +59,7 @@ try:
 				a=a1.decode()
 				if a1[0:2]==bytes("sp",'UTF-8') or a1[0:2]==bytes("hr",'UTF-8'):
 					data=a1[2:5].decode()
-				if a1[0:2]==bytes("hr",'UTF-8') and int(data)!=arr1[j1-1] and int(data)<204:
+				if a1[0:2]==bytes("hr",'UTF-8') and int(data)!=arr1[j1-1] and int(data)<204 and int(data)>0:
 					if int(data) < 55 or int(data) > 80:
 						data = int(randint(60, 75))
 					arr1[j1]=int(data)
@@ -89,20 +89,20 @@ try:
 			
 		ser.close()
 		print("stop module spo2")
-		with open("spo2_result","w") as f:
+		with open("/home/pi/healthsystem/spo2_result","w") as f:
 			f.write(str(int(arr2[j2-1])))
 			f.close()
 		
-		with open("hr_result","w") as f:
+		with open("/home/pi/healthsystem/hr_result","w") as f:
 			f.write(str(int(arr1[j1-1])))
 			f.close()
 
-		with open("spo2_stop","w") as f:
+		with open("/home/pi/healthsystem/spo2_stop","w") as f:
 			f.write("stop")
 			f.close()
 
 except serial.SerialException as ex:
-	with open("spo2_stop","w") as f:
+	with open("/home/pi/healthsystem/spo2_stop","w") as f:
 		f.write("stop")
 		f.close()
 	pass

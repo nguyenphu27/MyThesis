@@ -15,7 +15,7 @@ def check_port():
 					a=ser.readline().decode()
 					print "module",a,"is connected to port USB",i
 					if a!=bytes('').encode('UTF-8'):
-						with open(a+'_port',"w") as f:
+						with open('/home/pi/healthsystem/'+a+'_port',"w") as f:
 							f.write(str("/dev/ttyUSB{0}".format(i)))
 						break
 		except serial.SerialException as ex:
@@ -35,7 +35,7 @@ def check_port():
 						if a=='scale':
 							os.system(str('stty -F /dev/ttyACM{}'.format(i))+' -hupcl')
 							print "module",a,"is connected to port ACM",i
-							with open(a+'_port',"w") as f:
+							with open('/home/pi/healthsystem/'+a+'_port',"w") as f:
 								f.write(str("/dev/ttyACM{0}".format(i)))
 								check_arduino = 1
 							break

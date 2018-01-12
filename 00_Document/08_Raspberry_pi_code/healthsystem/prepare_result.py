@@ -13,37 +13,37 @@ def prepare_result():
     # Can do chieu cao, can nang, do huyet ap, ...
 
     try:
-        filestream.append(open('bluetooth_result','r'))
+        filestream.append(open('/home/pi/healthsystem/bluetooth_result','r'))
     except:
         filestream.append('69:69:69:69:69:69')
 
     try:
-        filestream.append(open('height_result','r'))
+        filestream.append(open('/home/pi/healthsystem/height_result','r'))
     except:
         filestream.append('0')
 
     try:
-        filestream.append(open('scale_result','r'))
+        filestream.append(open('/home/pi/healthsystem/scale_result','r'))
     except:
         filestream.append('0')
 
     try:
-        filestream.append(open('spo2_result','r'))
+        filestream.append(open('/home/pi/healthsystem/spo2_result','r'))
     except:
         filestream.append('0')
 
     try:
-        filestream.append(open('temp_result','r'))
+        filestream.append(open('/home/pi/healthsystem/temp_result','r'))
     except:
         filestream.append('0')
 
     try:
-        filestream.append(open('bpressure_result','r'))
+        filestream.append(open('/home/pi/healthsystem/bpressure_result','r'))
     except:
         filestream.append('0')
 
     try:
-        filestream.append(open('hr_result','r'))
+        filestream.append(open('/home/pi/healthsystem/hr_result','r'))
     except:
         filestream.append('0')
 
@@ -63,13 +63,13 @@ def prepare_result():
     result={'macid':collected[0], 'height':collected[1],'weight':collected[2],
                     'spo2':collected[3],'temp':collected[4],'bloodpressure':collected[5], 'heartrate':collected[6]}
     
-    with open("result","w") as f:
+    with open("/home/pi/healthsystem/result","w") as f:
         f.write(str(result))
         f.close()
 
-    # with open("result.log","a") as f:
-    #     f.write("\n"+str(result))
-    #     f.close()
+    with open("/home/pi/healthsystem/result.log","a") as f:
+        f.write("\n"+str(result))
+        f.close()
         
     try:
         r = requests.post("http://18.218.77.52:3000/addinfor", data=result)
