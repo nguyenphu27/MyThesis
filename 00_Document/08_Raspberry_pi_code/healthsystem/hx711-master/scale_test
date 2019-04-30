@@ -1,0 +1,11 @@
+#!/bin/bash
+while [ 1 ]
+do
+DATE=`date`
+echo $DATE
+COUNTS=`timeout 5 ./hx711 1387`
+echo $COUNTS
+WEIGHT=$(($COUNTS/9186139))
+echo -e "$WEIGHT\n\r"
+sleep 5
+done

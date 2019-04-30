@@ -1,0 +1,4 @@
+Inform Main's P.I.C
+Main's P.I.C will:
+	Edit main_class (MODULE class, FLOW class)
+	Edit main (control flow)

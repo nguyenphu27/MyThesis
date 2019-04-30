@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">UHealth</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="help"><u>Help</u></string>
+    <string name="defaultSpiner"><u>Chọn</u></string>
+	
+    <string-array name="level_array_consciousness">
+        <item>Tỉnh táo</item>
+        <item>Tiếng nói</item>
+        <item>Đau đớn</item>
+        <item>Không phản ứng</item>
+    </string-array>
+    
+     <string name = "lowScoreWithResponse0">
+            \n
+        	Điểm thấp! Bạn cần được theo dõi trong ít nhất 12 giờ tới.\n     
+            \n
+            Phản hồi lâm sàng:\n
+        	Tiếp tục theo dõi như thường lệ.\n
+    </string>
+    
+    <string name = "lowScoreWithResponse0_en">
+        	Low score! \n     
+            Frequency of monitoring: Minimum 12 hourly.\n
+        	Clinical response:\n
+        	Continue routine NEWS monitoring with every set of observations.\n
+    </string>
+    
+    <string name = "lowScoreWithResponse1">
+        	\n
+        	Điểm thấp! Bạn cần được theo dõi trong ít nhất từ 4 - 6 giờ.\n     
+            \n
+            Phản hồi lâm sàng:\n
+        	Thông báo cho y tá phụ trách. Y tá phụ trách quyết định có hay không việc tăng 
+        	tần suất theo dõi và chăm sóc lâm sàng.\n
+    </string>
+    
+    <string name = "lowScoreWithResponse1_en">
+        	Low score! \n     
+            Frequency of monitoring: Minimum 4- 6 hourly.\n
+        	Clinical response:\n
+        	- Inform registered nurse who must assess the patient.\n
+        	- Registered nurse to decide if increased frequency of monitoring
+		      and/or escalation of clinical care is required.\n
+    </string>
+   
+    <string name = "mediumScore">
+        	\n
+        	Điểm bình thường! Tuy nhiên, bạn cần được theo dõi trong ít nhất 1 giờ.\n    
+            \n
+            Phản hồi lâm sàng:\n
+        	Y tá phụ trách thông báo khẩn cấp tới đội ngũ chăm sóc y tế cho bệnh nhân. Bệnh nhân cần
+        	được bác sĩ đánh giá khẩn cấp và kỹ càng. Chăm sóc lâm sàng với các phương tiện giám sát.\n
+    </string>
+    
+    <string name = "mediumScore_en">
+        	Medium score! \n     
+            Frequency of monitoring:\n
+            Increased frequency to a minimum of 1 hourly.\n
+        	Clinical response:\n
+        	- Registered nurse to urgently inform the medical team caring for the patient.\n
+        	- Urgent assessment by a clinician with core competencies to assess acutely patients.\n
+		    - Clinical care in an environment with monitoring facilities.\n
+    </string>
+    
+    <string name = "highScore">
+           \n
+           Điểm cao! Bạn cần được theo dõi liên tục.\n   
+            \n     
+           Phản hồi lâm sàng:\n
+           Y tá phụ trách phải thông báo tới đội ngũ chăm sóc y tế cho bệnh nhân ngay lập tức. Bác sĩ ít nhất phải có 
+           trình độ chuyên gia. Bệnh nhân cần được đánh giá khẩn cấp bởi đội ngũ bác sĩ có chuyên môn. 
+           Bác sĩ xem xét chuyển việc chăm sóc lâm sàng lên mức cao hơn.\n
+    </string>
+    
+    <string name = "highScore_en">
+        	High score! \n     
+            Frequency of monitoring: Continuous monitoring of vital signs.\n
+        	Clinical response:\n
+        	- Registered nurse to immediately inform the medical team caring for the patient \n
+        	  this should be at least at Specialist Registrar level.\n
+        	- Emergency assessment by a clinical team with critical care competencies,\n
+              which also includes a practitioner advanced airway skills.\n
+            - Consider transfer of Clinical care to a level 2 or 3 care facility, i.e. higher dependency or ITU.\n
+    </string>
+    
+    <string-array name="heartIndex">
+        <item>&lt;=40</item>
+        <item>41  &#8211; 50</item>
+        <item>51 &#8211; 90</item>
+        <item>91 &#8211; 110</item>
+        <item>111 &#8211; 130</item>
+        <item>&gt;=131</item>
+    </string-array>
+    
+    <string-array name="heartScore">
+        <item>Điểm: (3)</item>
+        <item>Điểm: (1)</item>
+        <item>Điểm: (0)</item>
+        <item>Điểm: (1)</item>
+        <item>Điểm: (2)</item>
+        <item>Điểm: (3)</item>
+    </string-array>
+    
+    <string-array name="oxyIndex">
+        <item>&lt;=91</item>
+        <item>92  &#8211; 93</item>
+        <item>94 &#8211; 95</item>
+        <item>&gt;=96</item>
+    </string-array>
+    
+    <string-array name="oxyScore">
+        <item>Điểm: (3)</item>
+        <item>Điểm: (2)</item>
+        <item>Điểm: (1)</item>
+        <item>Điểm: (0)</item>
+    </string-array>
+    
+    <string-array name="temperIndex">
+        <item>&lt;=35.0</item>
+        <item>35.1  &#8211; 36.0</item>
+        <item>36.1 &#8211; 38.0</item>
+        <item>38.1 &#8211; 39.0</item>
+        <item>&gt;=39.1</item>
+    </string-array>
+    
+    <string-array name="temperScore">
+        <item>Điểm: (3)</item>
+        <item>Điểm: (1)</item>
+        <item>Điểm: (0)</item>
+        <item>Điểm: (1)</item>
+        <item>Điểm: (2)</item>
+    </string-array>
+    
+    <string-array name="systolicIndex">
+        <item>&lt;=90</item>
+        <item>91  &#8211; 100</item>
+        <item>101 &#8211; 110</item>
+        <item>111 &#8211; 219</item>
+    </string-array>
+    
+    <string-array name="systolicScore">
+        <item>Điểm: (3)</item>
+        <item>Điểm: (2)</item>
+        <item>Điểm: (1)</item>
+        <item>Điểm: (0)</item>
+    </string-array>
+    
+    <string name="messageEmail">
+        Chào bạn,\n
+        \n
+        Chúng tôi gửi bạn file đính kèm chứa tất cả dữ liệu đo chi tiết và 
+        kết quả chuẩn đoán của bạn.\n 
+        \n
+        Trân trọng,\n
+        CE/07 - UIT HCMC\n
+    </string>
+   
+    <string name="recomend">
+        \n
+        1.	Chúng tôi khuyến nghị rằng việc đánh giá lâm sàng hằng ngày đối với các bệnh nhân trưởng thành (từ 16 tuổi trở lên) 
+            nên được ghi chép hàng ngày với tối thiểu bao gồm các thông số sức khỏe được đưa ra trong National Early Warning Score (NEWS).\n
+		\n
+		2.	Chúng tôi khuyến nghị rằng NEWS được sử dụng để cải thiện những điều sau:\n
+			-	Đánh giá các bệnh cấp tính.\n
+			-	Phát hiện các suy giảm lâm sàng.\n
+			-	Đưa ra các phản hồi lâm sàng chính xác và kịp thời.\n
+		\n	
+		3.	Không nên sử dụng NEWS đối với trẻ em (từ 16 tuổi trở xuống) hoặc phụ nữ mang thai bởi vì các phản hồi sinh lý đối với 
+			các bệnh cấp tính có thể thay đổi ở trẻ em và phụ nữ mang thai. Bên cạnh đó, việc rối loạn sinh lý kinh niên của các bệnh nhân 
+			tắc nghẽn phổi mãn tính cũng có thể ảnh hưởng đến độ chích xác của NEWS.\n
+		\n
+		4.	Chúng tôi khuyến nghị rằng NEWS thì được sử dụng như một sự hỗ trợ trong việc đánh giá lâm sàng và không thay thế cho những 
+			đánh giá lâm sàng từ bác sĩ chuyên môn.\n
+		\n	
+		5.	Nên sử dụng NEWS trong việc đánh giá ban đầu các bệnh cấp tính và giám sát liên tục trong suốt thời gian bệnh nhân ở bệnh viện. 
+			Bằng việc ghi chép NEWS thường xuyên, các xu hướng phản hồi lâm sàng của bệnh nhân có thể được theo dõi để cung cấp các cảnh báo sớm 
+			về khả năng suy giảm lâm sàng và đưa ra các quyết định tăng cường mức chăm sóc lâm sàng. Tương tự như vậy, việc ghi chép NEWS sẽ cung cấp 
+			các hướng dẫn về sự hồi phục của bệnh nhân và trở lại tình trạng ổn định, tạo điều kiện cho việc giảm tần suất, cường độ giám sát lâm sàng đối với bệnh nhân.\n
+		\n
+		6.	NEWS cần được xem xét tiến hành trong việc đánh giá các bệnh cấp tính cho bệnh nhân trước khi nhập viện đưa bệnh nhân đến các 
+			bệnh việc tiếp nhân tương ứng mức độ nghiêm trọng của bệnh.\n
+    </string>
+</resources>

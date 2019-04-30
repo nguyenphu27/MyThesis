@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.test.healthapp2.MainActivity">
+
+    <ImageButton
+        android:id="@+id/imageButton5"
+        android:layout_width="34dp"
+        android:layout_height="34dp"
+        android:layout_marginLeft="19dp"
+        android:layout_marginStart="19dp"
+        android:layout_marginTop="8dp"
+        android:background="@color/common_google_signin_btn_text_dark_default"
+        android:onClick="Bluetooth"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toBottomOf="@+id/imageButton6"
+        app:layout_constraintLeft_toRightOf="@+id/imageButton6"
+        app:layout_constraintTop_toTopOf="@+id/imageButton6"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/bluetooth" />
+
+    <ImageButton
+        android:id="@+id/imageButton6"
+        android:layout_width="34dp"
+        android:layout_height="34dp"
+        android:layout_marginLeft="19dp"
+        android:layout_marginStart="19dp"
+        android:layout_marginTop="8dp"
+        android:background="@color/common_google_signin_btn_text_dark_default"
+        android:onClick="EWS"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toBottomOf="@+id/imageButton8"
+        app:layout_constraintLeft_toRightOf="@+id/imageButton8"
+        app:layout_constraintTop_toTopOf="@+id/imageButton8"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/grid_assessment" />
+
+    <ImageButton
+        android:id="@+id/imageButton7"
+        android:layout_width="34dp"
+        android:layout_height="34dp"
+        android:layout_marginLeft="77dp"
+        android:layout_marginStart="77dp"
+        android:layout_marginTop="415dp"
+        android:background="@color/common_google_signin_btn_text_dark_default"
+        android:onClick="temperature"
+        android:scaleType="centerCrop"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/grid_temper" />
+
+    <ImageButton
+        android:id="@+id/imageButton8"
+        android:layout_width="34dp"
+        android:layout_height="34dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="19dp"
+        android:layout_marginStart="19dp"
+        android:background="@color/common_google_signin_btn_text_dark_default"
+        android:onClick="bloodpressure"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toBottomOf="@+id/imageButton7"
+        app:layout_constraintLeft_toRightOf="@+id/imageButton7"
+        app:layout_constraintTop_toTopOf="@+id/imageButton7"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/blood_pressure" />
+
+    <ImageButton
+        android:id="@+id/imageButton3"
+        android:layout_width="34dp"
+        android:layout_height="34dp"
+        android:layout_marginLeft="19dp"
+        android:layout_marginStart="19dp"
+        android:background="@color/common_google_signin_btn_text_dark_default"
+        android:onClick="weight"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toBottomOf="@+id/imageButton4"
+        app:layout_constraintLeft_toRightOf="@+id/imageButton4"
+        app:layout_constraintTop_toTopOf="@+id/imageButton4"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/grid_weight" />
+
+    <ImageButton
+        android:id="@+id/imageButton4"
+        android:layout_width="34dp"
+        android:layout_height="34dp"
+        android:layout_marginLeft="19dp"
+        android:layout_marginStart="19dp"
+        android:background="@color/common_google_signin_btn_text_dark_default"
+        android:onClick="height"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toBottomOf="@+id/imageButton2"
+        app:layout_constraintLeft_toRightOf="@+id/imageButton2"
+        app:layout_constraintTop_toTopOf="@+id/imageButton2"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/grid__height" />
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="34dp"
+        android:layout_height="34dp"
+        android:layout_marginLeft="77dp"
+        android:layout_marginStart="77dp"
+        android:layout_marginTop="343dp"
+        android:adjustViewBounds="false"
+        android:background="@color/common_google_signin_btn_text_dark_default"
+        android:cropToPadding="false"
+        android:onClick="heartRate"
+        android:scaleType="centerCrop"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/cardiogram" />
+
+    <ImageButton
+        android:id="@+id/imageButton2"
+        android:layout_width="34dp"
+        android:layout_height="34dp"
+        android:layout_marginLeft="19dp"
+        android:layout_marginStart="19dp"
+        android:background="@color/common_google_signin_btn_text_dark_default"
+        android:onClick="SPO2"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toBottomOf="@+id/imageButton"
+        app:layout_constraintLeft_toRightOf="@+id/imageButton"
+        app:layout_constraintTop_toTopOf="@+id/imageButton"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/oxygen_symbol" />
+
+</android.support.constraint.ConstraintLayout>
